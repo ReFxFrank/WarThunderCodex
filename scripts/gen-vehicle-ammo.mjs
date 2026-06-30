@@ -17,12 +17,19 @@ const data = JSON.parse(await fs.readFile(inputPath, "utf8"));
 const incomingAmmo = Array.isArray(data.ammo) ? data.ammo : [];
 const links = Array.isArray(data.links) ? data.links : [];
 
+// Map common out-of-enum shell tags onto the schema's enum so a stray label
+// (e.g. BR-471B is "APHEBC") never fails the build.
+const TYPE_ALIAS = {
+  APHEBC: "APHE", APHECBC: "APHE", APBC: "APCBC", SAPHE: "SAP", SAPHEI: "SAP",
+  "AP-T": "AP-tracer", "APC-T": "APC", "APCR-T": "APCR", "HEAT-FS": "HEATFS", "HE-FS": "HE",
+};
+
 function cleanAmmo(entry) {
   const a = entry.final ?? entry;
   const out = {
     id: a.id,
     name: a.name,
-    type: a.type,
+    type: TYPE_ALIAS[a.type] ?? a.type,
     penetration: Array.isArray(a.penetration) ? a.penetration : [],
     velocityMps: a.velocityMps ?? null,
     explosiveMassTntEqG: a.explosiveMassTntEqG ?? null,

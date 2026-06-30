@@ -4664,5 +4664,246 @@ export const weapons: Weapon[] = [
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "ofqf-20pdr-mk1-84mm",
+    "name": "84 mm 20-pounder OQF Mk.I",
+    "type": "cannon",
+    "caliberMm": 84,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "fv4202"
+    ],
+    "notes": "British 84 mm rifled tank gun firing AP and high-penetration APDS rounds; the FV4202 reloads it in 8.1 s (6.3 s aced).",
+    "sources": [
+      {
+        "label": "FV4202 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/uk_fv4202",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "hss-831l-30mm",
+    "name": "30 mm HSS 831L",
+    "type": "autocannon",
+    "caliberMm": 30,
+    "fireRateRpm": 650,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "uk-falcon"
+    ],
+    "notes": "30 mm Hispano-Suiza automatic cannon; the Falcon mounts two of them, each cycling 650 rpm for a combined 1300 rpm.",
+    "sources": [
+      {
+        "label": "Falcon | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/uk_falcon",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "ofqf-l1a2-120mm",
+    "name": "120 mm Ordnance QF Tk. L1A2",
+    "type": "cannon",
+    "caliberMm": 120,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "uk-fv4004-conway"
+    ],
+    "notes": "British 120 mm rifled gun firing high-penetration APDS and HESH; two-piece ammunition gives the Conway a long 19.4 s reload (14.9 s aced).",
+    "sources": [
+      {
+        "label": "Conway | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/uk_fv4004_conway",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "25mm-oerlikon-kba-b02",
+    "name": "25 mm Oerlikon KBA B02 cannon",
+    "type": "autocannon",
+    "caliberMm": 25,
+    "fireRateRpm": 560,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "type-87-rcv"
+    ],
+    "notes": "Belt-fed autocannon with an APFSDS belt that lets the Type 87 RCV penetrate the sides and rears of many vehicles at its BR. The vehicle page does not list a single in-game muzzle velocity, as it varies by belt.",
+    "sources": [
+      {
+        "label": "Type 87 RCV | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/jp_type_87_rcv",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "75mm-type-3-cannon",
+    "name": "75 mm Type 3 cannon",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ho-ni-iii"
+    ],
+    "notes": "Single-shot 75 mm gun on the Ho-Ni III with a base reload of about 6.5 s. It is also the main gun family of the Chi-Nu. The vehicle page lists reload rather than a fixed rate of fire, and muzzle velocity varies by shell.",
+    "sources": [
+      {
+        "label": "Ho-Ni III | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/jp_type_3_ho_ni_III",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "90mm-m3a1-cannon",
+    "name": "90 mm M3A1 cannon",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "st-a1"
+    ],
+    "notes": "Single-shot 90 mm gun on the ST-A1 with a base reload of about 9.7 s and access to HEAT-FS. The vehicle page lists reload rather than a fixed rate of fire, and muzzle velocity varies by shell.",
+    "sources": [
+      {
+        "label": "ST-A1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/jp_st_a1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "2a28-grom-73mm",
+    "name": "73 mm 2A28 Grom",
+    "type": "cannon",
+    "caliberMm": 73,
+    "fireRateRpm": 10,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "bmp-1"
+    ],
+    "notes": "Low-pressure smoothbore semi-automatic gun firing fin-stabilised HEAT and HE rounds; fed by a magazine giving a fixed roughly 6-second reload cycle. Primarily relies on HEATFS for anti-armour work, paired on the BMP-1 with a 9M14 Malyutka ATGM launcher.",
+    "sources": [
+      {
+        "label": "BMP-1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_bmp_1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps",
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "d-10t2s-100mm",
+    "name": "100 mm D-10T2S",
+    "type": "cannon",
+    "caliberMm": 100,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "t-55a"
+    ],
+    "notes": "Two-plane stabilised 100 mm rifled tank gun used on the T-55A, with a base reload of about 9.7 seconds dropping to roughly 7.5 seconds with an aced crew. Fires APHE, APDS, and HEATFS rounds for flexible anti-armour engagement.",
+    "sources": [
+      {
+        "label": "T-55A | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_55a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps",
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "d-5s-85mm",
+    "name": "85 mm D-5S",
+    "type": "cannon",
+    "caliberMm": 85,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "su-85"
+    ],
+    "notes": "85 mm rifled gun mounted in the SU-85's fixed casemate, with a base reload near 9.6 seconds shortening to about 7.4 seconds when aced. Fires APHE and APCR rounds capable of defeating most armour at its battle rating.",
+    "sources": [
+      {
+        "label": "SU-85 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_su_85_1943",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps",
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
   }
 ];

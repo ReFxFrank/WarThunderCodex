@@ -687,22 +687,26 @@ export const ammo: Ammo[] = [
         "angleDeg": 0
       }
     ],
-    "velocityMps": 795,
-    "explosiveMassTntEqG": 246,
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
     "normalizationDeg": null,
-    "fuseSensitivityMm": 19,
-    "fuseDelayM": 1.2,
-    "mechanics": "The BR-471 is the IS-2's stock armor-piercing high-explosive round, pairing a sizable 122 mm slug with an A-IX-2 filler that yields a 246 g TNT-equivalent burst once the fuze trips inside the target. Its large post-penetration explosion can wreck an entire crew compartment in a single hit, making placement forgiving compared with solid-shot rounds. Penetration is solid for its battle rating but bleeds off noticeably with range, dropping from 205 mm at point blank to 126 mm at 2 km. Without a ballistic cap it also sheds more performance against sloped plate, so flat-on shots are preferred.",
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The BR-471 is the baseline armour-piercing high-explosive round for the D-25T, carrying a sizeable explosive charge behind a sharp-nosed steel body. On a solid penetration its filler detonates inside the fighting compartment, frequently knocking out the whole crew in one hit. Its blunt-free nose loses penetration noticeably with range and bites poorly into heavily sloped plate, so it is best aimed at flatter sections of the target.",
     "sources": [
       {
-        "label": "IS-2 — War Thunder Wiki (unit page, D-25T ammunition)",
-        "url": "https://wiki.warthunder.com/unit/ussr_is_2_1943",
+        "label": "IS-3: Assault Wedge — War Thunder Wiki (penetration table)",
+        "url": "https://wiki.warthunder.com/unit/ussr_is_3",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
-      "normalizationDeg"
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
@@ -710,7 +714,7 @@ export const ammo: Ammo[] = [
   {
     "id": "br-471b-d25t",
     "name": "BR-471B (APHEBC)",
-    "type": "APCBC",
+    "type": "APHE",
     "penetration": [
       {
         "rangeM": 10,
@@ -743,22 +747,27 @@ export const ammo: Ammo[] = [
         "angleDeg": 0
       }
     ],
-    "velocityMps": 795,
-    "explosiveMassTntEqG": 246,
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
     "normalizationDeg": null,
-    "fuseSensitivityMm": 19,
-    "fuseDelayM": 1.2,
-    "mechanics": "The BR-471B is the IS-2's researchable upgrade over the stock APHE, adding a ballistic cap (APHEBC) to the same 25 kg projectile and A-IX-2 filler. The cap improves penetration retention across distance and against angled armor, so it holds 155 mm at 2 km versus the BR-471's 126 mm and copes better with sloped plate. It carries the identical 246 g TNT-equivalent charge and 1.2 m fuze delay, so its post-penetration lethality matches the stock round while ballistics improve. This is the preferred general-purpose shell for the IS-2 once unlocked.",
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The BR-471B adds a ballistic cap to the APHE body, which streamlines the projectile and slows the drop-off in penetration at longer ranges compared with the uncapped BR-471. It retains the same generous explosive filler, so a clean penetration is still likely to be lethal to the entire crew. Because its penetration holds up better past 1000 m, it is a strong general-purpose pick for engagements where range varies.",
     "sources": [
       {
-        "label": "IS-2 — War Thunder Wiki (unit page, D-25T ammunition)",
-        "url": "https://wiki.warthunder.com/unit/ussr_is_2_1943",
+        "label": "IS-3: Assault Wedge — War Thunder Wiki (penetration table)",
+        "url": "https://wiki.warthunder.com/unit/ussr_is_3",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
-      "normalizationDeg"
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM",
+      "type-mapped-from-APHEBC"
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
@@ -799,22 +808,26 @@ export const ammo: Ammo[] = [
         "angleDeg": 0
       }
     ],
-    "velocityMps": 795,
-    "explosiveMassTntEqG": 3600,
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
     "normalizationDeg": null,
-    "fuseSensitivityMm": 0.1,
-    "fuseDelayM": 0.3,
-    "mechanics": "The OF-471 is a high-explosive fragmentation shell packing a massive 3.6 kg TNT charge, the heaviest filler available to the D-25T. Its near-instant fuze (0.1 mm sensitivity, 0.3 m delay) detonates on the lightest contact, making it devastating against open-topped vehicles, light armor, exposed crew, and gun barrels. Direct armor penetration is a flat 37 mm regardless of range or angle, so it is ineffective against the front of heavy tanks but lethal where blast and fragmentation can reach soft targets. It also fills the anti-aircraft and demolition niche when an AP hit is not needed.",
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The OF-471 is a large high-explosive round whose heavy filler makes it effective against unarmoured and lightly armoured targets through blast and overpressure. Its fixed 37 mm of nominal penetration means it cannot reliably defeat armour by holing it, so it relies on shockwave damage and shrapnel rather than penetration. It is the round of choice against open-topped vehicles, anti-aircraft mounts, and exposed crews where direct penetration is unnecessary.",
     "sources": [
       {
-        "label": "IS-2 — War Thunder Wiki (unit page, D-25T ammunition)",
-        "url": "https://wiki.warthunder.com/unit/ussr_is_2_1943",
+        "label": "IS-3: Assault Wedge — War Thunder Wiki (penetration table)",
+        "url": "https://wiki.warthunder.com/unit/ussr_is_3",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
-      "normalizationDeg"
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
@@ -3658,6 +3671,1304 @@ export const ammo: Ammo[] = [
       {
         "label": "KwK43 (88 mm)/Ammunition — War Thunder Wiki",
         "url": "https://old-wiki.warthunder.com/KwK43_(88_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "occ-105-f1-cn105f1",
+    "name": "OCC 105 F1 (HEAT)",
+    "type": "HEAT",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 400,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 1000,
+    "explosiveMassTntEqG": 1020,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 0.1,
+    "fuseDelayM": 0.05,
+    "mechanics": "The OCC 105 F1 is the AMX-30's primary anti-tank round, a shaped-charge HEAT projectile whose 400 mm of penetration is effectively constant at every range, making it equally lethal point-blank or across the longest sightlines. Because it relies on a chemical jet rather than kinetic energy, sloped armour and spaced or composite plating degrade its effectiveness far more than they would a kinetic dart, and its low fuse sensitivity means thin screens can still trigger detonation prematurely. Its sizable explosive filler delivers strong post-penetration spalling, so a clean hit on the hull or turret face is often a one-shot kill. The trade-off is the modest shell velocity, which forces noticeable lead and drop compensation against moving targets at distance.",
+    "sources": [
+      {
+        "label": "AMX-30 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_30",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "CN-105-F1 (105 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/CN-105-F1_(105_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "oe-105-f1-mle60-cn105f1",
+    "name": "OE 105 F1 Mle.60 (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 25,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 25,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 25,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 25,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 25,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 25,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 700,
+    "explosiveMassTntEqG": 2000,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 0.1,
+    "fuseDelayM": 0,
+    "mechanics": "The OE 105 F1 Mle.60 is a high-explosive shell carrying a large filler, intended for soft targets, open-topped vehicles, and exposed crews rather than armoured engagements. With only 25 mm of nominal penetration it cannot defeat tank armour directly, but its substantial blast can disable lightly protected vehicles, anti-aircraft mounts, and gun emplacements in a single hit. The instant fuse with no delay detonates on contact, maximising surface blast and shrapnel against unprotected targets. Its low velocity makes it a poor choice against anything fast or distant.",
+    "sources": [
+      {
+        "label": "AMX-30 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_30",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "CN-105-F1 (105 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/CN-105-F1_(105_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "ofph-105-f1-cn105f1",
+    "name": "OFPH 105 F1 (Smoke)",
+    "type": "other",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 3,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 700,
+    "explosiveMassTntEqG": 50,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The OFPH 105 F1 is a smoke round used to screen movement, break enemy lines of sight, or mask a retreat rather than to deal damage. On impact it generates a smoke cloud roughly 20 m in radius that deploys over about 5 seconds and lingers for around 25 seconds, long enough to cover a repositioning or a crossing. Its 3 mm of listed penetration is incidental and it has no meaningful anti-armour value. The low muzzle velocity requires the same elevation compensation as the HE shell when placing screens at range.",
+    "sources": [
+      {
+        "label": "AMX-30 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_30",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "CN-105-F1 (105 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/CN-105-F1_(105_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "br-471d-d25t",
+    "name": "BR-471D (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 230,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 227,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 215,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 200,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 186,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 173,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The BR-471D is the highest-penetration solid shot for the D-25T, fitted with both an armour-piercing cap and a ballistic cap that improve bite against sloped plate and preserve velocity downrange. It carries a smaller explosive charge than the earlier BR-471 rounds but still delivers strong post-penetration effect, and its superior penetration makes it the preferred shell against better-armoured opponents. Its protected nose and capped design give it the best behaviour against angled armour of the IS-3's ammunition.",
+    "sources": [
+      {
+        "label": "IS-3: Assault Wedge — War Thunder Wiki (penetration table)",
+        "url": "https://wiki.warthunder.com/unit/ussr_is_3",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "pzgr39-kwk40-l43",
+    "name": "PzGr 39 (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 137,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 135,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 123,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 110,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 98,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 87,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The PzGr 39 is the workhorse round of the 75 mm KwK40 L/43, an armour-piercing capped projectile with a ballistic cap and a small explosive filler that detonates after the shot punches through plate. The cap improves penetration against sloped armour and reduces the chance of shatter or ricochet, making this the most reliable choice against the medium armour seen at its battle rating. Aim for crew compartments and ammo stowage so the post-penetration burst disables multiple crew at once. Penetration falls off steadily with range but stays effective enough to threaten most contemporaries out to 1000 m and beyond.",
+    "sources": [
+      {
+        "label": "Pz.IV G — War Thunder Wiki (Available ammunition)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_IV_ausf_G",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "pzgr40-kwk40-l43",
+    "name": "PzGr 40 (APCR)",
+    "type": "APCR",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 163,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 159,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 143,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 126,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 110,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 96,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The PzGr 40 is an armour-piercing composite rigid round built around a dense tungsten-carbide core inside a lightweight carrier, giving it the highest raw penetration the gun can offer at close range. It carries no explosive filler, so post-penetration damage relies entirely on the core fragmenting and the spall it generates inside the target. Because the light projectile sheds velocity quickly, its penetration advantage over the PzGr 39 shrinks with distance and the two are nearly equal by 1500 m, so reserve it for heavily armoured threats at short to medium range. Its poor performance against sloped plate also means it favours flat, perpendicular hits.",
+    "sources": [
+      {
+        "label": "Pz.IV G — War Thunder Wiki (Available ammunition)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_IV_ausf_G",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "hlgr38b-kwk40-l43",
+    "name": "Hl.Gr 38B (HEAT)",
+    "type": "HEAT",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 80,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 80,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 80,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 80,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 80,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 80,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The Hl.Gr 38B is a shaped-charge round whose penetration comes from a focused jet of metal rather than kinetic energy, so its penetration is constant at all ranges. That flat 80 mm figure is lower than either kinetic round, making it largely redundant on this gun, but the chemical-energy mechanic means it ignores velocity loss and can be useful as a backup against lightly armoured targets at long distance. Its low muzzle velocity demands extra lead and drop compensation at range. In practice most crews skip it in favour of the PzGr 39 and PzGr 40.",
+    "sources": [
+      {
+        "label": "Pz.IV G — War Thunder Wiki (Available ammunition)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_IV_ausf_G",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "sprgr34-kwk40-l43",
+    "name": "Sprgr. 34 (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 10,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The Sprgr. 34 is a high-explosive shell intended for soft targets rather than armour, with a token 10 mm of blast penetration. It is the round of choice against open-topped vehicles, anti-tank gun crews, exposed infantry, and trucks, where the explosive splash can knock out crew or destroy components outright. Against any properly armoured tank it will fail to penetrate, so its role is purely anti-soft-target. The large filler also makes it useful for finishing off already-damaged enemies through thin top or rear plating.",
+    "sources": [
+      {
+        "label": "Pz.IV G — War Thunder Wiki (Available ammunition)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_IV_ausf_G",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "kgr-rot-nb-kwk40-l43",
+    "name": "K.Gr.Rot Nb. (Smoke)",
+    "type": "other",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 3,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The K.Gr.Rot Nb. is a smoke shell that bursts into a screening cloud where it lands, used to obscure lines of sight rather than to damage targets. It has effectively no anti-armour capability, listed at just 3 mm of penetration. Crews fire it to cover an advance across open ground, mask a retreat, or blind an enemy gun line before repositioning. It is a situational utility round that occupies a magazine slot most players leave empty.",
+    "sources": [
+      {
+        "label": "Pz.IV G — War Thunder Wiki (Available ammunition)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_IV_ausf_G",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "shot-mk6-qf17pdr",
+    "name": "Shot Mk.6 (AP)",
+    "type": "AP",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 171,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 168,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 155,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 139,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 126,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 113,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The Shot Mk.6 is the Firefly's stock solid armour-piercing round, a full-bore uncapped steel shot fired by the 17-pounder. Carrying no explosive filler, it relies purely on kinetic energy and the resulting spall to disable crew and modules, so its lethality after penetration depends on hitting something vital. With no penetrating cap it loses effectiveness against heavily sloped plates, where the nose tends to bite poorly compared to the capped rounds.",
+    "sources": [
+      {
+        "label": "Sherman Firefly — War Thunder Wiki (unit page, ammunition table)",
+        "url": "https://wiki.warthunder.com/unit/uk_sherman_vc_firefly",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "shot-mk4-qf17pdr",
+    "name": "Shot Mk.4 (APC)",
+    "type": "APC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 171,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 168,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 155,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 139,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 126,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 113,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The Shot Mk.4 is an armour-piercing capped solid shot: a hardened penetrator fitted with a softer steel cap over the nose. That cap helps the round bite into face-hardened and angled armour and resist shatter, so it tends to hold up better than the uncapped Mk.6 against sloped plates despite matching its flat-on penetration. Like the other 17-pounder solid shots it has no bursting charge and kills through kinetic spalling alone.",
+    "sources": [
+      {
+        "label": "Sherman Firefly — War Thunder Wiki (unit page, ammunition table)",
+        "url": "https://wiki.warthunder.com/unit/uk_sherman_vc_firefly",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "shot-mk8-qf17pdr",
+    "name": "Shot Mk.8 (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 190,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 187,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 172,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 155,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 140,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 126,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The Shot Mk.8 is the Firefly's best anti-armour round, an armour-piercing capped, ballistic-capped solid shot. The penetrating cap improves performance against sloped and hardened plate while the pointed ballistic windscreen reduces drag, giving it both the highest penetration and the flattest trajectory of the gun's shells. It is still a filler-less kinetic round, so post-penetration damage comes from fragmentation of the plate and shot rather than an internal burst.",
+    "sources": [
+      {
+        "label": "Sherman Firefly — War Thunder Wiki (unit page, ammunition table)",
+        "url": "https://wiki.warthunder.com/unit/uk_sherman_vc_firefly",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "shell-mk1-qf17pdr",
+    "name": "Shell Mk.1 (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 20,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 20,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 18,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 16,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 15,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 13,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The Shell Mk.1 is a high-explosive round meant for soft and lightly armoured targets such as open-topped vehicles, anti-tank guns, and exposed crew. It detonates on impact, relying on blast and fragmentation rather than the negligible kinetic penetration of its thin-walled body. Against any real tank armour it is largely ineffective and is carried mainly as a supplementary anti-soft-target option.",
+    "sources": [
+      {
+        "label": "Sherman Firefly — War Thunder Wiki (unit page, ammunition table)",
+        "url": "https://wiki.warthunder.com/unit/uk_sherman_vc_firefly",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "shell-ss-mk1-qf17pdr",
+    "name": "17pdr Shell SS Mk.1 (Smoke)",
+    "type": "other",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 3,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The 17pdr Shell SS Mk.1 is a base-ejection smoke round that produces a screening cloud where it lands, used to block enemy lines of sight or cover a withdrawal. It carries no anti-armour capability beyond its trivial impact penetration, so it is purely a utility shell. Players use it to screen advances across open ground or to obscure a flanking move.",
+    "sources": [
+      {
+        "label": "Sherman Firefly — War Thunder Wiki (unit page, ammunition table)",
+        "url": "https://wiki.warthunder.com/unit/uk_sherman_vc_firefly",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "br-350a-f34",
+    "name": "BR-350A (APHEBC)",
+    "type": "APHE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 87,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 85,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 77,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 69,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 62,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 55,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 662,
+    "explosiveMassTntEqG": 150,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 14,
+    "fuseDelayM": 1.2,
+    "mechanics": "BR-350A is an armour-piercing high-explosive round with a soft ballistic cap (APHEBC) carrying the MD-5 fuze. Its large 150 g TNT-equivalent filler makes it the strongest post-penetration round on the F-34, devastating roomy crew compartments once it breaks through. The trade-off is the lowest armour penetration of the AP family, so it struggles against thicker frontal plates at range. The blunt ballistic cap improves bite on sloped armour but the long 1.2 m fuse delay can let the shell over-penetrate thin or empty sections before detonating.",
+    "sources": [
+      {
+        "label": "T-34 (1941) — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_34_1941",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "F-34 (76 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/F-34_(76_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "br-350b-f34",
+    "name": "BR-350B (APHEBC)",
+    "type": "APHE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 96,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 94,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 84,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 74,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 64,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 56,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 655,
+    "explosiveMassTntEqG": 100.1,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 14,
+    "fuseDelayM": 0.9,
+    "mechanics": "BR-350B is the up-armoured-cap APHEBC variant with the MD-8 fuze, trading some of the BR-350A's filler for noticeably higher penetration. With roughly 100 g of TNT-equivalent explosive it still produces strong internal spalling and shrapnel after a clean penetration. The shorter 0.9 m fuse delay encourages detonation inside the target rather than over-penetration, which makes it the best all-round choice for this gun against most early-war and mid-war armour. The ballistic cap aids penetration against angled plates.",
+    "sources": [
+      {
+        "label": "T-34 (1941) — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_34_1941",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "F-34 (76 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/F-34_(76_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "br-350sp-f34",
+    "name": "BR-350SP (APBC)",
+    "type": "APC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 99,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 96,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 87,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 76,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 66,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 58,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 655,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "BR-350SP is a solid armour-piercing ballistic-capped shot (APBC) with no explosive filler, giving it the highest raw penetration of the F-34's standard rounds. Lacking a bursting charge, it relies entirely on the kinetic energy and spalling of the steel slug to disable crew and modules, so it is less reliable than the APHE rounds against lightly manned tanks. The blunt ballistic cap helps it hold penetration against sloped plates where pointed shot would ricochet. It is the preferred shell for cracking the toughest frontal armour this gun can face.",
+    "sources": [
+      {
+        "label": "T-34 (1941) — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_34_1941",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "F-34 (76 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/F-34_(76_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "of-350m-f34",
+    "name": "OF-350M (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 13,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 12,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 11,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 10,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 680,
+    "explosiveMassTntEqG": 621,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 0.1,
+    "fuseDelayM": 0.05,
+    "mechanics": "OF-350M is a high-explosive fragmentation shell built to attack soft and lightly armoured targets rather than tanks. Its large explosive charge detonates on contact thanks to the highly sensitive 0.1 mm fuze, spraying fragments and overpressure that can knock out open-topped vehicles, anti-aircraft mounts, and exposed crew. Against armoured tanks its tiny direct penetration is almost irrelevant, but a hit on a thin roof, hatch, or grille can still cause an overpressure kill. It is the round of choice for clearing gun emplacements and unarmoured threats.",
+    "sources": [
+      {
+        "label": "T-34 (1941) — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_34_1941",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "F-34 (76 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/F-34_(76_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "sh-354t-f34",
+    "name": "Sh-354T (shrapnel)",
+    "type": "shrapnel",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 35,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 34,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 30,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 26,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 22,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 19,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 618,
+    "explosiveMassTntEqG": 85,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 14,
+    "fuseDelayM": 1.2,
+    "mechanics": "Sh-354T is a shrapnel round, a hybrid that behaves like a weak armour-piercing high-explosive shell. It penetrates modest amounts of armour and then bursts a small explosive charge, scattering fragments inside lightly protected targets. With far less penetration and filler than the BR-350 series it is rarely the optimal anti-tank choice, but it can still threaten thin-skinned and open-topped vehicles. It functions much like a low-power APHE thanks to its 14 mm fuze sensitivity and 1.2 m delay.",
+    "sources": [
+      {
+        "label": "T-34 (1941) — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_34_1941",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "F-34 (76 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/F-34_(76_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "d-350a-f34",
+    "name": "D-350A (smoke)",
+    "type": "other",
+    "penetration": [],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "D-350A is a smoke shell used to obscure sightlines rather than deal damage. On impact it deploys a smoke cloud that blocks vision, useful for covering an advance, breaking an enemy's aim, or screening a retreat. It has no meaningful armour penetration or anti-tank capability. The wiki unit table lists no penetration, velocity, or fuze figures for this utility round, so those fields are left unverified.",
+    "sources": [
+      {
+        "label": "T-34 (1941) — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_34_1941",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "penetration",
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "jm33-type90",
+    "name": "JM33 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 481,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 480,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 472,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 462,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 451,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 441,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 1640,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The JM33 is the Type 90's primary anti-tank round, a licensed Japanese production of the German DM33 long-rod APFSDS dart. It leaves the 120 mm L/44 smoothbore at a very high muzzle velocity, giving a flat trajectory and short flight time that make it forgiving to aim at range. As a kinetic dart it carries no explosive filler, relying on solid-shot post-penetration spalling, so multiple hits on crew and modules are usually needed to disable a target. Its high ricochet thresholds let it bite into steeply sloped plates that would deflect lower-velocity rounds.",
+    "sources": [
+      {
+        "label": "Type 90 — War Thunder Wiki (unit page, ammunition table)",
+        "url": "https://wiki.warthunder.com/unit/jp_type_90",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "jm12a1-type90",
+    "name": "JM12A1 (HEATFS)",
+    "type": "HEATFS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 480,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 480,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 480,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 480,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 480,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 480,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 1140,
+    "explosiveMassTntEqG": 2150,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 0.1,
+    "fuseDelayM": 0.05,
+    "mechanics": "The JM12A1 is the Type 90's chemical-energy round, a fin-stabilized shaped charge whose penetration stays constant at all ranges because it depends on the jet formed on impact rather than velocity. It is the go-to option against highly sloped armor and for finishing lightly protected targets, since its explosive filler delivers meaningful post-penetration blast and fragmentation. Being a HEAT round, it is sensitive to spaced plates, tracks, and other standoff that can disrupt the jet before it reaches the main armor. Its lower muzzle velocity gives a more pronounced drop, so range estimation matters more than with the JM33 dart.",
+    "sources": [
+      {
+        "label": "Type 90 — War Thunder Wiki (unit page, ammunition table)",
+        "url": "https://wiki.warthunder.com/unit/jp_type_90",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }

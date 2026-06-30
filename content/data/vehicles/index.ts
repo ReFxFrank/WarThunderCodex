@@ -3416,7 +3416,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 50,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "occ-105-f1-cn105f1",
+        "oe-105-f1-mle60-cn105f1",
+        "ofph-105-f1-cn105f1"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -4439,7 +4443,12 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 6.35,
       "ammoCapacity": 28,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "br-471-d25t",
+        "br-471b-d25t",
+        "br-471d-d25t",
+        "of-471-d25t"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -8498,7 +8507,10 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 40,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "jm33-type90",
+        "jm12a1-type90"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -9451,7 +9463,13 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 11.2,
       "ammoCapacity": 87,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "pzgr39-kwk40-l43",
+        "pzgr40-kwk40-l43",
+        "hlgr38b-kwk40-l43",
+        "sprgr34-kwk40-l43",
+        "kgr-rot-nb-kwk40-l43"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -9547,7 +9565,14 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 17.5,
       "ammoCapacity": 77,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "br-350a-f34",
+        "br-350b-f34",
+        "br-350sp-f34",
+        "of-350m-f34",
+        "sh-354t-f34",
+        "d-350a-f34"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -9643,7 +9668,13 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 16.8,
       "ammoCapacity": 80,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "shot-mk6-qf17pdr",
+        "shot-mk4-qf17pdr",
+        "shot-mk8-qf17pdr",
+        "shell-mk1-qf17pdr",
+        "shell-ss-mk1-qf17pdr"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -21878,7 +21909,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the M3A3 as a flanker and skirmisher, exploiting its speed and excellent gun depression to peek over hills and trade rapid 37 mm shots. Aim for crew compartments, modules, and side armour rather than frontal plates, and keep moving to avoid being caught by heavier tanks. Its fast turret lets it react quickly to flankers, so guarding caps and ambush lanes plays to its strengths.",
     "history": "The M3A3 was the final mass-produced variant of the American M3 Stuart light tank, with sloped armour and a redesigned turret. Large numbers of Lend-Lease Stuarts were supplied to Chinese Nationalist forces during the Second World War, where they served in Burma and China against Japanese forces. The type continued in Chinese service into the post-war period.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/cn-m3a3-stuart.jpg",
+        "alt": "A preserved M3A3 Stuart light tank, the type supplied to Chinese Nationalist forces; this is the real-world vehicle, not the in-game model.",
+        "credit": "Chris Light · CC-BY-SA 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "M3A3 Stuart (China) | War Thunder Wiki (unit page)",
@@ -21966,7 +22004,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Position the PGZ04A behind the front line where it can cover the sky over your team while staying out of direct tank fire. Use the four autocannons for close-in aircraft and the HN-6 missiles to discourage attackers at range, leading targets carefully to compensate for projectile travel. Keep it hidden and reposition often, since its thin armour means any direct attention will quickly knock it out.",
     "history": "The PGZ04A is a development of China's PGZ04 air-defence system, itself derived from work on combining gun and missile armament on a single tracked platform. It pairs quad 25 mm PG87 cannons with shoulder-launched HN-6 missiles adapted for vehicle mounting, giving short-range air defence units layered coverage. The system entered service with the People's Liberation Army to protect mechanized formations from low-altitude air attack.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/cn-pgz-04a.jpg",
+        "alt": "A Chinese Type 95 / PGZ-95 self-propelled anti-aircraft gun at the Beijing Military Museum, the base vehicle of the upgraded PGZ-04A; this is the real-world vehicle, not the in-game model.",
+        "credit": "Max Smith (Megapixie) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "PGZ04A | War Thunder Wiki (unit page)",
@@ -22051,7 +22096,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the Type 63 as a flanker and ambusher rather than a frontline brawler. Use the amphibious capability to reach firing positions the enemy is not watching, fire from a full stop to land accurate HEAT-FS shots, and reposition before return fire arrives. Never trade head-on, since a single hit will usually disable or destroy the lightly armoured hull.",
     "history": "The Type 63 was developed by China North Industries as the country's first generation of amphibious tanks, drawing on the Soviet PT-76 but fitting the more powerful turret and 85 mm gun used on the Type 62. Prototypes were built around 1959 by factories coded 201 and 617, with the design finalized in March 1963 and entering service in 1964. It was later supplied to North Vietnam and saw combat through the Vietnam War.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/cn-type-63.jpg",
+        "alt": "A Chinese Type 63 amphibious light tank preserved at the Military Museum in Beijing; this is the real-world vehicle, not the in-game model.",
+        "credit": "Morio · CC-BY-SA 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Type 63 | War Thunder Wiki (unit page)",
@@ -22137,7 +22189,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the M2A2's speed to rush objectives and harass exposed crews, open-topped vehicles, and aircraft on the ground. Avoid head-on fights with any cannon-armed tank and instead flank to strike thin top or rear plating, or simply contest capture zones. It rewards aggressive, mobile play but punishes any attempt to stand and fight.",
     "history": "The M2 light tank series was developed by the U.S. Army during the 1930s, with the M2A2 'Mae West' featuring its distinctive twin machine-gun turrets. It served as a training and doctrine-development platform during the interwar years and was rendered obsolete as foreign tanks adopted heavier armour and cannon armament. Its chassis and lessons influenced the later M2A4 and the M3 Stuart family.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/m2a2-light-tank.jpg",
+        "alt": "A restored interwar-era twin-turret M2A2 light tank at the Mississippi Armed Forces Museum, not the in-game model.",
+        "credit": "Joe Wentzel · CC-BY 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "M2A2 | War Thunder Wiki",
@@ -22221,7 +22280,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight from hull-down ground where the rounded turret front is the only thing exposed, leaning on the good depression to minimise your silhouette. Carry a mix of M82 APHE for lightly armoured targets and M431 HEAT-FS for tougher foes, and pick fights at range where your gun handling shines. Avoid brawls that expose your flanks, since the side armour and crawling reverse leave little room to recover from a mistake.",
     "history": "The M48 Patton entered U.S. service in the early 1950s as a successor to the M47, featuring an all-new cast hull and turret and a redesigned suspension. The M48A1 variant added a driver's hatch and an enclosed commander's cupola mounting a .50 calibre machine gun. The type served widely with the U.S. and allied armies and formed the basis for many later upgrade packages.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/m48a1-patton.jpg",
+        "alt": "A real-world M48A1 Patton main battle tank, not the in-game model.",
+        "credit": "U.S. Army (federal government work) · Public Domain (US Government work) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "M48A1 | War Thunder Wiki",
@@ -22305,7 +22371,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play it as a pure ambusher: find concealment, let an enemy commit, then unleash one or several barrels into a weak spot. Because reloading is slow and you have no armour, never trade shots in the open or linger after firing. Use the small size and decent mobility to relocate constantly and pick targets from the flank.",
     "history": "The M50 Ontos was developed in the 1950s for the U.S. Army's airborne forces as a light air-transportable anti-tank vehicle, though it ultimately served with the Marine Corps. Its name, Greek for 'the thing', reflected its unusual configuration of six externally mounted recoilless rifles. It saw notable use in the Vietnam War, where its firepower proved valuable against fortifications and infantry.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/m50-ontos.jpg",
+        "alt": "A U.S. Marine Corps M50 Ontos with its six 106mm recoilless rifles photographed in Vietnam in 1967, not the in-game model.",
+        "credit": "PFC Kenneth L. Fuller, USMC · Public Domain (US Government work) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "M50 | War Thunder Wiki",
@@ -22389,7 +22462,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat the Pvkv II as a long-range ambusher: pick a flank or elevated spot, deal damage from maximum distance, and relocate before return fire arrives. The exceptional gun depression lets it fight from behind crests with only the upper hull showing. Never get drawn into a brawl, because a single hit will almost always disable or destroy this fragile vehicle.",
     "history": "Designed by Landsverk in the late 1940s, the Pvkv II was one of several proposals to give the obsolescent Strv m/41 chassis a worthwhile anti-tank punch after its original 37 mm armament was deemed useless. It carried an adapted 75 mm anti-aircraft gun chosen for its strong armour-piercing performance. Tested alongside the Pvkv III, both designs were judged outdated and neither entered Swedish service.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/pvkv-ii.jpg",
+        "alt": "A period photograph of the Swedish Pvkv II prototype (shown alongside the Pvkv III and Pvkv IV Värjan); this is the real-world vehicle, not the in-game model.",
+        "credit": "Blockhaj · CC-BY-SA 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Pvkv II | War Thunder Wiki",
@@ -22475,7 +22555,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the Strv 103-0 as a long-range sniper and defensive wall, sitting hull-down on ridgelines and letting its absurd glacis slope bounce incoming fire. Keep the front pointed at threats at all times, since any turn exposes the soft sides and the lack of a turret makes reacquiring a flanker slow. Use the strong reverse speed to back off and re-angle rather than attempting to spin in place.",
     "history": "After the S1 and S2 prototypes proved the radical fixed-gun concept, the Swedish Army ordered a small batch of ten pre-series vehicles to validate it under realistic conditions. These 'zero series' tanks were used between roughly 1964 and 1966 to refine logistics, crew training and unit integration. Their success led directly to the production Strv 103A and a doctrine of dug-in defensive armour that defined Swedish tank thinking for decades.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/strv-103-0.jpg",
+        "alt": "A Swedish Stridsvagn 103 (S-tank) turretless tank destroyer demonstrating at Revingehed; this is the real-world vehicle, not the in-game model.",
+        "credit": "VHMQ Photography (Aero.vhmq) · CC-BY-SA 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Strv 103-0 | War Thunder Wiki",
@@ -22561,7 +22648,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "The Strv 74 thrives on ridgelines and hilly maps where its huge gun depression lets it expose only the turret while the hull stays hidden. Snipe with the fast, flat-shooting APDS round, then drop back behind cover between shots. Avoid open ground and frontal duels, since its armour will not save it once spotted.",
     "history": "By the mid-1950s Sweden's wartime Strv m/42 medium tanks were obsolete, so their hulls were rebuilt in 1957 into the Strv 74 with a new turret and a more capable 75 mm gun. The type entered service in 1958 as a stopgap until newer designs arrived. It soldiered on in Swedish use until 1984, a long career for what was essentially a modernised wartime chassis.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/strv-74.jpg",
+        "alt": "A preserved Swedish Cold War-era Stridsvagn 74 medium tank on display at the Kubinka Tank Museum, not the in-game model.",
+        "credit": "Alan Wilson · CC-BY-SA 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Strv 74 | War Thunder Wiki",
@@ -22607,6 +22701,784 @@ export const vehicles: Vehicle[] = [
         "front": "30 mm",
         "side": "20 mm",
         "rear": "20 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "bmp-1",
+    "name": "BMP-1",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 8,
+      "simulator": 8
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The BMP-1 is a Soviet amphibious infantry fighting vehicle armed with a low-pressure 73 mm 2A28 gun backed by a 9M14 Malyutka ATGM launcher. Thin armour and a slow autoloader force a careful, opportunistic playstyle at its battle rating.",
+    "prosCons": {
+      "pros": [
+        "Mounts a guided 9M14 Malyutka ATGM for knocking out targets the 73 mm cannon struggles against",
+        "Good forward mobility and fully amphibious, helping it reach flanks and cap zones quickly",
+        "Low silhouette makes it easy to hide in cover and shoot from concealment",
+        "73 mm HEAT round has flat enough penetration to threaten most contemporaries frontally"
+      ],
+      "cons": [
+        "Armour is paper-thin and stops nothing larger than rifle-calibre fire",
+        "73 mm gun has poor accuracy at range and a looping shell drop",
+        "Malyutka missile is slow, manually guided, and dead-zoned at close range",
+        "Very limited gun depression of only 4 degrees hampers hull-down play"
+      ]
+    },
+    "playstyle": "Treat the BMP-1 as a shoot-and-scoot ambusher rather than a frontline brawler, because any return fire will likely kill it. Use terrain and concealment to set up flank shots with the HEAT round, and reserve the Malyutka for harder targets you can engage at a safe distance. Exploit the amphibious hull and speed to relocate constantly and contest objectives the heavier MBTs cannot reach quickly.",
+    "history": "The BMP-1 entered Soviet service in the mid-1960s as the world's first mass-produced infantry fighting vehicle, pairing a 73 mm smoothbore gun with an anti-tank missile to give mechanised infantry organic firepower. It was widely exported and saw combat across the Arab-Israeli wars, the Iran-Iraq War, Afghanistan, and the Chechen conflicts. Its design emphasised mobility and firepower over protection, a trade-off that shaped a generation of Soviet IFVs.",
+    "media": [],
+    "sources": [
+      {
+        "label": "BMP-1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_bmp_1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 65,
+      "maxRevKph": 11,
+      "enginePowerHp": 300,
+      "weightTons": 13.413,
+      "powerToWeight": 22.4,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "2a28-grom-73mm",
+      "reloadBaseSec": 6,
+      "reloadAcedSec": 6,
+      "vertGuidanceDeg": [
+        -4,
+        30
+      ],
+      "turretTraverseDegSec": 14,
+      "ammoCapacity": 40,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "19 mm",
+        "side": "18 mm",
+        "rear": "16 mm"
+      },
+      "turretMm": {
+        "front": "23 mm",
+        "side": "19 mm",
+        "rear": "13 mm"
+      },
+      "crewCount": 3,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "fv4202",
+    "name": "FV4202",
+    "nation": "britain",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 7.3,
+      "realistic": 7.3,
+      "simulator": 7.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "A British medium tank built as a Chieftain testbed, marrying a heavily sloped, near-impenetrable turret face to a Centurion-derived hull. It trades any sense of mobility for protection and a hard-hitting 20-pounder gun.",
+    "prosCons": {
+      "pros": [
+        "Extremely tough turret front that bounces a lot of fire",
+        "Reliable 84 mm 20-pounder with potent APDS",
+        "Excellent gun depression of -10 degrees for hull-down work",
+        "Good reload that keeps trades in your favour"
+      ],
+      "cons": [
+        "Painfully slow top speed of only 32 km/h",
+        "Crawling 5 km/h reverse makes disengaging dangerous",
+        "Thin hull armour and a weak lower glacis are easy targets",
+        "Sluggish to reach map positions, ceding early ground"
+      ]
+    },
+    "playstyle": "Play the FV4202 as a hull-down sniper, exposing only the thick turret while the vulnerable hull stays hidden behind cover. Pick a strong defensive angle early because the dismal speed makes repositioning a slow ordeal. Lean on the APDS round to punch through enemies at range and let your reload win head-on duels.",
+    "history": "The FV4202 was a 1950s British experimental medium tank designed to trial layout and armour concepts that fed into the later Chieftain programme. It combined a steeply sloped cast turret with a low hull silhouette on running gear related to the Centurion. Only prototypes were built, and the lessons learned shaped Britain's main battle tank design philosophy.",
+    "media": [],
+    "sources": [
+      {
+        "label": "FV4202 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/uk_fv4202",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 32,
+      "maxRevKph": 5,
+      "enginePowerHp": 510,
+      "weightTons": 37,
+      "powerToWeight": 13.8,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "ofqf-20pdr-mk1-84mm",
+      "reloadBaseSec": 8.1,
+      "reloadAcedSec": 6.3,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": 23.7,
+      "ammoCapacity": 50,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "51 mm",
+        "side": "51 mm",
+        "rear": "31 mm"
+      },
+      "turretMm": {
+        "front": "240 mm",
+        "side": "90 mm",
+        "rear": "93 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "ho-ni-iii",
+    "name": "Ho-Ni III",
+    "nation": "japan",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 2.3,
+      "realistic": 2.3,
+      "simulator": 2.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Ho-Ni III is a casemate tank destroyer built on the Chi-Ha hull, mounting a 75 mm Type 3 gun inside a fully enclosed armoured fighting compartment. Its enclosed casemate and solid gun make it a reliable, more survivable refinement of the open Ho-Ni line at low rank.",
+    "prosCons": {
+      "pros": [
+        "Fully enclosed casemate protects the crew from strafing and shrapnel",
+        "75 mm Type 3 gun hits hard enough to knock out most opponents at its BR",
+        "Quick reload for a 75 mm gun keeps follow-up shots coming",
+        "Five-man crew improves survivability against single penetrations"
+      ],
+      "cons": [
+        "Thin armour all round can be defeated by most autocannons and guns it meets",
+        "Limited gun traverse forces the whole hull to reposition for wide targets",
+        "Sluggish mobility makes it slow to redeploy or escape",
+        "Tall casemate is an easy target compared with low-profile rivals"
+      ]
+    },
+    "playstyle": "Hold back from the front line and use the strong 75 mm gun to snipe enemies before they close. Favour positions with cover for the flanks, since the narrow traverse and weak armour punish being flanked. Pre-aim toward likely lanes so the decent reload lets you trade efficiently with anything you spot first.",
+    "history": "The Type 3 Ho-Ni III was a Japanese self-propelled gun produced from 1944 by mounting the 75 mm Type 3 gun in an enclosed casemate on the obsolete Type 97 Chi-Ha chassis. It improved on earlier open-topped Ho-Ni vehicles with full overhead and side armour for the gun crew. Only around 31 were completed amid material shortages, and most never left the home islands.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Ho-Ni III | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/jp_type_3_ho_ni_III",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 40,
+      "maxRevKph": 12,
+      "enginePowerHp": 200,
+      "weightTons": 16.8,
+      "powerToWeight": 11.9,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "75mm-type-3-cannon",
+      "reloadBaseSec": 6.5,
+      "reloadAcedSec": 5,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": 11.2,
+      "ammoCapacity": 46,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "25",
+        "side": "25",
+        "rear": "20"
+      },
+      "turretMm": {
+        "front": "25",
+        "side": "25",
+        "rear": "25"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "st-a1",
+    "name": "ST-A1",
+    "nation": "japan",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6.3,
+      "realistic": 6.3,
+      "simulator": 6.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The ST-A1 is Japan's first post-war indigenous tank design and the early prototype that led to the Type 61. It pairs a hard-hitting 90 mm gun firing HEAT-FS with a low profile, but very thin armour means it lives and dies by positioning.",
+    "prosCons": {
+      "pros": [
+        "90 mm gun with HEAT-FS can defeat heavily armoured opponents at any range",
+        "Low silhouette makes it easy to conceal and fight hull-down",
+        "Strong reverse speed lets it pull back into cover quickly",
+        "Good gun depression suits ridge-line and hull-down engagements"
+      ],
+      "cons": [
+        "Thin armour is penetrated by almost everything it faces",
+        "Cramped crew and module layout means a single hit often disables it",
+        "Modest top speed limits aggressive repositioning and flanking",
+        "Limited gun elevation restricts engagements on steep terrain"
+      ]
+    },
+    "playstyle": "Fight as a careful sniper or supporting flanker, using terrain and the low hull to expose as little as possible. Take a long-range shot with the potent 90 mm gun, then exploit the strong reverse to retreat into cover before being spotted. Avoid head-on brawls entirely, since the fragile armour cannot absorb hits the way its opponents can.",
+    "history": "The ST-A1 was developed in the mid-1950s as Japan's first domestically designed tank after the war, drawing heavily on the American M46 Patton. It carried a 90 mm gun capable of firing HEAT-FS to counter contemporary Soviet armour and served as the first of the ST-A prototype series. The lessons learned fed directly into the later Type 61 main battle tank.",
+    "media": [],
+    "sources": [
+      {
+        "label": "ST-A1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/jp_st_a1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 45,
+      "maxRevKph": 17,
+      "enginePowerHp": 550,
+      "weightTons": 34.2,
+      "powerToWeight": 16.1,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "90mm-m3a1-cannon",
+      "reloadBaseSec": 9.7,
+      "reloadAcedSec": 7.5,
+      "vertGuidanceDeg": [
+        -10,
+        13
+      ],
+      "turretTraverseDegSec": 16.8,
+      "ammoCapacity": 40,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "45",
+        "side": "35",
+        "rear": "20"
+      },
+      "turretMm": {
+        "front": "75",
+        "side": "60",
+        "rear": "35"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "su-85",
+    "name": "SU-85",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4.3,
+      "realistic": 4.3,
+      "simulator": 4.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The SU-85 is a Soviet WWII tank destroyer built on the T-34 chassis and armed with the 85 mm D-5S gun. It trades the T-34's turret for a fixed casemate, offering strong firepower but thin, lightly sloped armour that demands long-range, hull-down sniping.",
+    "prosCons": {
+      "pros": [
+        "85 mm D-5S gun penetrates most contemporaries it faces",
+        "Shares the reliable, mobile T-34 chassis for good speed and agility",
+        "Low, compact casemate is easy to conceal in ambush positions",
+        "Decent 25 degrees of gun elevation aids fire from reverse slopes"
+      ],
+      "cons": [
+        "Thin 45 mm casemate armour stops little at its battle rating",
+        "Fixed casemate limits the gun to a narrow traverse arc",
+        "Four-man crew is vulnerable to a single penetrating hit",
+        "Lacks a turret, so it must reposition the whole hull to re-aim"
+      ]
+    },
+    "playstyle": "Fight the SU-85 as a long-range sniper, exploiting the 85 mm gun to land first shots before enemies can close. Stay back and to the flank so the limited gun traverse can still cover the approach without exposing the weak armour. Reposition after firing because the casemate offers no protection against a focused return, and avoid brawls where your slow re-aiming is exposed.",
+    "history": "The SU-85 was rushed into service in 1943 after German tanks began outclassing the T-34's 76 mm gun, mating the 85 mm D-5S to the proven SU-122 self-propelled chassis. It gave Soviet forces a mobile anti-tank platform capable of defeating heavier German armour at range. It served until the T-34-85's turreted 85 mm gun made the dedicated tank destroyer largely redundant.",
+    "media": [],
+    "sources": [
+      {
+        "label": "SU-85 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_su_85_1943",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 60,
+      "maxRevKph": 9,
+      "enginePowerHp": 500,
+      "weightTons": 29.6,
+      "powerToWeight": 16.9,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "d-5s-85mm",
+      "reloadBaseSec": 9.6,
+      "reloadAcedSec": 7.4,
+      "vertGuidanceDeg": [
+        -5,
+        25
+      ],
+      "turretTraverseDegSec": 10.5,
+      "ammoCapacity": 48,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "45 mm",
+        "side": "45 mm",
+        "rear": "45 mm"
+      },
+      "turretMm": {
+        "front": "45 mm",
+        "side": "45 mm",
+        "rear": "45 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "t-55a",
+    "name": "T-55A",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 8.3,
+      "realistic": 8.3,
+      "simulator": 8.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The T-55A is a refined evolution of the T-54 line, mounting the 100 mm D-10T2S gun with a stabiliser and improved NBC protection. It blends a strong sloped hull, a low profile, and good APDS and HEATFS rounds into a capable all-round Cold War medium.",
+    "prosCons": {
+      "pros": [
+        "Well-sloped 100 mm hull and rounded turret deflect many incoming rounds",
+        "Two-plane stabilised gun allows accurate firing on the move",
+        "Access to potent APDS and HEATFS shells for the 100 mm gun",
+        "Low silhouette makes hull-down and ambush positions effective"
+      ],
+      "cons": [
+        "Limited 5 degrees of gun depression restricts ridge-line play",
+        "Slow turret traverse can be punished by faster-turning flankers",
+        "Reverse speed is poor, making it hard to back out of bad trades",
+        "Four-man crew with ammo packed low means one penetration often kills"
+      ]
+    },
+    "playstyle": "Play the T-55A as a patient angled brawler, using the sloped hull and turret to bounce shots while trading with the stabilised 100 mm gun. Pre-aim toward expected enemy positions because the slow turret rotation makes reactive turns costly. Avoid steep terrain that exposes the weak side and thin roof, and lean on its low profile to hold concealed firing lines.",
+    "history": "The T-55A appeared in the early 1960s as a further development of the T-55, itself derived from the T-54, adding anti-radiation lining and a full NBC filtration system for the nuclear battlefield. The bow machine gun was deleted to make room for additional 100 mm ammunition. It became one of the most widely produced tanks in history and served across dozens of armies for decades.",
+    "media": [],
+    "sources": [
+      {
+        "label": "T-55A | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_55a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 50,
+      "maxRevKph": 8,
+      "enginePowerHp": 580,
+      "weightTons": 36,
+      "powerToWeight": 16.1,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "d-10t2s-100mm",
+      "reloadBaseSec": 9.7,
+      "reloadAcedSec": 7.5,
+      "vertGuidanceDeg": [
+        -5,
+        18
+      ],
+      "turretTraverseDegSec": 10.5,
+      "ammoCapacity": 43,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "100 mm",
+        "side": "80 mm",
+        "rear": "45 mm"
+      },
+      "turretMm": {
+        "front": "200 mm",
+        "side": "160 mm",
+        "rear": "66 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "type-87-rcv",
+    "name": "Type 87 RCV",
+    "nation": "japan",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9,
+      "realistic": 9,
+      "simulator": 9
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Type 87 RCV is a fast 6x6 wheeled reconnaissance vehicle armed with a rapid-firing 25 mm Oerlikon autocannon fed an APFSDS belt. It trades armour and a stabiliser for road speed and a high volume of penetrating fire, rewarding aggressive flanking and ambushes.",
+    "prosCons": {
+      "pros": [
+        "Very high road speed makes it excellent at seizing flanks and capture points",
+        "Belt-fed 25 mm autocannon can shred sides and rears, and threaten many fronts, with APFSDS",
+        "Low silhouette and good gun depression suit hull-down and ridge-line ambush play",
+        "Generous ammo capacity keeps it in the fight through long engagements"
+      ],
+      "cons": [
+        "No gun stabiliser, so accurate fire requires stopping the vehicle",
+        "Paper-thin armour offers no protection beyond small arms and shrapnel",
+        "Low post-penetration damage often means several hits to secure a kill",
+        "Bouncy wheeled suspension hurts accuracy on the move and over rough terrain"
+      ]
+    },
+    "playstyle": "Use the high top speed to reach favourable angles early and catch enemies in the side or rear where the 25 mm APFSDS reliably penetrates. Stop fully before firing to land hits, then relocate before return fire arrives, since the thin hull cannot trade. Treat it as a scout-flanker rather than a brawler, picking off exposed targets and capping objectives.",
+    "history": "The Type 87 Reconnaissance and Patrol Vehicle was developed by Komatsu for the Japan Ground Self-Defense Force and entered service in 1987. It was created to give recon units more firepower and protection than light jeeps and motorcycles once improved road infrastructure made wheeled armour practical on the home islands. It mounts a 25 mm Oerlikon KBA autocannon in a small two-man turret on a 6x6 chassis.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Type 87 RCV | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/jp_type_87_rcv",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 100,
+      "maxRevKph": 11,
+      "enginePowerHp": 305,
+      "weightTons": 15,
+      "powerToWeight": 20.3,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "25mm-oerlikon-kba-b02",
+      "reloadBaseSec": 10.4,
+      "reloadAcedSec": 8,
+      "vertGuidanceDeg": [
+        -10,
+        45
+      ],
+      "turretTraverseDegSec": 42,
+      "ammoCapacity": 400,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "20",
+        "side": "10",
+        "rear": "10"
+      },
+      "turretMm": {
+        "front": "20",
+        "side": "10",
+        "rear": "10"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "uk-falcon",
+    "name": "Falcon",
+    "nation": "britain",
+    "class": "ground",
+    "subclass": "SPAA",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8.3,
+      "realistic": 8.3,
+      "simulator": 8.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "A British self-propelled anti-aircraft gun built on the Abbot SPG chassis, mounting twin 30 mm autocannons in a fully traversing turret. Its high rate of fire and belt selection make it lethal against both aircraft and lightly armoured ground targets.",
+    "prosCons": {
+      "pros": [
+        "Twin 30 mm autocannons deliver a withering volume of fire",
+        "Fast, fully rotating turret with 80 degrees of elevation",
+        "Belts include rounds capable of opening up light vehicles",
+        "Decent mobility for an SPAA at its rating"
+      ],
+      "cons": [
+        "Paper-thin armour offers no protection beyond rifle rounds",
+        "No search radar, so target tracking is manual",
+        "Tall turret profile is easy to spot and disable",
+        "Crawling 8 km/h reverse limits quick retreats"
+      ]
+    },
+    "playstyle": "Hang back from the front line and use the twin 30 mm guns to swat aircraft out of the sky in short, accurate bursts. The lack of radar means you must rely on visual spotting, so watch the horizon constantly. When no planes are up, the autocannons double as a potent ambush tool against exposed light vehicles and side armour.",
+    "history": "The Falcon was a 1960s British SPAAG prototype that paired the chassis of the Abbot self-propelled gun with a twin 30 mm Hispano-Suiza autocannon turret. It was developed by Vickers as a private venture to meet a mobile air-defence requirement. The vehicle never entered British service, with only prototypes completed before the programme lapsed.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Falcon | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/uk_falcon",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Falcon AA: Britain's foremost anti-air gun | War Thunder News",
+        "url": "https://warthunder.com/en/devblog/current/4078",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reloadBaseSec",
+      "reloadAcedSec",
+      "turretTraverseDegSec",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 50,
+      "maxRevKph": 8,
+      "enginePowerHp": 307,
+      "weightTons": 15.9,
+      "powerToWeight": 19.3,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "hss-831l-30mm",
+      "reloadBaseSec": null,
+      "reloadAcedSec": null,
+      "vertGuidanceDeg": [
+        -10,
+        80
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 680,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "12 mm",
+        "side": "12 mm",
+        "rear": "10 mm"
+      },
+      "turretMm": {
+        "front": "10 mm",
+        "side": "10 mm",
+        "rear": "10 mm"
+      },
+      "crewCount": 3,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "uk-fv4004-conway",
+    "name": "Conway",
+    "nation": "britain",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6.7,
+      "realistic": 7,
+      "simulator": 7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "A British tank destroyer built on a Centurion Mk 3 hull, carrying a towering 120 mm L1 gun in a tall, lightly armoured rotating turret. It is a dedicated sniper whose enormous APDS round can defeat almost anything it meets.",
+    "prosCons": {
+      "pros": [
+        "Devastating 120 mm L1A2 gun with APDS and HESH options",
+        "Fully rotating turret unlike many casemate destroyers",
+        "APDS penetration shreds targets well above its rating",
+        "Centurion chassis gives stable, reliable handling"
+      ],
+      "cons": [
+        "Very long reload around 19 seconds punishes misses",
+        "Thin, tall turret is easily knocked out",
+        "Limited gun elevation and depression range",
+        "Modest mobility makes flanking impractical"
+      ]
+    },
+    "playstyle": "Treat the Conway as a long-range sniper that deletes targets with a single APDS hit, then relocates before the slow reload leaves you exposed. Keep maximum distance to exploit the gun's flat trajectory and to hide the fragile, tall turret. Carry HESH for overpressuring stubborn or angled targets where APDS is less ideal.",
+    "history": "The FV4004 Conway was a 1950s British stopgap tank destroyer created to field the powerful 120 mm L1 gun before the Conqueror heavy tank was ready. It mounted that oversized cannon in a large turret on a Centurion Mk 3 chassis, with the gun raised to protect the turret ring from recoil. Only a single prototype was built once the Conqueror rendered it unnecessary.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Conway | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/uk_fv4004_conway",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "FV4004 Conway: IS Hunter | War Thunder News",
+        "url": "https://warthunder.com/en/devblog/current/872",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 41,
+      "maxRevKph": 14,
+      "enginePowerHp": 984,
+      "weightTons": 49.8,
+      "powerToWeight": 19.8,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "ofqf-l1a2-120mm",
+      "reloadBaseSec": 19.4,
+      "reloadAcedSec": 14.9,
+      "vertGuidanceDeg": [
+        -5,
+        10
+      ],
+      "turretTraverseDegSec": 18,
+      "ammoCapacity": 20,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "76 mm",
+        "side": "51 mm",
+        "rear": "38 mm"
+      },
+      "turretMm": {
+        "front": "132 mm",
+        "side": "47 mm",
+        "rear": "30 mm"
       },
       "crewCount": 4,
       "era": false,
