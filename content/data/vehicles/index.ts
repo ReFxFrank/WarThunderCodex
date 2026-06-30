@@ -518,5 +518,687 @@ export const vehicles: Vehicle[] = [
       "depthCharges": true
     },
     "survivability": "Survivability rests on mobility and a large 273-man crew rather than protection; the hull is only 16 mm thick with a 4 mm superstructure and 3/3/3 mm gun shields, so the ship relies on avoiding hits rather than absorbing them. The detailed belt, deck, and citadel values are not itemized on the Tier-1 stat card and are left unverified."
+  },
+  {
+    "id": "type-97-chi-ha",
+    "name": "Type 97 Chi-Ha",
+    "nation": "japan",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "I",
+    "battleRatings": {
+      "arcade": 1.3,
+      "realistic": 1.3,
+      "simulator": 1.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Type 97 Chi-Ha is a rank I Japanese medium tank sitting at 1.3 across Arcade, Realistic and Simulator, armed with a short 57 mm Type 97 cannon and wrapped in thin 25 to 32 mm plating. It plays as a low-pressure support vehicle whose forgiving gun handling and four-man crew count for more than its slight armour or firepower.",
+    "prosCons": {
+      "pros": [
+        "Generous gun depression suits ridgeline and hull-down play",
+        "Large 120-round ammunition load supports long engagements",
+        "Four-man crew gives a small survivability cushion for the rank",
+        "Low profile and light weight make it easy to reposition"
+      ],
+      "cons": [
+        "57 mm gun has weak penetration and a slow, looping shell flight",
+        "Thin 25 to 32 mm armour is defeated by nearly everything it faces",
+        "Sluggish turret traverse leaves it vulnerable to fast flankers",
+        "Modest 4.3 s stock reload until the crew is trained up"
+      ]
+    },
+    "playstyle": "Use the Chi-Ha as a close-to-mid range support tank rather than a frontline brawler. The 57 mm gun is short on penetration and slow to the target, so favour the flanks, tracks and exposed crew of enemies over frontal duels, and lead moving targets to account for the lobbed shell. The generous depression lets you peek from ridgelines and dips in the ground while keeping the fragile hull tucked away, and the deep 120-round magazine sustains fire from a held spot. Stay mobile and keep the hull angled, because 25 mm of frontal plate stops almost nothing and the unhurried turret leaves you exposed if a quick flanker reaches your side.",
+    "history": "The Type 97 Chi-Ha served as the Imperial Japanese Army's standard medium tank for much of the Second World War, reaching units in the late 1930s with a short 57 mm gun chosen mainly to support advancing infantry. Capable enough against fortifications and soft targets in the war's opening years, it fell behind Allied armour as the conflict wore on and was eventually rearmed as the Shinhoto Chi-Ha to extend its usefulness.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Type 97 Chi-Ha unit page",
+        "url": "https://wiki.warthunder.com/unit/jp_type_97_chi_ha",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering",
+      "enginePowerHp",
+      "powerToWeight",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 45,
+      "maxRevKph": 13,
+      "enginePowerHp": null,
+      "weightTons": 15.3,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "type-97-57mm",
+      "reloadBaseSec": 4.3,
+      "reloadAcedSec": 3.3,
+      "vertGuidanceDeg": [
+        -15,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 120,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "25",
+        "side": "25",
+        "rear": "20"
+      },
+      "turretMm": {
+        "front": "32",
+        "side": "25",
+        "rear": "25"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "amx-13-75",
+    "name": "AMX-13 (FL11)",
+    "nation": "france",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4.3,
+      "realistic": 4.3,
+      "simulator": 4.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The AMX-13 (FL11) is a rank III French light tank that pairs a feather-light 12.7 t hull with the FL-11 turret and a 75 mm SA49 cannon. With paper-thin armour but excellent mobility and a fast-traversing turret, it plays as a hit-and-run flanker that trades durability for speed and a punchy gun.",
+    "prosCons": {
+      "pros": [
+        "Very light and mobile, ideal for early caps and flanking",
+        "Fast turret traverse helps snap onto exposed enemies",
+        "75 mm SA49 packs a meaningful punch for its rating",
+        "Generous -8 degrees of gun depression aids ridge play",
+        "Small, low-profile light tank is easy to conceal"
+      ],
+      "cons": [
+        "Extremely thin armour (40 mm hull and turret) stops almost nothing",
+        "Only 3 crew, so penetrations often disable or knock it out",
+        "Reload is sluggish until the crew is leveled up",
+        "No protective angling possible against most same-rank guns",
+        "Punished hard by any return fire when caught in the open"
+      ]
+    },
+    "playstyle": "Play the AMX-13 as a scout and flanker rather than a frontline fighter — its 40 mm hull and 40 mm turret will not stop much, so every engagement should happen on your terms. Use the high top speed to seize early caps and reach the flanks of the enemy advance, then exploit the quick turret traverse to snap shots onto exposed sides before relocating. The 75 mm SA49 hits hard enough to knock out most same-rank targets, but the slow stock reload means you must place each round well; avoid prolonged trades, never get caught in the open, and lean on cover, smoke, and constant repositioning to stay alive in a tank that dies to almost any direct hit.",
+    "history": "The AMX-13 was a French post-war light tank known for its oscillating turret and autoloader-fed gun, designed to be air-transportable and highly mobile. The FL-11 turret variant mounted a 75 mm gun and represented an earlier configuration of the widely exported AMX-13 family, which went on to serve in numerous armies around the world for decades.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — AMX-13 (FL11) (fr_amx_13_fl_11)",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_13_fl_11",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "turretTraverseDegSec",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 12.7,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "sa49-75mm",
+      "reloadBaseSec": 7.8,
+      "reloadAcedSec": 6,
+      "vertGuidanceDeg": [
+        -8,
+        15
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 37,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "40",
+        "side": "20",
+        "rear": "15"
+      },
+      "turretMm": {
+        "front": "40",
+        "side": "20",
+        "rear": "20"
+      },
+      "crewCount": 3,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "strv-m42",
+    "name": "Strv m/42 DT",
+    "nation": "sweden",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 5,
+      "realistic": 5,
+      "simulator": 5
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "releaseUpdate": "1.97 \"Viking Fury\"",
+    "summary": "The Strv m/42 DT is a rank III Swedish medium tank whose stand-out trait is a remarkably fast-reloading 75 mm cannon paired with light armour and a brisk turn of speed. It plays as a fragile but punchy flanker that lives or dies by landing rapid, repeated shots before the enemy can answer.",
+    "prosCons": {
+      "pros": [
+        "Very fast reload for its rank, enabling rapid follow-up shots",
+        "75 mm gun with a capable APCBC round for reliable penetration",
+        "Good power-to-weight gives strong acceleration and agility",
+        "Generous gun depression (-10 degrees) suits ridgeline fighting",
+        "Roomy 42-round ammo stowage for sustained engagements"
+      ],
+      "cons": [
+        "Thin armour (60 mm maximum) is defeated by most guns it faces",
+        "Poor reverse speed makes disengaging dangerous",
+        "Fragile profile punishes any head-on trading",
+        "Modest 75 mm penetration ceiling versus better-armoured foes at the rating"
+      ]
+    },
+    "playstyle": "Treat the Strv m/42 DT as an aggressive flanker and opportunist sniper rather than a frontline brawler. Its key advantage is the roughly three-second aced reload, which lets you stack hits faster than almost anything at its rating, so prioritise positions where you can put several rounds into a target before it can return fire. The hull and turret are no thicker than 60 mm, so any direct trade is a losing proposition; stay mobile, use cover and side angles, and pick off distracted or reloading opponents from the flank. Be especially mindful when withdrawing, since the reverse speed is poor (and currently unconfirmed) and getting caught mid-relocation usually means death; lean on the rapid follow-up shots to win brief exchanges, then break contact along a route you have scouted in advance.",
+    "history": "The Swedish Stridsvagn m/42 was a domestically developed medium tank of the early 1940s, built to give Sweden a modern armoured vehicle during its wartime neutrality. The \"DT\" (Delat Torn, or \"split turret\") designation refers to a variant whose turret was reworked around a mechanised loading arrangement for its 75 mm gun, giving it an unusually high rate of fire for its era. A mock-up appeared in 1944 and a prototype in 1945, but after trials in 1946 the design was judged unsuccessful and shelved rather than entering service.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Strv m/42 DT (sw_strv_m42_delat_torn)",
+        "url": "https://wiki.warthunder.com/unit/sw_strv_m42_delat_torn",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": 410,
+      "weightTons": 23.5,
+      "powerToWeight": 17.4,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "pvkan-m43-75mm",
+      "reloadBaseSec": 3.9,
+      "reloadAcedSec": 3,
+      "vertGuidanceDeg": [
+        -10,
+        12
+      ],
+      "turretTraverseDegSec": 10.58,
+      "ammoCapacity": 42,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "55",
+        "side": "30",
+        "rear": "20"
+      },
+      "turretMm": {
+        "front": "60",
+        "side": "30",
+        "rear": "30"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m51-isherman",
+    "name": "M-51",
+    "nation": "israel",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6.3,
+      "realistic": 6.3,
+      "simulator": 6.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M-51 is a rank IV Israeli medium tank that mounts a hard-hitting 105 mm cannon firing a potent HEAT shell on a heavily modernized Sherman hull. Its single-shot lethality is balanced by thin armour, a crawling reverse, and no gun stabiliser, so it rewards patient, well-positioned play rather than aggressive brawling.",
+    "prosCons": {
+      "pros": [
+        "105 mm HEAT round hits extremely hard with strong one-shot potential",
+        "Good gun depression and elevation (-8 / +20 degrees) suit ridgeline fighting",
+        "Generous 56-round ammunition stowage",
+        "Five-man crew provides a buffer against a single penetration",
+        "Smoke shell helps break line of sight when repositioning"
+      ],
+      "cons": [
+        "Thin armour all round (63 mm hull front, 76 mm turret front) is easily penetrated at its rating",
+        "No gun stabiliser, so accurate fire on the move is impractical",
+        "Very slow 5 km/h reverse makes disengaging dangerous",
+        "Modest forward mobility (about 38 km/h) limits flanking and relocation",
+        "Long 9.7 s stock reload punishes any missed shot"
+      ]
+    },
+    "playstyle": "Treat the M-51 as a cautious ambusher and second-line support tank that relies entirely on its 105 mm HEAT round to knock out targets with one well-placed hit. Favour hull-down ridgelines or flank routes where you can fire first, then pull back into cover during the long reload instead of trading shots. The 63 mm hull and 76 mm turret front rarely stop same-rating guns, so avoid open ground and head-on duels. With no stabiliser, halt completely before firing and skip shots on the move; the modest forward speed near 38 km/h and the very slow 5 km/h reverse mean you should choose positions you can hold and leave deliberately rather than react under pressure.",
+    "history": "The M-51 was an Israeli rebuild of the American M4 Sherman, rearmed with a modified French 105 mm gun and given an uprated engine to handle the heavier weapon. Worked up during the 1960s, these so-called Super Shermans kept the ageing chassis competitive against newer armour and saw notable use in Israel's mid-century wars.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — M-51 (il_m_51)",
+        "url": "https://wiki.warthunder.com/unit/il_m_51",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 38.42,
+      "maxRevKph": 5,
+      "enginePowerHp": 460,
+      "weightTons": 40,
+      "powerToWeight": 11.5,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "cn-105-f1",
+      "reloadBaseSec": 9.7,
+      "reloadAcedSec": 7.5,
+      "vertGuidanceDeg": [
+        -8,
+        20
+      ],
+      "turretTraverseDegSec": 16.8,
+      "ammoCapacity": 56,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "63",
+        "side": "38",
+        "rear": "38"
+      },
+      "turretMm": {
+        "front": "76",
+        "side": "51",
+        "rear": "51"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "type-62",
+    "name": "Type 62",
+    "nation": "china",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6.7,
+      "realistic": 6.7,
+      "simulator": 6.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Type 62 is a rank IV Chinese light tank sitting at 6.7 in every mode, mating a thinly armoured 21-ton hull to the 85 mm Type 63 cannon. It leans on low weight and a quick turret to scout and flank, rather than standing and trading blows on the front line.",
+    "prosCons": {
+      "pros": [
+        "Light 21-ton hull with a strong 20.5 hp/t makes repositioning and flanking effortless",
+        "Quick turret rotation (up to 108.5 deg/s when aced) helps it meet close threats",
+        "Effective 85 mm Type 63 gun with a manageable 7.4 s aced reload",
+        "Generous 47-round stowage sustains longer fights",
+        "Pair of machine guns (12.7 mm and 7.62 mm) handles soft targets and low aircraft"
+      ],
+      "cons": [
+        "Paper-thin protection everywhere (35 mm hull front, 50 mm turret front) is trivially penetrated",
+        "A mere -5 degrees of depression cramps hull-down and ridge tactics",
+        "No ERA, composite, or APS while facing far heavier guns",
+        "Top speed is unremarkable for a light tank meant to outpace danger",
+        "Severely punished when a flanker catches it stopped or mid-reload"
+      ]
+    },
+    "playstyle": "Treat the Type 62 as a mobility-first flanker that wins through positioning, because 35 mm of hull front and 50 mm of turret front will stop almost nothing at this rating. Spend the 20.5 hp/t early to seize map edges and unwatched angles, put the 85 mm into enemy sides and rears, then relocate before the return shot lands. The brisk turret rotation helps it answer close-range surprises, but the shallow -5 degrees of depression makes cresting ridges clumsy, so favour level firing spots and stay mobile, since a parked Type 62 dies to nearly anything that sees it.",
+    "history": "The Type 62 emerged in China during the early 1960s as a lightened offshoot of the Type 59 medium tank, conceived for the soft ground and narrow roads and bridges of southern China where heavier armour struggled to operate. By shedding weight and armour for the sake of mobility, it entered broad service with Chinese forces and was exported to several nations across a lengthy operational life.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Type 62 (cn_type_62)",
+        "url": "https://wiki.warthunder.com/unit/cn_type_62",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 66,
+      "maxRevKph": 9,
+      "enginePowerHp": 430,
+      "weightTons": 21,
+      "powerToWeight": 20.5,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "type-62-85mm",
+      "reloadBaseSec": 9.6,
+      "reloadAcedSec": 7.4,
+      "vertGuidanceDeg": [
+        -5,
+        22
+      ],
+      "turretTraverseDegSec": 108.5,
+      "ammoCapacity": 47,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "35",
+        "side": "25",
+        "rear": "15"
+      },
+      "turretMm": {
+        "front": "50",
+        "side": "35",
+        "rear": "32"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "tiger-h1",
+    "name": "Tiger H1",
+    "nation": "germany",
+    "class": "ground",
+    "subclass": "Heavy tank",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 5.7,
+      "realistic": 5.7,
+      "simulator": 5.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Tiger H1 is Germany's first heavy tank in the tech tree, pairing the hard-hitting 88 mm KwK36 cannon with thick, flat armour plates that reward angling. At its battle rating it can frontally penetrate most opponents while bouncing a good share of return fire, making it a centerpiece of mid-rank German lineups.",
+    "prosCons": {
+      "pros": [
+        "88 mm KwK36 has strong penetration and a flat trajectory for accurate long-range shots",
+        "Thick, flat armour plates can bounce many same-BR rounds when properly angled",
+        "Generous 92-round ammo capacity supports prolonged engagements",
+        "Five-man crew improves survivability against crew-knockout hits",
+        "Good gun depression of -8 degrees suits hull-down positions"
+      ],
+      "cons": [
+        "Slow and heavy, with a sluggish top speed and very slow reverse",
+        "Flat armour is easy to penetrate when caught unangled or flanked",
+        "Large, tall profile is hard to hide and easy to spot",
+        "Side armour is vulnerable to flanking light and medium tanks",
+        "Reload remains lengthy until the crew is well trained"
+      ]
+    },
+    "playstyle": "Play the Tiger H1 as a long-range sniper and mid-range bully rather than a brawler. Its mobility is sluggish, so pick a hull-down or supported firing position early and let enemies come to you, using the 88 mm gun's flat trajectory and strong penetration to land first shots from afar. Angle the hull so the flat front and side plates present greater effective thickness, but watch the relatively weak side armour against flanking light tanks and the modest reverse speed, which makes disengaging slow. Spread the five-man crew advantage by trading blows: the tank can usually absorb a hit and keep fighting where thinner-crewed opponents cannot.",
+    "history": "The Panzerkampfwagen VI Ausf. H, better known as the Tiger I, entered German service in 1942 as a heavy breakthrough tank built around the formidable 88 mm gun derived from anti-aircraft and anti-tank designs. Its thick armour and powerful cannon made it a feared opponent on the battlefield, though its weight, mechanical complexity, and high production cost limited the numbers that could be fielded.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Tiger H1 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_h1_tiger",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 48,
+      "maxRevKph": 9,
+      "enginePowerHp": null,
+      "weightTons": 57.3,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "kwk36-88mm",
+      "reloadBaseSec": 9.6,
+      "reloadAcedSec": 7.4,
+      "vertGuidanceDeg": [
+        -8,
+        16
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 92,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "100",
+        "side": "80",
+        "rear": "80"
+      },
+      "turretMm": {
+        "front": "100",
+        "side": "80",
+        "rear": "80"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "macchi-c202",
+    "name": "Macchi C.202 Folgore",
+    "nation": "italy",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 3,
+      "realistic": 3,
+      "simulator": 2.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "releaseUpdate": "1.69 \"Regia Aeronautica\"",
+    "summary": "The Macchi C.202 Folgore is a nimble rank II Italian fighter built around energy retention and a tight turn rather than raw firepower. Armed with a pair of nose-mounted 12.7 mm Breda-SAFAT machine guns alongside two 7.7 mm guns, it rewards precise gunnery and patient air-superiority play over brute-force passes.",
+    "prosCons": {
+      "pros": [
+        "Tight, responsive turn and good energy retention for its rank",
+        "High structural strength — an 845 km/h IAS limit lets it dive hard without shedding wings",
+        "Compact nose-mounted gun layout removes convergence guesswork at close range",
+        "Light, clean airframe stays agile and easy to point in a knife fight"
+      ],
+      "cons": [
+        "Very light armament — only two 12.7 mm guns plus two rifle-calibre 7.7 mm guns means low burst damage",
+        "No bombs or rockets, so it offers nothing for ground targets",
+        "No defensive armament and minimal protection make it fragile under return fire",
+        "Needs sustained trigger time on target, which is risky in crowded furballs"
+      ]
+    },
+    "playstyle": "Fly the Folgore as a clean dogfighter and energy trader: climb on the merge, keep your speed up, and use the airframe's strong turn to bleed faster, heavier opponents into your gunsight. Because the armament is light and centred on two heavy machine guns backed by twin rifle-calibre 7.7 mm guns, you must close to short range and aim for fuel tanks, the pilot, and control surfaces rather than expecting a single deflection burst to do the job. Avoid prolonged low-speed scissors against equally agile fighters where your limited firepower drags fights out; instead, fight in the vertical, recover energy in shallow dives, and disengage cleanly when outnumbered since you carry no armour cushion against return fire. With no bombs or rockets, treat the C.202 strictly as a fighter and stay near friendly altitude to pick off distracted or low-energy targets.",
+    "history": "Italy's Macchi C.202 paired Mario Castoldi's refined C.200-derived airframe with a license-built Daimler-Benz DB 601 inline engine (the R.A.1000 RC.41), giving the Regia Aeronautica one of its most capable wartime fighters. The result was fast and agile but, like many Italian designs of the period, comparatively lightly armed, leaning on flying qualities rather than weight of fire.",
+    "media": [],
+    "sources": [
+      {
+        "label": "C. 202 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/mc-202_italy",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "A Brief History Of The Macchi M.C.202 \"Folgore\" — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/3097-a-brief-history-of-the-macchi-m-c-202-folgore",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "enginePowerHp",
+      "armor"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 580,
+      "maxSpeedAltM": 5000,
+      "climbMps": 12.8,
+      "turnTimeSec": 20,
+      "structuralLimitKph": 845,
+      "ceilingM": 10200,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "breda-safat-12.7mm",
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "p-51d-5",
+    "name": "P-51D-5 Mustang",
+    "nation": "usa",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4,
+      "realistic": 4,
+      "simulator": 5
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The P-51D-5 is a rank III American fighter built around six wing-mounted 12.7 mm Browning machine guns, a high service ceiling, and excellent energy retention. It excels as a high-altitude boom-and-zoom platform that punishes opponents from above rather than committing to sustained turn fights.",
+    "prosCons": {
+      "pros": [
+        "High service ceiling of 12,700 m for commanding altitude advantage",
+        "Strong top speed and good energy retention for boom-and-zoom tactics",
+        "Six 12.7 mm Brownings deliver a concentrated, reliable hitting punch",
+        "Large total ammunition pool of 2,080 rounds supports many passes",
+        "Flexible secondary loadout of bombs and rockets for ground attack"
+      ],
+      "cons": [
+        "Not a natural turn fighter against more nimble opponents",
+        "Relies on altitude and energy, punishing for pilots who fly it flat",
+        "Stock performance is noticeably weaker until key modules are unlocked",
+        "Machine-gun-only armament can struggle against well-armoured targets",
+        "Higher SB battle rating exposes it to stiffer competition in simulator"
+      ]
+    },
+    "playstyle": "Play the P-51D-5 as an energy fighter: climb high at the start of a match and use the strong top speed and 12,700 m ceiling to dictate engagements from above. Pick targets that have already bled their speed, make a single diving pass with the concentrated six-gun battery, then zoom back up to altitude rather than turning to re-engage. Avoid prolonged horizontal turn fights against dedicated dogfighters, manage the airframe carefully in steep dives, and use bombs or rockets opportunistically for ground targets when the air is clear.",
+    "history": "The P-51D was the definitive production variant of the North American Mustang, distinguished by its bubble canopy and a battery of six .50-calibre Browning machine guns. Powered by a Packard-built licence version of the Rolls-Royce Merlin, it combined long range with strong high-altitude performance and became one of the most important Allied escort fighters of the later war years.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — P-51D-5 stat card",
+        "url": "https://wiki.warthunder.com/unit/p-51d-5",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "War Thunder Wiki (old, printable) — P-51D-5",
+        "url": "https://old-wiki.warthunder.com/index.php?printable=yes&title=P-51D-5",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "structuralLimitKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 698,
+      "maxSpeedAltM": 7620,
+      "climbMps": 18,
+      "turnTimeSec": 23,
+      "structuralLimitKph": null,
+      "ceilingM": 12700,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m2-browning-50",
+          "count": 6
+        }
+      ],
+      "suspended": [
+        "Up to 2 x 1,000 lb AN-M65A1 bombs",
+        "Up to 10 x HVAR rockets",
+        "Up to 6 x M8 rockets"
+      ]
+    }
   }
 ];

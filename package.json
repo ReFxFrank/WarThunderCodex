@@ -5,6 +5,7 @@
   "description": "War Thunder Codex — an unofficial, research-driven knowledge base for War Thunder. Not affiliated with Gaijin Entertainment.",
   "scripts": {
     "dev": "next dev",
+    "dev:host": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",

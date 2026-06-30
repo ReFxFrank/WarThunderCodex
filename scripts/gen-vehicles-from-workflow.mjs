@@ -106,7 +106,9 @@ function toWeapon(entry) {
 async function readExistingArray(file) {
   try {
     const t = await fs.readFile(file, "utf8");
-    const s = t.indexOf("[");
+    // Start at the array literal after the `=` (NOT the `[` in the `Vehicle[]` type).
+    const eq = t.indexOf("=");
+    const s = eq < 0 ? -1 : t.indexOf("[", eq);
     const e = t.lastIndexOf("]");
     if (s < 0 || e < 0) return [];
     return JSON.parse(t.slice(s, e + 1));
