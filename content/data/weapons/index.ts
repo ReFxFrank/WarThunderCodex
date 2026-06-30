@@ -105,7 +105,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "bf-109-f-4"
+      "bf-109-f-4",
+      "fw-190-a-5"
     ],
     "notes": "A hub-mounted (Motorkanone) 20 mm autocannon firing through the propeller hub on the Bf 109 F-4, with a 700 rpm cadence and a 200-round magazine, giving a centerline-accurate, hard-hitting punch that rewards precise aim over volume of fire. In-game it offers six belt choices (Default, Universal, Air targets, Armored targets, Tracers, Stealth). Caliber (20 mm), fire rate (700 shots/min), and the 200-round capacity are confirmed on the Bf 109 F-4 wiki page; muzzle velocity is not listed on any Tier-1 page and is left unverified.",
     "sources": [
@@ -144,7 +145,8 @@ export const weapons: Weapon[] = [
     "ammoTypeIds": [],
     "usedBy": [
       "bf-109-f-4",
-      "ju-87-b-2"
+      "ju-87-b-2",
+      "fw-190-a-5"
     ],
     "notes": "A high rate-of-fire rifle-caliber cowl machine gun with negligible recoil and a deep ammo pool, but its tiny rounds inflict little damage and are best used to supplement the nose cannon rather than as a primary killer.",
     "sources": [

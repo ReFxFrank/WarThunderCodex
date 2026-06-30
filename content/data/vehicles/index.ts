@@ -1,8 +1,7 @@
 import type { Vehicle } from "@/lib/schema";
 
-// Seeded vehicle records — generated from the research/verify workflow.
+// Seeded vehicle records — generated from the Phase 3 research/verify workflow.
 // Every numeric stat is sourced; unverifiable fields are null and listed in unverified[].
-// media[] holds license-verified real-world photos (PD/CC) with credit.
 export const vehicles: Vehicle[] = [
   {
     "id": "t-34-85-1944",

@@ -129,6 +129,24 @@ const wpnPath = path.join("content", "data", "weapons", "index.ts");
 const vehicles = mergeById(await readExistingArray(vehPath), data.vehicles.map(toVehicle));
 const weapons = mergeById(await readExistingArray(wpnPath), (data.weapons ?? []).map(toWeapon));
 
+// Reconcile weapon.usedBy from actual vehicle references (ground mainGunId +
+// aviation fixedArmament). This makes reusing an existing gun id auto-extend its
+// usedBy — no manual patching when a new vehicle shares a gun.
+const refs = new Map(); // weaponId -> Set(vehicleId)
+for (const v of vehicles) {
+  const ids = [];
+  if (v.firepower?.mainGunId) ids.push(v.firepower.mainGunId);
+  for (const f of v.armament?.fixed ?? []) if (f?.weaponId) ids.push(f.weaponId);
+  for (const wid of ids) {
+    if (!refs.has(wid)) refs.set(wid, new Set());
+    refs.get(wid).add(v.id);
+  }
+}
+for (const w of weapons) {
+  const referencing = refs.get(w.id);
+  if (referencing) w.usedBy = [...new Set([...(w.usedBy ?? []), ...referencing])];
+}
+
 const vehFile =
   `import type { Vehicle } from "@/lib/schema";\n\n` +
   `// Seeded vehicle records — generated from the Phase 3 research/verify workflow.\n` +
