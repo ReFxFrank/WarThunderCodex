@@ -6,6 +6,8 @@ import { cn } from "@/lib/cn";
 interface ArmorViewerProps {
   hull?: { front?: string; side?: string; rear?: string };
   turret?: { front?: string; side?: string; rear?: string };
+  /** Hint so casemate TDs / SPAA don't draw a rotating turret + barrel. */
+  hasTurret?: boolean;
   className?: string;
 }
 
@@ -21,9 +23,9 @@ function num(s?: string): number | null {
 /** Colour an armour value on a thin→thick scale. */
 function armorColor(v: number | null): string {
   if (v == null) return "var(--faint)";
-  if (v >= 120) return "var(--ok)";
-  if (v >= 60) return "var(--accent)";
-  if (v >= 30) return "var(--caution)";
+  if (v >= 150) return "var(--ok)";
+  if (v >= 80) return "var(--accent)";
+  if (v >= 40) return "var(--caution)";
   return "var(--alert)";
 }
 
@@ -35,109 +37,206 @@ function facingFor(angle: number): Face {
   return "rear";
 }
 
+interface BoxDims {
+  w: number; // lateral (x)
+  d: number; // length, front→back (z)
+  h: number; // height (y)
+}
+
+// Six faces of a box, each mapped to the armour zone it represents.
+const BOX_FACES: {
+  k: string;
+  zone: Face | null;
+  tf: (b: BoxDims) => string;
+  size: (b: BoxDims) => [number, number];
+}[] = [
+  { k: "front", zone: "front", tf: (b) => `translateZ(${b.d / 2}px)`, size: (b) => [b.w, b.h] },
+  { k: "rear", zone: "rear", tf: (b) => `rotateY(180deg) translateZ(${b.d / 2}px)`, size: (b) => [b.w, b.h] },
+  { k: "right", zone: "side", tf: (b) => `rotateY(90deg) translateZ(${b.w / 2}px)`, size: (b) => [b.d, b.h] },
+  { k: "left", zone: "side", tf: (b) => `rotateY(-90deg) translateZ(${b.w / 2}px)`, size: (b) => [b.d, b.h] },
+  { k: "top", zone: null, tf: (b) => `rotateX(90deg) translateZ(${b.h / 2}px)`, size: (b) => [b.w, b.d] },
+  { k: "bottom", zone: null, tf: (b) => `rotateX(-90deg) translateZ(${b.h / 2}px)`, size: (b) => [b.w, b.d] },
+];
+
+/** A 3D box whose faces are tinted by the armour zone they represent. */
+function ArmorBox({
+  dims,
+  armor,
+  facing,
+  showLabels = true,
+}: {
+  dims: BoxDims;
+  armor?: { front?: string; side?: string; rear?: string };
+  facing: Face;
+  showLabels?: boolean;
+}) {
+  return (
+    <>
+      {BOX_FACES.map((f) => {
+        const raw = f.zone ? armor?.[f.zone] : undefined;
+        const v = num(raw);
+        const color = f.zone ? armorColor(v) : "var(--hairline-strong)";
+        const active = f.zone === facing;
+        const [fw, fh] = f.size(dims);
+        return (
+          <div
+            key={f.k}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: fw,
+              height: fh,
+              transform: `translate(-50%, -50%) ${f.tf(dims)}`,
+              transformStyle: "preserve-3d",
+              backfaceVisibility: "hidden",
+              background: `color-mix(in srgb, ${color} ${active ? 58 : 30}%, #0b0e11)`,
+              border: `1px solid ${active ? color : "var(--hairline)"}`,
+              boxShadow: active ? `inset 0 0 18px -4px ${color}` : "none",
+              display: "flex",
+              alignItems: "flex-start",
+              justifyContent: "center",
+              paddingTop: 4,
+            }}
+          >
+            {showLabels && f.zone && (
+              <span
+                className="font-data"
+                style={{
+                  fontSize: 11,
+                  color: v != null ? "var(--ink)" : "var(--faint)",
+                  textShadow: "0 1px 2px rgba(0,0,0,0.7)",
+                }}
+              >
+                {raw ?? "—"}
+              </span>
+            )}
+          </div>
+        );
+      })}
+    </>
+  );
+}
+
 /**
- * Interactive, rotatable top-down armour viewer. Drag to spin the tank (or use
- * the slider / face buttons); the face pointing at the viewer is read out with
- * its exact hull + turret thickness. Edges are colour-coded by thickness so the
- * strong and weak sides are visible at a glance. Uses only the documented
- * front/side/rear values — top and floor armour aren't in the dataset.
+ * Interactive 3D armour model. The tank is built from CSS-3D boxes (hull +
+ * turret + barrel) you can spin by dragging, with the slider, or the face
+ * buttons. Each face is tinted by its armour thickness, the side currently
+ * facing you is highlighted and read out, and the exact figures sit in the zone
+ * table below. Uses only the documented front/side/rear values (top/floor armour
+ * isn't in the dataset, so those faces are drawn neutral).
  */
-export function ArmorViewer({ hull, turret, className }: ArmorViewerProps) {
-  const [angle, setAngle] = useState(0);
+export function ArmorViewer({ hull, turret, hasTurret = true, className }: ArmorViewerProps) {
+  const [angle, setAngle] = useState(-28);
+  const [dragging, setDragging] = useState(false);
   const drag = useRef<{ x: number; base: number } | null>(null);
 
-  const cx = 120;
-  const cy = 104;
-  const R = 84;
-
-  const onDown = (e: React.PointerEvent<SVGSVGElement>) => {
-    drag.current = { x: e.clientX, base: angle };
-    e.currentTarget.setPointerCapture(e.pointerId);
-  };
-  const onMove = (e: React.PointerEvent<SVGSVGElement>) => {
-    if (!drag.current) return;
-    setAngle(drag.current.base + (e.clientX - drag.current.x) * 0.8);
-  };
-  const onUp = () => {
-    drag.current = null;
-  };
+  const HULL: BoxDims = { w: 120, d: 176, h: 40 };
+  const TURRET: BoxDims = { w: 86, d: 78, h: 34 };
+  const GUN: BoxDims = { w: 9, d: 70, h: 9 };
 
   const facing = facingFor(angle);
   const hullVal = hull?.[facing];
   const turretVal = turret?.[facing];
   const faceLabel = facing === "side" ? "Side" : facing === "front" ? "Front" : "Rear";
+  const norm = ((angle % 360) + 360) % 360;
 
-  // Hull edges (top-down, front toward +y/bottom at angle 0).
-  const edge = (key: Face, x1: number, y1: number, x2: number, y2: number, label: string, lx: number, ly: number) => {
-    const v = num(hull?.[key]);
-    const active = facing === key;
-    return (
-      <g key={`${key}-${x1}`}>
-        <line x1={x1} y1={y1} x2={x2} y2={y2} stroke={armorColor(v)} strokeWidth={active ? 7 : 5} strokeLinecap="round" opacity={active ? 1 : 0.8} />
-        <text x={lx} y={ly} textAnchor="middle" dominantBaseline="middle" fontSize="8" className="font-data" fill={active ? "var(--ink)" : "var(--muted)"}>{label}</text>
-      </g>
-    );
+  const onDown = (e: React.PointerEvent) => {
+    drag.current = { x: e.clientX, base: angle };
+    setDragging(true);
+    e.currentTarget.setPointerCapture(e.pointerId);
+  };
+  const onMove = (e: React.PointerEvent) => {
+    if (!drag.current) return;
+    setAngle(drag.current.base + (e.clientX - drag.current.x) * 0.6);
+  };
+  const onUp = () => {
+    drag.current = null;
+    setDragging(false);
   };
 
   return (
     <div className={cn("glass overflow-hidden p-4", className)}>
       <div className="mb-2 flex items-center justify-between">
-        <span className="label-tag text-accent">Armour · 360° view</span>
+        <span className="label-tag text-accent">Armour · 3D view</span>
         <span className="font-data text-[0.65rem] text-faint">drag to rotate</span>
       </div>
 
-      <svg
-        viewBox="0 0 240 208"
-        className="w-full cursor-grab touch-none select-none active:cursor-grabbing"
+      {/* 3D stage */}
+      <div
+        className="relative w-full cursor-grab touch-none select-none active:cursor-grabbing"
+        style={{ height: 280, perspective: 1100 }}
         onPointerDown={onDown}
         onPointerMove={onMove}
         onPointerUp={onUp}
         onPointerLeave={onUp}
         role="img"
-        aria-label={`Armour viewer, facing ${faceLabel}`}
+        aria-label={`3D armour model, facing ${faceLabel}`}
       >
-        {/* turntable */}
-        <circle cx={cx} cy={cy} r={R} fill="rgba(8,10,13,0.5)" stroke="var(--hairline)" />
-        {Array.from({ length: 24 }).map((_, i) => {
-          const a = (i * 15 * Math.PI) / 180;
-          const r1 = i % 6 === 0 ? R - 7 : R - 4;
-          return <line key={i} x1={cx + Math.cos(a) * r1} y1={cy + Math.sin(a) * r1} x2={cx + Math.cos(a) * R} y2={cy + Math.sin(a) * R} stroke="var(--hairline)" strokeWidth="1" />;
-        })}
+        {/* ground shadow */}
+        <div
+          className="pointer-events-none absolute left-1/2 top-[60%] h-10 w-56 -translate-x-1/2 rounded-[50%]"
+          style={{ background: "radial-gradient(50% 50% at 50% 50%, rgba(0,0,0,0.5), transparent 70%)" }}
+        />
+        <div
+          className={cn(
+            "absolute left-1/2 top-[46%]",
+            !dragging && "motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-out",
+          )}
+          style={{
+            transformStyle: "preserve-3d",
+            transform: `rotateX(-24deg) rotateY(${angle}deg)`,
+          }}
+        >
+          {/* hull */}
+          <div style={{ position: "absolute", transformStyle: "preserve-3d" }}>
+            <ArmorBox dims={HULL} armor={hull} facing={facing} />
+          </div>
 
-        {/* incoming-fire indicator at the viewer (bottom), fixed */}
-        <g opacity="0.7">
-          <polygon points={`${cx - 6},${cy + R + 14} ${cx + 6},${cy + R + 14} ${cx},${cy + R + 4}`} fill="var(--accent)" />
-          <text x={cx} y={cy + R + 24} textAnchor="middle" fontSize="7" className="label-tag" fill="var(--muted)">VIEWER</text>
-        </g>
-
-        {/* rotating tank (front toward +y at angle 0) */}
-        <g transform={`rotate(${angle} ${cx} ${cy})`}>
-          {/* hull body */}
-          <rect x={cx - 24} y={cy - 32} width="48" height="64" rx="3" fill="rgba(125,145,155,0.10)" stroke="var(--hairline)" strokeWidth="1" />
-          {/* edges (front=bottom, rear=top, sides) */}
-          {edge("rear", cx - 22, cy - 32, cx + 22, cy - 32, "R", cx, cy - 26)}
-          {edge("side", cx - 24, cy - 30, cx - 24, cy + 30, "S", cx - 18, cy)}
-          <line x1={cx + 24} y1={cy - 30} x2={cx + 24} y2={cy + 30} stroke={armorColor(num(hull?.side))} strokeWidth={5} strokeLinecap="round" opacity="0.8" />
-          {edge("front", cx - 22, cy + 32, cx + 22, cy + 32, "F", cx, cy + 26)}
-          {/* turret */}
-          <circle cx={cx} cy={cy + 4} r="15" fill="rgba(125,145,155,0.16)" stroke={armorColor(num(turret?.[facing]))} strokeWidth="2" />
-          {/* barrel toward front (+y) */}
-          <rect x={cx - 1.6} y={cy + 16} width="3.2" height="26" rx="1" fill="rgba(125,145,155,0.5)" />
-        </g>
-      </svg>
+          {/* turret + barrel (skipped for casemate/open SPAA mounts) */}
+          {hasTurret && (
+            <div
+              style={{
+                position: "absolute",
+                transformStyle: "preserve-3d",
+                transform: `translateY(${-(HULL.h / 2 + TURRET.h / 2)}px) translateZ(10px)`,
+              }}
+            >
+              <ArmorBox dims={TURRET} armor={turret} facing={facing} />
+              {/* barrel, pointing forward (+Z) from the turret face */}
+              <div
+                style={{
+                  position: "absolute",
+                  transformStyle: "preserve-3d",
+                  transform: `translateZ(${TURRET.d / 2 + GUN.d / 2}px)`,
+                }}
+              >
+                <ArmorBox
+                  dims={GUN}
+                  armor={undefined}
+                  facing={facing}
+                  showLabels={false}
+                />
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
 
       {/* readout */}
-      <div className="mt-2 flex items-center justify-between rounded border border-hairline bg-[rgba(8,10,13,0.5)] px-3 py-2">
+      <div className="mt-1 flex items-center justify-between rounded border border-hairline bg-[rgba(8,10,13,0.5)] px-3 py-2">
         <span className="label-tag">Facing · {faceLabel}</span>
         <span className="flex items-center gap-3 font-data text-sm">
           <span className="flex items-center gap-1.5">
             <span className="inline-block h-2 w-2 rounded-full" style={{ background: armorColor(num(hullVal)) }} />
             <span className={hullVal ? "text-ink" : "text-faint"}>Hull {hullVal ?? "—"}</span>
           </span>
-          <span className="flex items-center gap-1.5">
-            <span className="inline-block h-2 w-2 rounded-full" style={{ background: armorColor(num(turretVal)) }} />
-            <span className={turretVal ? "text-ink" : "text-faint"}>Turret {turretVal ?? "—"}</span>
-          </span>
+          {hasTurret && (
+            <span className="flex items-center gap-1.5">
+              <span className="inline-block h-2 w-2 rounded-full" style={{ background: armorColor(num(turretVal)) }} />
+              <span className={turretVal ? "text-ink" : "text-faint"}>Turret {turretVal ?? "—"}</span>
+            </span>
+          )}
         </span>
       </div>
 
@@ -150,7 +249,7 @@ export function ArmorViewer({ hull, turret, className }: ArmorViewerProps) {
             onClick={() => setAngle(a)}
             className={cn(
               "rounded border px-2 py-1 text-xs",
-              facingFor(angle) === facingFor(a) && ((((angle % 360) + 360) % 360 === a) || a === 0)
+              Math.round(norm / 90) % 4 === a / 90
                 ? "border-[color:var(--accent-dim)] text-accent"
                 : "border-hairline text-muted hover:text-ink",
             )}
@@ -162,7 +261,7 @@ export function ArmorViewer({ hull, turret, className }: ArmorViewerProps) {
           type="range"
           min={0}
           max={359}
-          value={((angle % 360) + 360) % 360}
+          value={Math.round(norm)}
           onChange={(e) => setAngle(Number(e.target.value))}
           aria-label="Rotate armour view"
           className="ml-auto h-1 flex-1 min-w-24 accent-[color:var(--accent)]"
@@ -177,12 +276,13 @@ export function ArmorViewer({ hull, turret, className }: ArmorViewerProps) {
             <dd className={cn("font-data", hull?.[f] ? "text-ink" : "text-faint")}>{hull?.[f] ?? "—"}</dd>
           </div>
         ))}
-        {(["front", "side", "rear"] as Face[]).map((f) => (
-          <div key={`t-${f}`} className={cn("flex items-center justify-between border-b border-hairline py-0.5", facing === f && "text-accent")}>
-            <dt className="text-muted">Turret {f}</dt>
-            <dd className={cn("font-data", turret?.[f] ? "text-ink" : "text-faint")}>{turret?.[f] ?? "—"}</dd>
-          </div>
-        ))}
+        {hasTurret &&
+          (["front", "side", "rear"] as Face[]).map((f) => (
+            <div key={`t-${f}`} className={cn("flex items-center justify-between border-b border-hairline py-0.5", facing === f && "text-accent")}>
+              <dt className="text-muted">Turret {f}</dt>
+              <dd className={cn("font-data", turret?.[f] ? "text-ink" : "text-faint")}>{turret?.[f] ?? "—"}</dd>
+            </div>
+          ))}
       </dl>
     </div>
   );
