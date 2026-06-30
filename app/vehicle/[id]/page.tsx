@@ -325,13 +325,27 @@ function ArmamentSection({ vehicle }: { vehicle: NonNullable<ReturnType<typeof g
           {gun.muzzleVelocityMps ? ` · ${gun.muzzleVelocityMps} m/s` : ""}.
         </p>
       )}
-      {ammo.length > 0 && (
+      <div className="label-tag mb-2">Available ammunition · in-game</div>
+      {ammo.length > 0 ? (
         <div className="mb-5 flex flex-wrap gap-2">
           {ammo.map((a) => (
             <Link key={a!.id} href={`/ammo/${a!.id}`} className="rounded border border-hairline bg-[rgba(8,10,13,0.45)] px-3 py-1.5 text-sm text-muted hover:border-[color:var(--hairline-strong)] hover:text-accent">
               {a!.name} <span className="font-data text-[0.7rem] text-faint">{a!.type}</span>
             </Link>
           ))}
+        </div>
+      ) : (
+        <div className="mb-5 rounded border border-hairline bg-[rgba(8,10,13,0.4)] px-3 py-2 text-sm text-faint">
+          The selectable in-game shells for {gun ? `the ${gun.name}` : "this gun"} are being sourced — each with its
+          own penetration table. Until then, see the{" "}
+          {gun ? (
+            <Link href={`/weapon/${gun.id}`} className="text-muted underline decoration-[color:var(--hairline-strong)] underline-offset-2 hover:text-accent">
+              weapon page
+            </Link>
+          ) : (
+            "weapon page"
+          )}
+          .
         </div>
       )}
       {series.length > 0 && <PenetrationCurve series={series} />}
