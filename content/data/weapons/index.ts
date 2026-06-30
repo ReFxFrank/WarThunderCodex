@@ -143,7 +143,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "bf-109-f-4"
+      "bf-109-f-4",
+      "ju-87-b-2"
     ],
     "notes": "A high rate-of-fire rifle-caliber cowl machine gun with negligible recoil and a deep ammo pool, but its tiny rounds inflict little damage and are best used to supplement the nose cannon rather than as a primary killer.",
     "sources": [
@@ -397,7 +398,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "macchi-c202"
+      "macchi-c202",
+      "sm-79"
     ],
     "notes": "A heavy 12.7 mm machine gun that anchors the C.202's nose armament, trading raw volume for reliable hitting power at a modest 700 rpm cadence. Carried in a pair (backed by two rifle-calibre 7.7 mm guns), it rewards patient, well-led bursts placed on a target rather than spray-and-pray, since its lighter punch compared to 20 mm cannons means lining up sustained hits is what brings enemies down. Muzzle velocity could not be confirmed on a Tier-1 page and is left as a visible gap rather than guessed.",
     "sources": [
@@ -912,7 +914,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "f-86f-25"
+      "f-86f-25",
+      "sbd-3-dauntless"
     ],
     "notes": "The aircraft M3 is a faster-firing development of the M2 Browning, raising the rate of fire to keep .50-cal armament relevant against jets. Six of them on the F-86F deliver a high volume of fire and a deep ammo pool, but each round is comparatively light, so kills come from sustained, well-aimed bursts rather than single passes.",
     "sources": [
@@ -1428,6 +1431,58 @@ export const weapons: Weapon[] = [
     ],
     "unverified": [
       "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "vya-23-23mm",
+    "name": "23 mm VYa-23",
+    "type": "autocannon",
+    "caliberMm": 23,
+    "fireRateRpm": 600,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "il-2-1942"
+    ],
+    "notes": "Soviet Volkov-Yartsev 23 mm aircraft autocannon developed in 1940 to defeat armor, prioritized over the lighter 20 mm ShVAK. Heavy-hitting rounds make it effective against light vehicles and aircraft, but the gun is mounted on slow attackers and carries a limited ammo pool, so short controlled bursts are essential.",
+    "sources": [
+      {
+        "label": "IL-2 (1942) | War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/il-2i",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "shkas-7mm",
+    "name": "7.62 mm ShKAS",
+    "type": "machine-gun",
+    "caliberMm": 7.62,
+    "fireRateRpm": 1800,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "il-2-1942"
+    ],
+    "notes": "Soviet rifle-caliber aircraft machine gun famous for an extremely high rate of fire, among the fastest-firing machine guns of its era. On the IL-2 it supplements the heavier 23 mm cannons, useful for ranging shots and softening light targets while the cannon ammunition is conserved.",
+    "sources": [
+      {
+        "label": "IL-2 (1942) | War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/il-2i",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
