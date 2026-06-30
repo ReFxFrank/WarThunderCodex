@@ -16,7 +16,7 @@ import { PenetrationCurve, type PenSeries } from "@/components/vehicle/Penetrati
 import { StatRow, StatTable } from "@/components/vehicle/Readout";
 import { getAllVehicles, getVehicle, getWeapon, getAmmo } from "@/lib/content";
 import { NATION_MAP } from "@/lib/nations";
-import { classLabel } from "@/lib/vehicle";
+import { classLabel, browsePath, browseLabel } from "@/lib/vehicle";
 
 export const dynamicParams = false;
 
@@ -40,7 +40,7 @@ export default async function VehiclePage({ params }: { params: Promise<{ id: st
   const vehicle = getVehicle(id);
   if (!vehicle) notFound();
 
-  const browseHref = `/${vehicle.class}`;
+  const browseHref = browsePath(vehicle);
   const photo = vehicle.media.find((m) => m.type === "image");
 
   return (

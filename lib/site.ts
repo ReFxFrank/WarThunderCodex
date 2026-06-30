@@ -60,6 +60,11 @@ export const PRIMARY_NAV: NavLink[] = [
     blurb: "Fighters, bombers, and jets — performance envelopes.",
   },
   {
+    href: "/helicopters",
+    label: "Helicopters",
+    blurb: "Attack and scout rotorcraft — cannon, ATGMs, and rockets.",
+  },
+  {
     href: "/naval",
     label: "Naval",
     blurb: "Boats to battleships — gunnery, torpedoes, citadels.",
@@ -98,7 +103,7 @@ export const PRIMARY_NAV: NavLink[] = [
 
 // A trimmed set used in the header bar (the long list lives on the home grid).
 export const HEADER_NAV: NavLink[] = PRIMARY_NAV.filter((l) =>
-  ["/getting-started", "/mechanics", "/ground", "/aviation", "/naval", "/weapons", "/glossary"].includes(
+  ["/getting-started", "/mechanics", "/ground", "/aviation", "/helicopters", "/naval", "/weapons", "/glossary"].includes(
     l.href,
   ),
 );
