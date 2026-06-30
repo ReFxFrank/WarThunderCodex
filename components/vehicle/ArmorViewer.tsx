@@ -169,7 +169,10 @@ export function ArmorViewer({ hull, turret, hasTurret = true, ammo, className }:
   const [dragging, setDragging] = useState(false);
   const [ammoId, setAmmoId] = useState("");
   const [rangeM, setRangeM] = useState(10);
-  const drag = useRef<{ x: number; y: number; baseYaw: number; basePitch: number } | null>(null);
+  // We track only the LAST pointer position and apply each move incrementally,
+  // so dragging past the pitch clamp never builds up a hidden "dead zone" you
+  // have to unwind before the model responds (was very noticeable on touch).
+  const drag = useRef<{ x: number; y: number } | null>(null);
 
   const HULL: BoxDims = { w: 120, d: 176, h: 40 };
   const TURRET: BoxDims = { w: 86, d: 78, h: 34 };
@@ -193,16 +196,20 @@ export function ArmorViewer({ hull, turret, hasTurret = true, ammo, className }:
   const turretV = verdict(turretVal);
 
   const onDown = (e: React.PointerEvent) => {
-    drag.current = { x: e.clientX, y: e.clientY, baseYaw: angle, basePitch: pitch };
+    drag.current = { x: e.clientX, y: e.clientY };
     setDragging(true);
     e.currentTarget.setPointerCapture(e.pointerId);
   };
   const onMove = (e: React.PointerEvent) => {
     if (!drag.current) return;
-    setAngle(drag.current.baseYaw + (e.clientX - drag.current.x) * 0.6);
+    const dx = e.clientX - drag.current.x;
+    const dy = e.clientY - drag.current.y;
+    drag.current.x = e.clientX;
+    drag.current.y = e.clientY;
+    setAngle((a) => a + dx * 0.6);
     // Vertical drag tilts (grab-and-pull): drag down → roof, drag up → belly.
-    const p = drag.current.basePitch - (e.clientY - drag.current.y) * 0.6;
-    setPitch(Math.max(-88, Math.min(88, p)));
+    // Clamp the live value each step so reversing direction responds instantly.
+    setPitch((p) => Math.max(-88, Math.min(88, p - dy * 0.6)));
   };
   const onUp = () => {
     drag.current = null;
