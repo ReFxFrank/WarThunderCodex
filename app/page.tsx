@@ -132,7 +132,9 @@ export default async function HomePage() {
         </SectionHeading>
         <div className="flex flex-wrap gap-2">
           {NATIONS.map((n) => (
-            <NationChip key={n.id} nation={n.id} />
+            <Link key={n.id} href={`/nations/${n.id}`} className="transition-transform hover:-translate-y-0.5">
+              <NationChip nation={n.id} />
+            </Link>
           ))}
         </div>
       </Container>
