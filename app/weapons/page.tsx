@@ -1,61 +1,83 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Container } from "@/components/layout/Container";
-import { GlassCard } from "@/components/ui/GlassCard";
 import { ComingSoon } from "@/components/ui/ComingSoon";
-import { getAllWeapons } from "@/lib/content";
+import { WeaponBrowser, type WeaponRow } from "@/components/weapon/WeaponBrowser";
+import { getAllWeapons, getAllVehicles } from "@/lib/content";
+import { isHelicopter } from "@/lib/vehicle";
 
 export const metadata: Metadata = {
   title: "Weapons",
-  description: "Gun families across the War Thunder roster — caliber, rate of fire, the rounds they fire, and who carries them.",
+  description:
+    "Gun families across the War Thunder roster — sorted by domain (ground, aviation, helicopters, naval), with caliber, rate of fire, and who carries them.",
 };
 
-const TYPE_LABEL: Record<string, string> = {
-  cannon: "Cannons", autocannon: "Autocannons", "machine-gun": "Machine guns", "naval-gun": "Naval guns", "rocket-pod": "Rocket pods",
-};
+// Infer a gun's domain from the classes of the vehicles that mount it. A gun used
+// by both a tank and an aircraft belongs to both. Falls back to its type when no
+// vehicle references it yet (e.g. naval guns described only on ship pages).
+function buildDomainIndex(): Map<string, Set<string>> {
+  const idx = new Map<string, Set<string>>();
+  const add = (wid: string | null | undefined, domain: string) => {
+    if (!wid) return;
+    if (!idx.has(wid)) idx.set(wid, new Set());
+    idx.get(wid)!.add(domain);
+  };
+  for (const v of getAllVehicles()) {
+    if (v.class === "ground") {
+      add(v.firepower.mainGunId, "ground");
+    } else if (v.class === "aviation") {
+      const domain = isHelicopter(v) ? "helicopters" : "aviation";
+      for (const f of v.armament.fixed) add(f.weaponId, domain);
+    }
+    // Naval armament is described inline on ship pages, not as weapon entities.
+  }
+  return idx;
+}
+
+function inferFromType(type: string): string[] {
+  if (type === "naval-gun") return ["naval"];
+  if (type === "rocket-pod") return ["aviation"];
+  return [];
+}
 
 export default function WeaponsIndex() {
   const weapons = getAllWeapons();
   if (weapons.length === 0) {
     return (
       <ComingSoon
-        eyebrow="Gun families" title="Weapons"
+        eyebrow="Gun families"
+        title="Weapons"
         intro="The cannons, autocannons, and machine guns shared across the roster. Pages are built; sourced guns are being seeded."
         phase="Seeding in progress (Phase 4 / 5)"
         planned={["Caliber, fire rate, and muzzle velocity", "The ammunition each gun can load", "Every vehicle that mounts the weapon"]}
       />
     );
   }
-  const types = Array.from(new Set(weapons.map((w) => w.type)));
+
+  const domainIdx = buildDomainIndex();
+  const rows: WeaponRow[] = weapons.map((w) => {
+    const domains = domainIdx.get(w.id);
+    return {
+      id: w.id,
+      name: w.name,
+      type: w.type,
+      caliberMm: w.caliberMm ?? null,
+      fireRateRpm: w.fireRateRpm ?? null,
+      usedByCount: w.usedBy.length,
+      domains: domains ? Array.from(domains) : inferFromType(w.type),
+    };
+  });
+
   return (
     <Container className="py-12 sm:py-14">
       <div className="mb-8 max-w-3xl">
         <div className="label-tag mb-2 text-accent">Gun families</div>
         <h1 className="font-display text-4xl font-semibold tracking-wide text-ink sm:text-5xl">Weapons</h1>
-        <p className="mt-3 text-base text-muted">Guns are reused across many vehicles — each entry lists the rounds it fires and who carries it.</p>
+        <p className="mt-3 text-base text-muted">
+          Guns are reused across many vehicles. Filter by domain — ground, aviation, helicopters, or naval — then by gun
+          type; each entry links to the rounds it fires and who carries it.
+        </p>
       </div>
-      <div className="space-y-8">
-        {types.map((t) => (
-          <section key={t}>
-            <div className="label-tag mb-3">{TYPE_LABEL[t] ?? t}</div>
-            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {weapons.filter((w) => w.type === t).map((w) => (
-                <GlassCard key={w.id} as={Link} href={`/weapon/${w.id}`} interactive className="group p-4">
-                  <div className="flex items-center justify-between">
-                    <h3 className="font-display text-lg font-semibold tracking-wide text-ink group-hover:text-accent">{w.name}</h3>
-                    <span className="text-muted group-hover:text-accent">→</span>
-                  </div>
-                  <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 font-data text-xs text-muted">
-                    {w.caliberMm != null && <span>{w.caliberMm} mm</span>}
-                    {w.fireRateRpm != null && <span>{w.fireRateRpm} rpm</span>}
-                    <span>{w.usedBy.length} vehicle{w.usedBy.length === 1 ? "" : "s"}</span>
-                  </div>
-                </GlassCard>
-              ))}
-            </div>
-          </section>
-        ))}
-      </div>
+      <WeaponBrowser weapons={rows} />
     </Container>
   );
 }

@@ -182,15 +182,18 @@ export function SearchDialog() {
           aria-modal="true"
           aria-label="Search"
         >
-          {/* backdrop */}
+          {/* backdrop — opaque enough to fully obscure the page even where the
+              browser drops backdrop-filter (notably mobile Chrome). */}
           <button
             type="button"
             aria-label="Close search"
             onClick={close}
-            className="absolute inset-0 cursor-default bg-[rgba(4,6,8,0.7)] backdrop-blur-sm"
+            className="absolute inset-0 cursor-default bg-[rgba(3,5,7,0.86)] backdrop-blur-sm"
           />
 
-          <div className="glass glass-strong relative z-10 w-full max-w-xl overflow-hidden">
+          {/* Solid (not glass) panel: a translucent + backdrop-blur panel let the
+              page bleed through wherever the blur failed, which read as broken. */}
+          <div className="relative z-10 w-full max-w-xl overflow-hidden rounded-[var(--radius-panel)] border border-[color:var(--hairline-strong)] bg-[var(--bg-raised)] shadow-[0_24px_60px_-12px_rgba(0,0,0,0.85)]">
             <div className="flex items-center gap-2 border-b border-hairline px-3">
               <SearchGlyph />
               <input
