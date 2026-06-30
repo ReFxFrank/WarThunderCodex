@@ -1,8 +1,7 @@
 import type { Vehicle } from "@/lib/schema";
 
-// Seeded vehicle records — generated from the research/verify workflow.
+// Seeded vehicle records — generated from the Phase 3 research/verify workflow.
 // Every numeric stat is sourced; unverifiable fields are null and listed in unverified[].
-// media[] holds license-verified real-world photos (PD/CC) with credit.
 export const vehicles: Vehicle[] = [
   {
     "id": "t-34-85-1944",
@@ -16243,7 +16242,7 @@ export const vehicles: Vehicle[] = [
     "nation": "italy",
     "class": "ground",
     "subclass": "MBT",
-    "rank": "VII",
+    "rank": "V",
     "battleRatings": {
       "arcade": 8,
       "realistic": 8,
@@ -16327,7 +16326,7 @@ export const vehicles: Vehicle[] = [
     "nation": "italy",
     "class": "ground",
     "subclass": "Light tank",
-    "rank": "VII",
+    "rank": "VI",
     "battleRatings": {
       "arcade": 9.3,
       "realistic": 9.3,
