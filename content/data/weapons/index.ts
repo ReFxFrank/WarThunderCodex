@@ -315,28 +315,34 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "cn-105-f1",
-    "name": "105 mm CN105 F1 cannon",
+    "name": "CN-105-F1 (105 mm)",
     "type": "cannon",
     "caliberMm": 105,
     "fireRateRpm": null,
-    "muzzleVelocityMps": null,
+    "muzzleVelocityMps": 1525,
     "ammoTypeIds": [],
     "usedBy": [
+      "amx-32-105",
       "m51-isherman",
       "amx-30"
     ],
-    "notes": "French 105 mm rifled main gun of the CN-105-F1 family, fitted to the AMX-30 and (as a modified F1) to the Israeli M51 Sherman. The AMX-30 unit page prints the in-game name as '105 mm CN105 F1 cannon'. Its signature round is the OCC-105-F1 full-caliber HEAT shell. Per-shell muzzle velocities are not shown on the unit stat card, so muzzleVelocityMps is left null.",
+    "notes": "French 105 mm rifled gun of the AMX-30 family. Its top OFL 105 F1 APFSDS round reaches about 1525 m/s muzzle velocity; HEAT/HE rounds travel closer to 1000 m/s. Fire rate is gunner/reload limited rather than a fixed cyclic value.",
     "sources": [
       {
-        "label": "AMX-30 — War Thunder Wiki (official unit page)",
-        "url": "https://wiki.warthunder.com/unit/fr_amx_30",
+        "label": "CN-105-F1 (105 mm) | War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/CN-105-F1_(105_mm)",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "AMX-32 (105) | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_32_105",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
-      "fireRateRpm",
-      "muzzleVelocityMps"
+      "fireRateRpm"
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
@@ -3503,25 +3509,34 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "hispano-mk-v-20mm",
-    "name": "Hispano Mk.V",
+    "name": "Hispano Mk.V (20 mm)",
     "type": "cannon",
     "caliberMm": 20,
-    "fireRateRpm": 750,
+    "fireRateRpm": null,
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
+      "sea-fury-fb-11",
+      "vampire-fb-5",
       "tempest-mk-v"
     ],
-    "notes": "Late-war British 20 mm autocannon, a lighter and faster-firing development of the Hispano series used as the Tempest Mk V's primary armament.",
+    "notes": "Lightened, shorter British 20 mm autocannon derived from the Hispano series, offering a higher rate of fire than earlier marks at the cost of muzzle velocity. Mounted as a four-gun nose or wing battery on late British piston and early jet fighters.",
     "sources": [
       {
-        "label": "Tempest Mk V | War Thunder Wiki",
-        "url": "https://wiki.warthunder.com/unit/tempest_mkv",
+        "label": "Sea Fury FB 11 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sea_fury_fb11",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Vampire F.B.5 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/vampire_fb5",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
+      "fireRateRpm",
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
@@ -3901,6 +3916,344 @@ export const weapons: Weapon[] = [
     ],
     "unverified": [
       "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "browning-303-7mm",
+    "name": "Browning (7.7 mm)",
+    "type": "machine-gun",
+    "caliberMm": 7.7,
+    "fireRateRpm": 1000,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "hurricane-mk-i-l"
+    ],
+    "notes": "British .303-calibre adaptation of the Browning machine gun, mounted in large multi-gun batteries on early RAF fighters. Reliable and high-volume but limited in penetration against armoured targets.",
+    "sources": [
+      {
+        "label": "Hurricane Mk I/L | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/hurricane_mk1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "sa46-120mm",
+    "name": "SA46 (120 mm)",
+    "type": "cannon",
+    "caliberMm": 120,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": 1000,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "amx-50-foch"
+    ],
+    "notes": "120 mm gun developed for the AMX-50 family. The standard round leaves the barrel at roughly 1000 m/s, with the 120 mm Obus de rupture APBC at about 1067 m/s. On the Foch it is manually loaded, giving a long reload between very powerful shots.",
+    "sources": [
+      {
+        "label": "AMX-50 Foch | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_50_foch",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "d911-apx-90mm",
+    "name": "D.911 APX (90 mm)",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "char-25t"
+    ],
+    "notes": "French 90 mm gun mounted in the Char 25t's oscillating turret and fed by an autoloader, giving a roughly 4-second cycle between rounds in the magazine. Muzzle velocity for its specific in-game shells could not be confirmed from a clean wiki stat reading and is left null.",
+    "sources": [
+      {
+        "label": "Char 25t | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_bat_chat_25t",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "D.911 APX (90 mm) | War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/D.911_APX_(90_mm)",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "breda-mod35-20mm",
+    "name": "20 mm Breda Mod.35 cannon",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 240,
+    "muzzleVelocityMps": 840,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "l6-40"
+    ],
+    "notes": "Italian 20 mm autocannon firing API-T by default with access to a PzGr 40 belt providing HVAP-T. Effective against early light armour and aircraft but penetration falls off quickly at range.",
+    "sources": [
+      {
+        "label": "Breda Mod.35 (20 mm) — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/Breda_Mod.35_(20_mm)",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "L6/40 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_l6",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "oerlikon-kad-20mm",
+    "name": "20 mm Oerlikon KAD cannon",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 996,
+    "muzzleVelocityMps": 1000,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "r3-t20-fa-hs"
+    ],
+    "notes": "High-velocity 20 mm autocannon with a very high rate of fire, fed from 120-round belts. Carries API-T and HEF-I rounds suited to both anti-air and light anti-armour work.",
+    "sources": [
+      {
+        "label": "Oerlikon KAD (20 mm) — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/Oerlikon_KAD_(20_mm)",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "R3 T20 FA-HS — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_oto_r3_t20_fa",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "oto-breda-76-62",
+    "name": "76 mm OTO Breda Cannone da 76/62",
+    "type": "cannon",
+    "caliberMm": 76,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": 1580,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "otomatic"
+    ],
+    "notes": "Naval-derived 76 mm rapid-fire gun with a 0.5 s reload. Fires 76/62 SAPOM, proximity-fused 76/62 HE-VT for anti-air, and an OTOMATIC-exclusive 76/62 APFSDS for anti-tank work; the APFSDS muzzle velocity is 1580 m/s.",
+    "sources": [
+      {
+        "label": "OTOMATIC — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_otomatic",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "OTO Breda Cannone da 76/62 (76 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/OTO_Breda_Cannone_da_76/62_(76_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "us-120mm-m58",
+    "name": "120 mm M58 cannon",
+    "type": "cannon",
+    "caliberMm": 120,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m103"
+    ],
+    "notes": "Large-bore 120 mm rifled gun (developed from the T123E1) carried by the M103, firing APCBC and HEAT-FS rounds with strong penetration and post-penetration effect. Reload is roughly 19.4 s stock and 14.9 s aced.",
+    "sources": [
+      {
+        "label": "M103 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m103",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "us-152mm-m81",
+    "name": "152 mm M81 gun/launcher",
+    "type": "cannon",
+    "caliberMm": 152,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m551-sheridan"
+    ],
+    "notes": "Combined 152 mm gun and missile launcher on the M551 Sheridan, firing low-velocity HEAT and HE shells plus the MGM-51 Shillelagh ATGM. Reload is about 15.6 s stock and 12 s aced.",
+    "sources": [
+      {
+        "label": "M551 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m551",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "us-152mm-m162",
+    "name": "152 mm M162 gun/launcher",
+    "type": "cannon",
+    "caliberMm": 152,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m60a2"
+    ],
+    "notes": "Two-plane stabilised 152 mm gun/launcher on the M60A2 Starship, firing HEAT, overpressure HE and the MGM-51 Shillelagh missile. Reload is about 15.6 s stock and 12 s aced.",
+    "sources": [
+      {
+        "label": "M60A2 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m60a2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "u-5ts-115mm",
+    "name": "115 mm U-5TS cannon",
+    "type": "cannon",
+    "caliberMm": 115,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": 1615,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "t-62"
+    ],
+    "notes": "First Soviet smoothbore tank gun, two-plane stabilised, firing APFSDS, HEATFS and HE. The 3BM4 APFSDS dart leaves the muzzle at about 1615 m/s for very flat trajectories. Base reload on the T-62 is 10.4 s.",
+    "sources": [
+      {
+        "label": "T-62 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_62",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m-62-t2s-122mm",
+    "name": "122 mm M-62-T2S cannon",
+    "type": "cannon",
+    "caliberMm": 122,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "t-10m"
+    ],
+    "notes": "Two-plane stabilised rifled 122 mm gun on the T-10M firing APHE and HEATFS. Heavy single-shot damage with a slow base reload of about 19.5 s.",
+    "sources": [
+      {
+        "label": "T-10M — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_10m",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "d-49-122mm",
+    "name": "122 mm D-49 cannon",
+    "type": "cannon",
+    "caliberMm": 122,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "su-122-54"
+    ],
+    "notes": "Rifled 122 mm gun mounted in the fixed casemate of the SU-122-54, firing APHE and HEATFS. Slow gun traverse (about 4.9 deg/s) and a base reload near 16 s.",
+    "sources": [
+      {
+        "label": "SU-122-54 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_su_122_54",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"

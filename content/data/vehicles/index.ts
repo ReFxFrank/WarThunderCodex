@@ -18103,7 +18103,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Climb above the fight at the merge and use the K-4's superb energy retention to dictate engagements from above. Commit to single diving passes, fire the MK 108 only at close range to offset its slow shells, and zoom back up rather than entering a turn fight. Manage your speed carefully in dives, since the controls grow heavy and recovery margins shrink near the structural limit.",
     "history": "Produced between late 1944 and the spring of 1945, the K-4 was Messerschmitt's attempt to wring more performance from the ageing 109 airframe through a boosted DB 605 engine with MW-50 injection. Roughly 1,500 were built, and by early 1945 a large share of front-line 109s were K-4s. It served as a high-altitude interceptor and point-defence fighter in the closing months of the war in Europe.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/bf-109-k-4.jpg",
+        "alt": "A wartime Bf 109 K-4 of the Italian ANR photographed at Milano Malpensa in spring 1945, not the in-game model.",
+        "credit": "Unknown author (sconosciuto) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Bf 109 K-4 | War Thunder Wiki (official unit page)",
@@ -18173,7 +18180,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Take the Ta 152 high and fight in its element above 9,000 m, where the boosted Jumo engine and wide wing give it a clear edge. Use altitude and speed to set up diving attacks, then climb back up to reset rather than bleeding energy in turns. Save the MK 108 for guaranteed close shots and lean on the 20 mm cannons for tracking and convergence at range.",
     "history": "The Ta 152 emerged from Focke-Wulf's effort to build a dedicated high-altitude interceptor capable of defending the Reich from high-flying bombers and reconnaissance aircraft. The H-1 used extended wings and the Jumo 213E with two-stage supercharging to reach altitudes few contemporaries could match, making it one of the fastest piston fighters of the war. Only a small number entered service before the war's end, and the type saw limited combat in 1945.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ta-152-h-1.jpg",
+        "alt": "A real Focke-Wulf Ta 152 H high-altitude fighter from the San Diego Air & Space Museum's Charles Daniels Collection, not the in-game model.",
+        "credit": "SDASM Archives (San Diego Air & Space Museum) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Ta 152 H-1 | War Thunder Wiki (official unit page)",
@@ -18239,7 +18253,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Build and protect your speed at all times, since the Salamander accelerates slowly and is helpless when slow. Use its high top speed and very high dive limit to make fast slashing passes on bombers and propeller fighters, then extend away to rebuild energy. Avoid prolonged turn fights and ration the small ammunition load with short, well-aimed bursts.",
     "history": "The He 162 was conceived late in the war as the 'Volksjager', a cheap, simple jet intended to be mass-produced and flown by minimally trained pilots, even glider-trained recruits. The original A-1 mounted 30 mm MK 108 cannons, but firing vibration damage forced the A-2 to switch to the lighter 20 mm MG 151. The design entered service only in the final weeks of the war and saw very little operational use.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/he-162-a-2.jpg",
+        "alt": "A surviving Heinkel He 162 A-2 Salamander on display at the Imperial War Museum Duxford, not the in-game model.",
+        "credit": "Mark Harkin · CC-BY 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "He 162 A-2 | War Thunder Wiki (official unit page)",
@@ -18301,7 +18322,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight at medium to long range where the main belt is most effective and angle the hull to keep shells off the citadel and aft magazines. Lead with the 410 mm guns against capital targets while the 140 mm secondaries screen against destroyers. Avoid sailing broadside-on, since plunging fire into the rear magazines can end the match instantly.",
     "history": "Mutsu was the second Nagato-class battleship, completed in 1921 and counted among the so-called Big Seven battleships that retained 16-inch guns under the Washington Naval Treaty. She served as a symbol of Japanese naval prestige throughout the interwar years and into the Second World War. On 8 June 1943 a magazine explosion at Hashirajima anchorage tore the ship apart, killing over a thousand of her crew in one of the IJN's worst peacetime-anchorage disasters.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ijn-mutsu.jpg",
+        "alt": "The real Imperial Japanese Navy battleship Mutsu of the Nagato class, late 1930s, not the in-game model.",
+        "credit": "Unknown author (IJN Archives) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "IJN Mutsu — War Thunder Wiki",
@@ -18375,7 +18403,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use her superb rate of fire to overwhelm destroyers and light cruisers while staying mobile to avoid concentrated return fire. Angle the hull at range to let the belt bounce incoming rounds, and keep the long-lance torpedoes ready for any target that pushes into close quarters. Protect the lightly armored turrets by minimizing prolonged broadside exposure.",
     "history": "Mikuma was the second of the four Mogami-class cruisers, completed in the mid-1930s with a main battery of triple 155 mm turrets later intended for upgrade to 203 mm guns. She fought at the Battle of Midway in June 1942, where she collided with sister ship Mogami and was subsequently crippled by American carrier aircraft. She sank on 6 June 1942, the first Japanese heavy cruiser lost in the war.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ijn-mikuma.jpg",
+        "alt": "The real Mogami-class cruiser Mikuma anchored in Kagoshima Harbor in 1939, not the in-game model.",
+        "credit": "Imperial Japanese Navy · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "IJN Mikuma — War Thunder Wiki",
@@ -18444,7 +18479,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Engage cruisers and destroyers at medium range with the full ten-gun broadside, angling the hull to protect the citadel. Hold the long-lance torpedoes for flanking runs or to deter pushes into close range. Lean on the dense 25 mm battery to fend off aircraft while keeping the fragile turrets out of sustained fire.",
     "history": "Myoko was the lead ship of her class of four heavy cruisers, completed in 1929 and repeatedly modernized through the 1930s with heavier armament and improved protection. She served extensively in the Pacific War, fighting in actions from the Java Sea to Leyte Gulf. Damaged by torpedo attack late in the war, she survived to be surrendered in 1945 and was later scuttled.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ijn-myoko.jpg",
+        "alt": "The real heavy cruiser Myoko underway in 1937, not the in-game model.",
+        "credit": "Imperial Japanese Navy · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "IJN Myoko — War Thunder Wiki",
@@ -18513,7 +18555,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight at medium to long range where her accurate main guns and stable platform can land consistent salvos before listing becomes a problem. Use the dense AA battery to shrug off air attacks while focusing destroyers and lighter cruisers with rapid, precise fire. Keep capital ships at arm's length and angle the hull, since her thin armour cannot trade blows with battleship calibre rounds.",
     "history": "Laid down in 1936 and launched in 1938, Prinz Eugen was the last heavy cruiser completed for the Kriegsmarine. In May 1941 she accompanied Bismarck during the Battle of the Denmark Strait, helping sink HMS Hood before parting ways after a fuel leak. She survived the war and was expended as a target during the Operation Crossroads atomic tests at Bikini Atoll in 1946.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/prinz-eugen.jpg",
+        "alt": "The real Admiral Hipper-class heavy cruiser Prinz Eugen transiting the Panama Canal on 15 March 1946 under US control, not the in-game model.",
+        "credit": "U.S. Navy, Naval Photographic Center (80-G-365075) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Prinz Eugen — War Thunder Wiki (unit page)",
@@ -18582,7 +18631,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play to the strengths of the nine-gun broadside by holding flanking positions and pouring fire onto destroyers and other light cruisers. Lean on the dense AA suite to clear aircraft while staying mobile and avoiding sustained duels with heavy cruisers. Use torpedoes opportunistically in close quarters, but disengage rather than trade hits against anything carrying larger calibre guns.",
     "history": "Laid down in 1934 and commissioned in 1935, Nürnberg was the largest and last light cruiser built for the Kriegsmarine before the war. She spent much of the conflict in the Baltic and Norwegian waters, surviving largely intact through 1945. Handed over to the Soviet Union as war reparations, she served in the Soviet Navy as Admiral Makarov into the 1950s.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/nurnberg.jpg",
+        "alt": "The real Kriegsmarine light cruiser Nurnberg underway in 1946, not the in-game model.",
+        "credit": "No 5 Army Film & Photographic Unit, Stiggins (Sergeant) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Nürnberg — War Thunder Wiki (unit page)",
@@ -18651,7 +18707,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use Köln as a mobile gunfighter, picking off destroyers and lighter cruisers from the flanks with her nine-gun broadside. Stay alert to aircraft since her AA is thin, and keep moving to avoid being pinned by heavier opponents. Bring the torpedoes into play in close engagements, then break contact rather than absorb fire from anything bigger.",
     "history": "Köln was the third and final unit of the Königsberg class, developed under the tonnage limits of the Treaty of Versailles. Commissioned in 1930, she served in pre-war training roles and operated off Norway and in the Baltic during the war. She was sunk by US bombers at Wilhelmshaven in March 1945, settling upright in shallow water with her guns still able to fire.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/koln.jpg",
+        "alt": "The real Konigsberg-class light cruiser Koln underway in the late 1930s, not the in-game model.",
+        "credit": "U.S. Navy (Official U.S. Navy photo NH 98268) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Köln — War Thunder Wiki (unit page)",
@@ -18720,7 +18783,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight at medium range where her fifteen-gun broadside can chew through destroyers and other light cruisers before they react. Keep angled to the enemy to spread incoming fire across the hull and protect the citadel, and never let smaller torpedo boats get inside your turn radius. Because she has no torpedoes of her own, she must win every exchange with gunnery alone.",
     "history": "Laid down in 1933 and commissioned in 1937, USS Brooklyn pioneered the five-turret 6-inch layout that would shape American light-cruiser design through World War II. She fought at the Battle of Casablanca and provided naval gunfire support at Sicily, Anzio, and southern France. Placed in reserve after the war, she was transferred to Chile in 1951 as O'Higgins and served for four more decades before sinking under tow in 1992.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/uss-brooklyn.jpg",
+        "alt": "The Brooklyn-class light cruiser USS Brooklyn (CL-40) underway on 15 May 1943; not the in-game model.",
+        "credit": "U.S. Navy (Naval History & Heritage Command photo 80-G-68106) · PD-USGov-Military-Navy · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "USS Brooklyn — War Thunder Wiki (unit page)",
@@ -18793,7 +18863,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use her fast turret traverse to bounce fire between multiple light targets, exploiting the twelve 6-inch guns and strong secondaries against destroyers and cruisers. The dense Bofors and Oerlikon battery makes her a capable area-defense ship, so do not be afraid to swat aircraft when no surface threat is pressing. Avoid prolonged duels with battleships and heavy cruisers, whose armor shrugs off her 6-inch shells at range.",
     "history": "Launched in 1941, USS Cleveland reused the Brooklyn hull because wartime urgency left no time for an entirely new design after the naval treaties lapsed. She served throughout the Pacific war, taking part in the Guadalcanal campaign and the Battle of the Philippine Sea. Her class became the most numerous cruiser line the United States ever built, a true workhorse of the wartime fleet.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/uss-cleveland.jpg",
+        "alt": "The lead Cleveland-class light cruiser USS Cleveland (CL-55) underway at sea in late 1942; not the in-game model.",
+        "credit": "U.S. Navy (Naval History & Heritage Command photo NH 55173) · PD-USGov-Military-Navy · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "USS Cleveland — War Thunder Wiki (unit page)",
@@ -18867,7 +18944,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play her as a long-range sniper, using the reach and punch of the nine 8-inch guns while staying out of return fire from better-armored opponents. Her thin protection means a single well-placed enemy salvo can be fatal, so keep moving, angle the hull, and avoid brawls. Pick off destroyers and light cruisers from distance and disengage before heavier ships range you in.",
     "history": "USS Northampton was originally designed as a light cruiser but was reclassified as a heavy cruiser after the Washington Naval Treaty's tonnage rules took effect, accepting weak armor in exchange for nine 8-inch guns. She was at sea near Pearl Harbor during the December 1941 attack and later fought at the Battle of the Santa Cruz Islands, aiding the stricken carrier Hornet. She was lost at the Battle of Tassafaronga in 1942, staying afloat for three hours after two torpedo hits to allow an orderly evacuation.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/uss-northampton.jpg",
+        "alt": "The heavy cruiser USS Northampton (CA-26) underway, 1941-42; not the in-game model.",
+        "credit": "Unknown (Australian War Memorial, ID 302689) · PD-Australia · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "USS Northampton — War Thunder Wiki (unit page)",
@@ -18936,7 +19020,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use Trento's speed to flank and open fire from angles where you can land full broadsides while staying mobile. Keep moving to dodge incoming salvoes since the thin armor offers little forgiveness. Reserve the torpedoes for ambushing larger ships or punishing destroyers that close the distance.",
     "history": "Trento was the lead ship of the Trento class, laid down in 1925 under the constraints of the Washington Naval Treaty, though she exceeded its tonnage limits. She served extensively in the Mediterranean during World War II, taking part in the battles of Calabria, Cape Spartivento, Cape Matapan, and both battles of Sirte. She was sunk by British submarine and air attack in June 1942 during the Battle of Mid-June.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/rn-trento.jpg",
+        "alt": "The Italian heavy cruiser Trento; not the in-game model.",
+        "credit": "Unknown (via U.S. Naval History & Heritage Command, photo NH 86592) · PD-Italy · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "RN Trento | War Thunder Wiki",
@@ -19004,7 +19095,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play Zara as a durable line cruiser, angling the well-armored belt toward the enemy to bounce or absorb fire. Trade methodical 203 mm broadsides while the slow reload forces patience between salvoes. Use the cruiser's handling to weave around incoming shells and torpedoes rather than relying on raw speed.",
     "history": "Zara was laid down in 1929 and commissioned into the Regia Marina in 1931 as the lead ship of her class. She served as a Mediterranean heavy cruiser during World War II and was lost at the Battle of Cape Matapan in March 1941, when British battleships ambushed and overwhelmed her by night. It took only a handful of salvoes from HMS Warspite to force her abandonment.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/rn-zara.jpg",
+        "alt": "The lead Zara-class heavy cruiser Zara of the Regia Marina; not the in-game model.",
+        "credit": "Unknown (via U.S. Naval History & Heritage Command, photo NH 111457) · PD-Italy · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "RN Zara | War Thunder Wiki",
@@ -19072,7 +19170,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat Pola as a frontline tank cruiser, angling the belt and relying on the buried citadel to shrug off return fire. Pick patient 203 mm broadsides and stay broadside-on only when the armor is favorably angled. As a premium, it doubles as an efficient earner for grinding the Italian fleet.",
     "history": "Pola was the final Zara-class heavy cruiser, commissioned in 1932 and configured with an enlarged bridge to serve as flagship of the 2nd Squadron. She fought at the battles of Punta Stilo and Cape Teulada in 1940. She was crippled by British torpedo aircraft and then sunk during the Battle of Cape Matapan in March 1941.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/rn-pola.jpg",
+        "alt": "The Zara-class heavy cruiser Pola of the Regia Marina, c. 1930s; not the in-game model.",
+        "credit": "Unknown (via U.S. Naval History & Heritage Command) · PD-Italy · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "RN Pola | War Thunder Wiki",
@@ -19140,7 +19245,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight from hull-down or behind cover so the strong turret does the work while the soft hull stays hidden. Use the generous depression to peek over ridges and trade shots, then pull back during the lengthy reload. Avoid open flanking duels where the poor mobility leaves you exposed.",
     "history": "The FV214 Conqueror was developed in the early 1950s to give British armoured regiments in West Germany a gun capable of defeating the new generation of heavy Soviet tanks such as the IS-3. It mounted a 120 mm rifled gun in a powered turret atop a Centurion-derived hull. Around 180 were built before the role was absorbed by the universal main battle tank concept.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/conqueror.jpg",
+        "alt": "The British FV214 Conqueror heavy tank; not the in-game model.",
+        "credit": "UK Government / scanned by Ian Dunster (Tank Museum Guide, 1973) · PD-UKGov · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Conqueror - War Thunder Wiki (unit page)",
@@ -19224,7 +19336,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Stay at the second line and pick off targets from concealment, since exposing the fragile turret invites instant death. Choose firing positions with an escape route because the long reload makes brawling suicidal. Lead targets carefully and aim for the largest part of the enemy, as the HESH round rewards any hit.",
     "history": "The FV4005 was a 1950s British project to mount a colossal 183 mm gun on a tank chassis as a heavy anti-tank weapon against the latest Soviet heavies. The Stage II design used a Centurion hull topped by a large, lightly built powered turret. The programme was cancelled, with only prototypes completed, but the surviving vehicle is preserved at the Tank Museum.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/fv4005.jpg",
+        "alt": "The FV4005 Stage II (183 mm) at The Tank Museum, Bovington; not the in-game model.",
+        "credit": "AcesAndEights8 · CC-BY-SA-4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "FV4005 - War Thunder Wiki (unit page)",
@@ -19308,7 +19427,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Hold back and snipe with the flat-shooting APDS, using terrain and concealment to stay out of return fire. Because reverse speed is dreadful, prefer firing positions you can roll forward out of rather than back into. Pick targets at range and relocate often, since one solid hit will likely knock you out.",
     "history": "After the Second World War the British Army faced a surplus of obsolescent Cromwell tanks just as Cold War tensions rose and the new Centurion was only beginning production. As a stop-gap, surplus Cromwell hulls were rebuilt with a larger turret mounting the modern 20-pounder gun, producing the Charioteer. The type served into the 1950s and was exported to several nations.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/charioteer-mk-vii.jpg",
+        "alt": "An FV4101 Charioteer preserved at the Yad la-Shiryon Museum, Latrun, Israel; not the in-game model.",
+        "credit": "User:Bukvoed · CC-BY-SA-3.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Charioteer Mk VII - War Thunder Wiki (unit page)",
@@ -19363,6 +19489,1450 @@ export const vehicles: Vehicle[] = [
       "era": true,
       "composite": false,
       "aps": false
+    }
+  },
+  {
+    "id": "amx-32-105",
+    "name": "AMX-32 (105)",
+    "nation": "france",
+    "class": "ground",
+    "subclass": "MBT",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.3,
+      "realistic": 9.3,
+      "simulator": 9.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The AMX-32 (105) is the first prototype subvariant of the AMX-32, a late-1970s export development of the AMX-30 family armed with the 105 mm CN-105-F1. It pairs a modern fire-control suite (two-plane stabilizer, laser rangefinder, gunner's thermal) with the lightly armoured, agile hull lineage of the AMX-30.",
+    "prosCons": {
+      "pros": [
+        "Excellent OFL 105 F1 APFSDS with very high muzzle velocity and strong penetration",
+        "Full fire-control package: two-plane stabilizer, laser rangefinder and gunner thermal sight",
+        "Light weight gives good agility and a respectable power-to-weight for repositioning",
+        "Fast reload for a 105 mm gun keeps damage output high"
+      ],
+      "cons": [
+        "Thin hull and turret armour offer little protection against same-rank rounds",
+        "No composite or ERA, so it relies entirely on not being hit",
+        "Turret traverse is only adequate, punishing close-range duels",
+        "Sluggish reverse makes pulling back off a peek dangerous"
+      ]
+    },
+    "playstyle": "Treat the AMX-32 (105) as a fire-support and second-line skirmisher rather than a brawler. Use the thermals and laser rangefinder to land first-shot APFSDS hits from concealment, then relocate before return fire arrives. Avoid head-on engagements; its survivability comes from positioning, not plating.",
+    "history": "The AMX-32 was co-developed in the late 1970s by the Issy-les-Moulineaux and Puteaux ateliers as an improved export tank aimed at nations with limited defence budgets. The 105 mm prototype kept the proven CN-105-F1 gun while adding a modernized fire-control system over the baseline AMX-30. The design ultimately found no export buyers and did not enter series production.",
+    "media": [],
+    "sources": [
+      {
+        "label": "AMX-32 (105) | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_32_105",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "CN-105-F1 (105 mm) | War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/CN-105-F1_(105_mm)",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 65,
+      "maxRevKph": 65,
+      "enginePowerHp": 700,
+      "weightTons": 38,
+      "powerToWeight": 18.4,
+      "reverseGears": null,
+      "neutralSteering": true
+    },
+    "firepower": {
+      "mainGunId": "cn-105-f1",
+      "reloadBaseSec": 8.7,
+      "reloadAcedSec": 6.7,
+      "vertGuidanceDeg": [
+        -8,
+        20
+      ],
+      "turretTraverseDegSec": 17.5,
+      "ammoCapacity": 47,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "50",
+        "side": "35",
+        "rear": "30"
+      },
+      "turretMm": {
+        "front": "80",
+        "side": "41",
+        "rear": "30"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "amx-50-foch",
+    "name": "AMX-50 Foch",
+    "nation": "france",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7.3,
+      "realistic": 7.3,
+      "simulator": 7.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The AMX-50 Foch is a casemate tank destroyer built on the AMX-50 chassis and armed with the hard-hitting 120 mm SA46 gun in a fixed superstructure. It trades a rotating turret for thick frontal plating and one of the most devastating single-shot guns at its rank.",
+    "prosCons": {
+      "pros": [
+        "120 mm SA46 delivers crushing single-shot damage with heavy post-penetration spalling",
+        "Well-sloped 180 mm casemate front shrugs off many APHE and AP rounds frontally",
+        "Strong neutral steering helps aim the fixed gun without rolling forward",
+        "Good firepower-to-protection balance for a tank destroyer of its tier"
+      ],
+      "cons": [
+        "Fixed casemate gun leaves it vulnerable to flankers and fast lights",
+        "Very long reload between shots punishes any miss",
+        "Poor reverse speed makes disengaging after a peek difficult",
+        "HEAT-FS rounds common at its BR can defeat the frontal armour"
+      ]
+    },
+    "playstyle": "Play the Foch as a defensive anchor that holds a lane and trades one heavy blow at a time. Angle the hull slightly to maximize the casemate's effective thickness while keeping the gun on the most likely threat axis. Always watch your flanks, since the fixed gun and weak reverse make repositioning slow and exposed.",
+    "history": "The first AMX-50 Foch prototype, named after Marshal Ferdinand Foch, was completed in 1950 and shown at the 14 July Paris military parade that year. It was conceived as a long-range casemate support vehicle to back the turreted AMX-50 mediums. The project was abandoned once a 120 mm turreted AMX-50 version was pursued, rendering the Foch redundant.",
+    "media": [],
+    "sources": [
+      {
+        "label": "AMX-50 Foch | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_50_foch",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 52,
+      "maxRevKph": 19,
+      "enginePowerHp": 1000,
+      "weightTons": 59.5,
+      "powerToWeight": 16.81,
+      "reverseGears": null,
+      "neutralSteering": true
+    },
+    "firepower": {
+      "mainGunId": "sa46-120mm",
+      "reloadBaseSec": 19.4,
+      "reloadAcedSec": 14.9,
+      "vertGuidanceDeg": [
+        -6,
+        17
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 48,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "180",
+        "side": "40",
+        "rear": "40"
+      },
+      "turretMm": {
+        "front": "180",
+        "side": "40",
+        "rear": "40"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "char-25t",
+    "name": "Char 25t",
+    "nation": "france",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 8,
+      "simulator": 8
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Batignolles-Chatillon Char 25t is a fast, lightly armoured French medium with an oscillating turret and a 90 mm D.911 APX autoloader. It plays like an oversized light tank, leaning on speed and rapid magazine fire rather than protection.",
+    "prosCons": {
+      "pros": [
+        "Oscillating-turret autoloader fires a full magazine very quickly",
+        "Excellent top speed and agility for aggressive flanking",
+        "Low, compact profile makes it easy to hide and hull-down",
+        "Capable 90 mm gun rewards accurate flank shots"
+      ],
+      "cons": [
+        "Paper-thin armour gives almost no protection from any direction",
+        "Must reload the whole magazine after it empties, leaving it exposed",
+        "Limited gun depression of only 6 degrees restricts hull-down play",
+        "Lightly built, so even fragments and autocannons threaten the crew"
+      ]
+    },
+    "playstyle": "Exploit the Char 25t's speed to reach flanks and side-shot distracted enemies before they can react. Dump the magazine on a single target or several closely grouped ones, then break contact to reload behind cover. Never trade frontally; its survival depends on never being where return fire expects it.",
+    "history": "The Batignolles-Chatillon Char 25t was a French early Cold War prototype designed around a 25-tonne weight class, roughly double the AMX-13 light tanks. It used an oscillating turret with an autoloader feeding the 90 mm D.911 APX gun and a four-man crew. Only two prototypes were built and the design was never developed further into production.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Char 25t | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_bat_chat_25t",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reloadAcedSec",
+      "reverseGears"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 65,
+      "maxRevKph": 65,
+      "enginePowerHp": 500,
+      "weightTons": 25.4,
+      "powerToWeight": 19.7,
+      "reverseGears": null,
+      "neutralSteering": true
+    },
+    "firepower": {
+      "mainGunId": "d911-apx-90mm",
+      "reloadBaseSec": 4,
+      "reloadAcedSec": null,
+      "vertGuidanceDeg": [
+        -6,
+        13
+      ],
+      "turretTraverseDegSec": 25.2,
+      "ammoCapacity": 52,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "50",
+        "side": "25",
+        "rear": "30"
+      },
+      "turretMm": {
+        "front": "50",
+        "side": "25",
+        "rear": "20"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "hurricane-mk-i-l",
+    "name": "Hurricane Mk I/L",
+    "nation": "britain",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 2.7,
+      "realistic": 2.3,
+      "simulator": 2
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Hurricane Mk I/L is an early-war British monoplane fighter armed with eight rifle-calibre Browning machine guns. It is a forgiving, well-rounded reserve-tier fighter that turns reasonably and absorbs damage, though it lacks the speed and energy retention of its Spitfire stablemates.",
+    "prosCons": {
+      "pros": [
+        "Eight machine guns deliver a dense stream of fire at close range",
+        "Generous ammunition pool of over 2,600 rounds",
+        "Sturdy airframe that shrugs off light-calibre hits",
+        "Forgiving, stable handling that is easy for newer pilots"
+      ],
+      "cons": [
+        "Rifle-calibre guns lack punch against armoured or tougher targets",
+        "Mediocre energy retention leaves it sluggish at low speed",
+        "Slower top speed than most contemporaries",
+        "No bombs or rockets, so it is air-combat only"
+      ]
+    },
+    "playstyle": "Use the Hurricane's decent turn rate to drag faster opponents into a sustained turn fight where its eight guns can land hits. Keep your energy up and avoid bleeding speed, since the airframe is slow to recover momentum. Get in close before firing to concentrate the rifle-calibre rounds on a single point of the enemy.",
+    "history": "The Hawker Hurricane first flew in 1935 and entered RAF service in 1937 as Britain's first monoplane fighter capable of exceeding 300 mph. During the Battle of Britain it shouldered the bulk of the fighting and was credited with a majority of Luftwaffe losses. Its rugged, easily repaired structure kept it in frontline and secondary roles throughout the war.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Hurricane Mk I/L | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/hurricane_mk1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 525,
+      "maxSpeedAltM": 3962,
+      "climbMps": 10.9,
+      "turnTimeSec": 15,
+      "structuralLimitKph": 660,
+      "ceilingM": 10700,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "browning-303-7mm",
+          "count": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "l6-40",
+    "name": "L6/40",
+    "nation": "italy",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "I",
+    "battleRatings": {
+      "arcade": 1,
+      "realistic": 1,
+      "simulator": 1
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The L6/40 is a tiny two-man Italian reconnaissance light tank that opens the Italian ground tree at the bottom rank. Its rapid-firing 20 mm Breda autocannon punches well above its weight against the lightly armoured opposition it meets at this battle rating.",
+    "prosCons": {
+      "pros": [
+        "Fast-firing 20 mm autocannon shreds early light vehicles and aircraft",
+        "Compact, low-profile hull is easy to hide and hard to hit",
+        "Quick turret traverse helps when flanking or being flanked",
+        "Good agility for poking and repositioning"
+      ],
+      "cons": [
+        "Paper-thin armour offers no protection against tank cannons",
+        "Only a two-man crew, so a single hit can knock it out",
+        "Autocannon penetration falls off quickly at range",
+        "Easily overwhelmed if uptiered against armoured opponents"
+      ]
+    },
+    "playstyle": "Play the L6/40 as a flanker and ambusher rather than a frontline brawler. Use its small size and speed to reach the enemy's flanks, then walk the autocannon across exposed sides, tracks and crew. Avoid head-on duels with anything carrying a real cannon, since a single hit will usually end the engagement.",
+    "history": "The L6/40 was developed by Ansaldo-Fiat on an enlarged L3 tankette chassis to give the Royal Italian Army a modern light reconnaissance tank. Armed with a 20 mm Breda autocannon in a one-man turret, it served in North Africa, the Balkans and on the Eastern Front. By the time it saw combat it was already outclassed, but it remained in reconnaissance and cavalry roles throughout the war.",
+    "media": [],
+    "sources": [
+      {
+        "label": "L6/40 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_l6",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Breda Mod.35 (20 mm) — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/Breda_Mod.35_(20_mm)",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 47,
+      "maxRevKph": 7,
+      "enginePowerHp": 105,
+      "weightTons": 6.8,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "breda-mod35-20mm",
+      "reloadBaseSec": 7.8,
+      "reloadAcedSec": 6,
+      "vertGuidanceDeg": [
+        -12,
+        20
+      ],
+      "turretTraverseDegSec": 16.8,
+      "ammoCapacity": 296,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "30",
+        "side": "15",
+        "rear": "15"
+      },
+      "turretMm": {
+        "front": "30",
+        "side": "15",
+        "rear": "15"
+      },
+      "crewCount": 2,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m103",
+    "name": "M103",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Heavy tank",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7.7,
+      "realistic": 7.7,
+      "simulator": 7.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M103 is the United States' heaviest production tank, built to counter Soviet heavies and centred entirely around its enormous 120 mm M58 cannon. Sluggish and large, it lives and dies by landing the first shot from a hull-down or well-angled position.",
+    "prosCons": {
+      "pros": [
+        "Massive 120 mm gun with excellent post-penetration damage and strong HEAT and APCBC rounds",
+        "Thick, well-shaped turret front that can bounce many rounds when played hull-down",
+        "Generous 33-round ammo stowage for a heavy tank",
+        "Stabilised gunner optics make ranging easier at distance"
+      ],
+      "cons": [
+        "Very poor mobility; struggles to reposition or keep pace with the team",
+        "Slow reload leaves long windows of vulnerability between shots",
+        "Large, tall silhouette is easy to spot and hit",
+        "Hull armour is mediocre and the lower plate is easily defeated at this rating"
+      ]
+    },
+    "playstyle": "Play the M103 as a long-range gun platform and a hull-down sniper rather than a frontline brawler. Pick a firing position with terrain or a crest to hide the weak hull and expose only the strong turret, then punish enemies one shot at a time. Avoid open flanking or rushing, since the dismal speed and long reload make any caught-out moment fatal.",
+    "history": "Spurred by the appearance of the Soviet IS-3 at the 1945 Berlin victory parade, the US Army developed a heavy tank able to defeat it, leading to the T43 program standardised as the M103 in the 1950s. Around 300 were built, the bulk serving with the US Marine Corps, which valued the long-range 120 mm gun as a defensive anti-armour weapon. The type soldiered on into the mid-1970s before being retired as main battle tanks took over the heavy role.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M103 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m103",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 33,
+      "maxRevKph": 8,
+      "enginePowerHp": 810,
+      "weightTons": 56.7,
+      "powerToWeight": 14.3,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "us-120mm-m58",
+      "reloadBaseSec": 19.4,
+      "reloadAcedSec": 14.9,
+      "vertGuidanceDeg": [
+        8,
+        15
+      ],
+      "turretTraverseDegSec": 16.8,
+      "ammoCapacity": 33,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "114",
+        "side": "51",
+        "rear": "38"
+      },
+      "turretMm": {
+        "front": "162",
+        "side": "79",
+        "rear": "58"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m551-sheridan",
+    "name": "M551 Sheridan",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 8,
+      "simulator": 8
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M551 Sheridan is a fast, lightly built air-mobile light tank carrying a 152 mm M81 gun/launcher that fires both potent chemical shells and the MGM-51 Shillelagh guided missile. Its speed, scouting and missile reach make it a flanker and support sniper rather than a frontline fighter.",
+    "prosCons": {
+      "pros": [
+        "Excellent speed and agility for repositioning and flanking",
+        "Very fast turret traverse and good gun depression for a light tank",
+        "152 mm HEAT and the MGM-51 ATGM threaten almost anything it meets",
+        "Light and small enough to scout effectively"
+      ],
+      "cons": [
+        "Paper-thin armour that even heavy machine guns can defeat",
+        "Long reload between shots",
+        "Low shell velocity and heavy drop on the conventional rounds",
+        "Tall hull for a light tank, making concealment harder"
+      ]
+    },
+    "playstyle": "Use the Sheridan's speed to reach flanks and elevated positions, then engage with HEAT up close or the Shillelagh missile at range. Never trade blows frontally; one hit usually disables the crew, so rely on first-shot kills and relocate constantly. It also makes a strong scout, marking targets for heavier teammates before slipping away.",
+    "history": "Named after Civil War general Philip Sheridan, the M551 was conceived as an air-droppable armoured reconnaissance/airborne assault vehicle for the US Army in the 1960s. Its centrepiece was the ambitious 152 mm M81 gun/launcher firing both caseless conventional ammunition and the Shillelagh ATGM, a system plagued by reliability problems in early service. Despite this it saw combat in Vietnam and the Gulf War, with the airborne community retaining it into the mid-1990s.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M551 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m551",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 69,
+      "maxRevKph": 16,
+      "enginePowerHp": 300,
+      "weightTons": 15.2,
+      "powerToWeight": 19.7,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "us-152mm-m81",
+      "reloadBaseSec": 15.6,
+      "reloadAcedSec": 12,
+      "vertGuidanceDeg": [
+        8,
+        19
+      ],
+      "turretTraverseDegSec": 28,
+      "ammoCapacity": 30,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "31",
+        "side": "25",
+        "rear": "19"
+      },
+      "turretMm": {
+        "front": "25",
+        "side": "25",
+        "rear": "25"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m60a2",
+    "name": "M60A2",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 8.3,
+      "simulator": 8.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "Nicknamed the Starship, the M60A2 mates the M60 hull to a low, missile-armed turret built around a 152 mm M162 gun/launcher firing HEAT, HE and the MGM-51 Shillelagh ATGM. A laser rangefinder and a compact turret make it a capable long-range sniper despite its quirky armament.",
+    "prosCons": {
+      "pros": [
+        "152 mm M162 fires HEAT, overpressure HE and the long-range MGM-51 missile",
+        "Laser rangefinder enables accurate first-shot hits at distance",
+        "Low, compact turret is hard to hit and keeps the crew well protected",
+        "Good gun depression of 10 degrees for ridgeline fighting"
+      ],
+      "cons": [
+        "Long reload, especially when switching to or from the missile",
+        "Hull is the same vulnerable M60 hull and folds to APDS, APFSDS and HEAT",
+        "Modest top speed and mobility for the rating",
+        "Low shell velocity on conventional rounds limits snap shots"
+      ]
+    },
+    "playstyle": "Fight the M60A2 as a hull-down sniper, exposing only the small turret while the rangefinder and missile do the work at long range. Use HEAT or overpressure HE for closer threats, but never get drawn into brawls where the weak hull and slow reload are exposed. Pre-aim likely lanes and let the Shillelagh reach targets your teammates cannot.",
+    "history": "The M60A2 grew out of the US Army's push for a missile-firing main armament, adapting the troubled 152 mm gun/launcher concept to the M60 chassis. Persistent reliability and crew-acceptance problems limited it to roughly 526 vehicles, and it was phased out relatively quickly as conventional-gun M60s and the M1 Abrams matured. Its distinctive needle-nosed turret earned it the enduring Starship nickname.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M60A2 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m60a2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxRevKph",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 48,
+      "maxRevKph": null,
+      "enginePowerHp": 750,
+      "weightTons": 51.9,
+      "powerToWeight": 14.5,
+      "reverseGears": 1,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "us-152mm-m162",
+      "reloadBaseSec": 15.6,
+      "reloadAcedSec": 12,
+      "vertGuidanceDeg": [
+        10,
+        20
+      ],
+      "turretTraverseDegSec": 28.2,
+      "ammoCapacity": 46,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "108",
+        "side": "70",
+        "rear": "40"
+      },
+      "turretMm": {
+        "front": "220",
+        "side": "124",
+        "rear": "50"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "maxim-gorky",
+    "name": "Maxim Gorky",
+    "nation": "ussr",
+    "class": "naval",
+    "subclass": "Light cruiser",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 5.7,
+      "realistic": 5.7,
+      "simulator": 5.7
+    },
+    "acquisition": [
+      "event"
+    ],
+    "summary": "The Maxim Gorky is a Project 26-bis Soviet light cruiser armed with nine hard-hitting 180 mm guns, depicted in her 1941 configuration. It trades the lighter rapid-fire batteries of later cruisers for heavy main-gun punch, at the cost of weak anti-air and fragile magazines.",
+    "prosCons": {
+      "pros": [
+        "Nine 180 mm guns deliver heavy-cruiser-class hitting power for a light cruiser",
+        "Good shell penetration and explosive filler across the main battery",
+        "Excellent mobility for its size",
+        "Useful 100 mm dual-purpose secondaries"
+      ],
+      "cons": [
+        "Anti-aircraft armament is sparse and dated, leaving it exposed to air attack",
+        "Main-battery magazines are vulnerable and prone to detonation",
+        "Only three turrets means a knocked-out turret badly cuts firepower",
+        "Overall survivability is mediocre for the battle rating"
+      ]
+    },
+    "playstyle": "Use the Maxim Gorky as a glass-cannon line cruiser, opening at long range where the 180 mm guns can land citadel hits before lighter cruisers close in. Keep moving and angling to protect the magazines, since a single penetrating hit can end the match. Because the anti-air is thin, stay near friendly cover or islands and break off when aircraft commit to a torpedo run.",
+    "history": "Maxim Gorky was a Project 26-bis cruiser, an improved member of the first generation of modern Soviet cruisers that began with the Kirov. Laid down in 1936 and commissioned in late 1940, she served with the Baltic Fleet through the Great Patriotic War, surviving a mine strike that tore off her bow and going on to provide repeated fire support and air defence during the siege of Leningrad. She remained in service into the post-war decades before being retired.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Maxim Gorky — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_cruiser_maxim_gorky",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "maxKnots"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 9728,
+      "lengthM": null,
+      "crew": 898
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "9 × 180 mm B-1-P (3×3)",
+      "secondary": "6 × 100 mm B-34",
+      "aa": "9 × 45 mm 21-K; 4 × 12.7 mm DShK",
+      "torpedoes": "6 × 533 mm 53-39 (2×3)",
+      "depthCharges": false
+    },
+    "armor": {
+      "beltMm": "70 mm citadel side",
+      "deckMm": "50 mm citadel deck",
+      "citadel": "70/70/50 mm citadel; 70/50/50 mm main turrets"
+    },
+    "survivability": "898 crew; light armor with exposed main-battery magazines"
+  },
+  {
+    "id": "mikhail-kutuzov",
+    "name": "Mikhail Kutuzov",
+    "nation": "ussr",
+    "class": "naval",
+    "subclass": "Light cruiser",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6,
+      "realistic": 6,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Mikhail Kutuzov is a Project 68-A Soviet light cruiser shown in her modernized 1986 fit, a Sverdlov-class hull updated with extra radar-directed anti-air. She keeps the class's twelve fast 152 mm guns but swaps the torpedoes for a much heavier close-in air-defence suite including AK-230 mounts.",
+    "prosCons": {
+      "pros": [
+        "Twelve 152 mm guns provide strong, rapid, accurate fire",
+        "Greatly expanded anti-air, adding 30 mm AK-230 mounts to the 37 mm guns",
+        "Solid dual-purpose 100 mm secondary battery",
+        "Same well-protected citadel as the rest of the Project 68-bis line"
+      ],
+      "cons": [
+        "No torpedoes after the 1986 refit, removing an ambush option",
+        "Thin general armor outside the citadel for such a large ship",
+        "Big, slow-turning hull is easy to hit",
+        "152 mm guns lack heavy-cruiser stopping power"
+      ]
+    },
+    "playstyle": "Fight the Mikhail Kutuzov as a gun-and-flak support cruiser, parking at medium range to rain 152 mm fire while the upgraded anti-air shreds attacking aircraft. Angle the hull to keep the armored citadel toward the enemy and avoid trading broadsides with battleship guns. Without torpedoes you rely entirely on artillery, so prioritize destroyers and aircraft and let allies screen your flanks.",
+    "history": "The Project 68-A Mikhail Kutuzov was a late-1980s modernization of a Sverdlov-class cruiser, refitted with updated radar and additional close-in anti-aircraft weapons. She was among the last Soviet big-gun cruisers to remain active and was ultimately preserved as a museum ship. War Thunder depicts her in this 1986 configuration with the torpedo tubes removed.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Mikhail Kutuzov — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_cruiser_mikhail_kutuzov",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "torpedoes",
+      "brSimulator"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 18640,
+      "lengthM": null,
+      "crew": 1057
+    },
+    "propulsion": {
+      "maxKnots": 33
+    },
+    "armament": {
+      "mainBattery": "12 × 152 mm B-38 (4×3)",
+      "secondary": "12 × 100 mm SM-5-1 (6×2)",
+      "aa": "32 × 37 mm V-11 (16×2); 16 × 30 mm AK-230 (8×2)",
+      "depthCharges": false
+    },
+    "armor": {
+      "beltMm": "120 mm citadel side",
+      "deckMm": "50 mm citadel deck",
+      "citadel": "120/100/50 mm citadel; 175/65/60 mm main turrets"
+    },
+    "survivability": "1,057 crew; armored citadel with thin 25 mm general protection"
+  },
+  {
+    "id": "otomatic",
+    "name": "OTOMATIC",
+    "nation": "italy",
+    "class": "ground",
+    "subclass": "SPAA",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 11.3,
+      "realistic": 11.3,
+      "simulator": 11.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The OTOMATIC is a top-rank Italian radar SPAA built on an OF-40 hull and armed with a rapid-firing 76 mm naval-derived cannon. With proximity-fused flak it swats aircraft and helicopters from long range, while its APFSDS round lets it fight enemy tanks as a true anti-everything platform.",
+    "prosCons": {
+      "pros": [
+        "76 mm proximity-fused HE-VT can one-shot aircraft at long range",
+        "Search and tracking radars make target acquisition easy",
+        "APFSDS round lets it threaten and kill main battle tanks",
+        "Good mobility and large gun depression for an SPAA"
+      ],
+      "cons": [
+        "Only 90 rounds and a single barrel, so burst volume is limited",
+        "Light armour offers little protection against tank fire",
+        "Large hull and tall radar mast are easy to spot",
+        "Reloading and aiming a single big gun is unforgiving of misses"
+      ]
+    },
+    "playstyle": "Use the radar to detect aircraft early and engage them with proximity-fused rounds before they can launch ordnance. Position slightly behind the front line where you can cover the sky yet still snipe exposed enemy armour with APFSDS. Manage your small ammo pool carefully and reposition often, since the OTOMATIC cannot survive a sustained ground duel.",
+    "history": "OTO Melara developed the OTOMATIC in the late 1980s by mating its 76 mm Super Rapido naval gun to an OF-40 derived tank chassis. The goal was a long-range anti-aircraft system able to out-reach contemporary gun SPAAGs such as the Gepard and engage aircraft and helicopters with radar-directed flak. Despite successful trials, it never entered series production and remained a prototype.",
+    "media": [],
+    "sources": [
+      {
+        "label": "OTOMATIC — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_otomatic",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "OTOMATIC SPAAG: Belated Perfection — War Thunder News",
+        "url": "https://warthunder.com/en/news/5943-development-otomatic-spaag-belated-perfection-en",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 60,
+      "maxRevKph": 24,
+      "enginePowerHp": 1100,
+      "weightTons": 46,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "oto-breda-76-62",
+      "reloadBaseSec": 0.5,
+      "reloadAcedSec": 0.5,
+      "vertGuidanceDeg": [
+        -5,
+        60
+      ],
+      "turretTraverseDegSec": 49,
+      "ammoCapacity": 90,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "70",
+        "side": "30",
+        "rear": "25"
+      },
+      "turretMm": {
+        "front": "25",
+        "side": "25",
+        "rear": "25"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "r3-t20-fa-hs",
+    "name": "R3 T20 FA-HS",
+    "nation": "italy",
+    "class": "ground",
+    "subclass": "SPAA",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.7,
+      "realistic": 6,
+      "simulator": 6
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The R3 T20 FA-HS is an extremely light, amphibious wheeled scout carrier mounting a 20 mm Oerlikon KAD autocannon in a fully traversing open turret. It is one of the fastest vehicles in the game and doubles as a light SPAA and flanking gun against light armour.",
+    "prosCons": {
+      "pros": [
+        "Blistering top speed lets it reach flanks and cap points first",
+        "High-velocity 20 mm Oerlikon KAD with a fast rate of fire",
+        "Full 360 degree turret traverse for tracking aircraft and flankers",
+        "Tiny and nimble, very hard to hit on the move"
+      ],
+      "cons": [
+        "Effectively no armour; rifle-calibre fire can disable it",
+        "Tips over and loses control easily at its very high speeds",
+        "Open turret leaves the gunner exposed to fragments",
+        "20 mm rounds struggle against anything with real frontal armour"
+      ]
+    },
+    "playstyle": "Exploit the R3's speed to rush flanks, scout, and contest objectives before the enemy arrives. Against aircraft, hold fire until they are close, then walk a burst through them. On the ground, pick off exposed sides and rears, and keep moving, because standing still makes you an easy kill for any autocannon or cannon.",
+    "history": "The R3 family was a series of light wheeled vehicles developed by OTO Melara in the 1980s for reconnaissance and light combat. The T20 FA-HS variant carried an externally mounted 20 mm Oerlikon KAD cannon in a small turret. The design emphasised speed, amphibious capability and air transportability over protection, and only limited numbers were produced for evaluation and export.",
+    "media": [],
+    "sources": [
+      {
+        "label": "R3 T20 FA-HS — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_oto_r3_t20_fa",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Oerlikon KAD (20 mm) — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/Oerlikon_KAD_(20_mm)",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 125,
+      "maxRevKph": 32,
+      "enginePowerHp": 135,
+      "weightTons": 3.4,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "oerlikon-kad-20mm",
+      "reloadBaseSec": 9.1,
+      "reloadAcedSec": 7,
+      "vertGuidanceDeg": [
+        -10,
+        60
+      ],
+      "turretTraverseDegSec": 54.8,
+      "ammoCapacity": 600,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "33",
+        "side": "15",
+        "rear": "15"
+      },
+      "turretMm": {
+        "front": "0",
+        "side": "0",
+        "rear": "0"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "sea-fury-fb-11",
+    "name": "Sea Fury FB 11",
+    "nation": "britain",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.7,
+      "realistic": 5.7,
+      "simulator": 5.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Sea Fury FB 11 is a late-piston British naval fighter-bomber powered by the big Bristol Centaurus radial, sitting at the top of the prop-fighter line. It blends high level speed and strong dive performance with surprisingly tolerable handling and a hard-hitting four-cannon battery.",
+    "prosCons": {
+      "pros": [
+        "Heavy four-cannon armament of 20 mm Hispano Mk.V guns",
+        "Strong top speed and excellent diving performance for an energy fight",
+        "High structural speed limit lets it dive on opponents aggressively",
+        "Flexible secondary loadout of bombs and RP-3 rockets for ground targets"
+      ],
+      "cons": [
+        "Climb rate is only average, so it can be out-zoomed by dedicated climbers",
+        "Turn fighting against lighter prop fighters is a losing proposition",
+        "Faces early jets at its battle rating in uptiers",
+        "Large radial nose and airframe make it a sizeable target"
+      ]
+    },
+    "playstyle": "Fly the Sea Fury as an energy fighter, climbing to altitude at the match start and using superior speed to dictate engagements. Make slashing boom-and-zoom passes with the powerful cannon battery, then dive away rather than committing to a turn fight you cannot win. Save the bombs and rockets for ground targets in mixed battles once the air threat is reduced.",
+    "history": "The Hawker Sea Fury was developed as a navalised, lightened descendant of the Tempest, entering Fleet Air Arm service shortly after the Second World War. Built around the powerful Bristol Centaurus radial, it was one of the fastest single-piston-engine production fighters ever fielded. Sea Furies later saw combat during the Korean War, where they engaged ground targets and even claimed jet kills.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Sea Fury FB 11 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sea_fury_fb11",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 724,
+      "maxSpeedAltM": 6096,
+      "climbMps": 22,
+      "turnTimeSec": 21,
+      "structuralLimitKph": 826,
+      "ceilingM": 10900,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "hispano-mk-v-20mm",
+          "count": 4
+        }
+      ],
+      "suspended": [
+        "250 lb bombs",
+        "500 lb bombs",
+        "RP-3 rockets"
+      ]
+    }
+  },
+  {
+    "id": "su-122-54",
+    "name": "SU-122-54",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7,
+      "realistic": 6.7,
+      "simulator": 6.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The SU-122-54 is a Soviet casemate tank destroyer built on the T-54 chassis and armed with a rifled 122 mm D-49 gun. It trades a turret for a low silhouette and a hard-hitting cannon, excelling as a patient ambush and long-range support vehicle.",
+    "prosCons": {
+      "pros": [
+        "Powerful 122 mm D-49 punches through most contemporaries with one shot",
+        "Low, sloped casemate is easy to hide and tricky to spot",
+        "T-54-derived chassis gives good mobility for a tank destroyer",
+        "Solid frontal protection against many rounds at its rating"
+      ],
+      "cons": [
+        "No turret means the whole hull must turn to aim, with slow gun traverse",
+        "Lengthy reload leaves long gaps between shots",
+        "Limited gun depression restricts use of ridgelines",
+        "Vulnerable to fast flankers that get around its fixed gun"
+      ]
+    },
+    "playstyle": "Set up the SU-122-54 in concealed overwatch positions covering long sightlines, letting enemies come to you. Because the gun is fixed and traverses slowly, pre-aim toward likely approaches and avoid close-quarters fights. Relocate after a couple of shots so flankers cannot exploit the lack of a turret.",
+    "history": "The SU-122-54 was a postwar Soviet tank destroyer of the mid-1950s built on the T-54 medium tank chassis and mounting the 122 mm D-49 rifled gun. Only a small number were produced before doctrine shifted away from dedicated casemate tank destroyers. It represents a late chapter in the Soviet assault-gun lineage.",
+    "media": [],
+    "sources": [
+      {
+        "label": "SU-122-54 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_su_122_54",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 50,
+      "maxRevKph": 8,
+      "enginePowerHp": 520,
+      "weightTons": 36,
+      "powerToWeight": 14.4,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "d-49-122mm",
+      "reloadBaseSec": 16,
+      "reloadAcedSec": 12.3,
+      "vertGuidanceDeg": [
+        -4,
+        16
+      ],
+      "turretTraverseDegSec": 4.9,
+      "ammoCapacity": 35,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "100",
+        "side": "80",
+        "rear": "45"
+      },
+      "turretMm": {
+        "front": "100",
+        "side": "80",
+        "rear": "30"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "sverdlov",
+    "name": "Sverdlov",
+    "nation": "ussr",
+    "class": "naval",
+    "subclass": "Light cruiser",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6,
+      "realistic": 6,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Sverdlov is a Project 68-bis Soviet light cruiser, the lead ship of the last conventional gun-cruiser class the USSR built. In War Thunder it pairs twelve fast-firing 152 mm rifles with a deep secondary and anti-air suite and two quintuple torpedo banks, making it one of the more complete top-tier Soviet cruisers.",
+    "prosCons": {
+      "pros": [
+        "Twelve 152 mm guns in four triple turrets give heavy, fast sustained fire",
+        "Strong dual-purpose secondary battery of twelve 100 mm guns",
+        "Dense 37 mm V-11 anti-aircraft network for self-defence",
+        "Two quintuple 533 mm torpedo launchers with reloads for ambush kills"
+      ],
+      "cons": [
+        "Armor is thin for its tonnage, leaving it vulnerable to large-caliber fire",
+        "Large hull is an easy target and turns sluggishly",
+        "152 mm shells lack the punch of true heavy-cruiser guns",
+        "Magazines and machinery can be knocked out by well-placed hits"
+      ]
+    },
+    "playstyle": "Play the Sverdlov as a volume-of-fire support cruiser, leaning on the twelve rapid 152 mm guns to chip down opponents at medium range while the secondaries finish escorts. Keep angling the hull to spread incoming damage across the citadel and avoid showing your broadside to battleship-caliber guns. Hold the torpedoes for chokepoints or chasing destroyers, and use the dense anti-air to deter strike aircraft.",
+    "history": "The Project 68-bis Sverdlov class was an enlarged, modernized development of the wartime Chapayev design and represented the Soviet Navy's last all-gun cruisers. The lead ship Sverdlov was laid down in 1949 and commissioned into the Baltic Fleet in 1952, serving through the Cold War until being laid up in 1978. She was disarmed and sold for scrap at the end of the 1980s.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Sverdlov — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_cruiser_sverdlov",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "brSimulator"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 19200,
+      "lengthM": null,
+      "crew": 1270
+    },
+    "propulsion": {
+      "maxKnots": 32.5
+    },
+    "armament": {
+      "mainBattery": "12 × 152 mm B-38 (4×3)",
+      "secondary": "12 × 100 mm SM-5-1 (6×2)",
+      "aa": "32 × 37 mm V-11 (16×2)",
+      "torpedoes": "10 × 533 mm 53-39 (2×5) with reloads",
+      "depthCharges": false
+    },
+    "armor": {
+      "beltMm": "120 mm citadel side",
+      "deckMm": "50 mm citadel deck",
+      "citadel": "120/100/50 mm citadel; 175/65/60 mm main turrets"
+    },
+    "survivability": "1,270 crew; large hull with armored citadel but thin 25 mm general protection"
+  },
+  {
+    "id": "t-10m",
+    "name": "T-10M",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Heavy tank",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 8.3,
+      "simulator": 8.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The T-10M is the final Soviet heavy tank, a refined descendant of the IS series armed with a powerful 122 mm M-62-T2S gun. It combines thick, well-shaped turret armour with a high-velocity cannon to fill a heavy sniper-breakthrough role at top-tier heavy battle ratings.",
+    "prosCons": {
+      "pros": [
+        "Strong, rounded turret front shrugs off many same-rank rounds",
+        "122 mm M-62-T2S delivers heavy single-shot damage with good penetration",
+        "Two-plane stabilisation aids accuracy on the move",
+        "Decent reverse speed lets it pull back after firing"
+      ],
+      "cons": [
+        "Very long reload leaves it exposed between shots",
+        "Limited gun depression hampers hull-down positioning",
+        "Large, heavy hull is an easy target for fast flankers",
+        "Modest top speed makes repositioning slow"
+      ]
+    },
+    "playstyle": "Use the T-10M as a tip-of-the-spear breakthrough tank, angling the turret to maximise its rounded armour while you reload. Hold key chokepoints and trade shots only when your thick turret can absorb return fire. Because the reload is punishing, make every shot count and avoid open flanks where lighter tanks can circle you.",
+    "history": "The T-10 (originally IS-8) was developed in the late 1940s as the ultimate Soviet heavy tank, and the T-10M variant of the late 1950s added the M-62 gun and full stabilisation. It was one of the most heavily armoured tanks of its day. The line was eventually retired as main battle tanks rendered dedicated heavies obsolete.",
+    "media": [],
+    "sources": [
+      {
+        "label": "T-10M — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_10m",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 40,
+      "maxRevKph": 10,
+      "enginePowerHp": 750,
+      "weightTons": 50,
+      "powerToWeight": 15,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "m-62-t2s-122mm",
+      "reloadBaseSec": 19.5,
+      "reloadAcedSec": 15,
+      "vertGuidanceDeg": [
+        -4,
+        15
+      ],
+      "turretTraverseDegSec": 11.9,
+      "ammoCapacity": 30,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "120",
+        "side": "80",
+        "rear": "60"
+      },
+      "turretMm": {
+        "front": "250",
+        "side": "157",
+        "rear": "102"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "t-62",
+    "name": "T-62",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 8.7,
+      "realistic": 8.7,
+      "simulator": 8.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The T-62 is a Soviet rank VI medium tank built around the first smoothbore 115 mm tank gun fielded in the Cold War, the U-5TS. It pairs a fast-flying APFSDS dart with a low, well-sloped hull, making it a fearsome long-range sniper for its battle rating.",
+    "prosCons": {
+      "pros": [
+        "115 mm APFSDS leaves the barrel at extremely high velocity, demanding almost no lead at range",
+        "Compact, well-sloped cast hull and rounded turret bounce shots and present a small target",
+        "Two-plane stabiliser allows accurate firing on the move",
+        "Sound mobility for a medium of its weight"
+      ],
+      "cons": [
+        "Slow reload for its calibre keeps a poor rate of fire",
+        "Limited gun depression restricts hull-down play on reverse slopes",
+        "Four-man crew with cramped layout is vulnerable to one-shot knockouts",
+        "Armour is thin against same-rank APFSDS and chemical rounds"
+      ]
+    },
+    "playstyle": "Play the T-62 as a second-line marksman, using terrain and its low profile to engage from distance where its flat-shooting dart shines. Avoid brawling, since the long reload and modest armour punish trading blows. Pick angled hull-down or side-on hidden positions and relocate after firing to exploit the quick, accurate first shot.",
+    "history": "The T-62 entered Soviet service in 1961 as an evolution of the T-55, becoming the first mass-produced tank armed with a smoothbore main gun firing fin-stabilised projectiles. Its 115 mm U-5TS could fire early APFSDS rounds that outranged contemporary rifled guns. The type was produced in huge numbers and saw extensive combat across the Middle East and beyond.",
+    "media": [],
+    "sources": [
+      {
+        "label": "T-62 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_62",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 50,
+      "maxRevKph": 8,
+      "enginePowerHp": 580,
+      "weightTons": 37,
+      "powerToWeight": 15.7,
+      "reverseGears": 1,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "u-5ts-115mm",
+      "reloadBaseSec": 10.4,
+      "reloadAcedSec": 8,
+      "vertGuidanceDeg": [
+        -6,
+        16
+      ],
+      "turretTraverseDegSec": 16.1,
+      "ammoCapacity": 40,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "100",
+        "side": "80",
+        "rear": "45"
+      },
+      "turretMm": {
+        "front": "200",
+        "side": "160",
+        "rear": "65"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "vampire-fb-5",
+    "name": "Vampire F.B.5",
+    "nation": "britain",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7.7,
+      "realistic": 8,
+      "simulator": 7.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The de Havilland Vampire F.B.5 is an early British twin-boom jet fighter-bomber driven by a single Goblin engine. It is slow and a poor climber by jet standards, but its outstanding turn rate and four nose-mounted 20 mm Hispano cannons make it a dangerous low-altitude dogfighter.",
+    "prosCons": {
+      "pros": [
+        "Exceptional turn rate that out-maneuvers most contemporary jets",
+        "Concentrated nose battery of four 20 mm Hispano Mk.V cannons",
+        "Carries bombs and RP-3 rockets for the strike role",
+        "Some armour protection around the pilot and engine"
+      ],
+      "cons": [
+        "Low top speed for a jet and weak acceleration",
+        "Poor rate of climb makes gaining the energy advantage hard",
+        "Numerous wing fuel tanks are prone to fires when hit",
+        "Struggles to chase or escape faster jet opponents in a straight line"
+      ]
+    },
+    "playstyle": "Avoid straight-line speed contests and instead use the Vampire's superb turning to drag faster jets into a maneuvering fight at low to medium altitude. Conserve energy, force overshoots, and punish opponents with the heavy cannon nose battery. In ground battles, use the bomb and rocket loadout for strikes before reverting to the dogfighting role.",
+    "history": "The de Havilland Vampire was Britain's second jet fighter to enter service and the first powered by a single jet engine. The F.B.5 was the most-produced variant, fitted with clipped wings, underwing hardpoints and engine armour to adapt it for the fighter-bomber role. It served widely with the RAF and was exported to many nations in the early post-war years.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Vampire F.B.5 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/vampire_fb5",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 896,
+      "maxSpeedAltM": 4572,
+      "climbMps": 24.3,
+      "turnTimeSec": 23.1,
+      "structuralLimitKph": 888,
+      "ceilingM": 10668,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "hispano-mk-v-20mm",
+          "count": 4
+        }
+      ],
+      "suspended": [
+        "500 lb bombs",
+        "1000 lb bombs",
+        "RP-3 rockets"
+      ]
     }
   }
 ];
