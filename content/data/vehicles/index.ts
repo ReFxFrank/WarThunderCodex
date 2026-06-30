@@ -6628,7 +6628,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Hover or skim at low altitude near cover, walk the turret onto soft targets and exposed crews, and salvo unguided rockets at armour or emplacements. Without ATGMs you must close to gun range, so use terrain to mask your approach and pull back the moment SPAA spots you.",
     "history": "Bell had explored helicopter gunships since the late 1950s, mating fixed guns, a turret and stub-wing hardpoints to a sleeker development of the proven UH-1 Iroquois. The prototype first flew on 7 September 1965, drew strong official interest, and won the production contract in April 1966, making the AH-1G the first model of the long-lived Cobra family.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ah-1g-cobra.jpg",
+        "alt": "A Bell AH-1 Cobra single-engine attack helicopter in low-level flight during exercise Brave Shield XIX (1979), not the in-game model.",
+        "credit": "SSGT Bob Fehringer, U.S. Air Force / U.S. Department of Defense · Public Domain (PD-USGov-Military-Air Force) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "AH-1G | War Thunder Wiki (official unit page)",
@@ -6706,7 +6713,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight at the edge of your missile range, launching Shturms from behind cover and ducking back down before SPAA reacts. The fixed 30 mm rewards committed gun runs on light vehicles and helicopters, while R-60 missiles let you punish careless attackers, but always respect your own bulk and stay low.",
     "history": "In 1981 a dedicated anti-tank Hind was developed by replacing the Mi-24V's gunner-controlled 12.7 mm nose turret with a pilot-controlled fixed twin-barrel 30 mm cannon adapted from the Su-25. The resulting Mi-24P entered service quickly and was widely exported alongside the Mi-24V, becoming one of the most recognisable Soviet attack helicopters.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/mi-24p.jpg",
+        "alt": "A Mil Mi-24P (Hind-F) gunship in former East German markings preserved at the Luftwaffenmuseum Berlin-Gatow, not the in-game model.",
+        "credit": "MoRsE · CC BY-SA 3.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Mi-24P | War Thunder Wiki (official unit page)",
@@ -6783,7 +6797,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play it as a missile sniper: stay masked by terrain, rise just enough to lock and guide a HOT missile onto armour, then drop back down. With no cannon you should never trade fire directly, so manage missile stocks carefully and lean on your speed and small size to relocate after each shot.",
     "history": "Derived from the Bo 105M multi-purpose helicopter by MBB, the Bo 105 PAH-1 (Panzerabwehrhubschrauber, 'anti-tank helicopter') could carry up to six HOT missiles. Between 1979 and 1984 the West German Army received 212 examples. Its inability to fight at night and its fragility eventually saw it replaced by the Eurocopter Tiger, with the last German Bo 105s retiring in 2016.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/bo-105-pah-1.jpg",
+        "alt": "A German Army MBB Bo 105P (the PAH-1 anti-tank variant), serial 87+08, on display at Hermeskeil, not the in-game model.",
+        "credit": "Alf van Beem · CC0 1.0 (Public Domain Dedication) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "BO 105 PAH-1 | War Thunder Wiki (official unit page)",
@@ -6851,7 +6872,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Hover or perch behind cover at the edge of the map, pop up to lase and guide HOT missiles onto armour, then drop back down before return fire arrives. Use the thermal sight to find targets first. Keep Mistrals ready for enemy helicopters, and never get drawn into a close-range knife fight - with no gun and paper-thin survivability, distance is the only defence.",
     "history": "The SA.342M was the French Army (ALAT) anti-tank variant of the Aerospatiale Gazelle, fielded from the mid-1980s with a more powerful Astazou engine, upgraded optics and avionics, and pylons for the HOT wire-guided missile. Gazelles of this type saw combat in the Gulf War and remained a frontline ALAT type for decades before being gradually retired.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/sa-342m-gazelle.jpg",
+        "alt": "A French Army (ALAT) Aerospatiale SA 342M Gazelle photographed in flight over the Pyrenees in 2001, not the in-game model.",
+        "credit": "Eric Gaba (Sting) · CC BY-SA 2.5 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "SA.342M Gazelle | War Thunder Wiki",
@@ -6920,7 +6948,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the turret cannon to deal with light vehicles and to fend off helicopters at close range, but lead with standoff ATGMs from cover. Mix Hellfires for fire-and-forget shots with TOWs when you need them, and keep ATAS or Mistral selected to ambush enemy helicopters. Respect the high BR matchups - stay masked by terrain and let the missiles do the long-range work.",
     "history": "The Agusta A129 Mangusta was the first dedicated attack helicopter designed and built entirely in Western Europe, developed for the Italian Army from the late 1970s and first flown in 1983. The A129CBT (Combat) upgrade brought modernised avionics and an expanded Western weapons fit; Italian Mangustas served in theatres including Iraq and Afghanistan.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/a129-mangusta.jpg",
+        "alt": "An Italian Army Agusta A129 Mangusta attack helicopter at the Giornata Azzurra 2006 airshow, Pratica di Mare, not the in-game model.",
+        "credit": "SCDBob · CC BY-SA 2.5 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "A129CBT | War Thunder Wiki",
@@ -6995,7 +7030,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Exploit the Lynx's speed to reach firing positions quickly, then guide TOWs or fire-and-forget Hellfires from behind terrain. Add the 20 mm Oerlikon pod when you expect close engagements or light targets, and keep ATAS ready for enemy helicopters. Because protection is minimal, treat every pop-up as brief: lase, launch, and re-mask before SPAA can range you.",
     "history": "The Westland Lynx grew out of a 1960s Westland programme to replace the Scout and Wasp; the prototype first flew in 1971. The AH.Mk.1 army variant served the British Army Air Corps in conflicts from the Falklands and the Gulf War to the Balkans and anti-piracy patrols off Somalia, typically armed with TOW anti-tank missiles.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/lynx-ah1.jpg",
+        "alt": "A Westland Lynx AH.7 (Mk 7) carrying soldiers externally during flight operations, not the in-game model.",
+        "credit": "U.S. Government (Technical Order 00-105e-9) · Public Domain (PD-USGov) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Lynx AH.Mk.1 | War Thunder Wiki",
@@ -7065,7 +7107,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Hold stand-off range and pop up from terrain masking to loose Vikhr missiles, then duck back behind cover. Use the 2A42 for light vehicles, exposed crews, and finishing damaged targets up close, and keep Iglas ready for enemy helicopters.",
     "history": "The Ka-50 (NATO reporting name Hokum) grew out of the Kamov V-80 program of the 1980s as a single-seat dedicated anti-armour helicopter, an unusual choice meant to cut weight and lean on automation. Its coaxial twin rotors dispense with a tail rotor and give it distinctive agility. In War Thunder it arrived as a premium pack in Update 1.93 'Shark Attack'.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ka-50.jpg",
+        "alt": "A Russian Air Force Kamov Ka-50 'Black Shark' (27 yellow) in flight at Kubinka Air Base in 2010, not the in-game model.",
+        "credit": "Toshiro Aoki (jp-spotters.com) · CC BY-SA 3.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Ka-50 — War Thunder Wiki (official unit page)",
@@ -7139,7 +7188,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use terrain masking and the thermal sight to detect armour first, then unmask just long enough to lock and launch Hellfires before dropping back. The slewable M230 turret handles soft targets and helicopters; mount air-to-air missiles when contesting other rotorcraft.",
     "history": "The AH-64A came out of the U.S. Army's Advanced Attack Helicopter program begun in 1972 to replace the AH-1 Cobra, with the YAH-64 prototype selected in 1976. It entered War Thunder in Update 1.97 'Viking Fury', sitting near the top of the U.S. helicopter line.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ah-64a-apache.jpg",
+        "alt": "A Hellenic Army AH-64A+ Apache attack helicopter at the Archangel 2005 airshow, not the in-game model.",
+        "credit": "Georgios Pazios (Alaniaris) · Attribution only (CC BY-equivalent free attribution license) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "AH-64A — War Thunder Wiki (official unit page)",
@@ -7214,7 +7270,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Stay at stand-off range behind cover, lift just enough to guide a TOW onto target while holding the sight steady through impact, then re-mask. Lean on the M197 turret and rockets for light vehicles and emergencies.",
     "history": "The AH-1S is the Japanese license-produced Cobra (a Step-3 / AH-1F-equivalent) built by Fuji Heavy Industries for the Ground Self-Defense Force. The Kisarazu pack in War Thunder, added in Update 1.89 'Imperial Navy', honours the 20th anniversary of the JGSDF 4th Anti-Tank Helicopter Unit at Kisarazu with a special illustrated livery and was the first vehicle in the game with a female flight crew.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ah-1s-kisarazu.jpg",
+        "alt": "A Japan Ground Self-Defense Force (JGSDF) Fuji-built Bell AH-1S Cobra photographed in 2023, not the in-game model.",
+        "credit": "MIKI Yoshihito · CC BY 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "AH-1S Kisarazu — War Thunder Wiki (official unit page)",
@@ -7254,5 +7317,655 @@ export const vehicles: Vehicle[] = [
         "Optional 7.62 mm M134 Minigun pod"
       ]
     }
+  },
+  {
+    "id": "uss-arizona",
+    "name": "USS Arizona",
+    "nation": "usa",
+    "class": "naval",
+    "subclass": "Battleship",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 7.3,
+      "realistic": 7.3,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The USS Arizona is a Pennsylvania-class battleship modelled in her 1938 refit. She carries twelve 14-inch rifles across four triple turrets, trading the high-rate-of-fire secondary suite of later refits for a heavy main armament, and sits at the top of the US bluewater tech tree as a slow but hard-hitting line battleship.",
+    "prosCons": {
+      "pros": [
+        "Twelve 14-inch main guns deliver a heavy broadside for her battle rating",
+        "Four triple turrets allow the battery to be split across multiple targets",
+        "Thick conning-tower and barbette protection over the citadel",
+        "Large crew complement absorbs a great deal of punishment before going dark"
+      ],
+      "cons": [
+        "Very long main-battery reload punishes a wasted salvo",
+        "Slow top speed leaves little room to disengage from a bad position",
+        "1938-refit anti-aircraft fit is comparatively light against air attack",
+        "No torpedo armament to threaten ships at close range"
+      ]
+    },
+    "playstyle": "Position Arizona at a stand-off range where her twelve rifles can land full broadsides while you angle the hull to keep the citadel from being punched through. Because the reload is punishingly long, split the four turrets onto separate targets so you always have guns coming online rather than emptying everything into one ship and waiting helplessly. Keep her bow or stern angled toward the heaviest fire and lean on the deep crew pool to ride out hits.",
+    "history": "USS Arizona was the second of the two Pennsylvania-class battleships, laid down in 1914 and commissioned at the end of 1916. Her First World War service was limited to home waters, after which she famously formed part of the escort that carried President Woodrow Wilson to the Paris Peace Conference. Through the interwar years she served largely in training and fleet roles before being destroyed in a catastrophic magazine explosion during the attack on Pearl Harbor, where her wreck remains today as a memorial.",
+    "media": [],
+    "sources": [
+      {
+        "label": "USS Arizona | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_battleship_arizona_1931",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "maxKnots",
+      "torpedoes",
+      "beltMm",
+      "deckMm",
+      "brSimulator"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 35929,
+      "lengthM": null,
+      "crew": 1390
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "4 x 3 x 14 inch/45 Mk.8",
+      "secondary": "12 x 5 inch/51 Mk.7",
+      "aa": "8 x 5 inch/25 Mk.11; 8 x 12.7 mm Browning AN-M2",
+      "depthCharges": false
+    },
+    "armor": {
+      "citadel": "330 / 343 / 121 mm"
+    },
+    "survivability": "Arizona relies on her sheer bulk and a 1,390-strong crew to stay in the fight; a single salvo rarely knocks her out, and damage tends to accumulate over an engagement rather than ending it outright. Her thickest protection wraps the conning tower and the citadel zone, so angling the hull to keep incoming rounds off the broadside belt is essential. The weak point is endurance against sustained large-calibre fire and her vulnerability from the air, since the lighter 1938 anti-aircraft fit gives attacking aircraft and bombers room to work."
+  },
+  {
+    "id": "scharnhorst",
+    "name": "Scharnhorst",
+    "nation": "germany",
+    "class": "naval",
+    "subclass": "Battlecruiser",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 7.3,
+      "realistic": 7.3,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "Scharnhorst is the German capital ship that splits the difference between a battlecruiser and a fast battleship. She pairs nine fast-firing 283 mm rifles with heavy protection and a high top speed, and she is the rare large warship in her bracket to carry torpedo tubes, making her a powerful close-to-mid-range brawler.",
+    "prosCons": {
+      "pros": [
+        "Nine 283 mm guns fire quickly, putting out high sustained damage",
+        "Heavily armoured for a ship her size, built to a battleship standard",
+        "High top speed for a capital ship, allowing aggressive repositioning",
+        "Carries 533 mm torpedoes, unusual for a vessel of this size",
+        "Dense, layered anti-aircraft battery"
+      ],
+      "cons": [
+        "283 mm main calibre is light against true battleships' belt armour",
+        "Aggressive brawling playstyle exposes her to crossfire",
+        "Citadel can be penetrated by heavier-calibre opponents"
+      ]
+    },
+    "playstyle": "Use Scharnhorst's speed to dictate the range and close into the mid-to-short band where her fast-cycling 283 mm guns overwhelm targets with volume of fire rather than per-shell penetration. Angle the well-armoured hull while you advance, exploit her mobility to flank slower battleships, and keep the torpedoes ready for opportunistic launches against ships that drift too close. Avoid a static long-range duel against heavier-gunned battleships, where her smaller calibre is at its weakest.",
+    "history": "Scharnhorst and her sister Gneisenau were conceived by the Kriegsmarine as battleships, but treaty limits and Germany's lack of heavy-gun production capacity at the time saw them armed with 283 mm main guns instead of a larger calibre. Launched in early 1939, Scharnhorst spent the opening years of the war raiding Atlantic convoys, took part in the Norwegian campaign, and engaged Allied warships including the loss of HMS Glorious. In December 1943 she was caught by a British task force during a convoy interception attempt and sunk at the Battle of the North Cape, with only a handful of survivors.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Scharnhorst | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_battleship_scharnhorst",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "maxKnots",
+      "beltMm",
+      "deckMm",
+      "brSimulator"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 37902,
+      "lengthM": null,
+      "crew": 1908
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "3 x 3 x 283 mm/54.5 SK C/34",
+      "secondary": "4 x 2 x 15 cm/55 SK C/28; 4 x 15 cm/55 SK C/28",
+      "aa": "7 x 2 x 10.5 cm/60 SK C/33; 8 x 2 x 3.7 cm SK C/30; 6 x 4 x 2 cm/65 C/38; 10 x 2 cm/65 C/38",
+      "torpedoes": "14 x 533 mm G7a",
+      "depthCharges": false
+    },
+    "armor": {
+      "citadel": "150 / 320 / 80 mm"
+    },
+    "survivability": "Scharnhorst is protected to a true battleship standard despite her lighter armament, so her citadel shrugs off a great deal of fire that would cripple a cruiser, and her very large crew gives her excellent staying power. The thick conning-tower face and citadel walls reward keeping the hull angled, while her speed lets her break off before damage compounds. Her vulnerability is to genuinely heavy-calibre battleship guns, which can defeat the citadel, and the aggressive close-range role she excels at naturally exposes her to multiple attackers at once."
+  },
+  {
+    "id": "kongo",
+    "name": "IJN Kongo",
+    "nation": "japan",
+    "class": "naval",
+    "subclass": "Battlecruiser",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 7.3,
+      "realistic": 7.3,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "IJN Kongo is a Japanese fast battleship modelled in her 1944 configuration, the lead ship of her class. She trades raw gun count and armour for speed, carrying eight 36 cm rifles and a dense battery of 25 mm anti-aircraft cannon, and plays as a mobile capital ship that uses agility to make up for thinner protection.",
+    "prosCons": {
+      "pros": [
+        "High speed lets her reach positions and react faster than rival battleships",
+        "Quick to angle her hull thanks to good mobility",
+        "Eight 36 cm main guns hit hard for her bracket",
+        "Extensive 25 mm anti-aircraft suite covers the medium-to-close air threat"
+      ],
+      "cons": [
+        "Thinner armour than most contemporary battleships",
+        "Fewer main guns than the heavier capital ships she faces",
+        "Relies on maneuver rather than raw protection to survive",
+        "No torpedo armament"
+      ]
+    },
+    "playstyle": "Lean on Kongo's speed: get to commanding firing positions early, and use her quick turn-in to angle the comparatively thin armour against incoming salvos so shells skip or land on the thickest plate. Pick your engagements rather than trading blows toe-to-toe with better-armoured battleships, and use the mobility to relocate when focused. Her thick anti-aircraft battery means she can hold her own against medium- and close-range air attack while she repositions.",
+    "history": "Kongo was the lead ship of her class and the last major Japanese capital ship built abroad, designed by British naval engineer George Thurston and laid down in 1911 as a battlecruiser. Commissioned in 1913, she patrolled the Chinese coast during the First World War, then underwent two major reconstructions that raised her speed and protection enough for her to be reclassified as a fast battleship. She fought through many of the Pacific War's major surface actions before being torpedoed and sunk by a submarine while in transit in November 1944.",
+    "media": [],
+    "sources": [
+      {
+        "label": "IJN Kongo | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/jp_battlecruiser_kongo",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "maxKnots",
+      "torpedoes",
+      "beltMm",
+      "deckMm",
+      "brSimulator"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 38767,
+      "lengthM": null,
+      "crew": 1437
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "4 x 2 x 36 cm/45 Type 41",
+      "secondary": "8 x 15 cm/50 Type 41",
+      "aa": "6 x 2 x 5 inch/40 Type 89; 18 x 3 x 25 mm/60 Type 96; 30 x 25 mm/60 Type 96",
+      "depthCharges": false
+    },
+    "armor": {
+      "citadel": "279 / 203 / 127 mm"
+    },
+    "survivability": "Kongo is the lightly armoured member of the battleship class, so survival depends on movement and angling rather than soaking hits. Her best protection is concentrated around the conning tower and citadel, and her speed and quick turn-in let her present that armour at the most favourable angle while staying mobile enough to leave a losing exchange. The trade-off is that careless broadside exposure to heavier guns can punch through, and her thinner plate offers less margin for error than the slower, better-protected battleships she fights alongside."
+  },
+  {
+    "id": "hms-hood",
+    "name": "HMS Hood",
+    "nation": "britain",
+    "class": "naval",
+    "subclass": "Battlecruiser",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 7.7,
+      "realistic": 7.7,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "HMS Hood is Britain's top-rank battlecruiser, a 'fast battleship' in all but name that pairs eight 15-inch guns with a battleship-grade armour belt and battlecruiser speed. Her main battery is noted for exceptionally hard-hitting capped shells, making her one of the most threatening capital ships at her battle rating.",
+    "prosCons": {
+      "pros": [
+        "Eight 15-inch main guns with powerful penetration",
+        "Heavy belt armour for a battlecruiser, comparable to contemporary battleships",
+        "High top speed lets her dictate engagement range",
+        "Strong secondary and anti-aircraft batteries",
+        "Carries torpedoes for close-range threats"
+      ],
+      "cons": [
+        "Deck protection remains a battlecruiser weakness, vulnerable to plunging fire",
+        "Large silhouette is easy to hit and citadel",
+        "Magazine layout reflects the historical vulnerability that doomed the real ship",
+        "Long turret traverse and reload demand careful positioning"
+      ]
+    },
+    "playstyle": "Use Hood's speed to control the range, opening at distance to land 15-inch salvoes while keeping her belt angled toward the enemy. Avoid presenting the deck to high-arc fire and disengage if focused by multiple battleships. The secondary battery and torpedoes punish smaller ships that close in.",
+    "history": "Laid down on 31 May 1916, the same day as the Battle of Jutland, Hood was the first of four planned Admiral-class battlecruisers and the only one completed. Redesigned after Jutland to carry a heavier belt, she combined battleship-level protection with battlecruiser speed and was for two decades the largest warship in the world, a symbol of British naval power. In May 1941 she was sent to intercept the German battleship Bismarck and was lost in the Denmark Strait when a salvo triggered a catastrophic magazine explosion, killing all but three of her crew.",
+    "media": [],
+    "sources": [
+      {
+        "label": "HMS Hood - War Thunder official wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_hood",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "brSimulator",
+      "lengthM",
+      "maxKnots",
+      "deckMm",
+      "beltMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 48360,
+      "lengthM": null,
+      "crew": 1418
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "8 x 381 mm (15 inch)/42 BL Mark I (4 turrets, 2 guns each)",
+      "secondary": "14 x 102 mm (4 inch)/45 Mark XVI (7 twin turrets)",
+      "aa": "24 x 40 mm 2pdr QF Mk.VIII; 16 x 12.7 mm Vickers Mk.V machine guns",
+      "torpedoes": "12 x 533 mm Mk.IV torpedoes",
+      "depthCharges": false
+    },
+    "armor": {
+      "beltMm": "25 mm hull plating (wiki does not list a separate main belt value)",
+      "citadel": "127 / 304 / 50 mm"
+    },
+    "survivability": "Hood's strength is her armoured belt, which on the citadel sides reaches values comparable to a contemporary battleship and can shrug off many incoming rounds when properly angled. Her weakness is the thin deck and the historical reality of her magazine arrangement: plunging fire and well-placed shells can reach the citadel and cause devastating ammunition detonations. Crew numbers are high, so flooding and fires can be absorbed for a time, but a single magazine hit remains a real risk."
+  },
+  {
+    "id": "marat",
+    "name": "Marat",
+    "nation": "ussr",
+    "class": "naval",
+    "subclass": "Battleship",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 6.7,
+      "realistic": 6.7,
+      "simulator": null
+    },
+    "acquisition": [
+      "premium"
+    ],
+    "summary": "Marat is a Soviet premium dreadnought of the Gangut (Sevastopol) class, a near-twin of the Parizhskaya Kommuna. She carries twelve 12-inch guns in four triple turrets along with a heavy secondary and anti-aircraft fit, trading thick armour for a broad firing arc and volume of fire.",
+    "prosCons": {
+      "pros": [
+        "Twelve 12-inch guns give an enormous broadside",
+        "Triple-turret layout spreads firepower fore and aft",
+        "Strong medium-calibre anti-aircraft battery",
+        "Numerous secondary 120 mm guns against light targets",
+        "Premium economy bonuses"
+      ],
+      "cons": [
+        "Thin armour by battleship standards leaves the citadel exposed",
+        "Low top speed makes disengaging difficult",
+        "Large, easily hit hull",
+        "WWI-era main guns have modest penetration against modern armour",
+        "No longer obtainable from the store"
+      ]
+    },
+    "playstyle": "Play Marat as a gun platform: bring all twelve 12-inch barrels to bear with a broadside and rely on weight of fire rather than armour. Keep at medium range, stay angled, and use the dense AA battery to fend off aircraft. Because she is slow and lightly protected, avoid being flanked or caught in the open against heavier battleships.",
+    "history": "Marat was the third Gangut-class dreadnought built for the Imperial Russian Navy before the First World War, named after the French revolutionary Jean-Paul Marat. After the 1917 Revolution she served the Soviet Baltic Fleet, fighting in the Russian Civil War, and underwent a major 1928-1931 refit that converted her boilers to oil firing, strengthened her anti-aircraft armament, and cut down and angled her forward funnel. During the Second World War she was crippled by a German dive-bomber attack at Kronstadt in 1941 but continued to serve as a stationary battery.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Marat - War Thunder official wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_battleship_marat",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "brSimulator",
+      "lengthM",
+      "maxKnots",
+      "deckMm",
+      "beltMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 26700,
+      "lengthM": null,
+      "crew": 1286
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "12 x 305 mm (12 inch)/52 pattern 1907 (4 triple turrets)",
+      "secondary": "14 x 120 mm/50 pattern 1905",
+      "aa": "2 x 76 mm 39-K; 6 x 76 mm 34-K; 6 x 37 mm 70-K; 13 x 12.7 mm DShK machine guns",
+      "torpedoes": "12 x 450 mm wet-heater torpedoes pattern 1912",
+      "depthCharges": false
+    },
+    "armor": {
+      "beltMm": "25 mm hull plating (wiki does not list a separate main belt value)",
+      "citadel": "50 / 225 / 38 mm"
+    },
+    "survivability": "Marat is lightly armoured for a battleship, with a citadel that can be defeated by heavier guns and a hull that offers little resistance to plunging or close-range fire. Her survivability instead rests on her size and large crew, which let her absorb hits and continue fighting, but a determined opponent can reach her magazines or machinery. The thin protection means careful angling and range control are essential."
+  },
+  {
+    "id": "dunkerque",
+    "name": "Dunkerque",
+    "nation": "france",
+    "class": "naval",
+    "subclass": "Battleship",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 7,
+      "realistic": 7,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "Dunkerque is a French fast battleship with a distinctive all-forward main battery: eight 330 mm guns concentrated in two quadruple turrets at the bow. Backed by a powerful dual-purpose 130 mm secondary battery and good speed, she excels at bow-on engagements and is most effective in downtiers.",
+    "prosCons": {
+      "pros": [
+        "Eight 330 mm guns in two forward quad turrets allow strong bow-on fire",
+        "Concentrated armament minimises exposure when advancing head-on",
+        "Capable dual-purpose 130 mm secondary battery",
+        "Good speed for a battleship",
+        "Carries an aircraft for spotting and smoke screens"
+      ],
+      "cons": [
+        "All-forward layout means almost no rearward firepower",
+        "Quad turrets risk losing four guns to a single disabling hit",
+        "Struggles badly in uptiers against heavier battleships",
+        "No torpedo armament",
+        "Armour is adequate but not exceptional for the battle rating"
+      ]
+    },
+    "playstyle": "Fight Dunkerque bow-on: present the heavily protected front, keep both quad turrets bearing on the target, and exploit her speed to maintain a favourable angle. Because all eight guns face forward, avoid situations that force you to turn away. She rewards aggressive downtier play but should disengage cautiously when outmatched, using her aircraft for smoke when retreating.",
+    "history": "Dunkerque was the lead ship of a new class of French fast battleships designed to counter the German Deutschland-class cruisers, commissioned in late 1936 with trials running into 1938. In May 1937 she represented France at the Coronation Naval Review at Portsmouth. At Mers-el-Kebir on 3 July 1940 she was struck by British 15-inch shells that penetrated her engineering spaces and killed many of her crew. After repairs at Toulon she was scuttled there in November 1942 to prevent her capture by advancing German forces.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Dunkerque - War Thunder official wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/fr_battleship_dunkerque",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "brSimulator",
+      "lengthM",
+      "maxKnots",
+      "deckMm",
+      "beltMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 35500,
+      "lengthM": null,
+      "crew": 1381
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "8 x 330 mm/52 model 1931 (2 quadruple turrets)",
+      "secondary": "16 x 130 mm/45 model 1932 (2 twin + 3 quad turrets)",
+      "aa": "10 x 37 mm/50 model 1933; 32 x 13.2 mm Hotchkiss machine guns",
+      "depthCharges": false
+    },
+    "armor": {
+      "beltMm": "25 mm hull plating (wiki does not list a separate main belt value)",
+      "citadel": "210 / 225 / 125 mm"
+    },
+    "survivability": "Dunkerque's protection is concentrated where it matters for her intended bow-on fighting style, with a citadel that offers solid resistance from the front. The all-forward turret layout means a single well-placed hit can knock out four guns at once, a real liability, and her broadside aspect exposes more vulnerable plating. She holds up well against same-tier opponents but is overmatched by the heaviest battleships, so keeping the armoured bow toward danger is key to staying alive."
+  },
+  {
+    "id": "montecuccoli",
+    "name": "RN Raimondo Montecuccoli",
+    "nation": "italy",
+    "class": "naval",
+    "subclass": "Light cruiser",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.3,
+      "realistic": 5.3,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "RN Raimondo Montecuccoli is the lead Condottieri light cruiser of the Italian bluewater line, arriving with the navy's debut in Update 1.99 'Starfighters'. She trades the heavy armour of a true cruiser for a fast, well-laid-out hull carrying eight 152 mm Ansaldo rifles, making her one of the more forgiving early-cruiser openers for the Italian fleet.",
+    "prosCons": {
+      "pros": [
+        "Eight 152 mm guns in four turrets give strong broadside weight for the BR",
+        "Fast hull and responsive handling for repositioning and angling",
+        "Good gun depression/elevation for engaging close destroyers and aircraft",
+        "Optional torpedo and depth-charge loadouts add flexibility"
+      ],
+      "cons": [
+        "Thin protection (citadel only 40/60/30 mm) punishes any broadside exposure",
+        "Crew of 648 is modest, so flooding and fires bite quickly",
+        "152 mm shells lack the punch of true heavy-cruiser 203 mm guns"
+      ]
+    },
+    "playstyle": "Play her as a mobile knife-fighter rather than a brawler. Keep the bow or stern angled to deny enemy gunners a clean citadel, use the speed to dictate range, and lean on the four turrets to keep a full broadside on target whenever you can safely show your side. Pick the torpedo setup when you expect close, island-cluttered maps.",
+    "history": "Laid down in October 1931 and commissioned in June 1935, Raimondo Montecuccoli was the first ship of her sub-class within the broader Condottieri programme of fast Italian light cruisers. During the Second World War she saw action in the Mediterranean, including convoy-interdiction battles in which she engaged British forces. She survived the war and went on to serve the post-war Italian navy as a training cruiser for roughly two decades.",
+    "media": [],
+    "sources": [
+      {
+        "label": "RN Raimondo Montecuccoli - War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/it_cruiser_montecuccoli",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Bluewater Fleet (Italy) - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/ships?v=t&t_c=italy",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "brSimulator",
+      "beltMm",
+      "deckMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 8995,
+      "lengthM": null,
+      "crew": 648
+    },
+    "propulsion": {
+      "maxKnots": 39.2
+    },
+    "armament": {
+      "mainBattery": "8 x 152/55 mm O.T.O. Mod.1929 (4 turrets x 2)",
+      "secondary": "6 x 100 mm/47 O.T.O. Mod.1928 (3 turrets x 2)",
+      "aa": "4 x 37 mm/54 Breda Mod.38; 10 x 20 mm/70 Oerlikon 3S",
+      "torpedoes": "8 x 533 mm steam-turbine Type M (optional setup)",
+      "depthCharges": true
+    },
+    "armor": {
+      "citadel": "40/60/30 mm citadel; 70/22/22 mm main fire tower; 25 mm hull; 8 mm superstructure"
+    },
+    "survivability": "Survivability is the classic light-cruiser compromise: speed and a roomy hull layout instead of meaningful armour. The 40/60/30 mm citadel and 25 mm hull stop little more than splinters and autocannon fire, so any 152 mm or heavier hit on the broadside can reach magazines or machinery. The 648-strong crew gives some redundancy against single penetrations, but sustained fire, flooding and chained fires will overwhelm her. Stay angled and keep moving to survive."
+  },
+  {
+    "id": "eugenio-di-savoia",
+    "name": "RN Eugenio di Savoia",
+    "nation": "italy",
+    "class": "naval",
+    "subclass": "Light cruiser",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.7,
+      "realistic": 5.7,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "RN Eugenio di Savoia is a later, heavier Duca d'Aosta sub-class Condottieri light cruiser. She keeps the eight-gun 152 mm broadside of the line but adds displacement and slightly thicker citadel plating, sitting a notch above Montecuccoli in both protection and battle rating.",
+    "prosCons": {
+      "pros": [
+        "Eight 152 mm guns with good rate of fire for the class",
+        "Improved citadel (50/70/35 mm) and fire-tower armour over earlier Condottieri",
+        "Strong layered AA of 37 mm and 20 mm mounts",
+        "Fast, manoeuvrable hull typical of the Condottieri family"
+      ],
+      "cons": [
+        "Still lightly armoured by cruiser standards; broadside exposure is dangerous",
+        "152 mm main calibre is outmatched by 203 mm heavy cruisers at her uptiers",
+        "Larger hull is an easier target than the lithe Montecuccoli"
+      ]
+    },
+    "playstyle": "Fight at the edge of effective range, using speed to keep heavy cruisers from landing clean citadel hits while your eight 152s work their armour and superstructure down. Angle constantly, prioritise enemy destroyers and light cruisers you can out-gun, and use the dense AA suite to swat attackers when air spawns are active.",
+    "history": "Eugenio di Savoia was the second ship of the Duca d'Aosta sub-class of Condottieri cruisers, launched in 1935. She took part in operations during the Spanish Civil War and saw extensive Mediterranean service in the Second World War, including convoy escort and surface actions against the Royal Navy. After the war she was handed to Greece as reparations, serving the Hellenic Navy under a new name.",
+    "media": [],
+    "sources": [
+      {
+        "label": "RN Eugenio di Savoia - War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/it_cruiser_eugenio_di_savoia",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Bluewater Fleet (Italy) - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/ships?v=t&t_c=italy",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "maxKnots",
+      "brSimulator",
+      "beltMm",
+      "deckMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 10672,
+      "lengthM": null,
+      "crew": 694
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "8 x 152/53 mm O.T.O. Mod.1929 (4 turrets x 2)",
+      "secondary": "6 x 100 mm/47 O.T.O. Mod.1928 (3 turrets x 2)",
+      "aa": "4 x 37 mm/54 Breda Mod.32; 10 x 20 mm/70 Oerlikon 3S",
+      "torpedoes": "6 x 533 mm steam-turbine Type M",
+      "depthCharges": true
+    },
+    "armor": {
+      "citadel": "50/70/35 mm citadel; 90/30/30 mm main fire tower; 25 mm hull; 8 mm superstructure"
+    },
+    "survivability": "Eugenio di Savoia is a step up from the earliest Condottieri in toughness but is still a light cruiser at heart. The 50/70/35 mm citadel and 90 mm fire-tower face will shrug off destroyer fire and resist 152 mm hits at oblique angles, yet a square broadside to a heavy cruiser remains lethal. The 694-man crew and larger hull absorb more punishment before going down, but fire and flooding control are the real keys to staying afloat in a prolonged exchange."
+  },
+  {
+    "id": "duca-degli-abruzzi",
+    "name": "RN Duca degli Abruzzi",
+    "nation": "italy",
+    "class": "naval",
+    "subclass": "Light cruiser",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 5.7,
+      "realistic": 5.7,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "RN Luigi di Savoia Duca degli Abruzzi is the most advanced of the Italian Condottieri-family light cruisers, introduced in Update 'Apex Predators'. She mounts a heavy ten-gun 152 mm Ansaldo Mod.1934 battery in mixed triple and twin turrets, the strongest main armament of the Italian light-cruiser line, paired with a thicker citadel than her predecessors.",
+    "prosCons": {
+      "pros": [
+        "Ten 152 mm guns (2 triple + 2 twin turrets) give the heaviest light-cruiser broadside in the tree",
+        "100 mm citadel face is well protected for a light cruiser",
+        "Solid layered AA of 37 mm and 20 mm Breda mounts",
+        "Large crew (772) improves resistance to single penetrations"
+      ],
+      "cons": [
+        "Sits at a high BR where 203 mm heavy cruisers and capital ships are common",
+        "Still a light cruiser hull, so it struggles against same-BR heavyweights",
+        "Slower turret traverse and reload than the lighter Condottieri"
+      ]
+    },
+    "playstyle": "Treat her as a long-range gunboat: open at distance where the ten 152s can rain accurate fire while keeping you out of heavy-cruiser citadel range. Angle the bow to make the 100 mm citadel work, manage the larger crew across damage control priorities, and avoid knife-fights with 203 mm ships that will out-penetrate you up close.",
+    "history": "Duca degli Abruzzi was the first ship of her sub-class within the Condottieri programme, commissioned on 1 December 1937. Her wartime service was relatively limited: she fought at the Battle of Punta Stilo without scoring hits, and in November 1941 had her stern blown off by an air-dropped torpedo from a Malta-based aircraft, later repaired. After the 1943 Armistice she surrendered at Malta and went on to serve the post-war Italian navy until 1961.",
+    "media": [],
+    "sources": [
+      {
+        "label": "RN Duca degli Abruzzi - War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/it_cruiser_garibaldi_class_abruzzi",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Bluewater Fleet (Italy) - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/ships?v=t&t_c=italy",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "brSimulator",
+      "beltMm",
+      "deckMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 11542,
+      "lengthM": null,
+      "crew": 772
+    },
+    "propulsion": {
+      "maxKnots": 34.5
+    },
+    "armament": {
+      "mainBattery": "10 x 152/55 mm Ansaldo Mod.1934 (2 triple + 2 twin turrets)",
+      "secondary": "8 x 100 mm/47 O.T.O. Mod.1928 (4 turrets x 2)",
+      "aa": "8 x 37 mm/54 Breda Mod.38 (4 x 2); 8 x 20 mm/65 Breda (4 x 2); 2 x 20 mm/65 Breda",
+      "torpedoes": "12 x 533 mm steam-turbine Tipo M",
+      "depthCharges": true
+    },
+    "armor": {
+      "citadel": "100/100/40 mm citadel; 25 mm hull; 8 mm superstructure"
+    },
+    "survivability": "The best-protected of the Italian light cruisers, Duca degli Abruzzi's 100 mm citadel face genuinely resists 152 mm fire when angled and will defeat most destroyer guns outright. Her 772-man crew gives strong redundancy against floods and fires. Even so, she is still a light cruiser fighting at a heavy-cruiser battle rating, so 203 mm shells will punch through a flat broadside and the thin 25 mm hull leaves the ends vulnerable to flooding. Disciplined angling and fast damage control keep her in the fight."
   }
 ];
