@@ -128,8 +128,9 @@ function ArmorBox({
  */
 export function ArmorViewer({ hull, turret, hasTurret = true, className }: ArmorViewerProps) {
   const [angle, setAngle] = useState(-28);
+  const [pitch, setPitch] = useState(-24);
   const [dragging, setDragging] = useState(false);
-  const drag = useRef<{ x: number; base: number } | null>(null);
+  const drag = useRef<{ x: number; y: number; baseYaw: number; basePitch: number } | null>(null);
 
   const HULL: BoxDims = { w: 120, d: 176, h: 40 };
   const TURRET: BoxDims = { w: 86, d: 78, h: 34 };
@@ -142,13 +143,16 @@ export function ArmorViewer({ hull, turret, hasTurret = true, className }: Armor
   const norm = ((angle % 360) + 360) % 360;
 
   const onDown = (e: React.PointerEvent) => {
-    drag.current = { x: e.clientX, base: angle };
+    drag.current = { x: e.clientX, y: e.clientY, baseYaw: angle, basePitch: pitch };
     setDragging(true);
     e.currentTarget.setPointerCapture(e.pointerId);
   };
   const onMove = (e: React.PointerEvent) => {
     if (!drag.current) return;
-    setAngle(drag.current.base + (e.clientX - drag.current.x) * 0.6);
+    setAngle(drag.current.baseYaw + (e.clientX - drag.current.x) * 0.6);
+    // Vertical drag tilts: up → look down on the roof, down → up at the belly.
+    const p = drag.current.basePitch + (e.clientY - drag.current.y) * 0.6;
+    setPitch(Math.max(-88, Math.min(88, p)));
   };
   const onUp = () => {
     drag.current = null;
@@ -159,7 +163,7 @@ export function ArmorViewer({ hull, turret, hasTurret = true, className }: Armor
     <div className={cn("glass overflow-hidden p-4", className)}>
       <div className="mb-2 flex items-center justify-between">
         <span className="label-tag text-accent">Armour · 3D view</span>
-        <span className="font-data text-[0.65rem] text-faint">drag to rotate</span>
+        <span className="font-data text-[0.65rem] text-faint">drag to orbit · ↕ tilt</span>
       </div>
 
       {/* 3D stage */}
@@ -185,7 +189,7 @@ export function ArmorViewer({ hull, turret, hasTurret = true, className }: Armor
           )}
           style={{
             transformStyle: "preserve-3d",
-            transform: `rotateX(-24deg) rotateY(${angle}deg)`,
+            transform: `rotateX(${pitch}deg) rotateY(${angle}deg)`,
           }}
         >
           {/* hull */}
