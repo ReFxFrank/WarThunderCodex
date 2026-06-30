@@ -926,7 +926,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 16.8,
       "ammoCapacity": 56,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "occ-105-f1-cn105f1",
+        "oe-105-f1-mle60-cn105f1",
+        "ofph-105-f1-cn105f1"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -1681,7 +1685,12 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 84,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "m72-shot-oqf-mk-v",
+        "m61-shot-oqf-mk-v",
+        "m48-shell-oqf-mk-v",
+        "m89-smoke-oqf-mk-v"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -8438,7 +8447,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 52,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "l15a3-l11a5",
+        "l31a7-l11a5",
+        "l34-l11a5"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -9158,7 +9171,13 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 47,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "t33-m3-90",
+        "m82-m3-90",
+        "m304-m3-90",
+        "m71-m3-90",
+        "m313-m3-90"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -11254,7 +11273,12 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 14.1,
       "ammoCapacity": 93,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "shot-mk1-apt-2pdr",
+        "shot-mk9b-apcbct-2pdr",
+        "shot-mk1-aphvt-2pdr",
+        "shell-mk1-apt-2pdr"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -12217,7 +12241,12 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 16.8,
       "ammoCapacity": 104,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "m72-ap",
+        "m61-apcbc",
+        "m48-he",
+        "m89-smoke"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -12512,7 +12541,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 17.5,
       "ammoCapacity": 58,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "br-365k",
+        "o-365k",
+        "br-365p"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -12791,7 +12824,13 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 75,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "shot-mk6-qf17pdr",
+        "shot-mk4-qf17pdr",
+        "shot-mk8-qf17pdr",
+        "shell-mk1-qf17pdr",
+        "shell-ss-mk1-qf17pdr"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -19745,7 +19784,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 17.5,
       "ammoCapacity": 47,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "occ-105-f1-cn105f1",
+        "oe-105-f1-mle60-cn105f1",
+        "ofph-105-f1-cn105f1"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -21950,7 +21993,12 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 17.5,
       "ammoCapacity": 55,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "pzgr-39-kwk39-l60",
+        "pzgr-40-kwk39-l60",
+        "pzgr-40-1-kwk39-l60",
+        "sprgr-38-kwk39-l60"
+      ]
     },
     "armor": {
       "hullMm": {
