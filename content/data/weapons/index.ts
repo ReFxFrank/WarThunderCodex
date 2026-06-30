@@ -15,7 +15,8 @@ export const weapons: Weapon[] = [
       "br-365p"
     ],
     "usedBy": [
-      "t-34-85-1944"
+      "t-34-85-1944",
+      "t-44"
     ],
     "notes": "A versatile 85 mm rifled cannon that gives the T-34-85 a strong all-round punch at its battle rating, pairing capable APHE and APCR rounds with a reload that drops from roughly 9.6 to 7.4 seconds as the crew skills up. It rewards aggressive flanking and quick, decisive shots, since its post-penetration damage is solid but its rate of fire is not high enough for sustained brawling.",
     "sources": [
@@ -47,7 +48,8 @@ export const weapons: Weapon[] = [
       "m89-smoke"
     ],
     "usedBy": [
-      "m4a1-sherman"
+      "m4a1-sherman",
+      "m4a3e2-jumbo"
     ],
     "notes": "The early-Sherman 75 mm gun in game, mounted on the M4A1 (1942) at 3.7 BR (AB/RB/SB). The wiki lists a comfortable reload of 6.5 s on a basic crew down to 5 s with an aced crew, and it carries four shell types: M72 AP, M61 APCBC, M48 HE, and M89 smoke, making it a flexible all-rounder. Note: the wiki page does not publish a muzzle-velocity column or an RPM figure for this gun, so those values are left unverified rather than estimated.",
     "sources": [
@@ -106,7 +108,9 @@ export const weapons: Weapon[] = [
     "ammoTypeIds": [],
     "usedBy": [
       "bf-109-f-4",
-      "fw-190-a-5"
+      "fw-190-a-5",
+      "fw-190-d-9",
+      "bf-109-g-6"
     ],
     "notes": "A hub-mounted (Motorkanone) 20 mm autocannon firing through the propeller hub on the Bf 109 F-4, with a 700 rpm cadence and a 200-round magazine, giving a centerline-accurate, hard-hitting punch that rewards precise aim over volume of fire. In-game it offers six belt choices (Default, Universal, Air targets, Armored targets, Tracers, Stealth). Caliber (20 mm), fire rate (700 shots/min), and the 200-round capacity are confirmed on the Bf 109 F-4 wiki page; muzzle velocity is not listed on any Tier-1 page and is left unverified.",
     "sources": [
@@ -173,7 +177,8 @@ export const weapons: Weapon[] = [
     "ammoTypeIds": [],
     "usedBy": [
       "spitfire-mk-vb",
-      "typhoon-mk-ib"
+      "typhoon-mk-ib",
+      "spitfire-mk-ix"
     ],
     "notes": "A hard-hitting 20 mm autocannon firing at 600 shots/min with a modest 60-round-per-gun magazine (120 rounds total across both cannons on the Spitfire Mk Vb), rewarding short, well-aimed bursts over sustained fire. Paired with rifle-calibre machine guns, it delivers strong damage per hit but demands trigger discipline to avoid running dry. In-game belt options include Default, Universal, Air targets, Ground targets, Tracers, and Stealth.",
     "sources": [
@@ -200,7 +205,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "spitfire-mk-vb"
+      "spitfire-mk-vb",
+      "spitfire-mk-ix"
     ],
     "notes": "A rifle-caliber (7.7 mm) machine gun with a high 1,000 rpm rate of fire but light individual rounds, so it relies on saturating fire from multiple guns rather than per-hit punch. Effective against unarmored and lightly armored aircraft but struggles to do meaningful damage at longer ranges or against sturdier targets. The Spitfire Mk Vb carries four of these, with selectable belts including Universal, Tracers, Stealth, and Ground targets. Muzzle velocity is not stated on the Tier-1 vehicle page.",
     "sources": [
@@ -609,7 +615,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "a6m5-zero"
+      "a6m5-zero",
+      "a6m2-zero"
     ],
     "notes": "Cowl-mounted rifle-calibre machine guns that supplement the Zero's cannons, useful for tracer-guided aiming and shredding lightly armoured targets. NOTE: the task brief expected the A6M5 to mount 2x 13 mm Type 3 machine guns, but the Tier-1 A6M5 unit page (verified twice) clearly lists 2x 7.7 mm Type 97 machine guns instead; the 13 mm Type 3 is fitted to other A6M5 sub-variants (Ko/Otsu/Hei), not this base A6M5. Recorded the source-accurate weapon. The pair carries 1,400 rounds total (700 per gun) at 900 rounds per minute. Muzzle velocity was not shown on the unit page and is left unverified.",
     "sources": [
@@ -636,7 +643,8 @@ export const weapons: Weapon[] = [
     "ammoTypeIds": [],
     "usedBy": [
       "yak-3",
-      "la-5fn"
+      "la-5fn",
+      "la-7"
     ],
     "notes": "Soviet 20 mm aircraft autocannon, the standard cannon armament of mid-war Yak and Lavochkin fighters. In-game fire rate is mount-dependent and therefore not a single value for this shared record: the synchronised fuselage mount on the Yak-3 reads 800 shots/min while the La-5FN installation reads 720 shots/min on their respective unit pages. Because the figure differs by host airframe, fireRateRpm is left null here rather than committing to one number.",
     "sources": [
@@ -921,7 +929,8 @@ export const weapons: Weapon[] = [
     "usedBy": [
       "f-86f-25",
       "sbd-3-dauntless",
-      "p-47d-thunderbolt"
+      "p-47d-thunderbolt",
+      "f4u-4-corsair"
     ],
     "notes": "The aircraft M3 is a faster-firing development of the M2 Browning, raising the rate of fire to keep .50-cal armament relevant against jets. Six of them on the F-86F deliver a high volume of fire and a deep ammo pool, but each round is comparatively light, so kills come from sustained, well-aimed bursts rather than single passes.",
     "sources": [
@@ -2172,7 +2181,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "sherman-firefly"
+      "sherman-firefly",
+      "centurion-mk-1"
     ],
     "notes": "British high-velocity 76.2 mm anti-tank gun fitted to the Sherman Firefly. One of the hardest-hitting guns at its rank, with penetration capable of defeating late-war German heavy armour.",
     "sources": [
@@ -2333,7 +2343,9 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "harrier-gr1"
+      "harrier-gr1",
+      "hunter-f6",
+      "j35-draken"
     ],
     "notes": "The ADEN Mk.4 is a 30 mm revolver cannon carried in pairs on the Harrier GR.1, with each gun firing at roughly 1,200 rounds per minute and sharing a combined load of about 260 rounds. Its hard-hitting 30 mm shells are effective against light ground targets and, in a defensive pinch, against aircraft, supporting the Harrier's strike role alongside its bombs and rockets. The wiki page does not publish a muzzle-velocity figure for this gun, so that value is left unverified rather than estimated.",
     "sources": [
@@ -2607,6 +2619,247 @@ export const weapons: Weapon[] = [
       {
         "label": "J-8B — War Thunder Wiki (official unit page)",
         "url": "https://wiki.warthunder.com/unit/j_8b",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "oqf-77mm",
+    "name": "77 mm OQF",
+    "type": "cannon",
+    "caliberMm": 77,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "comet-i"
+    ],
+    "notes": "British 77 mm Ordnance Quick-Firing gun (designated OQF Mk.II in game) fitted to the Comet I. Derived from the 17-pounder family with a shorter case, it offers strong penetration, especially with APDS ammunition. Muzzle velocity and cannon fire rate were not clearly shown on the unit page and are left null.",
+    "sources": [
+      {
+        "label": "Comet I — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/uk_a_34_comet",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "pak39-75mm",
+    "name": "75 mm PaK 39 L/48",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "jagdpanzer-38t-hetzer"
+    ],
+    "notes": "German 75 mm PaK 39 L/48 anti-tank gun mounted in the casemate of the Jagdpanzer 38(t) Hetzer. A capable medium-velocity gun able to defeat most opponents at its battle rating. Muzzle velocity and a cannon fire rate were not clearly shown on the unit page and are left null.",
+    "sources": [
+      {
+        "label": "Jagdpanzer 38(t) — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_jgdpz_38t",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "sa47-100mm",
+    "name": "100 mm SA47",
+    "type": "cannon",
+    "caliberMm": 100,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "lorraine-40t"
+    ],
+    "notes": "Autoloaded 100 mm cannon (SA47 L/58) fed from a seven-round magazine, giving a rapid four-second cycle between shots until the drum empties and a longer full reload follows. Mounted in the Lorraine 40t's oscillating turret.",
+    "sources": [
+      {
+        "label": "Lorraine 40t — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_lorraine_40t",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type5-75mm",
+    "name": "75 mm Type II Model II",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "chi-to"
+    ],
+    "notes": "Long high-velocity 75 mm cannon mounting the Type 4 Chi-To's primary armament, offering strong penetration for its battle rating in a manually loaded turret.",
+    "sources": [
+      {
+        "label": "Chi-To — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/jp_type_4_chi_to",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "d-56t-76mm",
+    "name": "76 mm D-56T",
+    "type": "cannon",
+    "caliberMm": 76,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "pt-76b"
+    ],
+    "notes": "Stabilised 76 mm rifled gun mounted on the PT-76B amphibious light tank. The in-game vehicle's gun is rendered on the wiki as the D-56TS variant; muzzle velocity and cyclic fire rate were not cleanly parseable from the source and are left null.",
+    "sources": [
+      {
+        "label": "PT-76B — Official War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_pt_76b",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m6-37mm",
+    "name": "37 mm M6",
+    "type": "cannon",
+    "caliberMm": 37,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m5a1-stuart"
+    ],
+    "notes": "37 mm rifled gun mounted on the M5A1 Stuart light tank. Muzzle velocity and cyclic fire rate were not cleanly parseable from the wiki source and are left null pending verification.",
+    "sources": [
+      {
+        "label": "M5A1 Stuart — Official War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m5a1_stuart",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "mg131-13mm",
+    "name": "13 mm MG 131",
+    "type": "machine-gun",
+    "caliberMm": 13,
+    "fireRateRpm": 900,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "bf-109-g-6",
+      "fw-190-d-9"
+    ],
+    "notes": "A 13 mm German heavy machine gun used as cowl armament on late-war Messerschmitt fighters. On the Bf 109 G-6 a pair is mounted over the engine with 600 rounds each, firing at roughly 900 rounds per minute to supplement the hub-mounted MG 151 cannon. Caliber and fire rate are confirmed on the Bf 109 G-6 wiki page; muzzle velocity is not listed there and is left unverified.",
+    "sources": [
+      {
+        "label": "Bf 109 G-6 - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/bf-109g-6",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type-30-1-30mm",
+    "name": "30 mm Type 30-1 cannon",
+    "type": "cannon",
+    "caliberMm": 30,
+    "fireRateRpm": 850,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "mig-19j_6a"
+    ],
+    "notes": "Chinese 30 mm autocannon fitted to the J-6A, the domestic equivalent of the Soviet NR-30. Distinct from the NR-30 record on the wiki page, which lists it as the Type 30-1. The J-6A carries 140 rounds total.",
+    "sources": [
+      {
+        "label": "J-6A — Official War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/mig-19j_6a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type-99-mk1-20mm",
+    "name": "20 mm Type 99 Mark 1",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 516,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "a6m2-zero"
+    ],
+    "notes": "A short-barreled 20 mm wing cannon derived from the Oerlikon design, fitted to early A6M Zero fighters. It fires a heavy shell but at low muzzle velocity and a slow cadence of about 516 rounds per minute, with a small 60-round-per-gun magazine that rewards close, careful shots. Caliber and fire rate are confirmed on the A6M2 wiki page; muzzle velocity is not listed there and is left unverified.",
+    "sources": [
+      {
+        "label": "A6M2 - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/a6m2_zero",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
