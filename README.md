@@ -58,7 +58,22 @@ Other scripts:
 npm run build    # production build → static export in ./out
 npm run start    # serve the production build locally (next start)
 npm run lint     # ESLint (next build does NOT lint in Next 16)
+npm run validate # schema + referential-integrity check over all content
 ```
+
+## Content engine
+
+Content is file-based and validated against Zod schemas (`lib/schema.ts`) at build time —
+a malformed record or a dangling cross-reference **fails the build**.
+
+- **Structured data** (vehicles, weapons, ammo, missiles, glossary) lives under
+  `content/data/**` as typed TS modules, loaded via `lib/content.ts`.
+- **Articles** are MDX under `content/articles/**` with schema-checked frontmatter
+  (`lib/articles.ts`); see `content/articles/README.md` for the frontmatter contract.
+- **Search** is a client-side MiniSearch index built at compile time over every content
+  type and emitted to `/search-index.json` (`lib/search.ts`).
+
+Run `npm run validate` for a readable report; it exits non-zero on any issue, so it can gate CI.
 
 ## Building for production
 
@@ -144,8 +159,11 @@ This repository is being built in phases (deliberately, stopping for review at e
 - [x] **Phase 0 — Scaffold & identity.** Design tokens, layout, instrument primitives
       (glass card, gauge, BR reticle, pills, nation chip), home page, placeholder routes,
       About page with sourcing policy, static export verified.
-- [ ] **Phase 1 — Content engine.** TS types + Zod schemas, typed loaders with build-time
-      validation, MDX pipeline, search index, `scripts/validate` CLI.
+- [x] **Phase 1 — Content engine.** TS types + Zod schemas (`lib/schema.ts`), typed loaders
+      with build-time validation that fails on bad data (`lib/content.ts`,
+      `lib/validate-content.ts`), MDX pipeline (`lib/articles.ts`), compile-time search index
+      emitted as a static file (`lib/search.ts` → `/search-index.json`), and the
+      `npm run validate` CLI.
 - [ ] **Phase 2 — Knowledge backbone.** Mechanics + getting-started articles, full glossary.
 - [ ] **Phase 3 — Vehicle system.** Detail template + instrument cluster, nation hubs, browsers.
 - [ ] **Phase 4 — Weapons system.** Weapon / ammo / missile pages, comparison tool.

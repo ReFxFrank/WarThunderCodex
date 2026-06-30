@@ -8,8 +8,12 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { NationChip } from "@/components/ui/NationChip";
 import { NATIONS } from "@/lib/nations";
 import { PRIMARY_NAV, DATA_STATUS, SITE } from "@/lib/site";
+import { getContentCounts } from "@/lib/content";
+import { getAllArticles } from "@/lib/articles";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const counts = getContentCounts();
+  const articleCount = (await getAllArticles()).length;
   return (
     <>
       {/* ----------------------------------------------------------- hero -- */}
@@ -88,9 +92,9 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid grid-cols-3 gap-4 sm:gap-6">
-            <Stat label="Vehicles" value={DATA_STATUS.seededVehicles} />
-            <Stat label="Weapons" value={DATA_STATUS.seededWeapons} />
-            <Stat label="Articles" value={DATA_STATUS.seededArticles} />
+            <Stat label="Vehicles" value={counts.vehicles} />
+            <Stat label="Weapons" value={counts.weapons} />
+            <Stat label="Articles" value={articleCount} />
           </div>
         </GlassCard>
         <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1">

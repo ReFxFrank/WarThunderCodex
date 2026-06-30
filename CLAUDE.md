@@ -28,8 +28,11 @@ Read this before continuing work in a new session.
 ## Build phases (stop for review at each boundary)
 
 - Phase 0 ✅ Scaffold & identity (design tokens, layout, instrument primitives, home, stubs).
-- Phase 1 — Content engine: TS types + Zod schemas, typed loaders w/ build-time validation,
-  MDX pipeline, search index, `scripts/validate` CLI.
+- Phase 1 ✅ Content engine: Zod schemas (`lib/schema.ts`), validating loaders that fail the
+  build on bad data (`lib/content.ts` + `lib/validate-content.ts`), MDX pipeline
+  (`lib/articles.ts` compile / `lib/article-fs.ts` frontmatter — split so the tsx CLI and
+  search builder avoid the MDX compiler's resolver quirk), search index
+  (`lib/search.ts` → `/search-index.json`), `npm run validate` CLI + `scripts/mdx-smoke.mjs`.
 - Phase 2 — Knowledge backbone: mechanics + getting-started articles, full glossary.
 - Phase 3 — Vehicle system: detail template + instrument cluster (3 class variants),
   armor-schematic SVG, nation hubs, class browsers.
