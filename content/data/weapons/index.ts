@@ -857,9 +857,10 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "mig-15bis"
+      "mig-15bis",
+      "j-5"
     ],
-    "notes": "A hard-hitting Soviet 37 mm autocannon used as the heavy half of the MiG-15bis battery; the -D suffix denotes the muzzle-brake-fitted variant. A single connecting shell will cripple or destroy most fighters, but the low fire rate and tiny 40-round magazine demand disciplined aim.",
+    "notes": "A hard-hitting Soviet 37 mm autocannon used as the heavy half of the MiG-15bis battery (and, as the Chinese Type 37-1, of the Shenyang F-5); the -D suffix denotes the muzzle-brake-fitted variant. A single connecting shell will cripple or destroy most fighters, but the low fire rate and tiny 40-round magazine demand disciplined aim.",
     "sources": [
       {
         "label": "MiG-15bis — War Thunder Wiki (offensive armament: N-37D, 400 shots/min)",
@@ -883,9 +884,10 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "mig-15bis"
+      "mig-15bis",
+      "j-5"
     ],
-    "notes": "A fast-firing Soviet 23 mm autocannon carried in a pair on the MiG-15bis, complementing the heavier 37 mm. Its higher rate of fire makes it the more forgiving gun for tap-firing and tracking, though its ballistic arc differs from the 37 mm so the two batteries do not converge identically.",
+    "notes": "A fast-firing Soviet 23 mm autocannon carried in a pair on the MiG-15bis (and, as the Chinese Type 23-1, on the Shenyang F-5), complementing the heavier 37 mm. Its higher rate of fire makes it the more forgiving gun for tap-firing and tracking, though its ballistic arc differs from the 37 mm so the two batteries do not converge identically.",
     "sources": [
       {
         "label": "MiG-15bis — War Thunder Wiki (offensive armament: 2x NR-23, 900 shots/min)",
@@ -1079,6 +1081,136 @@ export const weapons: Weapon[] = [
     ],
     "unverified": [
       "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "flak38-20mm",
+    "name": "20 mm Flak 38",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 480,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "wirbelwind"
+    ],
+    "notes": "Quad-barrel Flakvierling 38 mount as fitted to the Wirbelwind. The wiki lists a combined fire rate of 480 shots/min across the four barrels and a 3,200-round vehicle ammo pool. A rapid-firing 20 mm autocannon ideal against aircraft and light armour, but with limited penetration against tanks at range. Muzzle velocity was not listed on the unit page.",
+    "sources": [
+      {
+        "label": "Wirbelwind | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/germ_flakpanzer_IV_Wirbelwind",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "bofors-m2a1-40mm",
+    "name": "40 mm Bofors M2A1",
+    "type": "autocannon",
+    "caliberMm": 40,
+    "fireRateRpm": 120,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m42-duster"
+    ],
+    "notes": "Twin 40 mm Bofors M2A1 automatic mount on the M42 Duster. The wiki shows a 120 shots/min rate and a 480-round capacity, fed in clips. Hard-hitting heavy autocannon effective against aircraft and light vehicles; the comparatively low fire rate means each burst must be aimed carefully. Muzzle velocity was not listed on the unit page.",
+    "sources": [
+      {
+        "label": "M42 | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m42_duster",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "s-68-57mm",
+    "name": "57 mm S-68",
+    "type": "autocannon",
+    "caliberMm": 57,
+    "fireRateRpm": 120,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "zsu-57-2"
+    ],
+    "notes": "Twin 57 mm S-68 automatic cannons on the ZSU-57-2, fed from 4-round clips. The wiki lists a 120 shots/min rate and 296-round total capacity. An unusually large-calibre autocannon for an SPAA, giving heavy hitting power against aircraft and light armour at the cost of a low sustained rate of fire. Muzzle velocity was not listed on the unit page.",
+    "sources": [
+      {
+        "label": "ZSU-57-2 | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_zsu_57_2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "nr-30-30mm",
+    "name": "30 mm NR-30",
+    "type": "cannon",
+    "caliberMm": 30,
+    "fireRateRpm": 850,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "mig-21f-13"
+    ],
+    "notes": "A hard-hitting 30 mm Soviet aircraft revolver-feed cannon, the single mount on the MiG-21F-13 fires at 850 rounds per minute from a small 60-round belt. Its heavy shells inflict severe damage on a hit, but the limited ammunition and modest velocity reward short, committed bursts at close range rather than sustained fire. The unit page lists the fire rate but does not publish a muzzle velocity, so that value is left unverified.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — MiG-21F-13",
+        "url": "https://wiki.warthunder.com/unit/mig-21_f13",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m50-20mm",
+    "name": "20 mm M50",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 750,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ouragan"
+    ],
+    "notes": "A 20 mm autocannon of the Hispano lineage, mounted as a battery of four in the nose of the Israeli M.D.450B Ouragan. The unit page lists a fire rate of 750 rounds per minute and a combined 500-round ammunition pool, giving a heavy, concentrated burst at close range. The in-game entry is named M50 and is associated with the 20 mm Hispano 404 family; the page does not publish a muzzle velocity, so that value is left unverified.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — M.D.450B (29) (Israel)",
+        "url": "https://wiki.warthunder.com/unit/md_450b_ouragan_iaf_29",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",

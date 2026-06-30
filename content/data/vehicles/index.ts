@@ -3437,5 +3437,677 @@ export const vehicles: Vehicle[] = [
       "composite": false,
       "aps": false
     }
+  },
+  {
+    "id": "wirbelwind",
+    "name": "Wirbelwind",
+    "nation": "germany",
+    "class": "ground",
+    "subclass": "SPAA",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4,
+      "realistic": 3.7,
+      "simulator": 3.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Wirbelwind (Flakpanzer IV Sd.Kfz. 161/4) mounts an open-top, nine-sided turret carrying a quadruple 20 mm Flak 38 mount on a Panzer IV chassis. It is a low-rank German anti-aircraft platform whose four barrels throw out a dense wall of fragmentation rounds, shredding aircraft and lightly armoured ground targets alike, while the crew rely on the chassis rather than the thin turret for protection.",
+    "prosCons": {
+      "pros": [
+        "Quad 20 mm mount delivers a very high combined volume of fire",
+        "Full 90 degree gun elevation makes high-angle deflection shots easy",
+        "Panzer IV chassis is well armoured at the front for an SPAA, surviving small-calibre fire",
+        "Large 3,200-round ammo pool lets it hose targets without constant resupply"
+      ],
+      "cons": [
+        "Open-topped, thinly armoured turret leaves the crew exposed to strafing, shrapnel and HE",
+        "20 mm rounds bleed energy quickly and struggle against anything beyond light armour at range",
+        "Tall, boxy silhouette is easy to spot and the gunner sits high",
+        "Slow, WWII-era chassis cannot reposition quickly against fast jets"
+      ]
+    },
+    "playstyle": "Hold back from the immediate front line and treat the Wirbelwind as a roving flak post: park near cover with a clear sky view, lead aircraft generously, and walk the four-barrel stream onto them. Against ground targets, ambush exposed flanks and rear armour of light vehicles, then relocate before return fire finds the open turret.",
+    "history": "Conceived in mid-1944 by SS-Hauptsturmfuehrer Karl Wilhelm Krause as a stopgap to give German armoured columns mobile flak cover, the Wirbelwind married the Flakvierling 38 quad 20 mm mount to a turreted Panzer IV hull. Only a limited number were built before production shifted to the heavier-hitting Ostwind, but the design proved the value of a fully traversable, tracked anti-aircraft turret.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Wirbelwind | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/germ_flakpanzer_IV_Wirbelwind",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 25,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "flak38-20mm",
+      "reloadBaseSec": 5.2,
+      "reloadAcedSec": 4,
+      "vertGuidanceDeg": [
+        -10,
+        90
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 3200,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "80",
+        "side": "30",
+        "rear": "20"
+      },
+      "turretMm": {
+        "front": "16",
+        "side": "16",
+        "rear": "16"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m42-duster",
+    "name": "M42 Duster",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "SPAA",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4.3,
+      "realistic": 4,
+      "simulator": 4
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M42 Duster is a lightly armoured American self-propelled anti-aircraft gun built on the M41 Walker Bulldog chassis, carrying a twin 40 mm Bofors M2A1 mount in an open turret. Fast and nimble, it trades armour for mobility and uses its hard-hitting twin autocannons against both aircraft and light ground targets.",
+    "prosCons": {
+      "pros": [
+        "Twin 40 mm Bofors rounds hit hard and can knock out light vehicles and aircraft in a single burst",
+        "Very mobile chassis, ideal for flanking and repositioning",
+        "Good 85 degree elevation for engaging diving aircraft",
+        "Large 480-round ammo supply for a heavy-calibre SPAA"
+      ],
+      "cons": [
+        "Open-top turret with paper-thin 8-12 mm armour offers almost no crew protection",
+        "Slow 120 rpm fire rate per the wiki means each clip-fed burst must count",
+        "Limited -3 degree gun depression hampers shooting downhill",
+        "Large profile and exposed crew make it fragile in close combat"
+      ]
+    },
+    "playstyle": "Exploit the M42's speed to reach flanking positions and elevated ground with a wide field of fire. Use the twin Bofors against aircraft at medium range where their hitting power tells, and ambush light vehicles from the side; never trade shots frontally given the negligible armour and exposed crew.",
+    "history": "Developed in the early 1950s to replace the M19 on the newer M41 chassis, the M42 Duster paired the dual 40 mm Bofors gun with a fast, air-transportable hull. Although designed for air defence, the advent of jet aircraft soon outpaced its optically aimed guns, and it found its real fame in Vietnam as a devastating direct-fire weapon against ground troops and ambushes.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M42 | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m42_duster",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 22.5,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "bofors-m2a1-40mm",
+      "reloadBaseSec": 0.6,
+      "reloadAcedSec": 0.5,
+      "vertGuidanceDeg": [
+        -3,
+        85
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 480,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "12",
+        "side": "12",
+        "rear": "12"
+      },
+      "turretMm": {
+        "front": "12",
+        "side": "8",
+        "rear": "8"
+      },
+      "crewCount": 6,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "zsu-57-2",
+    "name": "ZSU-57-2",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "SPAA",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7,
+      "realistic": 7,
+      "simulator": 7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The ZSU-57-2 is a Soviet self-propelled anti-aircraft gun built on a lightened T-54 chassis, mounting twin 57 mm S-68 autocannons in a large open turret. Its big-bore guns are far heavier than typical SPAA armament, making it a dangerous tank-hunter and bomber-killer, though its low fire rate and clip feed demand precise gunnery.",
+    "prosCons": {
+      "pros": [
+        "Twin 57 mm S-68 guns hit extremely hard and can destroy aircraft or light tanks outright",
+        "Strong penetration lets it threaten the side and rear of medium tanks",
+        "High 85 degree elevation and full traverse cover the whole sky",
+        "Tracer-rich 57 mm rounds make leading aircraft easier than smaller-calibre SPAA"
+      ],
+      "cons": [
+        "Only 120 rpm with 4-round clips means a brief, low-volume burst before reloading",
+        "Open-top turret with thin 13-15 mm armour leaves the crew highly vulnerable",
+        "Very poor reverse speed makes disengaging slow",
+        "Limited -5 degree depression restricts hull-down and downhill shots"
+      ]
+    },
+    "playstyle": "Play the ZSU-57-2 as a hybrid flak/tank-destroyer: take overwatch positions where you can punish aircraft with heavy bursts and snipe the flanks of advancing armour with its potent 57 mm rounds. Manage the short 4-round clips by firing controlled bursts, and avoid prolonged exposure given the open, lightly armoured turret.",
+    "history": "Designed by NII-58 between 1947 and 1950 and produced from 1955 to 1960, the ZSU-57-2 placed the powerful S-68 anti-aircraft gun atop a thinned-down T-54 hull. Around 857 were built and the type was widely exported, seeing action in conflicts from Vietnam and the Six-Day War to later Middle Eastern and Balkan fighting, frequently repurposed as a direct-fire support weapon.",
+    "media": [],
+    "sources": [
+      {
+        "label": "ZSU-57-2 | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_zsu_57_2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 28,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "s-68-57mm",
+      "reloadBaseSec": 2.6,
+      "reloadAcedSec": 2,
+      "vertGuidanceDeg": [
+        -5,
+        85
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 296,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "15",
+        "side": "15",
+        "rear": "10"
+      },
+      "turretMm": {
+        "front": "15",
+        "side": "13",
+        "rear": "13"
+      },
+      "crewCount": 6,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "mig-21f-13",
+    "name": "MiG-21F-13",
+    "nation": "ussr",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 8.7,
+      "realistic": 9.3,
+      "simulator": 9.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The MiG-21F-13 is a rank VI Soviet supersonic jet fighter and the first of the delta-wing MiG-21 line in the tech tree. It pairs a single 30 mm NR-30 cannon with a 60-round magazine and a pair of R-3S infrared missiles, leaning on raw speed, a high service ceiling, and early IR-missile gunnery rather than turning power.",
+    "prosCons": {
+      "pros": [
+        "Very high top speed and excellent acceleration in a dive",
+        "Carries early R-3S infrared air-to-air missiles for stand-off kills",
+        "Hard-hitting 30 mm NR-30 cannon for finishing passes",
+        "High service ceiling lets it dictate engagement altitude"
+      ],
+      "cons": [
+        "Tiny 60-round cannon belt punishes spray-and-pray gunnery",
+        "Poor low-speed handling and weak energy retention in sustained turns",
+        "R-3S missiles are easily defeated by flares and hard maneuvers",
+        "Bleeds energy quickly if dragged into a flat turnfight"
+      ]
+    },
+    "playstyle": "Treat the MiG-21F-13 as a high-speed interceptor, not a dogfighter. Keep your speed up, climb to altitude, and use the R-3S infrared missiles for opening shots against unaware or non-maneuvering targets at range, remembering they are simple seekers that flares and hard turns will beat. Reserve the single 30 mm NR-30 for committed finishing passes, since the 60-round belt empties almost instantly. Avoid prolonged low-speed turnfights where the delta wing bleeds energy badly; instead extend, reset, and re-engage on your terms using the jet's superior speed and ceiling.",
+    "history": "The MiG-21F-13 was an early production mark of the Mikoyan-Gurevich MiG-21, a single-engine delta-wing interceptor that became one of the most widely produced supersonic aircraft in history. The F-13 standardized the K-13 (R-3S) infrared missile, a design reverse-engineered from a captured AIM-9 Sidewinder, and to fit the associated equipment one of the aircraft's twin cannons was deleted, leaving a single 30 mm NR-30.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — MiG-21F-13",
+        "url": "https://wiki.warthunder.com/unit/mig-21_f13",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 2196,
+      "maxSpeedAltM": 13000,
+      "climbMps": 98,
+      "turnTimeSec": 34.6,
+      "structuralLimitKph": 1312,
+      "ceilingM": 16000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "nr-30-30mm",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "j-5",
+    "name": "Shenyang F-5",
+    "nation": "china",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9,
+      "realistic": 9,
+      "simulator": 9
+    },
+    "acquisition": [
+      "premium"
+    ],
+    "summary": "The Shenyang F-5 is China's license-built MiG-17F, a transonic swept-wing jet fighter offered as a premium. It carries the classic heavy MiG-17 gun fit of one 37 mm and two 23 mm cannons, rewarding patient energy fighting and decisive, well-aimed gun passes over high-speed missile play.",
+    "prosCons": {
+      "pros": [
+        "Devastating mixed 37 mm + twin 23 mm cannon battery",
+        "Strong energy retention and good sustained turn for its rating",
+        "Reliable transonic performance with a high service ceiling",
+        "Forgiving, well-rounded handling typical of the MiG-17 line"
+      ],
+      "cons": [
+        "Low cannon velocities make leading distant targets difficult",
+        "Small 40-round belt on the 37 mm cannon limits sustained fire",
+        "No radar and only short-range PL-2 IR missiles for air combat",
+        "Severe compression and control stiffening at high speed"
+      ]
+    },
+    "playstyle": "Fly the Shenyang F-5 as an energy fighter that wins with guns. Keep your speed in the band where controls stay responsive, and use the MiG-17's good energy retention to stay above and behind opponents. The 37 mm and twin 23 mm battery is brutal up close but the shells are slow, so close the distance and fire short, aimed bursts rather than sniping. Manage the small 37 mm belt carefully, use the PL-2 missiles only against unaware or non-maneuvering targets at short range, and disengage vertically if a fight stalls out at low speed.",
+    "history": "After the Soviet Union agreed to help build China's aviation industry in the early 1950s, Factory 112 (later Shenyang Aircraft Corporation) was selected to license-produce the MiG-17F. The first Chinese-assembled jet flew in 1956 and entered People's Liberation Army Air Force service shortly after. Aircraft of this type, including examples supplied to allied air arms, saw extensive combat over the following years against opposing piston and jet aircraft.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Shenyang F-5",
+        "url": "https://wiki.warthunder.com/unit/mig-17_f5",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1094,
+      "maxSpeedAltM": 2000,
+      "climbMps": 59.1,
+      "turnTimeSec": 22.7,
+      "structuralLimitKph": 1150,
+      "ceilingM": 15500,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "n-37d-37mm",
+          "count": 1
+        },
+        {
+          "weaponId": "nr-23-23mm",
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "ouragan",
+    "name": "M.D.450B (29)",
+    "nation": "israel",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7.3,
+      "realistic": 7.7,
+      "simulator": 7.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M.D.450B (29) is a rank V Israeli early jet fighter-bomber, a version of the French Dassault MD.450 Ouragan operated by the Israeli Air Force. It mounts a heavy battery of four 20 mm M50 cannons and a useful ground-attack load, making it a versatile but transonic platform best flown as an energy fighter and strike aircraft.",
+    "prosCons": {
+      "pros": [
+        "Four 20 mm cannons deliver a heavy, concentrated burst",
+        "Generous 500-round total ammunition pool for its class",
+        "Solid air-to-ground load of rockets and bombs",
+        "Sturdy airframe that tolerates hard maneuvering at moderate speed"
+      ],
+      "cons": [
+        "Modest top speed leaves it slow against contemporary jets",
+        "Unremarkable climb rate for its battle rating",
+        "No air-to-air missiles, so all aerial kills come from guns",
+        "Handling stiffens and controls compress as speed builds"
+      ]
+    },
+    "playstyle": "Fly the M.D.450B as a hybrid energy fighter and strike jet. In air battles, conserve energy, fight in the vertical against faster opponents you cannot out-run, and bring all four 20 mm cannons to bear in short, decisive bursts where the concentrated firepower shines. Against ground targets, use the rocket and bomb load on early passes, then revert to air-to-air gunnery. Avoid drawn-out flat turnfights against more agile jets and respect the modest top speed by picking engagements you can disengage from cleanly.",
+    "history": "The Dassault MD.450 Ouragan was France's first mass-produced jet fighter and the first jet built in series by Dassault. Israel acquired Ouragans in the mid-1950s, with the first examples arriving in 1955 and equipping a newly formed squadron. The type saw combat during the 1956 Suez campaign, including ground-attack and anti-shipping strikes, before later serving in secondary roles.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — M.D.450B (29) (Israel)",
+        "url": "https://wiki.warthunder.com/unit/md_450b_ouragan_iaf_29",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "maxSpeedAltM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": null,
+      "climbMps": 23.1,
+      "turnTimeSec": 25.4,
+      "structuralLimitKph": 1030,
+      "ceilingM": 12000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m50-20mm",
+          "count": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "z25",
+    "name": "Z25",
+    "nation": "germany",
+    "class": "naval",
+    "subclass": "Destroyer",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4.3,
+      "realistic": 4.3,
+      "simulator": null
+    },
+    "acquisition": [
+      "battle-pass"
+    ],
+    "summary": "The Z25 is a Type 1936A destroyer that trades one of its centrally mounted 15 cm turrets for a dense battery of 3.7 cm and 2 cm flak, turning a hard-hitting gunboat into one of the strongest dedicated anti-air destroyers at its rank. Its 15 cm guns fire slowly compared with the 12.8 cm boats of the German line, but their armour-piercing shells punch well above their weight against other destroyers and exposed light cruisers.",
+    "prosCons": {
+      "pros": [
+        "15 cm armour-piercing shells deal heavy damage per hit, devastating other destroyers",
+        "Exceptional anti-aircraft suite of 3.7 cm and 2 cm autocannons shreds attacking aircraft",
+        "Eight 533 mm G7a torpedoes give a strong long-range ambush option",
+        "Generous 336-man crew absorbs damage and keeps modules manned"
+      ],
+      "cons": [
+        "Low main-gun rate of fire compared with the 12.8 cm Type 1936 sisters",
+        "Thin protection (16 mm hull) leaves it vulnerable to enemy AP and HE",
+        "Large hull is an easy target for torpedoes and bombers",
+        "Locked behind Battle Pass seasons, so not freely available in the tree"
+      ]
+    },
+    "playstyle": "Hold at medium range and lean on the AP punch of the 15 cm guns, picking off enemy destroyers before they can close. Stay angled and keep moving to spoil incoming fire, since the hull offers little protection. Lead torpedo spreads against capital ships and let the heavy flak battery deter or destroy attacking aircraft rather than relying on dodging alone.",
+    "history": "Built to the Type 1936A standard, Z25 was laid down in 1939 and launched the following year, entering service with German destroyer flotillas during the Second World War. The 1936A boats were a heavier-gunned evolution of the Type 1936 design, originally intended to carry 15 cm guns for greater hitting power. Z25 served in northern and Baltic waters, escorting and skirmishing through the mid-war years, and survived to be handed over as a war prize after Germany's defeat.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Z25 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936a_z25",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "maxKnots",
+      "deckMm",
+      "brSimulator",
+      "secondary"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 3543,
+      "lengthM": null,
+      "crew": 336
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "4 x 150 mm/48 KC/36 (two single mounts aft, one twin mount forward)",
+      "aa": "3.7 cm Flak M42 and 2 cm Flak 38 (twin and quad mounts plus single 2 cm)",
+      "torpedoes": "8 x 533 mm G7a",
+      "depthCharges": true
+    },
+    "armor": {
+      "beltMm": "16",
+      "citadel": "Main fire tower 30 / 20 / 5 mm"
+    },
+    "survivability": "Survivability rests almost entirely on the large 336-man crew and redundant modules rather than armour, since the 16 mm hull and 8 mm superstructure stop little more than fragments and small-calibre fire. Enemy AP shells pass through cleanly, so the boat relies on absorbing hits without losing too many systems at once; ammunition and engine spaces are the most dangerous places to take a penetration. The strong flak battery improves effective survivability against aircraft by destroying bombers and strafers before they can land hits."
+  },
+  {
+    "id": "fr_destroyer_jaguar_class_chacal",
+    "name": "Chacal",
+    "nation": "france",
+    "class": "naval",
+    "subclass": "Destroyer",
+    "rank": "I",
+    "battleRatings": {
+      "arcade": 4,
+      "realistic": 4,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Chacal is the lead ship of France's Jaguar-class contre-torpilleurs (large torpedo-boat destroyers) and one of the early reserve-rank ships of the French fleet line. It carries a heavy five-gun battery of 130 mm cannons and a strong torpedo armament, but it is a glass cannon: armour is almost non-existent and it has no dedicated short-range anti-aircraft guns.",
+    "prosCons": {
+      "pros": [
+        "Five 130 mm main guns give strong broadside firepower for its rank",
+        "Six 550 mm torpedoes threaten larger ships",
+        "Available early in the French tree as a tech-tree vessel",
+        "Long, fast contre-torpilleur hull suited to flanking and torpedo runs"
+      ],
+      "cons": [
+        "No dedicated short-range anti-aircraft guns, leaving it helpless against aircraft",
+        "Paper-thin protection (16 mm hull) offers little against AP or HE",
+        "Modest 221-man crew is drained quickly by sustained fire",
+        "Main guns are not fast-firing, so it must make hits count"
+      ]
+    },
+    "playstyle": "Fight at range where the five 130 mm guns can land aimed salvos while the thin hull stays out of close brawls. Use the torpedoes opportunistically against cruisers and capital ships during flanking runs. Because there is no real anti-air, treat aircraft as a serious threat and keep near friendly cover or break off when planes appear rather than trying to dodge bombs in the open.",
+    "history": "The Jaguar class, sometimes called the Chacal class after this lead ship, were among the first contre-torpilleurs built for the French Navy in the 1920s, large fast destroyers intended to scout and screen the fleet and to overwhelm enemy destroyers with heavy gun and torpedo armament. Chacal herself was launched in the mid-1920s and served into the Second World War. The class was named for big cats and predators, with sisters including Jaguar, Leopard, Lynx, Panthere and Tigre.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Chacal | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_destroyer_jaguar_class_chacal",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "maxKnots",
+      "deckMm",
+      "brSimulator"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 3075,
+      "lengthM": null,
+      "crew": 221
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "5 x 130 mm/40 model 1919",
+      "secondary": "2 x 75 mm/50 model 1922",
+      "torpedoes": "6 x 550 mm model 1923DT",
+      "depthCharges": false
+    },
+    "armor": {
+      "beltMm": "16",
+      "citadel": "Main fire tower 10 / 10 / 0 mm"
+    },
+    "survivability": "Chacal is extremely fragile: the 16 mm hull and 8 mm superstructure stop almost nothing, and the conning tower armour is token at best. Incoming AP shells will routinely overpenetrate or wreck modules, so survival depends on staying at range, presenting a narrow profile, and avoiding focused fire. With only 221 crew, repeated hits quickly knock out guns and flooding control, and the total lack of short-range flak means a single determined attack aircraft can be lethal."
+  },
+  {
+    "id": "jp_cruiser_furutaka",
+    "name": "IJN Furutaka",
+    "nation": "japan",
+    "class": "naval",
+    "subclass": "Heavy cruiser",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.7,
+      "realistic": 5.7,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "IJN Furutaka is the lead ship of the Furutaka-class scout cruiser, an early Japanese heavy cruiser sitting between light and heavy classes in capability. She carries six 203 mm guns in three twin turrets, a respectable secondary and AA fit, and a heavy torpedo armament, combining solid continuous firepower with the mobility expected of a Japanese cruiser.",
+    "prosCons": {
+      "pros": [
+        "Six 203 mm guns in three twin turrets deliver strong sustained firepower",
+        "Sixteen 610 mm Type 93 torpedoes are devastating against capital ships",
+        "Good mobility for a heavy cruiser, aiding repositioning and angling",
+        "Citadel and turret protection help against smaller-calibre fire"
+      ],
+      "cons": [
+        "Armour is light for a heavy cruiser and vulnerable to larger guns",
+        "Anti-aircraft suite of 25 mm and 13.2 mm guns is modest for the BR",
+        "Large torpedo storage can detonate catastrophically if hit",
+        "Slower than her sister Kako and outranged by later heavy cruisers"
+      ]
+    },
+    "playstyle": "Fight at medium to long range, angling the hull so the citadel belt deflects fire while putting steady 203 mm salvos onto enemy cruisers and destroyers. Keep the broadside hidden when reloading to limit exposure of the torpedo magazines, which can cause a fatal detonation. Launch the large Type 93 torpedo spreads against capital ships at choke points, and stay mobile to avoid concentrated fire that the light armour cannot absorb.",
+    "history": "Furutaka was the name ship of a class of scout heavy cruisers designed in the early 1920s to counter contemporary American Omaha-class and British Hawkins-class cruisers with superior speed and firing range. She entered Imperial Japanese Navy service in the mid-1920s and fought through the early Pacific War with Cruiser Division 6, taking part in operations around the Solomons. Furutaka was lost at the Battle of Cape Esperance in October 1942 after sustained American gunfire detonated her torpedo stowage.",
+    "media": [],
+    "sources": [
+      {
+        "label": "IJN Furutaka | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/jp_cruiser_furutaka",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "maxKnots",
+      "beltMm",
+      "deckMm",
+      "brSimulator"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 11273,
+      "lengthM": null,
+      "crew": 680
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "3 x 2 x 203 mm (3rd year type)",
+      "secondary": "4 x 120 mm/45 10th year type",
+      "aa": "25 mm/60 Type 96 (twin mounts) and 13.2 mm Type 93 machine guns (twin mounts)",
+      "torpedoes": "16 x 610 mm Type 93 Model 1 Mod 2",
+      "depthCharges": false
+    },
+    "armor": {
+      "citadel": "Citadel 76 / 76 / 34 mm; conning tower 25 / 25 / 25 mm; hull 25 mm"
+    },
+    "survivability": "Furutaka is tougher than a destroyer but lightly built for a heavy cruiser, with a 76 mm citadel and 25 mm hull that resist destroyer and light-cruiser fire but give way to larger naval guns. Her 680-man crew lets her soak damage and keep fighting, yet the greatest threat is internal: the large Type 93 torpedo stowage can detonate and destroy the ship outright, exactly as happened to the real vessel. Angling to protect the citadel and shielding the torpedo spaces from incoming fire are key to staying afloat."
   }
 ];
