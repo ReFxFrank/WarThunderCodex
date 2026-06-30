@@ -170,7 +170,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "spitfire-mk-vb"
+      "spitfire-mk-vb",
+      "typhoon-mk-ib"
     ],
     "notes": "A hard-hitting 20 mm autocannon firing at 600 shots/min with a modest 60-round-per-gun magazine (120 rounds total across both cannons on the Spitfire Mk Vb), rewarding short, well-aimed bursts over sustained fire. Paired with rifle-calibre machine guns, it delivers strong damage per hit but demands trigger discipline to avoid running dry. In-game belt options include Default, Universal, Air targets, Ground targets, Tracers, and Stealth.",
     "sources": [
@@ -497,7 +498,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "m26-pershing"
+      "m26-pershing",
+      "m36-jackson"
     ],
     "notes": "American 90 mm rifled tank gun with smooth handling and a quick reload. Its standard APCBC round offers moderate penetration, while specialised APCR and HEAT shells extend its effectiveness against tougher targets. Main armament of the M26 Pershing.",
     "sources": [
@@ -915,7 +917,8 @@ export const weapons: Weapon[] = [
     "ammoTypeIds": [],
     "usedBy": [
       "f-86f-25",
-      "sbd-3-dauntless"
+      "sbd-3-dauntless",
+      "p-47d-thunderbolt"
     ],
     "notes": "The aircraft M3 is a faster-firing development of the M2 Browning, raising the rate of fire to keep .50-cal armament relevant against jets. Six of them on the F-86F deliver a high volume of fire and a deep ammo pool, but each round is comparatively light, so kills come from sustained, well-aimed bursts rather than single passes.",
     "sources": [
@@ -1986,6 +1989,352 @@ export const weapons: Weapon[] = [
     ],
     "unverified": [
       "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "ml-20s-152mm",
+    "name": "152 mm ML-20S",
+    "type": "cannon",
+    "caliberMm": 152,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "isu-152"
+    ],
+    "notes": "Casemate-mounted 152 mm gun-howitzer used on the ISU-152. Fires large high-explosive and armour-piercing shells whose sheer mass gives it extreme one-shot potential at the cost of a very long reload and a small ammunition stowage.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — ISU-152",
+        "url": "https://wiki.warthunder.com/unit/ussr_isu_152",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "stuh43-150mm",
+    "name": "150 mm StuH 43",
+    "type": "cannon",
+    "caliberMm": 150,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "brummbar"
+    ],
+    "notes": "Short-barrelled 150 mm howitzer mounted in the Brummbär's casemate. Low muzzle velocity makes it a lobbing weapon, but its huge high-explosive shell can wreck almost any vehicle it strikes; the trade-off is a long reload and modest ammo count.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Brummbär",
+        "url": "https://wiki.warthunder.com/unit/germ_sturmpanzer_IV_brummbar",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "ho-5-20mm",
+    "name": "20 mm Ho-5 cannon",
+    "type": "cannon",
+    "caliberMm": 20,
+    "fireRateRpm": 850,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ki-84-hayate"
+    ],
+    "notes": "The Ho-5 is the standard Japanese Army 20 mm aircraft cannon, mounted in pairs in the Ki-84's wing roots. It offers a high rate of fire for its caliber and a meaningful punch against fighters, but a modest ammunition count rewards short, accurate bursts. The wiki page lists its fire rate but does not publish a clean muzzle-velocity figure, which is left unverified rather than estimated.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Ki-84 ko (Ho-5)",
+        "url": "https://wiki.warthunder.com/unit/ki_84_ko",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "ho-103-12mm",
+    "name": "12.7 mm Ho-103 machine gun",
+    "type": "machine-gun",
+    "caliberMm": 12.7,
+    "fireRateRpm": 900,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ki-84-hayate"
+    ],
+    "notes": "The Ho-103 is a Japanese Army 12.7 mm aircraft machine gun, fitted as a pair in the Ki-84's cowling to supplement its 20 mm cannon. It has a high rate of fire and a generous ammunition supply, useful for ranging shots and sustained fire against lightly protected targets. The wiki page lists its fire rate but not a reliable muzzle-velocity value, which is left unverified.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Ki-84 ko (Ho-103)",
+        "url": "https://wiki.warthunder.com/unit/ki_84_ko",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "kwk40-75mm",
+    "name": "75 mm KwK40 L/43",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "pz-iv-g"
+    ],
+    "notes": "Long-barrelled German 75 mm tank gun (L/43 length) that turned the Panzer IV into a capable medium gunfighter. Flat trajectory and strong penetration for its rank make it effective against most contemporaries at range.",
+    "sources": [
+      {
+        "label": "Pz.Kpfw.IV Ausf.G — Official War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_IV_ausf_G",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "f-34-76mm",
+    "name": "76 mm F-34",
+    "type": "cannon",
+    "caliberMm": 76,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "t-34-1941"
+    ],
+    "notes": "Standard Soviet 76 mm tank gun of the early T-34. A versatile weapon with a useful spread of armour-piercing and high-explosive shells, able to deal with most armour it faces at its battle rating.",
+    "sources": [
+      {
+        "label": "T-34 (1941) — Official War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_34_1941",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "qf-17pdr-76mm",
+    "name": "76 mm QF 17-pounder",
+    "type": "cannon",
+    "caliberMm": 76,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "sherman-firefly"
+    ],
+    "notes": "British high-velocity 76.2 mm anti-tank gun fitted to the Sherman Firefly. One of the hardest-hitting guns at its rank, with penetration capable of defeating late-war German heavy armour.",
+    "sources": [
+      {
+        "label": "Sherman Firefly — Official War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/Sherman_Firefly",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "kwk44-128mm",
+    "name": "128 mm KwK44",
+    "type": "cannon",
+    "caliberMm": 128,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "maus"
+    ],
+    "notes": "Primary armament of the Maus super-heavy tank. This large-calibre cannon delivers heavy single-shot damage with a long reload (about 23.6 s stock, 18.2 s aced). On the Maus it is paired with a turret-mounted 75 mm KwK44 secondary cannon. Muzzle velocity and fire rate were not clearly shown on the wiki unit page.",
+    "sources": [
+      {
+        "label": "War Thunder Official Wiki — Maus",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_Maus",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "zis-5-76mm",
+    "name": "76 mm ZiS-5",
+    "type": "cannon",
+    "caliberMm": 76,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "kv-1"
+    ],
+    "notes": "Main gun of the KV-1 (ZiS-5) heavy tank, a longer 76 mm cannon with solid penetration for its battle rating. Reload is roughly 9 s for a basic crew and 6.9 s aced. Muzzle velocity and fire rate were not clearly shown on the wiki unit page.",
+    "sources": [
+      {
+        "label": "War Thunder Official Wiki — KV-1 (ZiS-5)",
+        "url": "https://wiki.warthunder.com/unit/ussr_kv_1_zis_5",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m7-76mm",
+    "name": "76 mm Gun M7",
+    "type": "cannon",
+    "caliberMm": 76,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m6a1"
+    ],
+    "notes": "The 3-inch (76 mm) Gun M7 is the primary armament of the M6A1 heavy tank. It reloads quickly for a heavy (about 7.6 s stock, 5.9 s aced). On the M6A1 it is paired in the turret with a 37 mm M3 cannon mounted alongside it. Muzzle velocity and fire rate were not clearly shown on the wiki unit page.",
+    "sources": [
+      {
+        "label": "War Thunder Official Wiki — M6A1",
+        "url": "https://wiki.warthunder.com/unit/us_m6a1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "gau-8-30mm",
+    "name": "30 mm GAU-8/A",
+    "type": "autocannon",
+    "caliberMm": 30,
+    "fireRateRpm": 4200,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "a-10a-thunderbolt"
+    ],
+    "notes": "The GAU-8/A is the seven-barrel 30 mm rotary cannon built into the nose of the A-10A, firing at roughly 4,200 rounds per minute from a magazine of about 1,174 rounds. Its sheer rate of fire and heavy 30 mm shells let it tear through ground targets, including the roofs and rear of armoured vehicles, making it the centerpiece of the aircraft's close air support role. The wiki page does not publish a muzzle-velocity figure for this gun, so that value is left unverified rather than estimated.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — A-10A Late (a_10a_late)",
+        "url": "https://wiki.warthunder.com/unit/a_10a_late",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "gsh-30-2-30mm",
+    "name": "30 mm GSh-30-2",
+    "type": "autocannon",
+    "caliberMm": 30,
+    "fireRateRpm": 3000,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "su-25"
+    ],
+    "notes": "The GSh-30-2 is a twin-barrel 30 mm cannon fixed in the Su-25, firing at about 3,000 rounds per minute from a 250-round supply. Its high rate of fire and powerful 30 mm rounds make it effective against light and medium ground targets as well as aircraft caught in a firing solution, complementing the Su-25's heavier guided and unguided ordnance. The wiki page does not publish a muzzle-velocity figure for this gun, so that value is left unverified rather than estimated.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Su-25 (su_25)",
+        "url": "https://wiki.warthunder.com/unit/su_25",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "aden-30mm",
+    "name": "30 mm ADEN Mk.4",
+    "type": "autocannon",
+    "caliberMm": 30,
+    "fireRateRpm": 1200,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "harrier-gr1"
+    ],
+    "notes": "The ADEN Mk.4 is a 30 mm revolver cannon carried in pairs on the Harrier GR.1, with each gun firing at roughly 1,200 rounds per minute and sharing a combined load of about 260 rounds. Its hard-hitting 30 mm shells are effective against light ground targets and, in a defensive pinch, against aircraft, supporting the Harrier's strike role alongside its bombs and rockets. The wiki page does not publish a muzzle-velocity figure for this gun, so that value is left unverified rather than estimated.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Harrier GR.1 (harrier_gr1)",
+        "url": "https://wiki.warthunder.com/unit/harrier_gr1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
