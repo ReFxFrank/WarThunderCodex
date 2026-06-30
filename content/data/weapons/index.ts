@@ -604,13 +604,14 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "a6m5-zero"
+      "a6m5-zero",
+      "j2m3-raiden"
     ],
-    "notes": "Belt-fed 20 mm autocannon mounted in the wings of the late-model Zero. It hits hard per shell but fires slowly, so it favours deliberate, well-led bursts rather than spray. The A6M5 carries two of these with 200 rounds total (100 per gun) at a fire rate of 490 rounds per minute. Muzzle velocity was not shown as a clean stat on the Tier-1 pages fetched and is left unverified.",
+    "notes": "A longer-barreled 20 mm autocannon with better velocity than the Mark 1, used on the late-model Zero and as the outboard pair on the J2M3 Raiden. It hits hard per shell but fires slowly at about 490 rounds per minute, favoring deliberate, well-led bursts. On the Raiden it carries roughly 420 rounds across the pair. Muzzle velocity was not shown as a clean Tier-1 stat and is left unverified.",
     "sources": [
       {
-        "label": "A6M5 | War Thunder Wiki (unit page, armament section)",
-        "url": "https://wiki.warthunder.com/unit/a6m5_zero",
+        "label": "J2M3 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/j2m3",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
@@ -2115,13 +2116,21 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "ki-84-hayate"
+      "ki-84-hayate",
+      "ki-43-2",
+      "ki-61-1a-ko"
     ],
-    "notes": "The Ho-103 is a Japanese Army 12.7 mm aircraft machine gun, fitted as a pair in the Ki-84's cowling to supplement its 20 mm cannon. It has a high rate of fire and a generous ammunition supply, useful for ranging shots and sustained fire against lightly protected targets. The wiki page lists its fire rate but not a reliable muzzle-velocity value, which is left unverified.",
+    "notes": "The Ho-103 is a Japanese Army 12.7 mm aircraft machine gun used widely across Army fighters including the Ki-84, Ki-43-II, and Ki-61-I Ko. It has a high rate of fire (900 rounds per minute) and explosive ammunition that gives it real punch for its caliber. The wiki pages list its fire rate but not a reliable muzzle-velocity value, which is left unverified.",
     "sources": [
       {
-        "label": "War Thunder Wiki — Ki-84 ko (Ho-103)",
-        "url": "https://wiki.warthunder.com/unit/ki_84_ko",
+        "label": "Ki-43-II | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ki_43_2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Ki-61-I Ko | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ki_61_1a_ko",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
@@ -2407,27 +2416,27 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "kwk39-50mm",
-    "name": "50 mm KwK39 L/60",
+    "name": "50 mm KwK39/1 cannon",
     "type": "cannon",
     "caliberMm": 50,
     "fireRateRpm": null,
-    "muzzleVelocityMps": null,
+    "muzzleVelocityMps": 835,
     "ammoTypeIds": [],
     "usedBy": [
+      "sdkfz-234-2-puma",
       "pz-iii-m"
     ],
-    "notes": "Long-barrelled 50 mm tank gun used on late Panzer III variants. Fast reload gives it a high practical rate of fire, but penetration falls off against heavily armoured targets at its battle rating.",
+    "notes": "Long-barrelled 50 mm L/60 gun firing APCBC (PzGr 39), APCR (PzGr 40) and HE; muzzle velocity quoted for the standard PzGr 39 round.",
     "sources": [
       {
-        "label": "War Thunder Official Wiki — Pz.III M",
-        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_M",
+        "label": "Sd.Kfz.234/2 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_sdkfz_234_2",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
-      "fireRateRpm",
-      "muzzleVelocityMps"
+      "fireRateRpm"
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
@@ -2869,13 +2878,14 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "a6m2-zero"
+      "a6m2-zero",
+      "j2m3-raiden"
     ],
-    "notes": "A short-barreled 20 mm wing cannon derived from the Oerlikon design, fitted to early A6M Zero fighters. It fires a heavy shell but at low muzzle velocity and a slow cadence of about 516 rounds per minute, with a small 60-round-per-gun magazine that rewards close, careful shots. Caliber and fire rate are confirmed on the A6M2 wiki page; muzzle velocity is not listed there and is left unverified.",
+    "notes": "A short-barreled 20 mm wing cannon derived from the Oerlikon design, used on early A6M Zeros and as the inboard pair on the J2M3 Raiden. It fires a heavy shell at low muzzle velocity and a slow cadence of about 516 rounds per minute. On the Raiden it carries roughly 380 rounds across the pair. Muzzle velocity is not published as a clean Tier-1 stat and is left unverified.",
     "sources": [
       {
-        "label": "A6M2 - War Thunder Wiki",
-        "url": "https://wiki.warthunder.com/unit/a6m2_zero",
+        "label": "J2M3 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/j2m3",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
@@ -4253,6 +4263,165 @@ export const weapons: Weapon[] = [
     ],
     "unverified": [
       "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "flak43-37mm",
+    "name": "37 mm FlaK43 cannon",
+    "type": "autocannon",
+    "caliberMm": 37,
+    "fireRateRpm": 250,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "flakpanzer-iv-ostwind"
+    ],
+    "notes": "Single-barrel automatic anti-aircraft gun fed in 8-round clips; fires APHE/FI-T, HE (Sprgr.) and HEI-T belts effective against aircraft and light armour.",
+    "sources": [
+      {
+        "label": "Ostwind | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_flakpanzer_IV_Ostwind",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "mk103-38-30mm",
+    "name": "30 mm MK103/38 cannon",
+    "type": "autocannon",
+    "caliberMm": 30,
+    "fireRateRpm": 450,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "flakpanzer-iv-kugelblitz"
+    ],
+    "notes": "Twin-mounted high-velocity 30 mm autocannons fed from 100-round belts; mixes AP-I, HVAP-T and HEI-T rounds. Per-barrel fire rate is 450 rounds per minute.",
+    "sources": [
+      {
+        "label": "Kugelblitz | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_flakpanzer_IV_Kugelblitz",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type-89-77mm",
+    "name": "7.7 mm Type 89 machine gun",
+    "type": "machine-gun",
+    "caliberMm": 7.7,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ki-61-1a-ko"
+    ],
+    "notes": "The Type 89 is a Japanese Army 7.7 mm rifle-caliber machine gun, a license-derived Vickers design fitted as the cowling pair on the Ki-61-I Ko (800 rounds per gun). It is a light, ranging weapon with modest damage output. The Ki-61-I Ko unit page render concatenated its fire-rate figure with adjacent values and conflicted with the dedicated gun page, so fire rate and muzzle velocity are left unverified rather than guessed.",
+    "sources": [
+      {
+        "label": "Ki-61-I Ko | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ki_61_1a_ko",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m2-browning-12-7mm",
+    "name": "12.7 mm M2 Browning",
+    "type": "machine-gun",
+    "caliberMm": 12.7,
+    "fireRateRpm": 750,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "f8f-1-bearcat",
+      "p-38j-15-lightning"
+    ],
+    "notes": "The standard US heavy machine gun of WWII, mounted in batteries on most American fighters. Reliable with a high rate of fire, it relies on volume and good convergence rather than per-round punch.",
+    "sources": [
+      {
+        "label": "F8F-1 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/f8f1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "an-m2-20mm",
+    "name": "20 mm AN/M2 cannon",
+    "type": "cannon",
+    "caliberMm": 20,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "p-38j-15-lightning"
+    ],
+    "notes": "A US-built derivative of the Hispano 20 mm cannon used as the nose centerline weapon on the P-38. It adds cannon punch to the Lightning's otherwise machine-gun armament.",
+    "sources": [
+      {
+        "label": "P-38J-15 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/p-38j",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m3-20mm",
+    "name": "20 mm M3 cannon",
+    "type": "cannon",
+    "caliberMm": 20,
+    "fireRateRpm": 750,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "f9f-2-panther"
+    ],
+    "notes": "A faster-firing development of the US 20 mm autocannon line, mounted as a four-gun nose battery on early Navy jets. Its concentrated fire gives the Panther a strong single-pass punch.",
+    "sources": [
+      {
+        "label": "F9F-2 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/f9f-2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
