@@ -2802,27 +2802,28 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "mg131-13mm",
-    "name": "13 mm MG 131",
+    "name": "13 mm MG 131 machine gun",
     "type": "machine-gun",
     "caliberMm": 13,
-    "fireRateRpm": 900,
-    "muzzleVelocityMps": null,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": 750,
     "ammoTypeIds": [],
     "usedBy": [
-      "bf-109-g-6",
-      "fw-190-d-9"
+      "bf-109-k-4",
+      "fw-190-d-9",
+      "bf-109-g-6"
     ],
-    "notes": "A 13 mm German heavy machine gun used as cowl armament on late-war Messerschmitt fighters. On the Bf 109 G-6 a pair is mounted over the engine with 600 rounds each, firing at roughly 900 rounds per minute to supplement the hub-mounted MG 151 cannon. Caliber and fire rate are confirmed on the Bf 109 G-6 wiki page; muzzle velocity is not listed there and is left unverified.",
+    "notes": "Germany's standard cowl-mounted 13 mm heavy machine gun on late-war fighters; reliable but light-hitting, used here as the secondary armament beside the hub cannon. Fire rate was not rendered on the unit page.",
     "sources": [
       {
-        "label": "Bf 109 G-6 - War Thunder Wiki",
-        "url": "https://wiki.warthunder.com/unit/bf-109g-6",
+        "label": "13 mm MG 131 machine gun | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/collections/weapon/13mm_mg_131",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
-      "muzzleVelocityMps"
+      "fireRateRpm"
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
@@ -3739,20 +3740,23 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "mg-151-20",
-    "name": "20 mm MG 151",
+    "name": "20 mm MG 151 cannon",
     "type": "cannon",
     "caliberMm": 20,
     "fireRateRpm": 700,
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
+      "ta-152-h-1",
+      "he-162-a-2",
+      "bf-109-k-4",
       "g55-serie1"
     ],
-    "notes": "Licence-used German 20 mm autocannon prized for its blend of fire rate, ballistics and a potent minengeschoss high-explosive shell. A mainstay heavy weapon on Italian Series 5 fighters.",
+    "notes": "Widely used German 20 mm cannon known for its accurate flat trajectory and potent mine-shell (M-Geschoss) high-explosive belt; muzzle velocity varies by belt and was not confirmed on the unit pages.",
     "sources": [
       {
-        "label": "G.55 serie 1 — War Thunder Wiki",
-        "url": "https://wiki.warthunder.com/unit/g_55_serie1",
+        "label": "20 mm MG 151 cannon | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/collections/weapon/20mm_mg_151",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
@@ -3786,6 +3790,117 @@ export const weapons: Weapon[] = [
     "unverified": [
       "fireRateRpm",
       "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "mk-108-30mm",
+    "name": "30 mm MK 108 cannon",
+    "type": "cannon",
+    "caliberMm": 30,
+    "fireRateRpm": 660,
+    "muzzleVelocityMps": 540,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "bf-109-k-4",
+      "ta-152-h-1"
+    ],
+    "notes": "Hard-hitting low-velocity 30 mm autocannon that destroys most targets in a single burst but demands close-range shooting due to its slow, looping shells.",
+    "sources": [
+      {
+        "label": "30 mm MK 108 cannon | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/collections/weapon/30mm_mk_108",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "qf-l1a2-120mm",
+    "name": "120 mm Ordnance QF Tk. L1A2 cannon",
+    "type": "cannon",
+    "caliberMm": 120,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "conqueror"
+    ],
+    "notes": "Rifled 120 mm gun using two-piece ammunition, firing APDS and HESH. The two-stage loading drives a long reload of about 19 seconds stock.",
+    "sources": [
+      {
+        "label": "Conqueror - War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_conqueror_mk_2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "qf-l4a1-183mm",
+    "name": "183 mm QF L4A1 cannon",
+    "type": "cannon",
+    "caliberMm": 183,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "fv4005"
+    ],
+    "notes": "Largest conventional tank gun in the game. Restricted to HESH ammunition, which delivers extreme one-shot potential against armour and emplacements.",
+    "sources": [
+      {
+        "label": "FV4005 - War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_fv4005",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "qf-20pdr-mk1-84mm",
+    "name": "20-pounder OQF Mk.I (84 mm)",
+    "type": "cannon",
+    "caliberMm": 84,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": 1465,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "charioteer-mk-vii"
+    ],
+    "notes": "High-velocity 84 mm gun with access to APDS; the Shot Mk.3 APDS round travels at about 1465 m/s for excellent long-range accuracy but poor post-penetration effect.",
+    "sources": [
+      {
+        "label": "Charioteer Mk VII - War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_charioteer_mk_7",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "20pdr OQF Mk.I (84 mm) - War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/20pdr_OQF_Mk.I_(84_mm)",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm"
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
