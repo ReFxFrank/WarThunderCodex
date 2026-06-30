@@ -150,8 +150,9 @@ export function ArmorViewer({ hull, turret, hasTurret = true, className }: Armor
   const onMove = (e: React.PointerEvent) => {
     if (!drag.current) return;
     setAngle(drag.current.baseYaw + (e.clientX - drag.current.x) * 0.6);
-    // Vertical drag tilts: up → look down on the roof, down → up at the belly.
-    const p = drag.current.basePitch + (e.clientY - drag.current.y) * 0.6;
+    // Vertical drag tilts (grab-and-pull feel): drag down → look down on the
+    // roof, drag up → look up at the belly.
+    const p = drag.current.basePitch - (e.clientY - drag.current.y) * 0.6;
     setPitch(Math.max(-88, Math.min(88, p)));
   };
   const onUp = () => {
