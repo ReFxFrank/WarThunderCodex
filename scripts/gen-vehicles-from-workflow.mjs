@@ -100,8 +100,30 @@ function toWeapon(entry) {
   });
 }
 
-const vehicles = data.vehicles.map(toVehicle);
-const weapons = (data.weapons ?? []).map(toWeapon);
+// Merge with any already-seeded data so expansion batches don't clobber prior
+// entries (and preserve manual link edits). Files are machine-generated JSON, so
+// we can slice the array out and parse it.
+async function readExistingArray(file) {
+  try {
+    const t = await fs.readFile(file, "utf8");
+    const s = t.indexOf("[");
+    const e = t.lastIndexOf("]");
+    if (s < 0 || e < 0) return [];
+    return JSON.parse(t.slice(s, e + 1));
+  } catch {
+    return [];
+  }
+}
+function mergeById(existing, incoming) {
+  const m = new Map(existing.map((x) => [x.id, x]));
+  for (const x of incoming) m.set(x.id, x);
+  return [...m.values()];
+}
+
+const vehPath = path.join("content", "data", "vehicles", "index.ts");
+const wpnPath = path.join("content", "data", "weapons", "index.ts");
+const vehicles = mergeById(await readExistingArray(vehPath), data.vehicles.map(toVehicle));
+const weapons = mergeById(await readExistingArray(wpnPath), (data.weapons ?? []).map(toWeapon));
 
 const vehFile =
   `import type { Vehicle } from "@/lib/schema";\n\n` +
