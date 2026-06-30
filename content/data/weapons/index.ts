@@ -993,7 +993,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "leopard-1"
+      "leopard-1",
+      "type-74"
     ],
     "notes": "The 105 mm L7A3 is the German-service variant of the widely exported British L7 rifled tank gun, mounted on the Leopard I. It is accurate and hard-hitting with access to high-velocity rounds, and is the gun that defines the Leopard I's first-shot flanking role. Muzzle velocity is nulled because a specific shell value could not be cleanly read from the Tier-1 unit stat card in this session. The Centurion Mk 10 carries the same L7 gun family but under the distinct in-game designation '105 mm Royal Ordnance L7A1', so it is recorded as a separate weapon (l7a1-105mm).",
     "sources": [
@@ -1478,6 +1479,193 @@ export const weapons: Weapon[] = [
       {
         "label": "IL-2 (1942) | War Thunder Wiki (official)",
         "url": "https://wiki.warthunder.com/unit/il-2i",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "2a46-125mm",
+    "name": "125 mm 2A46",
+    "type": "cannon",
+    "caliberMm": 125,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "t-72a"
+    ],
+    "notes": "Soviet 125 mm smoothbore main gun with a two-plane stabilizer and a carousel autoloader. On the T-72A it feeds a roster spanning APFSDS, HEAT-FS and HE shells, giving solid penetration for its battle rating at the cost of the vulnerable carousel ammo layout.",
+    "sources": [
+      {
+        "label": "T-72A | War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_72a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m68a1-105mm",
+    "name": "105 mm M68A1",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m1-abrams"
+    ],
+    "notes": "American 105 mm rifled main gun, the licence-derived L7 family weapon mounted on the M1 Abrams. It offers a fast reload and good handling but lighter penetration than the 120/125 mm smoothbores it faces, firing APFSDS, HEAT-FS, HESH and smoke.",
+    "sources": [
+      {
+        "label": "M1 Abrams | War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/us_m1_abrams",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "rh120-l44-120mm",
+    "name": "120 mm Rh120 L/44",
+    "type": "cannon",
+    "caliberMm": 120,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "leopard-2a4"
+    ],
+    "notes": "Rheinmetall 120 mm L/44 smoothbore, the definitive Western tank gun of its generation. On the Leopard 2A4 it delivers excellent APFSDS penetration alongside HEAT-FS rounds, manually loaded for a steady rate of fire.",
+    "sources": [
+      {
+        "label": "Leopard 2A4 | War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/germ_leopard_2a4",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "gsh-23l-23mm",
+    "name": "23 mm GSh-23L",
+    "type": "autocannon",
+    "caliberMm": 23,
+    "fireRateRpm": 3396,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "mig-23m"
+    ],
+    "notes": "Twin-barrel Soviet autocannon operating on the Gast principle, where each barrel's recoil cycles the other to reach a very high rate of fire from a simple mechanism. On the MiG-23M it is fed by a 200-round magazine. Fire rate (3,396 shots/min) is taken from the MiG-23M unit page armament listing; muzzle velocity is not stated on the unit page and is left null.",
+    "sources": [
+      {
+        "label": "MiG-23M | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/mig_23m",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "defa-552-30mm",
+    "name": "30 mm DEFA 552",
+    "type": "autocannon",
+    "caliberMm": 30,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "mirage-iiic"
+    ],
+    "notes": "French 30 mm revolver-type aircraft autocannon; the Mirage IIIC mounts a pair of them (the unit page labels the exact in-game variant '30 mm DEFA 552A cannon'). The Mirage IIIC unit page does not list fire rate, per-gun/total ammunition count, or muzzle velocity, so those values are left null rather than guessed.",
+    "sources": [
+      {
+        "label": "Mirage IIIC | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/mirage_3c",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "l11-120mm",
+    "name": "120 mm L11",
+    "type": "cannon",
+    "caliberMm": 120,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "chieftain-mk-3"
+    ],
+    "notes": "Rifled 120 mm tank gun (in-game full designation '120 mm Ordnance BL Tk. L11A5') firing separated APDS/HESH/smoke ammunition. Primary armament of the Chieftain series. Reload of the host vehicle is 9.7 s (basic) to 7.5 s (aced).",
+    "sources": [
+      {
+        "label": "Chieftain Mk 3 — War Thunder Wiki (unit page, armament section)",
+        "url": "https://wiki.warthunder.com/unit/uk_chieftain_mk_3",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "akan-m47c-20mm",
+    "name": "20 mm Akan m/47C",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 750,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "j29-tunnan"
+    ],
+    "notes": "Swedish license-built variant of the British 20 mm Hispano Mk.V, with a slightly lower rate of fire and Swedish belts. Mounted as a battery of four in the nose of the J29A; total load 720 rounds. The requested designation 'Akan m/49' does not match the wiki page, which lists 'Akan m/47C'.",
+    "sources": [
+      {
+        "label": "J29A — War Thunder Wiki (unit page, armament section)",
+        "url": "https://wiki.warthunder.com/unit/saab_j29a",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }

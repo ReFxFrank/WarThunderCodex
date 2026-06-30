@@ -5119,7 +5119,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Climb to altitude on the way in, hold a steady heading to set up the bombsight, and let the turret crew handle anything that closes from the sides or rear. Keep speed up in shallow descents to make deflection shots harder, and never try to dogfight; the airframe is for delivering ordnance, not for turning. Spread the bomb load across multiple targets if the situation allows, since the bay carries a useful mix of sizes.",
     "history": "The B-17E was the first Flying Fortress built in large numbers, introducing the enlarged tail surfaces, a tail-gunner position, and powered dorsal and ventral turrets that defined the type's heavily defended look. Those additions added weight and prompted uprated Wright Cyclone engines. It saw early Pacific and European service before being superseded by the further-refined F and G models.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/b-17e-flying-fortress.jpg",
+        "alt": "A color wartime photograph of a Boeing B-17E Flying Fortress (serial 41-2393) in flight circa 1942, not the in-game model.",
+        "credit": "U.S. Air Force · Public Domain (PD-USGov-Military-Air Force) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "B-17E | War Thunder Wiki (official unit page)",
@@ -5189,7 +5196,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fly straight, fly level, and deliver the bombs; this aircraft punishes any attempt at violent manoeuvres with structural failure. Pick the payload to suit the job, heavy bombs for bases, the torpedo or Fritz X for shipping. Stay out of the way of enemy fighters rather than relying on the gunners, and avoid steep dives entirely since the wings will not take it.",
     "history": "The H-6 was one of the most-produced He 111 sub-variants, introducing uprated Jumo 211F engines and improved defensive positions over earlier H models. It served across the Luftwaffe's bombing and anti-shipping campaigns and was adapted to carry torpedoes and early guided weapons, reflecting Germany's mid-war push toward precision strike.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/he-111-h-6.jpg",
+        "alt": "A wartime photograph of a German Heinkel He 111 (variant unspecified) bombing Warsaw in September 1939, not the in-game model.",
+        "credit": "PWN / EAST NEWS (anonymous) · Public Domain (PD-anon-70-EU) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "He 111 H-6 | War Thunder Wiki (official unit page)",
@@ -5261,7 +5275,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Decide the payload before takeoff: small bombs to spread across many targets, or the FAB-5000 for a single devastating drop on a packed objective. Climb steadily, hold a level run for accuracy, and use the cannon turrets to make attacking fighters pay rather than counting on evasion. Keep the nose pointed at the target and let the defensive crew cover the rear quarters.",
     "history": "Designed by Vladimir Petlyakov's team in the late 1930s, the Pe-8 was the only Soviet four-engine heavy bomber to see service in the Second World War. Built in small numbers, it was used for prestige long-range raids deep into German territory, including strikes on Berlin in 1941, before later examples were diverted to transport and Arctic duties.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/pe-8.jpg",
+        "alt": "A 1942 U.S. Navy photograph of the Petlyakov Pe-8 (TB-7, Wnr. 42066) that flew the Soviet delegation to Washington D.C., not the in-game model.",
+        "credit": "U.S. Navy (National Archives 80-G-16118) · Public Domain (PD-USGov-Navy) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Pe-8 | War Thunder Wiki (official unit page)",
@@ -5331,7 +5352,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Climb to a comfortable height, line up the target, and roll into a steep dive to plant bombs precisely, then bleed your dive speed into a flat run away from the fight. Never try to turn or out-run a fighter; instead use the airframe's dive resilience to reset altitude. In ground battles the heavy bombs make it a reliable pillbox- and column-killer.",
     "history": "The Junkers Ju 87, nicknamed the Stuka from Sturzkampfflugzeug (dive-bombing aircraft), became the emblem of German close support early in the war. The B-2 production block refined the earlier B-1 with oil-hydraulic cowl flaps and fittings for tropical and winter service; roughly 225 B-2 airframes were built. Its accurate dive bombing made it devastating against soft targets when the Luftwaffe held air superiority, but its slow speed and weak defenses turned it into easy prey once enemy fighters could contest the sky.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ju-87-b-2.jpg",
+        "alt": "A Bundesarchiv wartime photograph showing a Junkers Ju 87 B Stuka of II./StG 2 alongside a Messerschmitt Me 109 E, not the in-game model.",
+        "credit": "Bundesarchiv / Billhardt · CC BY-SA 3.0 Germany (CC-BY-SA 3.0 DE) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Ju 87 B-2 | War Thunder Wiki (official)",
@@ -5406,7 +5434,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Approach targets at low to medium altitude, use the VYa-23 cannons in short bursts to conserve the 300-round pool, and salvo rockets or bombs on hardened targets. Keep energy up and avoid sustained turns; let the armor shrug off return fire while you reposition for another firing pass. Against fighters, drag them toward friendlies rather than dueling.",
     "history": "The Ilyushin IL-2 was the most-produced military aircraft of the war and the backbone of Soviet ground attack. The 23 mm Volkov-Yartsev VYa-23 had been the originally intended armament, prioritized to defeat German armor, and a small number of IL-2s were re-equipped with the cannon as the IL-2I. In service the type's thick armored bathtub protecting the engine, cockpit, and fuel let it press low attacks that lighter aircraft could not survive, earning it a fearsome reputation among German ground forces.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/il-2-1942.jpg",
+        "alt": "A 1940s black-and-white photograph of an Ilyushin Il-2 Sturmovik ground-attack aircraft, not the in-game model.",
+        "credit": "Unknown (Soviet, uploaded by Mattes) · Public Domain (PD-Russia-1996) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "IL-2 (1942) | War Thunder Wiki (official)",
@@ -5484,7 +5519,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the air spawn to commit to bases or ground targets immediately, dropping ordnance before enemy fighters gain altitude. If intercepted, lean on the airframe's agility to turn-fight lighter early-war fighters, and use the nose .50s aggressively. Pick the heavier bombs for ships and hardened targets and save the smaller loads for soft objectives.",
     "history": "The Douglas SBD Dauntless was the U.S. Navy's principal carrier dive bomber from 1940 through late 1944. Its defining moment came at the Battle of Midway in June 1942, where SBD squadrons sank the Japanese carriers Akagi, Kaga, Soryu, and Hiryu in a matter of minutes, turning the course of the Pacific war. Rugged and accurate, it remained a trusted strike aircraft well after newer designs were available.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/sbd-3-dauntless.jpg",
+        "alt": "A U.S. Marine Corps photograph of Douglas SBD Dauntless dive bombers in formation over the Solomon Islands circa 1943, not the in-game model.",
+        "credit": "SSgt Greitzer, U.S. Marine Corps · Public Domain (PD-USGov-Military-Marines) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "SBD-3 | War Thunder Wiki (official)",
@@ -5558,7 +5600,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Climb steadily on the way to your target rather than racing in low, since speed is not this aircraft's strength. Pick an ordnance loadout to match the battle: heavy bombs or the 4,000 lb blockbuster for ground and base targets, or the twin torpedoes against ships. Bomb from as high as is practical to stay out of light flak and snap-shooting fighters, and if intercepted, use the airframe's agility to spoil one pass and let your tail and beam gunners trade fire while you head back to friendly cover. Do not expect the defensive guns to win a sustained duel.",
     "history": "Designed to Air Ministry Specification B.9/32, the Vickers Wellington introduced Barnes Wallis's geodetic lattice construction, which produced a light yet remarkably damage-tolerant structure. The Mk Ic was among the most numerous early variants, deleting the troublesome ventral turret in favour of beam gun positions. It served as a mainstay of RAF Bomber Command's early-war night offensive before being progressively relegated to maritime patrol, transport, and training as four-engine heavies took over the strategic role.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/wellington-mk-ic.jpg",
+        "alt": "An Imperial War Museums photograph of Vickers Wellington Mk IC bombers of No. 149 Squadron in flight circa August 1940, not the in-game model.",
+        "credit": "Ministry of Information press agency photographer (Imperial War Museums) · Public Domain (PD-UKGov) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Wellington Mk Ic | War Thunder Wiki (unit page; rank, BR, performance card, armament, ordnance)",
@@ -5629,7 +5678,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat the Ki-21-Ia as a stealthy altitude bomber: climb steadily, cruise to your target high enough that climbing interceptors arrive slow and out of energy, and drop on bases or hardened targets. Spread your bombs across multiple passes if the loadout allows so a single intercept does not waste the whole sortie. The 7.7 mm defensive guns are best used to discourage rather than destroy attackers, so position your turret arcs toward the threat and head back toward friendly airspace the moment you are committed to a fighter.",
     "history": "The Mitsubishi Ki-21 (Army Type 97 Heavy Bomber) answered a 1936 Imperial Japanese Army requirement for a modern monoplane bomber emphasising speed and range over armour and load. The Ki-21-Ia was the first production model and saw extensive use over China and in the opening campaigns of the Pacific War. As Allied fighter performance grew, the type's thin protection and light defensive battery left it increasingly vulnerable, and it was steadily supplanted and shifted to transport and secondary duties.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ki-21-i.jpg",
+        "alt": "A wartime photograph of a Mitsubishi Ki-21 (Type 97 Heavy Bomber, Ki-21-III variant shown) circa 1944, not the in-game model.",
+        "credit": "IJA military reporter · Public Domain (PD-Japan-oldphoto) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Ki-21-Ia | War Thunder Wiki (unit page; rank, BR, performance card, armament, ordnance)",
@@ -5696,7 +5752,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the Sparviero's speed to reach bombing altitude quickly and strike bases or clusters of ground targets before interceptors organise. The fixed forward 12.7 mm rewards shallow strafing runs on trucks and light vehicles between bomb drops, but do not linger low where you lose your speed and altitude advantages. When defending, angle the aircraft so your 12.7 mm dorsal and ventral guns bear on the attacker and try to keep threats out of the blind zones; the heavier defensive rounds can punish a careless fighter, but evasion and friendly support remain your best protection.",
     "history": "The Savoia-Marchetti S.M.79 Sparviero began as a fast civil transport before being adapted into a three-engine bomber, becoming the most recognisable Italian bomber of the era. Blooded during the Spanish Civil War, it served throughout the Second World War, earning particular fame in the torpedo-bomber role over the Mediterranean where its crews pressed home daring low-level attacks on Allied shipping. Distinctive for its mixed wood-and-metal construction and dorsal 'hump', it remained a frontline type for the Regia Aeronautica well into the conflict.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/sm-79.jpg",
+        "alt": "A wartime photograph of a Savoia-Marchetti S.M.79 Sparviero Italian bomber in flight, not the in-game model.",
+        "credit": "Unknown (Regia Aeronautica) · Public Domain (PD-Italy / PD-1996) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "S.M.79 serie 1 | War Thunder Wiki (unit page; rank, BR, performance card, armament, ordnance)",
@@ -5733,6 +5796,741 @@ export const vehicles: Vehicle[] = [
         "12 x 100 kg GP 100T bomb",
         "5 x 250 kg GP 250 bomb",
         "2 x 500 kg GP 500 bomb"
+      ]
+    }
+  },
+  {
+    "id": "t-72a",
+    "name": "T-72A",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Main battle tank",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.3,
+      "realistic": 9.3,
+      "simulator": 9.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The T-72A is the Soviet tech-tree's second-generation production T-72, blending a heavily armoured composite turret face, a 125 mm 2A46 smoothbore fed by a carousel autoloader, and a compact silhouette. It trades the brisk reverse and handling of its NATO rivals for a low, hard-to-hit hull and a punchy main gun.",
+    "prosCons": {
+      "pros": [
+        "Composite armour gives a genuinely tough turret front against many same-BR rounds",
+        "125 mm 2A46 hits hard with a deep APFSDS roster and HEAT-FS",
+        "Carousel autoloader keeps reload consistent regardless of crew injuries",
+        "Low, compact hull is easy to hide hull-down"
+      ],
+      "cons": [
+        "Carousel ammo storage rings the crew, so a turret-ring penetration often detonates it",
+        "Sluggish reverse speed and hull traverse punish positional mistakes",
+        "Only three crew, so a single hit can knock the tank out",
+        "Limited gun depression restricts hull-down play on ridgelines"
+      ]
+    },
+    "playstyle": "Play the T-72A as a patient ambusher. Use the low hull to peek hull-down or to wait in cover, fire, and roll back behind concealment before the autoloader cycles. Avoid prolonged duels in the open where its weak reverse and ringed ammo carousel get exploited; instead let teammates spot while you trade single, well-aimed shots.",
+    "history": "The T-72A entered Soviet service in the late 1970s as an improved Ural, adding a laser rangefinder, upgraded fire control, composite turret armour and provisions for mounting explosive reactive armour. It became one of the most widely produced main battle tanks of the Cold War and the baseline for many export and licence-built derivatives.",
+    "media": [],
+    "sources": [
+      {
+        "label": "T-72A | War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_72a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "reverseGears",
+      "neutralSteering",
+      "reloadBaseSec",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": 45,
+      "enginePowerHp": 780,
+      "weightTons": 41.8,
+      "powerToWeight": 18.7,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "2a46-125mm",
+      "reloadBaseSec": null,
+      "reloadAcedSec": 7,
+      "vertGuidanceDeg": [
+        -6,
+        13
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 44,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "110 mm",
+        "side": "80 mm",
+        "rear": "40 mm"
+      },
+      "turretMm": {
+        "front": "125 mm",
+        "side": "102 mm",
+        "rear": "65 mm"
+      },
+      "crewCount": 3,
+      "era": false,
+      "composite": true,
+      "aps": false
+    }
+  },
+  {
+    "id": "m1-abrams",
+    "name": "M1 Abrams",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Main battle tank",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 10.7,
+      "realistic": 10.7,
+      "simulator": 10.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M1 Abrams is the first turbine-powered American MBT in the tree, pairing blistering acceleration and speed with composite armour and a 105 mm M68A1 rifled gun. It rewards aggressive flanking and flowing, mobile play over static armour trading.",
+    "prosCons": {
+      "pros": [
+        "Gas-turbine engine delivers outstanding acceleration and top speed",
+        "Strong composite armour and excellent reverse speed enable confident hull-down peeking",
+        "Fast 105 mm reload and good gun handling",
+        "Generous gun depression suits ridgeline and hill fighting"
+      ],
+      "cons": [
+        "105 mm M68A1 penetration lags behind the 120/125 mm guns at its battle rating",
+        "Large, tall profile is hard to conceal",
+        "Hull ammo and fuel can be vulnerable to lower-plate hits",
+        "Turbine is thirsty and its acoustic signature gives away movement"
+      ]
+    },
+    "playstyle": "Exploit speed and reverse: rush to commanding positions early, fight hull-down where the turret cheeks shrug off many rounds, and back off the instant you are spotted. Flank with the turbine's pace to land side shots that offset the 105 mm's lighter punch, and avoid head-on slugfests against better-penetrating guns.",
+    "history": "The M1 Abrams entered U.S. Army service in 1980 as the replacement for the M60 series, introducing a gas-turbine powerplant, Chobham-type composite armour and a modern fire-control system. The initial M1 retained the 105 mm M68 rifled gun before later variants moved to the 120 mm smoothbore.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M1 Abrams | War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/us_m1_abrams",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 55.7,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "m68a1-105mm",
+      "reloadBaseSec": 6.5,
+      "reloadAcedSec": 5,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 55,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "133 mm",
+        "side": "60 mm",
+        "rear": "32 mm"
+      },
+      "turretMm": {
+        "front": "139 mm",
+        "side": "120 mm",
+        "rear": "13 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": true,
+      "aps": false
+    }
+  },
+  {
+    "id": "leopard-2a4",
+    "name": "Leopard 2A4",
+    "nation": "germany",
+    "class": "ground",
+    "subclass": "Main battle tank",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 10.7,
+      "realistic": 10.7,
+      "simulator": 10.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Leopard 2A4 is Germany's benchmark third-generation MBT, marrying the 120 mm Rh120 L/44 smoothbore to composite hull and turret armour and brisk mobility. Its flat, well-protected turret face and strong gun make it a classic balanced peek-and-shoot platform.",
+    "prosCons": {
+      "pros": [
+        "120 mm Rh120 L/44 delivers excellent APFSDS penetration",
+        "Composite armour in hull and turret with a strong flat turret front",
+        "Good mobility and reverse speed for repositioning",
+        "Generous gun depression for hull-down ridge play"
+      ],
+      "cons": [
+        "Thin hull sides and roof leave it exposed to flanking fire",
+        "Large turret and overall profile are hard to hide",
+        "Lower front plate is a reliable weak spot",
+        "No reactive armour to backstop the composite package"
+      ]
+    },
+    "playstyle": "Fight hull-down and let the flat turret cheeks bounce incoming rounds while the L/44 punishes anything in your sights. Use the strong mobility to claim early angles, but keep the weak hull behind cover and avoid exposing your sides; reposition rather than brawl when flanked.",
+    "history": "Introduced in the mid-1980s, the Leopard 2A4 was the most-produced Leopard 2 variant, adding an all-digital fire-control system, an automatic fire-and-explosion suppression system and an upgraded turret with improved flat armour. It became one of the most widely exported Western MBTs of its era.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Leopard 2A4 | War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/germ_leopard_2a4",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "enginePowerHp",
+      "weightTons",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": null,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "rh120-l44-120mm",
+      "reloadBaseSec": 7.8,
+      "reloadAcedSec": 6,
+      "vertGuidanceDeg": [
+        -9,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 42,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "80 mm",
+        "side": "65 mm",
+        "rear": "25 mm"
+      },
+      "turretMm": {
+        "front": "80 mm",
+        "side": "80 mm",
+        "rear": "25 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": true,
+      "aps": false
+    }
+  },
+  {
+    "id": "f-4c-phantom",
+    "name": "F-4C Phantom II",
+    "nation": "usa",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 10.7,
+      "realistic": 10,
+      "simulator": 10.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The F-4C is the first USAF production variant of the Phantom II and War Thunder's quintessential mid-to-high-tier American multirole. Two J79 turbojets give it brutal acceleration and a Mach 2-plus top end, and a deep pylon menu lets it swing between radar-guided BVR interception, IR dogfighting and a heavy strike load. Crucially it carries no built-in cannon, so engagements lean entirely on missiles unless you bolt on a draggy 20 mm gun pod.",
+    "prosCons": {
+      "pros": [
+        "Excellent acceleration and very high top speed from twin J79 engines",
+        "AIM-7 Sparrow radar missiles allow beyond-visual-range engagements",
+        "Flexible loadout covers air superiority and ground strike on the same airframe",
+        "Strong energy retention rewards boom-and-zoom play"
+      ],
+      "cons": [
+        "No internal cannon; close-in gun work requires a heavy, draggy gun pod",
+        "Sluggish sustained turn compared with dedicated dogfighters",
+        "Early Sparrows and Sidewinders are easy to defeat with maneuvers and flares",
+        "Large airframe is an easy target once it bleeds energy"
+      ]
+    },
+    "playstyle": "Fight on the vertical and keep your speed high. Use the radar and AIM-7 Sparrows to threaten enemies before the merge, then convert energy into climbs and dives rather than trying to out-turn nimbler opponents. Save AIM-9 Sidewinders for cleanup shots on distracted or slow targets, and disengage to rebuild energy whenever you lose the advantage. Reserve a gun pod only if you expect to be forced into a knife fight, since it noticeably hurts performance.",
+    "history": "McDonnell Douglas developed the F-4C as the US Air Force's adaptation of the Navy's F-4B. The first production aircraft flew in May 1963 and exceeded Mach 2 on its maiden flight. Produced from 1963 to 1966, the type saw extensive combat over Vietnam and soldiered on in USAF and Air National Guard service into the late 1980s. Its lack of an internal gun, reflecting contemporary missile-centric doctrine, became a recurring lesson that later Phantom variants and US fighter design would address.",
+    "media": [],
+    "sources": [
+      {
+        "label": "F-4C Phantom II | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/f-4c",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 2228,
+      "maxSpeedAltM": 12192,
+      "climbMps": 172,
+      "turnTimeSec": 26,
+      "structuralLimitKph": 1458,
+      "ceilingM": 16000,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [],
+      "suspended": [
+        "4 x AIM-7D Sparrow",
+        "4 x AIM-9B/9E Sidewinder",
+        "AGM-12B/12C Bullpup air-to-ground missiles",
+        "Mk 81 / Mk 82 / Mk 83 / Mk 84 bombs",
+        "M117 / M118 bombs",
+        "BLU-1 / BLU-27 incendiary bombs",
+        "FFAR Mighty Mouse rockets (57)",
+        "Zuni Mk 32 rockets (12)",
+        "20 mm gun pods",
+        "600 gal drop tanks"
+      ]
+    }
+  },
+  {
+    "id": "mig-23m",
+    "name": "MiG-23M",
+    "nation": "ussr",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 11.3,
+      "realistic": 11,
+      "simulator": 11
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The MiG-23M is the Soviet tech tree's first true variable-geometry interceptor and its first fighter with medium-range radar missiles for BVR work. A single powerful R-29 turbojet pushes it past Mach 2, swing-wings let it trade dogfight agility for raw acceleration, and an IRST paired with R-23T missiles gives it interception tricks few rivals can match. It pays for this with a fragile airframe that sheds wings under hard maneuvering and a notably small countermeasure load.",
+    "prosCons": {
+      "pros": [
+        "First Soviet fighter with R-23R/R-23T medium-range BVR missiles",
+        "IRST enables passive infrared launches with the R-23T",
+        "Very high top speed and strong acceleration from the R-29 engine",
+        "Variable-geometry wing tunes the aircraft between agility and speed",
+        "Fast-firing GSh-23L cannon for close-range work"
+      ],
+      "cons": [
+        "Fragile airframe rips its wings when overstressed",
+        "Very limited countermeasures (chaff/flares)",
+        "Poor sustained turn rate; relies on energy rather than maneuver",
+        "Only 200 rounds for the cannon"
+      ]
+    },
+    "playstyle": "Lean on avionics, not the airframe. Open engagements with radar and R-23R missiles at range, then close with R-23T infrared shots cued by the IRST against flaring targets. Keep the wings swept and your speed high to exploit acceleration, and avoid prolonged turning fights that will both bleed your energy and risk a structural failure. Husband your countermeasures and disengage early when threatened.",
+    "history": "The MiG-23 (NATO: Flogger) was Mikoyan-Gurevich's variable-geometry successor to the MiG-21, intended to combine high speed, useful range and beyond-visual-range missile capability. The MiG-23M was the first large-scale production fighter variant, fitted with the Sapfir-23D radar and a TP-23 IRST, which allowed it to employ the R-23R and R-23T medium-range missiles. It became one of the most widely produced Soviet fighters of its era and served across the Warsaw Pact and many export operators.",
+    "media": [],
+    "sources": [
+      {
+        "label": "MiG-23M | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/mig_23m",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "structuralLimitKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 2358,
+      "maxSpeedAltM": 13000,
+      "climbMps": 170,
+      "turnTimeSec": 35,
+      "structuralLimitKph": null,
+      "ceilingM": 16000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "gsh-23l-23mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "R-23R radar-guided missiles",
+        "R-23T infrared missiles",
+        "R-60M infrared missiles",
+        "R-13M1 infrared missiles",
+        "R-3S infrared missiles",
+        "Kh-23M air-to-ground missiles",
+        "S-5KP rockets (16/32)",
+        "S-8KO rockets (20)",
+        "S-24B rockets",
+        "FAB-250M-62 / FAB-500M-62 bombs",
+        "OFAB-100 bombs (4)",
+        "ZB-500 incendiary bomb",
+        "drop tank"
+      ]
+    }
+  },
+  {
+    "id": "mirage-iiic",
+    "name": "Mirage IIIC",
+    "nation": "france",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 10.3,
+      "realistic": 10,
+      "simulator": 10.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Mirage IIIC is the opening French delta jet, a single-engine interceptor that flies supersonically at any altitude and combines excellent flight performance with strong maneuverability for its tier. A single Atar 9B with afterburner drives it past Mach 2, twin 30 mm DEFA cannons give it real punching power, and a handful of pylons carry early radar and infrared missiles. Light wing loading makes it a more willing turner than most of its Mach 2 contemporaries.",
+    "prosCons": {
+      "pros": [
+        "Excellent overall flight performance; supersonic at any altitude",
+        "Light wing loading makes it surprisingly agile for a delta",
+        "Two hard-hitting 30 mm DEFA cannons",
+        "Carries both infrared and radar-guided missiles"
+      ],
+      "cons": [
+        "Delta wing bleeds energy badly in sustained turns",
+        "Early missiles are easily defeated by maneuvering and flares",
+        "Single engine offers no redundancy",
+        "Modest missile count compared with later jets"
+      ]
+    },
+    "playstyle": "Exploit the delta's energy and altitude. Climb to use the aircraft's supersonic performance, then make slashing high-speed passes with the DEFA cannons rather than committing to a turning duel that drains the delta's energy. Use AIM-9B or Matra missiles to pressure targets before the merge, and keep your speed up so you can extend, reset and re-engage on your terms.",
+    "history": "The Mirage IIIC was the first production model of Dassault's Mirage III family, derived closely from the preproduction IIIA with a revised fuselage. Built as both interceptor and dogfighter, it paired a tailless delta wing with an Atar 09B afterburning turbojet and could lift a supersonic drop tank or a modest strike load. Around 95 were produced, and the type served until 1988, helping establish the long and influential line of Dassault deltas.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Mirage IIIC | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/mirage_3c",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 2160,
+      "maxSpeedAltM": 12000,
+      "climbMps": 140,
+      "turnTimeSec": 28,
+      "structuralLimitKph": 1460,
+      "ceilingM": 16000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "defa-552-30mm",
+          "count": 2
+        }
+      ],
+      "suspended": [
+        "AIM-9B Sidewinder missiles",
+        "Matra R530 / R530E radar/IR missiles",
+        "Matra R550 Magic 1 infrared missiles",
+        "Matra R511 missiles",
+        "AS-30 Nord air-to-ground missiles",
+        "FZ49 HEAT rockets (7)",
+        "Type 23 SNEB rockets (18)",
+        "250 / 400 kg bombs (standard or retarded)",
+        "1300 L drop tank",
+        "SEPR 841 rocket booster"
+      ]
+    }
+  },
+  {
+    "id": "type-74",
+    "name": "Type 74",
+    "nation": "japan",
+    "class": "ground",
+    "subclass": "Main battle tank",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9,
+      "realistic": 9,
+      "simulator": 9
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "Japan's home-grown second-generation main battle tank, the Type 74 pairs the proven 105 mm L7 rifled gun with hydropneumatic suspension that lets it pitch the hull to gain extra gun depression or hunker down behind cover. Armour is thin by the standards of its battle rating, so it lives and dies on positioning, its laser rangefinder, and that adjustable stance.",
+    "prosCons": {
+      "pros": [
+        "Hydropneumatic suspension adjusts hull height and pitch for hull-down and ridge fighting",
+        "105 mm L7 fires the full Western APFSDS/HEATFS suite with reliable post-penetration effect",
+        "Laser rangefinder speeds up first-shot accuracy at range",
+        "Compact silhouette is easy to hide"
+      ],
+      "cons": [
+        "Thin hull and turret armour offer little protection at its BR",
+        "Modest gun depression in the neutral stance until suspension is adjusted",
+        "Average reverse and acceleration make repositioning slow",
+        "Four-man crew with exposed ammo stowage is fragile once penetrated"
+      ]
+    },
+    "playstyle": "Fight from prepared positions and ridgelines where the suspension can be tilted to expose only the turret while keeping the hull hidden. Range targets with the laser rangefinder, take the first accurate shot, then back off and relocate before return fire arrives. Avoid open brawls; the armour will not save you, so trade angles and sightlines instead of frontal exposure.",
+    "history": "Developed by Mitsubishi Heavy Industries as the successor to the Type 61, the Type 74 entered service in 1975 to give Japan a tank competitive with contemporary Western designs. It standardised on the British-derived 105 mm L7 rifled gun and introduced a hydropneumatic suspension allowing the hull to be raised, lowered, and tilted to suit terrain. Roughly 870 were built through the late 1980s, and the type served as a mainstay of the Japan Ground Self-Defense Force for decades.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Type 74 (E) — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/jp_type_74",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxRevKph",
+      "reverseGears",
+      "neutralSteering",
+      "era",
+      "composite",
+      "apsModel"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 53.59,
+      "maxRevKph": null,
+      "enginePowerHp": 870,
+      "weightTons": 39.938,
+      "powerToWeight": 21.82,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "l7-105mm",
+      "reloadBaseSec": 8.7,
+      "reloadAcedSec": 6.7,
+      "vertGuidanceDeg": [
+        -6,
+        9
+      ],
+      "turretTraverseDegSec": 16.8,
+      "ammoCapacity": 50,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "80 mm",
+        "side": "30 mm",
+        "rear": "20 mm"
+      },
+      "turretMm": {
+        "front": "132 mm",
+        "side": "67 mm",
+        "rear": "37 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "chieftain-mk-3",
+    "name": "Chieftain Mk 3",
+    "nation": "britain",
+    "class": "ground",
+    "subclass": "Main battle tank",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 8.7,
+      "realistic": 8.7,
+      "simulator": 8.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "Britain's heavy-hitting Cold War main battle tank, the Chieftain Mk 3 trades speed for a very well-armoured turret and the hard-punching 120 mm L11 rifled gun. Deep gun depression and a strong mantlet make it a natural hull-down sniper, while the lower front plate remains a classic weak spot to protect.",
+    "prosCons": {
+      "pros": [
+        "120 mm L11 delivers heavy single-shot damage with potent APDS/HESH",
+        "Thick, well-shaped turret front excels in hull-down positions",
+        "Generous -10 degrees of gun depression for ridge fighting",
+        "Large 53-round ammunition stowage"
+      ],
+      "cons": [
+        "Sluggish — low power-to-weight makes repositioning and pushing slow",
+        "Weak lower front hull plate is easily penetrated frontally",
+        "Long reload compared with autoloader-equipped peers",
+        "Bulky profile is hard to conceal when on the move"
+      ]
+    },
+    "playstyle": "Play it as a defensive sniper: find a hull-down spot, expose only the heavily armoured turret, and use the deep depression to cover approaches while keeping the vulnerable hull plate hidden. Let the 120 mm punish anything that shows itself. Avoid flanking duties and open ground — the poor mobility and exposed lower plate make aggressive play risky.",
+    "history": "The Chieftain entered British Army service in the 1960s as a successor to the Centurion, emphasising firepower and protection over mobility. It introduced the rifled 120 mm L11 gun firing separated ammunition and a heavily armoured cast turret, along with a reclined driving position to keep the hull profile low. The Mk 3 was a mid-life production standard with engine and auxiliary improvements; the family soldiered on into the 1990s and influenced later British designs.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Chieftain Mk 3 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_chieftain_mk_3",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering",
+      "era",
+      "composite",
+      "apsModel"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 49.54,
+      "maxRevKph": 11.13,
+      "enginePowerHp": 660,
+      "weightTons": 56.41,
+      "powerToWeight": 11.8,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "l11-120mm",
+      "reloadBaseSec": 9.7,
+      "reloadAcedSec": 7.5,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": 14.1,
+      "ammoCapacity": 53,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "86 mm",
+        "side": "38 mm",
+        "rear": "25 mm"
+      },
+      "turretMm": {
+        "front": "280 mm",
+        "side": "86 mm",
+        "rear": "45 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "j29-tunnan",
+    "name": "J29A",
+    "nation": "sweden",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 7.7,
+      "simulator": 8
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "Sweden's first mass-produced jet fighter, the barrel-shaped J29 'Tunnan' was one of Europe's earliest swept-wing jets. The early J29A is light, nimble for its era, and armed with a battery of four 20 mm cannon, rewarding pilots who keep it in the turn fight rather than the energy fight against faster contemporaries.",
+    "prosCons": {
+      "pros": [
+        "Four 20 mm cannon give a dense, hard-hitting forward battery",
+        "Good low- to medium-speed manoeuvrability for a first-generation jet",
+        "Compact airframe is a small target",
+        "Comfortable cannon ammunition load"
+      ],
+      "cons": [
+        "Modest top speed and acceleration versus later jets at its rating",
+        "Early swept wing bleeds energy quickly in sustained turns",
+        "Limited and dated armament options compared with missile-armed peers",
+        "Compression and handling limits at high speed"
+      ]
+    },
+    "playstyle": "Fight at the speeds where the Tunnan is comfortable: merge, then use its turn rate to gain angles rather than trying to out-run faster jets. Conserve energy, avoid prolonged high-speed dives, and bring the four cannon to bear in short decisive bursts. Disengage and re-position if an opponent forces a vertical energy fight you cannot win.",
+    "history": "Designed by SAAB in the late 1940s, the SAAB 29 'Flygande Tunnan' (Flying Barrel) was among the first European jets to adopt swept wings, a layout informed by captured German aerodynamic research. Powered by a license-built de Havilland Ghost turbojet, it gave Sweden a genuinely modern fighter alongside the MiG-15 and F-86. The type served the Swedish Air Force for years and even flew UN peacekeeping sorties over the Congo in the early 1960s, making it the first Swedish-designed jet to see combat.",
+    "media": [],
+    "sources": [
+      {
+        "label": "J29A — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/saab_j29a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "climbMps",
+      "turnTimeSec",
+      "suspended"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1028,
+      "maxSpeedAltM": 0,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": 1102,
+      "ceilingM": 13500,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "akan-m47c-20mm",
+          "count": 4
+        }
       ]
     }
   }
