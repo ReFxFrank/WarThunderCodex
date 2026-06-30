@@ -1,0 +1,86 @@
+---
+slug: the-damage-model
+title: 'The damage model: spall, fire, ammo detonation, and overpressure'
+category: mechanics
+summary: >-
+  A field guide to how War Thunder resolves damage once a shell gets through the
+  armor: spall and fragments, crew and module destruction, fires, ammo
+  detonation, and the overpressure mechanic for high-explosive effects.
+sources:
+  - label: >-
+      The Mechanics of High-Explosive Effect and Overpressure - War Thunder Wiki
+      (official)
+    url: >-
+      https://wiki.warthunder.com/mechanics/4236-the-mechanics-of-high-explosive-effect-and-overpressure
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: Ground vehicle modules - War Thunder Wiki (official)
+    url: 'https://wiki.warthunder.com/mechanics/4775-ground-vehicle-modules'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      Detailed information surrounding Spall Liners - War Thunder official
+      devblog/news
+    url: >-
+      https://warthunder.com/en/news/8670-development-detailed-information-surrounding-spall-liners-in-war-thunder-en
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: Tank ammunition - War Thunder Wiki (official)
+    url: 'https://wiki.warthunder.com/weapon/2544-tank-ammunition'
+    tier: 1
+    retrievedAt: '2026-06-30'
+lastUpdated: '2026-06-30'
+---
+Penetration is only the first half of killing a tank. What happens *after* a round defeats the armor decides whether the enemy drives away or brews up. This page covers how War Thunder resolves post-penetration damage.
+
+## Spall and fragments
+
+When an armor-piercing round punches through a plate, it throws secondary fragments off the inside face. These are the spall: a stream of metal that does most of the killing inside the hull. According to the official spall-liner devblog, in-game fragments thrown by a penetrating HEAT or APFSDS round carry penetration roughly equivalent to 3-30 mm of RHA, scaling with fragment size and energy.
+
+The amount of spall scales with shell mass and with the thickness of the armor and modules it passes through. The game splits the fragment stream into several groups, each with its own cone angle, penetration, and damage. Where the cone lands determines what gets hit.
+
+Different ammunition produces spall differently:
+
+- **APDS/APFSDS** damage through penetrator degradation: as the dart bores through thicker armor it wears down, so it carries less energy into the spall behind it. A longer dart (APFSDS) survives the trip better and leaves more post-penetration damage than APDS.
+- **APHE** carries a small explosive filler with a fuze that arms only against armor of sufficient thickness (largely a function of caliber), then detonates after traveling a set distance inside. This produces far more internal damage than solid shot.
+- **HEAT** drives a shaped-charge jet into the compartment. Its penetration does not fall off with range, but its very sensitive fuze can detonate it early on light cover like bushes or wooden fences.
+- **HESH** detonates on the surface and flings shards off the inner face of the plate.
+
+<Callout type="tip">APHE can be defeated even after penetrating. Large or numerous modules behind a weak spot can soak the round or block its blast, and thin side skirts can trigger the fuze early so it detonates before reaching the crew.</Callout>
+
+## Spall liners
+
+Spall liners are protective modules lining the fighting compartment. In-game they add a protective equivalent of about 2 mm of RHA on top of the normal armor, stopping or deflecting fragments. Each fragment is checked against its angle of contact: shallow angles pass through more easily, while steeper angles can be stopped, and weaker fragments are blocked more reliably. Liners most noticeably cut HEAT-jet fragmentation, only slightly reduce the effect of powerful APFSDS, narrow the dispersal cone, and lower overall post-penetration damage.
+
+## Crew and modules
+
+Crew are wounded or killed individually. Wounded crew keep working until they reach an incapacitated ("black") state, and most ground vehicles are knocked out when fewer than two effective crew remain.
+
+| Module | Damaged | Destroyed (black) |
+|---|---|---|
+| Engine | Power loss | Stops movement in RB/SB, high chance of fire, can soak rounds |
+| Transmission | Degraded mobility | Immobilized in RB/SB (slow crawl in Arcade) |
+| Breech | High detonation chance when firing (RB/SB) | Cannot fire at all in RB/SB |
+| Barrel | Reduced reliability | Unusable in RB/SB; fires inaccurately with less penetration in Arcade |
+
+Tracks add structural protection and can deflect rounds. Track damage immobilizes you, but repairs start automatically in every mode after a few seconds stationary.
+
+**Fuel tanks** can ignite or explode when hit, with HE posing the greatest risk; a fully destroyed tank is removed from the model and no longer provides protection. **Ammo racks** usually mean total loss. Vehicles carry several racks, and empty or depleted racks cannot detonate, so trimming your ammo load is a real survivability choice. Some vehicles have protected compartments with blow-out panels that vent a cook-off outward and can save the crew.
+
+## Overpressure
+
+Overpressure triggers when a high-explosive effect penetrates or breaches the armor and reaches an internal module (crew, fuel, ammo, drivetrain). The explosion is treated as having defeated the armor, and crew in that compartment take blast damage.
+
+Key rules:
+
+- Only a round's high-explosive component produces overpressure. A pure HEAT jet or HESH spall does not by itself; HE/fragmentation shells, qualifying APHE, shaped-charge rounds (HEAT, <Term id="ATGM">ATGM</Term>, rockets) with HE warheads, and HESH can all generate it.
+- For <Term id="APHE">APHE</Term>, overpressure applies only if the filler is at least 170 g TNT equivalent.
+- Damage falls off with distance from the epicenter and is not always lethal. It is confined to the breached compartment; if several are breached, each is calculated separately.
+- After an HE breach, fragments spread into the compartment in a cone of roughly 30-45 degrees from the point of penetration.
+- On ships, overpressure affects only open modules and exposed crew (main, secondary and AA armament, rangefinders, fire directors); crew enclosed inside the hull are protected.
+
+<Callout type="warning">The exact overpressure blast radius and falloff curve, APHE fuze arming thresholds, and per-vehicle crew-knockout counts are described only qualitatively on the wiki. The 170 g threshold is stated for APHE specifically; whether an equivalent figure governs other shell types is not spelled out. Verify any specific figures against the current patch.</Callout>
+
+## Real-world note
+
+The terms map loosely to real armor science: "spall" is genuine fragmentation thrown off the rear face of a struck plate, and spall liners are a real fitting in modern armored vehicles. War Thunder's numeric handling of these effects is a game abstraction and should not be read as engineering data.

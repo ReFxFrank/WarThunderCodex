@@ -1,0 +1,87 @@
+---
+slug: armour-penetration
+title: How armour penetration works
+category: mechanics
+summary: >-
+  A field guide to how War Thunder turns a shell hitting a plate into a
+  penetration result, covering effective thickness, normalization, ricochet,
+  overmatch, and the formulas behind the numbers.
+sources:
+  - label: Shell Normalization Against Angled Armor in War Thunder (War Thunder Wiki)
+    url: >-
+      https://wiki.warthunder.com/661-shell-normalization-against-angled-armor-in-war-thunder
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: Calculation of Armour Penetration / Jacob de Marre (War Thunder Wiki)
+    url: 'https://wiki.warthunder.com/jacob_de_marre'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: Armour mechanics (War Thunder Wiki)
+    url: 'https://wiki.warthunder.com/mechanics/242-armour'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      Development: Improved Calculation of Armour Penetration in the game
+      (official devblog, 30 Jan 2019)
+    url: >-
+      https://warthunder.com/en/news/6010-development-improved-calculation-of-armour-penetration-in-the-game-en
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      QA: Ballistic update - questions and answers from the developers (official
+      news)
+    url: >-
+      https://warthunder.com/en/news/6023-qa-ballistic-update-questions-and-answers-from-the-developers-en
+    tier: 1
+    retrievedAt: '2026-06-30'
+lastUpdated: '2026-06-30'
+---
+A shell punching through armour in War Thunder is the result of several mechanics stacking on top of one another. Understanding them lets you read a hit before you fire it, choose where to aim, and angle your own hull so rounds skate off instead of through.
+
+## Effective thickness and angle of impact
+
+The first thing the game cares about is not how thick a plate is, but how much steel a shell has to travel through to cross it. That is the line-of-sight (LoS), or effective, thickness, and it grows as the plate tilts away from the incoming round.
+
+The wiki gives the formula as:
+
+> LoS = (Armour Thickness x Armour Modifier) / cos(Armour Angle)
+
+A worked example: a Panther's 80 mm front plate sloped at 55 degrees behaves like roughly 140 mm of effective armour. The same logic rewards angling your own tank. A Tiger I sitting in a 45-degree diamond stance turns its vertical 100 mm plate into nearly 130 mm of effective protection.
+
+<Callout type="tip">Angling is free armour. A flat plate that would be defeated head-on can bounce or stop the same shell once you present it at a slope.</Callout>
+
+## Normalization
+
+Real shells do not stay perfectly straight when they bite into sloped steel, and the game models this with normalization. The round effectively "curves" into the plate, so it contends with the LoS thickness at a flatter angle than the geometric impact angle. A shell with 5 degrees of normalization striking a plate at 30 degrees behaves as though it hit at 25 degrees.
+
+War Thunder actually runs two separate normalization mechanics: one that adjusts effective penetration against an angled plate, and a distinct one affecting the angle at which a round may ricochet.
+
+How much a shell normalizes depends on its shape and type:
+
+- **Flat-nosed shells** normalize a great deal.
+- **Larger-calibre shells** normalize more than small ones.
+- **Capped rounds** (<Term id="APHE">APC/APCBC</Term>-type) normalize more than otherwise-equivalent uncapped rounds.
+- **Chemical rounds** (HE, HEAT) do not normalize at all. HESH is the stated exception, behaving as though it has effectively unlimited normalization.
+
+## The slope multiplier, ricochet, and overmatch
+
+The thickness multiplier applied from the calibre-to-plate-thickness ratio is bounded: it never drops below the value tied to a 0.5:1 ratio, nor rises above the value tied to a 2.5:1 ratio, no matter what the actual ratio is.
+
+Two ratio-driven behaviours matter at the extremes. A **ricochet** is possible while the round-calibre to armour-thickness ratio stays below 7. **Overmatch** kicks in at 7:1 or greater: the thickness multiplier becomes 1 regardless of impact angle, the armour is broken, and there is no ricochet. In short, a big enough shell against a thin enough plate ignores the slope benefit entirely. The developers have said they have no plans to revisit this system for now.
+
+<Callout type="warning">Exact per-shell ricochet angle thresholds in degrees, and any older "1.3x calibre" overmatch figure, could not be confirmed on Tier-1 pages. The only confirmed overmatch ratio is 7:1. Treat specific degree cutoffs as unverified against the current patch (Heavy Cavalry, 2.57).</Callout>
+
+## Where the penetration numbers come from
+
+In January 2019, War Thunder switched its penetration model from a "documentary" basis (values pulled from per-weapon historical firing tests) to a "calculation" basis built on two formulas:
+
+- The **de Marre formula** handles high-calibre AP rounds (AP / APC / APBC / APCBC) and rigid sub-calibre rounds (APCR / HVAP).
+- The **Lanz-Odermatt formula** handles fin-stabilised sub-calibre rounds (<Term id="APFSDS">APFSDS</Term>).
+
+These figures are calculated at 0 metres range and at a perpendicular (right-angle) impact; range and angle effects are then layered on afterwards. The system also accounts for explosive filler: a higher ratio of explosive mass to total shell weight lowers penetration. Because de Marre's formula does not include explosive mass, the developers supplemented it with extra data to model the filling coefficient.
+
+The calculation basis does not apply to HE, HESH, or HEAT.
+
+## Real-world note
+
+The de Marre formula is a late-19th-century empirical equation originally developed for naval armour penetration. A known limitation is that it does not account for a shell's explosive mass at all, which is precisely the gap Gaijin had to work around when adapting it for the in-game model.

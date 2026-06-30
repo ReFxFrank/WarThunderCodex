@@ -1,0 +1,83 @@
+---
+slug: battle-rating-and-matchmaking
+title: Battle rating and matchmaking
+category: mechanics
+summary: >-
+  A field guide to how battle rating sorts vehicles, how the +/-1.0 bracket
+  builds your matches, and how to assemble a lineup that survives the uptier.
+sources:
+  - label: 'Matchmaking (War Thunder Wiki, mechanics)'
+    url: 'https://wiki.warthunder.com/mechanics/matchmaking'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      Following the Roadmap: Separate Battle Ratings for Different Modes (War
+      Thunder official news)
+    url: >-
+      https://warthunder.com/en/news/8894-roadmap-following-the-roadmap-separate-battle-ratings-for-different-modes-more-information-en
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: Nuclear Escalation Returns! event (War Thunder official news)
+    url: 'https://warthunder.com/en/news/10115-event-nuclear-escalation-returns-en'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: Heavy Cavalry (Update 2.57) Changelog (War Thunder official changelog)
+    url: 'https://warthunder.com/en/game/changelog/current/1863'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: Meet the Heavy Cavalry Major Update! (War Thunder official news)
+    url: >-
+      https://warthunder.com/en/news/10108-meet-the-heavy-cavalry-major-update-en
+    tier: 1
+    retrievedAt: '2026-06-30'
+lastUpdated: '2026-06-30'
+---
+Every vehicle in War Thunder carries a single number that decides who it fights. Understanding that number is the difference between a fair brawl and a hopeless one.
+
+## What battle rating is
+
+<Term id="BR">Battle rating</Term> (BR) is a value assigned to every aircraft, ground vehicle, and ship that reflects its combat effectiveness. The matchmaker uses it to group units of roughly comparable strength so that fights stay competitive. Crucially, BR is the *only* metric matchmaking considers. Research rank, your win rate, your skill, your stats — none of it affects which battle you enter. If two vehicles share a BR, the matchmaker treats them as equals.
+
+BR values climb in small steps of 0.3 or 0.4, the visible result of an underlying one-third increment rounded to a single decimal. Reserve vehicles sit at the very bottom at 1.0. The matchmaking wiki presents a unified scale running from 1.0 to 14.0.
+
+<Callout type="warning">The wiki still lists a single 1.0-14.0 range for all classes, but ongoing decompression has pushed top aircraft BRs higher — the Nuclear Escalation event used a 13.0-14.7 range, showing the system can exceed 14.0. The exact current top ceiling for standard battles (and whether ground, air, and naval differ) should be confirmed against the live patch before you rely on a hard number.</Callout>
+
+## BR changes by mode
+
+A vehicle does not have one BR — it has several. The same tank can carry a different BR in Arcade than in Realistic, because performance in each mode differs. An official roadmap devblog went further: a vehicle's air BR is now set separately from its ground or naval BR. A fighter is balanced by how it performs in air combat, independent of its value when used over a ground battlefield. Always read the BR for the *mode you are about to play*.
+
+How your lineup's overall BR is calculated also depends on the mode:
+
+| Mode | Lineup BR is based on |
+|------|----------------------|
+| Air Realistic | The single selected aircraft (no multi-vehicle lineup) |
+| Air Arcade | Average of the three highest-BR aircraft, capped one step below the highest |
+| Ground (Arcade & Realistic) | The highest-BR vehicle in the lineup |
+| Naval | The highest-BR vehicle in the lineup |
+
+## The +/-1.0 bracket
+
+Matchmaking spans a 1.0 BR window. Your lineup can meet opponents up to 1.0 BR above or below its own rating.
+
+- A **full uptier** puts you at the *bottom* of the bracket, facing vehicles up to 1.0 higher.
+- A **full downtier** puts you at the *top*, facing vehicles up to 1.0 lower.
+
+One guardrail limits the pain: no more than 4 players per team can be running vehicles at the very top of a battle's BR range.
+
+<Callout type="warning">Players often quote fixed uptier/downtier odds (the familiar ~25%/75% figures). No Tier-1 source confirms a numeric probability, so treat those numbers as folklore until verified against the current patch.</Callout>
+
+## Building a lineup
+
+In ground and naval battles, your highest-BR vehicle sets the match. Drag in one over-tiered tank and your whole lineup fights at that level — including the lower vehicles that now sit at the bottom of the bracket. Keep your vehicles clustered within a step or two of each other so every machine in the crew slots can pull its weight.
+
+<Callout type="tip">For ground and naval, build around a flat BR. A tight lineup turns a full uptier into a manageable fight; a single outlier vehicle drags everything else into matches they cannot win.</Callout>
+
+Not every mode uses the dynamic bracket. Simulator Enduring Confrontation runs preset BR ranges that rotate roughly every two days rather than the live +/-1.0 system, and Assault modes assign a fixed difficulty tier from your highest-BR vehicle.
+
+## Decompression
+
+"Decompression" means spreading vehicles across a wider BR span so dissimilar machines meet less often. Developers achieve it by raising individual vehicle BRs and, over time, extending the top of the scale. Update 2.57 "Heavy Cavalry" (released 24 June 2026) moved many individual ratings — the Tornado IDS MLU (RET.8), for instance, rose from 11.3 to 11.7 in Ground Realistic — but the changelog records no change to the overall maximum and no blanket decompression. The separate-BR-per-mode system is one official step toward more accurate balance.
+
+## Real-world note
+
+Battle rating is a game-balance abstraction. It does not correspond to any historical performance index — a vehicle's BR can sit far from where its real-world chronology or capability would place it, because the number serves matchmaking, not history.

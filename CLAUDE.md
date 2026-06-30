@@ -33,7 +33,10 @@ Read this before continuing work in a new session.
   (`lib/articles.ts` compile / `lib/article-fs.ts` frontmatter — split so the tsx CLI and
   search builder avoid the MDX compiler's resolver quirk), search index
   (`lib/search.ts` → `/search-index.json`), `npm run validate` CLI + `scripts/mdx-smoke.mjs`.
-- Phase 2 — Knowledge backbone: mechanics + getting-started articles, full glossary.
+- Phase 2 ✅ Knowledge backbone: 16 mechanics + getting-started MDX articles
+  (content/articles/**) and an 87-term glossary (content/data/glossary.ts), all original prose,
+  Tier-1 sourced + adversarially verified, date-stamped to Heavy Cavalry (2.57). Built with a
+  research→write→verify Workflow; gen-content-from-workflow.mjs turns its JSON into files.
 - Phase 3 — Vehicle system: detail template + instrument cluster (3 class variants),
   armor-schematic SVG, nation hubs, class browsers.
 - Phase 4 — Weapons system: weapon/ammo/missile pages, comparison tool.

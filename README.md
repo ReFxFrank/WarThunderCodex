@@ -164,7 +164,9 @@ This repository is being built in phases (deliberately, stopping for review at e
       `lib/validate-content.ts`), MDX pipeline (`lib/articles.ts`), compile-time search index
       emitted as a static file (`lib/search.ts` → `/search-index.json`), and the
       `npm run validate` CLI.
-- [ ] **Phase 2 — Knowledge backbone.** Mechanics + getting-started articles, full glossary.
+- [x] **Phase 2 — Knowledge backbone.** 16 original mechanics + getting-started articles and an
+      87-term glossary, each researched against and cited to live Tier-1 official sources,
+      adversarially fact-checked (every citation re-fetched), and date-stamped to Heavy Cavalry (2.57).
 - [ ] **Phase 3 — Vehicle system.** Detail template + instrument cluster, nation hubs, browsers.
 - [ ] **Phase 4 — Weapons system.** Weapon / ammo / missile pages, comparison tool.
 - [ ] **Phase 5 — Seed dataset + tooling.** Curated, fully-sourced vehicle set + import scaffold.

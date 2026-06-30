@@ -1,0 +1,77 @@
+---
+slug: naval-gunnery
+title: Naval gunnery and fire control
+category: naval
+summary: >-
+  A field guide to War Thunder naval gunnery: how shell types, lead, and the
+  rangefinder-driven fire-control system turn long-range ship duels into a
+  two-axis aiming problem unlike anything in ground combat.
+sources:
+  - label: War Thunder Wiki — Realistic Battles (naval aiming/fire control section)
+    url: 'https://wiki.warthunder.com/gamemode/realistic_battles'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: War Thunder Wiki — Arcade Battles (naval aiming/fire control section)
+    url: 'https://wiki.warthunder.com/gamemode/arcade_battles'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      War Thunder Devblog — Naval Test: New aiming system, hydrodynamics, and
+      other changes
+    url: >-
+      https://warthunder.com/en/news/4871-fleet-naval-test-new-aiming-system-hydrodynamics-and-other-changes-en
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      War Thunder Wiki — 36 cm/45 Type 41 (IJN battleship guns; naval shell
+      types example)
+    url: >-
+      https://wiki.warthunder.com/gun/2010-36-cm-45-type-41-ijn-s-go-to-battleship-guns
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: War Thunder Wiki — The Mechanics of High-Explosive Effect and Overpressure
+    url: >-
+      https://wiki.warthunder.com/mechanics/4236-the-mechanics-of-high-explosive-effect-and-overpressure
+    tier: 1
+    retrievedAt: '2026-06-30'
+lastUpdated: '2026-06-30'
+---
+Naval gunnery is the slowest, most deliberate shooting in War Thunder. Targets sit kilometres away, shells take real seconds to arrive, and a clean broadside depends on solving two separate problems at once: where the enemy *will be* (lead) and how far away they *actually are* (range and gun elevation). The fire-control aids that help you do this are very different between game modes, and they behave nothing like ground gunnery.
+
+## How naval aiming differs from ground
+
+In ground vehicles, gunnery is essentially point-and-shoot: you place the reticle on a visible target, optionally read a rangefinder or laser, account for shell drop, and fire. The target is close and the solution is mostly horizontal.
+
+Naval combat splits aiming into two axes that are solved by different means. You handle **horizontal lead** for the target's motion, while the **range and elevation** come from a virtual rangefinder operator who reports a measured distance — complete with a margin of error and a time delay before the next update. That separation is the heart of naval fire control.
+
+## Fire control in Arcade vs Realistic
+
+The two modes draw the line in very different places.
+
+| | Arcade | Realistic |
+|---|---|---|
+| Lead marker | Full aim-assist lead indicator | Horizontal-only "V" marker, slow to update |
+| Range solution | Auto-tracked by virtual gunners | You read the operator's range and correct manually |
+| Range vs target motion | Updates automatically | Does **not** auto-update; you adjust by hand |
+
+In **Arcade**, aiming is heavily assisted. An aim-assistant lead marker (similar in concept to the aircraft lead indicator) is shown, the guns aim where your cursor points, and the virtual gunners independently work out the range with each close hit and correct fire as the target moves nearer or farther. The original naval-test devblog described the workflow as firing a trial shot, letting the crew analyse the splashes, and refining the range — after which correction becomes automatic. You can still shift your aim horizontally to chase a maneuvering target and vertically to choose your impact zone (deck versus waterline). Selecting a new target restarts the ranging cycle. Arcade also doubles horizontal targeting speed and boosts torpedo lead assistance, and large-calibre rounds get a visible tracer.
+
+In **Realistic**, you do far more of the work. You get only a simple horizontal-only "V" lead marker that takes time to calculate and refresh. The rangefinder operator reports the measured distance plus its error margin, but that figure updates only periodically. Crucially, range does **not** auto-track the target — you use dedicated **distance correction** controls (bindable to keys or the mouse wheel) and walk your fire in by watching whether splashes fall short or long.
+
+<Callout type="tip">Fire single "ranging" shots before committing to a full broadside. Bracketing a target with one gun at a time wastes far less ammo than ripple-firing your whole battery into the sea.</Callout>
+
+<Callout type="warning">The "about three trial hits to fix the range" figure comes from the original naval-test devblog and may not match current tuning in Update Heavy Cavalry (2.57). Treat it as the concept of the system rather than a confirmed live value, and verify exact rangefinder ranges, refresh intervals, and error margins against the current patch.</Callout>
+
+## Shell types
+
+Choosing ammunition is a trade between penetration and after-armour damage:
+
+- **AP / APC (armour-piercing, capped):** Trades filler for penetration; the pick against battleships and battlecruisers. Some rounds carry only a token bursting charge — for example, the Type 91 APC fired by the IJN 36 cm/45 Type 41 is noted as having a very small filler relative to comparable guns, so it punches deep but does little once inside lightly armoured ships.
+- **SAP (semi-armour-piercing):** Carries a large bursting charge while keeping respectable penetration, with a contact or short-delay fuze. A strong all-rounder against destroyers, light cruisers, and broadsides, but it struggles against heavy turret faces, magazines, and battleship belts.
+- **HE (high-explosive):** Big filler, poor penetration — for unarmoured and coastal targets and exposed crew, weak against armoured warships.
+
+## Fuzes and overpressure
+
+A round with high penetration and a low-sensitivity delayed fuze can over-penetrate thin plating without detonating, which is why contact-fuzed SAP/HE often outperform delayed AP against light ships. The **overpressure** mechanic models an HE blast's shockwave on crew; it arrived with the modelling overhaul in Update "Ixwa Strike" that replaced the older hull-destruction (hull-break) system. For <Term id="APHE">APHE</Term>-type shells, overpressure damage requires a minimum filler of 170 g TNT-equivalent.
+
+<Callout type="info">Maneuvering sharply hurts your own accuracy — and the enemy's. A steady firing platform is worth more than evasive zig-zagging once a gunnery duel begins.</Callout>

@@ -1,0 +1,84 @@
+---
+slug: missiles-and-radar
+title: 'Missiles and radar: IR, SARH, ARH, and countermeasures'
+category: aviation
+summary: >-
+  A conceptual guide to the three air-to-air missile guidance families in War
+  Thunder and the countermeasures and radar tricks that defeat them.
+sources:
+  - label: Infrared Missiles in War Thunder (official wiki mechanics)
+    url: 'https://wiki.warthunder.com/129-infrared-missiles-in-war-thunder'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: Aerial Infrared Countermeasures (Flares) - War Thunder wiki mechanics
+    url: >-
+      https://wiki.warthunder.com/mechanics/5026-aerial-infrared-countermeasures-flares
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: Dipole Radar Confusing Reflectors (Chaff) - War Thunder wiki mechanics
+    url: >-
+      https://wiki.warthunder.com/mechanics/5076-dipole-radar-confusing-reflectors-chaff
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: '[Development] SARH Air-to-Air Missiles - War Thunder devblog (news)'
+    url: >-
+      https://warthunder.com/en/news/6879-development-sarh-air-to-air-missiles-en
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: '[Development] SARH Air-to-Air Missiles - War Thunder wiki (rocket)'
+    url: >-
+      https://wiki.warthunder.com/rocket/211-development-sarh-air-to-air-missiles
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      [Development] FOX-3: Active Radar Homing Missiles - War Thunder devblog
+      (news)
+    url: >-
+      https://warthunder.com/en/news/8898-development-fox-3-active-radar-homing-missiles-en
+    tier: 1
+    retrievedAt: '2026-06-30'
+lastUpdated: '2026-06-30'
+---
+Air-to-air combat in War Thunder splits into three guidance families, each with its own strengths, blind spots, and counters. Knowing which missile is coming at you matters more than any single statistic, because the defense that beats one type does nothing against another.
+
+## Infrared (FOX-2)
+
+An infrared missile carries a heat-sensing seeker in the nose. It detects the infrared light a target radiates and steers toward that heat source on its own after launch. The catch is sensitivity. Most IR missiles in-game are **rear-aspect**: early seekers were only sensitive enough to latch onto something very hot, like a jet's exhaust, so you must fire from behind the target.
+
+**All-aspect** IR missiles use more sensitive seekers and better tracking. They can pick up cooler sources such as the airframe itself or an afterburner plume, which lets them engage from a much wider band of angles instead of just the tail.
+
+### Beating IR: flares and signature
+
+Flares burn extremely hot and flood the area with infrared light, luring the seeker into chasing the flare instead of you. Flares alone are rarely enough, though. Pair them with reducing your own signature: cut afterburner and turn your exhaust away from the missile so the flare outshines you.
+
+The wiki lists distinct flare types with tradeoffs:
+
+| Flare type | Burn | Brightness | Quantity |
+| --- | --- | --- | --- |
+| BOL | Short | Low | High |
+| Regular | Longer | Medium | Medium |
+| Large-caliber | Long | Very bright | Limited |
+
+Advanced missiles fight back with <Term id="IRCCM">IRCCM</Term> (infrared counter-countermeasures). They resist flares either by narrowing the seeker's field of view, so a flare is less likely to enter it, or by briefly pausing guidance when a flare is detected in view. A separate family, IRCM jammers, defends the aircraft instead: older designs flicker infrared light to confuse a seeker, while modern systems detect the missile and shine a laser to blind it. In-game these jammers are found predominantly on helicopters.
+
+## Semi-active radar homing (FOX-1)
+
+A SARH missile homes on radar energy that your aircraft transmits and that bounces off the target. The launcher must keep illuminating the target until impact, which means you have to keep tracking it with radar throughout the flight and cannot pull sharp evasive maneuvers in the meantime.
+
+In return, SARH is nearly all-aspect: you can fire from practically any direction, including head-on, unlike rear-aspect IR. The usable launch envelope depends on the missile's aerodynamics and turn rate, how long it takes to commit, your altitude and speed, and the relative angle between you and the target. Two weaknesses stand out: looking down at a low target invites ground clutter that can break the lock, and any target with an <Term id="RWR">RWR</Term> will be warned the moment your radar starts illuminating it. SARH seekers come in two flavors in-game: distance-tracking pulse types (such as the R-3R and Matra R.530) and radial-speed Doppler types (such as the AIM-7D/E), and the Doppler variants struggle against targets crossing perpendicular to you.
+
+## Active radar homing (FOX-3)
+
+An ARH missile carries its own radar transmitter, so it does not need you to illuminate the target. It is fire-and-forget. Typically it flies a midcourse phase on inertial navigation with datalink corrections from your aircraft, then switches to active homing in the terminal phase. Because the onboard radar is small, the seeker only captures the target up close; the FOX-3 devblog states it can capture a fighter-type target at a distance of roughly 15-20 km. ARH pairs with Track-While-Scan (TWS), which keeps updating targets without committing to a single continuous lock. The big advantage over SARH is exposure: you can turn away once the missile goes active instead of illuminating until impact. Note that an enemy RWR still warns the moment the missile's own seeker switches on, which is the cue to start defending.
+
+## Radar countermeasures: chaff and notching
+
+Chaff is a cloud of thin metallic strips, each about half the radar's wavelength long, that scatters radar energy into many false returns. Against simple pulse radars and pulse-guided missiles, dropping chaff alone often breaks the lock.
+
+Modern pulse-Doppler radars are harder. They measure your closure (radial) rate, and a chaff cloud slows almost instantly after release, so the radar separates the fast-approaching aircraft from the lingering cloud. The answer is **notching**: maneuver roughly perpendicular (about 90 degrees) to the radar so your closure rate falls toward zero. In that Doppler gap the radar cannot tell you apart from ground returns or chaff. Against pulse-Doppler, then, chaff usually only works combined with notching.
+
+<Callout type="warning">Exact per-vehicle values (flare counts, IRCCM angles, missile ranges, and SARH lock thresholds) change every patch and are not pinned to Update Heavy Cavalry (2.57) here. Confirm any hard number against the live wiki entry for your specific aircraft before relying on it.</Callout>
+
+## Real-world note
+
+The NATO brevity codes mirror these families: FOX-1 calls a semi-active radar launch, FOX-2 an infrared launch, and FOX-3 an active radar launch. These are real-world radio-call conventions rather than in-game mechanics, and their precise definitions should be sourced independently if cited in detail.

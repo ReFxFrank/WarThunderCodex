@@ -1,0 +1,104 @@
+---
+slug: naval-torpedoes-and-survivability
+title: 'Naval torpedoes, citadels, and survivability'
+category: naval
+summary: >-
+  How bluewater ships are sunk and kept afloat: torpedo depth and leading, the
+  all-or-nothing citadel and layered armour, crew-loss and flooding mechanics,
+  automatic damage control, and layered anti-aircraft defence.
+sources:
+  - label: >-
+      Mastering The Art of Torpedo Bombing — War Thunder Wiki (torpedo depth,
+      aiming, deployment limits)
+    url: 'https://wiki.warthunder.com/4620-mastering-the-art-of-torpedo-bombing'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      Armor and Survivability of USS Nevada — War Thunder Wiki (citadel /
+      all-or-nothing scheme, belt armour)
+    url: 'https://wiki.warthunder.com/850-armor-and-survivability-of-uss-nevada'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      Ship Crew Mechanics — War Thunder Wiki (crew loss, compartments,
+      scuttling, flooding)
+    url: 'https://wiki.warthunder.com/640-ship-crew-mechanics'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      [Development] The New Damage Control Mechanic for Naval — War Thunder
+      news/devblog
+    url: >-
+      https://warthunder.com/en/news/9795-development-the-new-damage-control-mechanic-for-naval-en
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      Armour — Game Mechanics — War Thunder Wiki (naval armour material
+      modifiers table)
+    url: 'https://wiki.warthunder.com/mechanics/242-armour'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      USS Baltimore — War Thunder Wiki (naval AA armament, proximity-fuze
+      shells, citadel armour values)
+    url: 'https://wiki.warthunder.com/USS_Baltimore'
+    tier: 1
+    retrievedAt: '2026-06-30'
+lastUpdated: '2026-06-30'
+---
+Sinking a bluewater ship in War Thunder is rarely a single dramatic explosion. It is a process of attrition: stripping crew, opening compartments to the sea, and overwhelming the systems that keep a hull fighting. Understanding that process tells you both how to kill ships and how to keep your own afloat.
+
+## Torpedoes
+
+A torpedo is the most efficient way to drown a large hull, because it strikes below the waterline where armour is thinnest and floods compartments directly.
+
+**Depth.** Set the running depth to match the target's draught. The torpedo-bombing guide recommends roughly 1 m against smaller vessels such as destroyers and cruisers, and around 4 m against battleships, which sit much deeper. Run too shallow against a battleship and the torpedo passes under nothing useful; run too deep against a destroyer and it slides clean underneath the keel.
+
+**Leading.** Torpedoes travel at a fixed speed in the water that varies by model, and they are slow. Against a moving target you must aim where the ship *will* be, not where it is. Slower torpedoes need more lead.
+
+**Air-dropped limits.** Every air-launched torpedo has a maximum safe drop speed and altitude. Exceed either and the torpedo "drowns" and is lost. Torpedoes also have a finite travel distance before they expire. These values differ by model and nation, so always read the in-game stat card before you commit to an attack run.
+
+<Callout type="warning">A torpedo must travel a short minimum distance before it can detonate (arming distance). A specific in-game value for this could not be confirmed from a Tier-1 source and should be verified against the current patch before relying on a number.</Callout>
+
+## The citadel and armour scheme
+
+Capital ships use an **all-or-nothing** layout, illustrated in-game by USS Nevada. The heaviest armour is concentrated over the vital core — machinery, magazines, and control — while non-vital sections are left thin or unarmoured. Incoming AP shells punch through the soft ends without fusing, while the protected citadel resists penetration.
+
+The **main belt** guards the side around the waterline and extends below it. It is most effective when angled, and being tall and long it also catches plunging fire and HE fragments that would otherwise reach the upper decks.
+
+Horizontal protection on capital ships is generally **layered** rather than a single plate: an upper deck can trigger a shell or bomb early, a thicker armour deck does the real stopping, and lower splinter plating catches whatever fragments leak through — so projectiles tend to detonate before reaching vital spaces.
+
+Material matters as much as thickness. Effective protection scales by material modifier:
+
+| Material | Modifier |
+|---|---|
+| Rolled cemented armour | x1.10 |
+| Rolled homogeneous armour | x1.00 |
+| Antifragmentation armour | x0.90 |
+| Hardened armour | x0.80 |
+| Structural steel | x0.45 |
+| Concrete | x0.35 |
+| Wood (kinetic) | x0.05 |
+| Coal bunker | x0.01 |
+
+<Callout type="warning">The exact belt thicknesses and any deck-layer values shown in-game blend with real-world history depending on the ship. Always confirm specific numbers in the in-game armour viewer for the current patch.</Callout>
+
+## Crew, flooding, and damage control
+
+Crew loss is the core kill mechanic. Each compartment has its own durability and crew count, and crew die in proportion to damage taken: a 500 HP compartment holding 4 crew loses one crewman per 125 damage. When usable crew drops below the minimum needed to run the ship, the vessel is scuttled; at 0% free crew it is destroyed instantly. After that collapse the hull floods uncontrollably and sinks, with no damage control left to stop it.
+
+So aim where crew concentrates: boilers and engines, ammunition handling rooms, turrets and other weapon mounts, plus the bridge, radio and fire-control rooms, and rangefinders.
+
+Under the newer damage-control system, three processes — firefighting, module repair, and water pumping — all start automatically. You only set which one gets priority, and propulsion repair is always handled by the crew. Each ship has a damage-control coefficient set by size, crew, and generation; newer ships recover faster.
+
+<Callout type="tip">You can switch back to the old manual damage-control system in the options under Naval Battle Settings if you prefer hands-on control.</Callout>
+
+## Anti-aircraft defence
+
+A layered AA suite mixes weapons by range. On USS Baltimore, 20 mm Oerlikons and 40 mm Bofors throw a wall of fire close in, while 5-inch dual-purpose guns reach out. Those large guns can fire proximity-fuzed AAVT (HE-VT) shells that detonate near an aircraft instead of needing a direct hit — far deadlier at range.
+
+<Callout type="warning">Whether large-calibre proximity fuzes are restricted to certain nations or calibres, and their exact in-game detonation radius, could not be confirmed from a Tier-1 source. Verify against the current patch.</Callout>
+
+## Real-world note
+
+This section is historical context, separate from the in-game figures above. The all-or-nothing armour philosophy was pioneered by the US Navy with the *Nevada* class, abandoning thin armour spread across the whole hull in favour of a heavily protected central citadel. Layered horizontal decks and proximity (variable-time) fuzes were both wartime developments that reshaped how warships defended themselves against plunging fire and aircraft.

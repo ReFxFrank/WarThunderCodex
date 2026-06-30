@@ -1,0 +1,85 @@
+---
+slug: ammunition-types
+title: 'Ammunition types: kinetic versus chemical'
+category: weapons
+summary: >-
+  A field guide to War Thunder's two ammunition families — kinetic and chemical
+  — covering how each defeats armour, what it does after penetration, and how to
+  pick the right round.
+sources:
+  - label: >-
+      Tank ammunition (War Thunder Wiki) — overview of every kinetic and
+      chemical shell type, penetration method, post-penetration effect,
+      range/angle behaviour, fuse sensitivity, and selection guidance
+    url: 'https://wiki.warthunder.com/weapon/2544-tank-ammunition'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      The Mechanics of High-Explosive Effect and Overpressure (War Thunder Wiki)
+      — HE brisance, the breach mechanic, overpressure, and which round types
+      do/don't cause overpressure
+    url: >-
+      https://wiki.warthunder.com/mechanics/4236-the-mechanics-of-high-explosive-effect-and-overpressure
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      Armour (War Thunder Wiki) — sloped/line-of-sight thickness, ricochet,
+      angling, and the separate KE vs CE armour modifiers
+    url: 'https://wiki.warthunder.com/mechanics/242-armour'
+    tier: 1
+    retrievedAt: '2026-06-30'
+  - label: >-
+      Development: Detailed information surrounding Spall Liners in War Thunder
+      (warthunder.com news/devblog) — secondary fragment cones, fragment
+      penetration values, and spall-liner behaviour
+    url: >-
+      https://warthunder.com/en/news/8670-development-detailed-information-surrounding-spall-liners-in-war-thunder-en
+    tier: 1
+    retrievedAt: '2026-06-30'
+lastUpdated: '2026-06-30'
+---
+Every shell in War Thunder belongs to one of two families. **Kinetic** rounds punch through armour with raw momentum. **Chemical** rounds defeat it with explosive or shaped-charge action. The split matters because the game tracks the two separately — armour even carries different multipliers against each — so knowing which family you are firing tells you how it behaves at range, against slopes, and inside the enemy hull.
+
+## Kinetic rounds
+
+Kinetic projectiles rely entirely on speed and mass. Because penetration comes from velocity, it drops as the round slows over distance.
+
+- **AP** is a solid steel shot. It is the simplest anti-armour round: it rewards careful aim, damaging modules and crew through fragments and spalling. With energy to spare it can pass clean through a vehicle.
+- **<Term id="APHE">APHE</Term>** adds a small explosive cavity. That filler slightly lowers penetration, but when the fuse trips inside the hull the detonation does far more internal damage than solid shot. The fuse only arms against armour thick enough to set it off, so it shines when you are confident of a clean hit.
+- **APCR** uses a hard sub-calibre core for notably higher penetration, but it bleeds that advantage quickly over range, deals concentrated yet limited post-penetration damage, and ricochets off angled plate far more easily than AP or APDS. Save it for flat, hard targets up close.
+- **APDS** discards its sabot at the muzzle, giving very high penetration and flat long-range accuracy without APCR's angle penalty. The trade-off is thin post-penetration damage, so expect to fire more than once.
+- **<Term id="APFSDS">APFSDS</Term>** is the peak of kinetic rounds: a long, extremely hard fin-stabilised dart that keeps its punch even at extreme range thanks to very high velocity. Its added length improves post-penetration effect over APDS. Aim it at crew and critical modules.
+
+## Chemical rounds
+
+Chemical rounds defeat armour by explosive or shaped-charge action rather than kinetic energy, so several of them do not lose penetration with distance.
+
+- **HEAT** is a shaped charge: its explosion forms a metal jet that bores through plate. Penetration is constant at any range, but the round is slow and its fuse is so sensitive it can detonate on a bush or fence.
+- **<Term id="HEATFS">HEATFS</Term>** is the fin-stabilised version with better ballistics. It holds full penetration at all ranges, making it a strong long-range option — but the fuse is still easily triggered by foliage.
+- **HESH** squashes onto the surface and detonates, rupturing the inner face of the plate and flinging spall. Per the wiki its effect is now uniform at all ranges and angles, and its low fuse sensitivity lets it pass through some thin obstacles. Use it on light or side armour; it is useless against heavy or composite plate and is defeated by spaced armour and side skirts.
+- **HE** has almost no armour penetration and lives off its blast and fragmentation. It is your anti-infantry, anti-emplacement, and open-top-killer round.
+
+## After penetration
+
+A kinetic hit throws fragments and spall scaled to the shell's mass and the armour it pierced. HEAT and APFSDS hits generate secondary fragment cones modelled with roughly **3–30 mm RHA** of penetration; stronger fragments travel in a narrower, sparser cone. **HE-based effects** — HE fragmentation, APHE, shaped charges, and HESH — open a *breach* through which fragments spread in about a 30–45 degree arc.
+
+**Overpressure** is separate. It is triggered only by a round's high-explosive effect: a HEAT jet and HESH spall do **not** cause it. For APHE, overpressure needs at least **170 g** of TNT-equivalent filler. It is not always lethal and weakens with distance.
+
+<Callout type="info">Spall liners act as an internal module worth roughly 2 mm of rolled armour. They stop fragments meeting them at steep angles but let shallow ones through, slightly blunting APFSDS and more noticeably reducing HEAT damage.</Callout>
+
+## Choosing a round
+
+Effective armour thickness is `(thickness × modifier vs round type) ÷ cos(angle)`, so slopes and side-angling raise both effective thickness and ricochet chance. Crucially, the game applies different **KE** and **CE** modifiers to the same material. A composite screen, for example, is listed at x0.16 versus kinetic but x2.00 versus chemical, and spaced armour likewise weighs far more heavily against shaped charges than against darts — so this kind of screen is excellent against chemical rounds and weak against kinetic penetrators.
+
+| Situation | Pick |
+|---|---|
+| Clean penetration expected, want internal carnage | APHE / HE-filled |
+| Flat, hard target at short range | APCR |
+| Long range, high penetration | APDS / APFSDS |
+| Range-independent penetration vs modest armour | HEAT / HEATFS |
+| Thin or side armour | HESH |
+| Light, open-topped vehicles and crew | HE / overpressure |
+
+<Callout type="warning">Exact penetration figures, muzzle velocities, filler masses, and precise ricochet-angle cutoffs vary per shell and per patch. Read each value from the relevant vehicle or shell stat card on the wiki and confirm it against the current Update Heavy Cavalry (2.57) changelog before relying on it.</Callout>
+
+For how these fragments, breaches, and overpressure events translate into destroyed modules and dead crew, see the damage-model article.
