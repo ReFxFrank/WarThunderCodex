@@ -172,6 +172,7 @@ export default async function VehiclePage({ params }: { params: Promise<{ id: st
                   src={photo.src}
                   alt={photo.alt}
                   loading="lazy"
+                  decoding="async"
                   className="w-full rounded-md border border-hairline"
                 />
                 <figcaption className="mt-1.5 text-[0.7rem] leading-relaxed text-faint">

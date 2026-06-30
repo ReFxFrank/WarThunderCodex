@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { cn } from "@/lib/cn";
 import { HEADER_NAV, SITE } from "@/lib/site";
+import { SearchDialog } from "@/components/search/SearchDialog";
 
 export function SiteHeader() {
   const pathname = usePathname();
@@ -42,30 +43,21 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        {/* Search affordance — wired up in Phase 1 (client-side index). */}
-        <button
-          type="button"
-          disabled
-          title="Global search arrives in Phase 1"
-          className="ml-auto hidden cursor-not-allowed items-center gap-2 rounded border border-hairline bg-[rgba(8,10,13,0.5)] px-2.5 py-1.5 text-xs text-faint lg:ml-0 lg:flex"
-        >
-          <SearchGlyph />
-          <span>Search</span>
-          <kbd className="font-data rounded border border-hairline px-1 text-[0.6rem]">⌘K</kbd>
-        </button>
-
-        {/* Mobile toggle */}
-        <button
-          type="button"
-          aria-label={open ? "Close menu" : "Open menu"}
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
-          className="ml-auto rounded border border-hairline p-2 text-muted hover:text-ink lg:hidden"
-        >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            {open ? <path d="M6 6l12 12M18 6L6 18" /> : <><path d="M3 6h18" /><path d="M3 12h18" /><path d="M3 18h18" /></>}
-          </svg>
-        </button>
+        {/* Search + mobile toggle */}
+        <div className="ml-auto flex items-center gap-2 lg:ml-2">
+          <SearchDialog />
+          <button
+            type="button"
+            aria-label={open ? "Close menu" : "Open menu"}
+            aria-expanded={open}
+            onClick={() => setOpen((v) => !v)}
+            className="rounded border border-hairline p-2 text-muted hover:text-ink lg:hidden"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+              {open ? <path d="M6 6l12 12M18 6L6 18" /> : <><path d="M3 6h18" /><path d="M3 12h18" /><path d="M3 18h18" /></>}
+            </svg>
+          </button>
+        </div>
       </div>
 
       {/* Mobile nav */}
@@ -101,15 +93,6 @@ function BrandMark() {
       <line x1="14" y1="21" x2="14" y2="27" stroke="var(--accent)" strokeWidth="1.5" />
       <line x1="1" y1="14" x2="7" y2="14" stroke="var(--accent)" strokeWidth="1.5" />
       <line x1="21" y1="14" x2="27" y2="14" stroke="var(--accent)" strokeWidth="1.5" />
-    </svg>
-  );
-}
-
-function SearchGlyph() {
-  return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-      <circle cx="11" cy="11" r="7" />
-      <path d="M21 21l-4.3-4.3" />
     </svg>
   );
 }
