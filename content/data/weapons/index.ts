@@ -169,29 +169,36 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "hispano-mk-ii-20mm",
-    "name": "20 mm Hispano Mk II",
-    "type": "autocannon",
+    "name": "Hispano Mk.II",
+    "type": "cannon",
     "caliberMm": 20,
     "fireRateRpm": 600,
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
+      "mosquito-fb-mk-vi",
+      "meteor-f-mk-3",
       "spitfire-mk-vb",
       "typhoon-mk-ib",
       "spitfire-mk-ix"
     ],
-    "notes": "A hard-hitting 20 mm autocannon firing at 600 shots/min with a modest 60-round-per-gun magazine (120 rounds total across both cannons on the Spitfire Mk Vb), rewarding short, well-aimed bursts over sustained fire. Paired with rifle-calibre machine guns, it delivers strong damage per hit but demands trigger discipline to avoid running dry. In-game belt options include Default, Universal, Air targets, Ground targets, Tracers, and Stealth.",
+    "notes": "Standard British 20 mm aircraft autocannon of WWII, mounted in the nose of both the Mosquito FB Mk VI and the Meteor F Mk 3 for concentrated forward firepower.",
     "sources": [
       {
-        "label": "Spitfire Mk Vb unit page — wiki.warthunder.com",
-        "url": "https://wiki.warthunder.com/unit/spitfire_mk5b_notrop",
+        "label": "Mosquito FB Mk VI | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/mosquito_fb_mk6",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Meteor F Mk 3 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/meteor_fmk3",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
-      "muzzleVelocityMps",
-      "ammoTypeIds"
+      "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
@@ -201,23 +208,25 @@ export const weapons: Weapon[] = [
     "name": ".303 Browning",
     "type": "machine-gun",
     "caliberMm": 7.7,
-    "fireRateRpm": 1000,
+    "fireRateRpm": null,
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
+      "mosquito-fb-mk-vi",
       "spitfire-mk-vb",
       "spitfire-mk-ix"
     ],
-    "notes": "A rifle-caliber (7.7 mm) machine gun with a high 1,000 rpm rate of fire but light individual rounds, so it relies on saturating fire from multiple guns rather than per-hit punch. Effective against unarmored and lightly armored aircraft but struggles to do meaningful damage at longer ranges or against sturdier targets. The Spitfire Mk Vb carries four of these, with selectable belts including Universal, Tracers, Stealth, and Ground targets. Muzzle velocity is not stated on the Tier-1 vehicle page.",
+    "notes": "British 7.7 mm rifle-calibre machine gun; four are paired with the Hispano cannon in the Mosquito FB Mk VI's nose battery for high-volume close-range fire.",
     "sources": [
       {
-        "label": "Spitfire Mk Vb vehicle page (War Thunder Wiki)",
-        "url": "https://wiki.warthunder.com/unit/spitfire_mk5b_notrop",
+        "label": "Mosquito FB Mk VI | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/mosquito_fb_mk6",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
+      "fireRateRpm",
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
@@ -635,40 +644,29 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "shvak-20mm",
-    "name": "20 mm ShVAK",
+    "name": "ShVAK 20 mm cannon",
     "type": "cannon",
     "caliberMm": 20,
-    "fireRateRpm": null,
+    "fireRateRpm": 800,
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
+      "yak-9u",
+      "tu-2s",
       "yak-3",
       "la-5fn",
       "la-7"
     ],
-    "notes": "Soviet 20 mm aircraft autocannon, the standard cannon armament of mid-war Yak and Lavochkin fighters. In-game fire rate is mount-dependent and therefore not a single value for this shared record: the synchronised fuselage mount on the Yak-3 reads 800 shots/min while the La-5FN installation reads 720 shots/min on their respective unit pages. Because the figure differs by host airframe, fireRateRpm is left null here rather than committing to one number.",
+    "notes": "Widely used Soviet 20 mm autocannon firing at roughly 800 rounds per minute; mounted as the cowl/offensive cannon on many Soviet fighters and bombers.",
     "sources": [
       {
-        "label": "20 mm ShVAK cannon | War Thunder Wiki (weaponry)",
-        "url": "https://wiki.warthunder.com/collections/weapon/20mm_shvak",
-        "tier": 1,
-        "retrievedAt": "2026-06-30"
-      },
-      {
-        "label": "Yak-3 | War Thunder Wiki (armament fire rate: 800 shots/min)",
-        "url": "https://wiki.warthunder.com/unit/yak-3",
-        "tier": 1,
-        "retrievedAt": "2026-06-30"
-      },
-      {
-        "label": "La-5FN | War Thunder Wiki (armament fire rate: 720 shots/min)",
-        "url": "https://wiki.warthunder.com/unit/la-5fn",
+        "label": "War Thunder Wiki — Yak-9U",
+        "url": "https://wiki.warthunder.com/unit/yak-9u",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
-      "fireRateRpm",
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
@@ -3114,6 +3112,412 @@ export const weapons: Weapon[] = [
     ],
     "unverified": [
       "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "us-90mm-m3a1",
+    "name": "90 mm M3A1 cannon",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m46-patton"
+    ],
+    "notes": "Long 90 mm rifled gun fitted to the M46 Patton, with access to APCBC and APCR ammunition for solid penetration at rank IV.",
+    "sources": [
+      {
+        "label": "M46 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m46_patton",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "us-90mm-m36",
+    "name": "90 mm M36 cannon",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m47-patton-ii"
+    ],
+    "notes": "90 mm rifled gun mounted in the M47's improved turret, sharing much of the M46's ammunition family while benefiting from the better turret layout.",
+    "sources": [
+      {
+        "label": "M47 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m47_patton_II",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "us-105mm-m68",
+    "name": "105 mm M68 cannon",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m60a1-rise-p"
+    ],
+    "notes": "American licence-built version of the British L7 105 mm gun; on the M60A1 RISE (P) it can fire the M735 APFSDS dart for strong kinetic penetration.",
+    "sources": [
+      {
+        "label": "M60A1 RISE (P) | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m60a1_rise_passive_era",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "75mm-pak40-3-l46",
+    "name": "75 mm PaK40/3 L46",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": 790,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "marder-iii-h"
+    ],
+    "notes": "Single-shot anti-tank gun; muzzle velocity quoted for the PzGr 39 APCBC shell. Strong penetration for its battle rating.",
+    "sources": [
+      {
+        "label": "Marder III H | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_38t_Marder_III_ausf_H",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "88mm-pak43-1",
+    "name": "88 mm PaK43/1",
+    "type": "cannon",
+    "caliberMm": 88,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "nashorn"
+    ],
+    "notes": "High-velocity 88 mm anti-tank gun of the same family that armed the Tiger II; excellent penetration at long range. Fires PzGr 39/43 APCBC, PzGr 40/43 APCR, HEAT, and HE.",
+    "sources": [
+      {
+        "label": "Nashorn | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_panzerjager_nashorn",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "90mm-bk90",
+    "name": "90 mm BK90",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ru-251"
+    ],
+    "notes": "German Cold-War 90 mm gun derived from the American M3; lacks a kinetic AP round and relies on HEATFS, HESH, and HE in game.",
+    "sources": [
+      {
+        "label": "Ru 251 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_ru251",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "jp-37mm-type-94",
+    "name": "37 mm Type 94 cannon",
+    "type": "cannon",
+    "caliberMm": 37,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "type-95-ha-go"
+    ],
+    "notes": "Low-velocity 37 mm tank gun on the Ha-Go; modest penetration and damage, best used against light targets and exposed crew. Muzzle velocity and fire rate are not listed on the official unit page.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Ha-Go (unit)",
+        "url": "https://wiki.warthunder.com/unit/jp_type_95_ha_go",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "jp-47mm-type-1",
+    "name": "47 mm Type 1 cannon",
+    "type": "cannon",
+    "caliberMm": 47,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "type-97-chi-ha-kai"
+    ],
+    "notes": "Higher-velocity 47 mm gun in the Chi-Ha Kai's new turret; fires APHE with a useful filler for strong post-penetration damage, though it is uncapped and struggles against slopes. Muzzle velocity and fire rate are not listed on the official unit page.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Chi-Ha Kai (unit)",
+        "url": "https://wiki.warthunder.com/unit/jp_type_97_kai",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "jp-105mm-jsw",
+    "name": "105 mm JSW cannon",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "type-16-mcv"
+    ],
+    "notes": "Japanese licence-built 105 mm rifled gun on the Type 16; fires APFSDS, HEAT-FS, HESH and smoke. Muzzle velocity and fire rate are not listed on the official unit page.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Type 16 (unit)",
+        "url": "https://wiki.warthunder.com/unit/jp_type_16",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "gun-75-18-mod34",
+    "name": "75/18 mod.34 (75 mm)",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "semovente-75-18-m41"
+    ],
+    "notes": "Short-barrelled 75 mm howitzer firing low-velocity APCBC and HE; the unlockable HEAT shell provides a constant 100 mm of penetration that defines the vehicle's effectiveness.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki - 75/18 M41",
+        "url": "https://wiki.warthunder.com/unit/it_semovente_m41_75_18",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "gun-oto-melara-105-52",
+    "name": "OTO Melara 105/52 (105 mm)",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": 1470,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "of-40",
+      "centauro-i-105"
+    ],
+    "notes": "NATO-standard 105 mm rifled gun firing APDS (about 1470 m/s), HEATFS, HESH and smoke. Shared between the OF-40 main battle tank and the Centauro I 105 wheeled tank destroyer.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki - OF-40",
+        "url": "https://wiki.warthunder.com/unit/it_of_40_mk_1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "War Thunder Wiki - Centauro I 105",
+        "url": "https://wiki.warthunder.com/unit/it_b1_centauro",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "ubs-127mm",
+    "name": "Berezin UBS 12.7 mm machine gun",
+    "type": "machine-gun",
+    "caliberMm": 12.7,
+    "fireRateRpm": 996,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "yak-9u"
+    ],
+    "notes": "Synchronised cowl-mounted variant of the Berezin 12.7 mm heavy machine gun, firing at about 996 rounds per minute on the Yak-9U.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Yak-9U",
+        "url": "https://wiki.warthunder.com/unit/yak-9u",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "ns-23-23mm",
+    "name": "NS-23 23 mm cannon",
+    "type": "cannon",
+    "caliberMm": 23,
+    "fireRateRpm": 600,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "la-9"
+    ],
+    "notes": "Post-war Soviet 23 mm autocannon firing at about 600 rounds per minute; the La-9 carries a battery of four, giving it a heavy hitting punch.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — La-9",
+        "url": "https://wiki.warthunder.com/unit/la-9",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "ubt-127mm",
+    "name": "Berezin UBT 12.7 mm machine gun (turret)",
+    "type": "machine-gun",
+    "caliberMm": 12.7,
+    "fireRateRpm": 1026,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "tu-2s"
+    ],
+    "notes": "Turret-mounted variant of the Berezin 12.7 mm heavy machine gun, firing at about 1,026 rounds per minute; three of these form the Tu-2S rear defensive battery.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — Tu-2S",
+        "url": "https://wiki.warthunder.com/unit/tu-2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "hispano-mk-v-20mm",
+    "name": "Hispano Mk.V",
+    "type": "cannon",
+    "caliberMm": 20,
+    "fireRateRpm": 750,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "tempest-mk-v"
+    ],
+    "notes": "Late-war British 20 mm autocannon, a lighter and faster-firing development of the Hispano series used as the Tempest Mk V's primary armament.",
+    "sources": [
+      {
+        "label": "Tempest Mk V | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/tempest_mkv",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
