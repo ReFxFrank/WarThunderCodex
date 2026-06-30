@@ -4426,5 +4426,243 @@ export const weapons: Weapon[] = [
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "cn-type-63-85mm",
+    "name": "85 mm Type 63 cannon",
+    "type": "cannon",
+    "caliberMm": 85,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "cn-type-63"
+    ],
+    "notes": "Rifled 85 mm main gun mounted in the Type 63 amphibious tank's turret, sharing its lineage with the Type 62. Notable in-game for access to a HEAT-FS round that gives strong penetration despite the tank's light weight. Reload is roughly 9.2 s stock and 7 s aced.",
+    "sources": [
+      {
+        "label": "Type 63 | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/cn_type_63_I",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "cn-m6-37mm",
+    "name": "37 mm M6 cannon",
+    "type": "cannon",
+    "caliberMm": 37,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": 884,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "cn-m3a3-stuart"
+    ],
+    "notes": "American 37 mm tank gun fitted to the M3/M5 Stuart family, including the Chinese M3A3. A small-calibre, fast-firing gun firing AP shot at about 884 m/s; effective against lightly armoured early targets but quickly outmatched by thicker armour. Reload is around 3.7 s stock and 2.9 s aced.",
+    "sources": [
+      {
+        "label": "M3A3 Stuart (China) | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/cn_m3a3_stuart",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "cn-pg87-25mm",
+    "name": "25 mm PG87 cannon",
+    "type": "autocannon",
+    "caliberMm": 25,
+    "fireRateRpm": 600,
+    "muzzleVelocityMps": 1050,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "cn-pgz-04a"
+    ],
+    "notes": "Chinese 25 mm anti-aircraft autocannon, mounted as a quad installation on the PGZ04A. A bored-out derivative of the Soviet 23 mm Shilka gun lineage with higher muzzle velocity but a slower rate of fire; in War Thunder it lacks a dedicated APDS belt. Each barrel fires roughly 600 rounds per minute at about 1,050 m/s.",
+    "sources": [
+      {
+        "label": "PGZ04A | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/cn_pgz_04a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "105mm-l74",
+    "name": "105 mm L74 cannon",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "strv-103-0"
+    ],
+    "notes": "Fixed, autoloaded main gun of the Strv 103-0 S-tank; aimed by pitching the hull rather than traversing a turret. Reload around 4 seconds with the autoloader.",
+    "sources": [
+      {
+        "label": "Strv 103-0 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sw_strv_103_0",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "75mm-lvkan-m37a",
+    "name": "75 mm lvkan m/37 A",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "pvkv-ii"
+    ],
+    "notes": "Adapted Swedish 75 mm anti-aircraft gun mounted on the Pvkv II for its strong anti-tank performance; fires AP, APCBC and HE rounds. Base reload about 7.8 seconds, dropping to 6 seconds fully aced.",
+    "sources": [
+      {
+        "label": "Pvkv II | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sw_pvkv_II",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "75mm-kan-strv-74",
+    "name": "75 mm kan Strv 74",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "strv-74"
+    ],
+    "notes": "High-velocity 75 mm gun of the Strv 74 firing APCBC, HE and a potent slpprj m/49 APDS round. Base reload about 8.7 seconds, improving to 6.7 seconds when aced.",
+    "sources": [
+      {
+        "label": "Strv 74 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sw_strv_74",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "90mm-m41",
+    "name": "90 mm M41 cannon",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m48a1-patton"
+    ],
+    "notes": "Rifled 90 mm gun on the M48A1; ammo selection includes M332 APCR, M82 APCBC, M431 HEAT-FS, T142E3 HESH, M71 HE and M313 smoke. The official wiki unit page lists penetration but not muzzle velocity, so velocity is left unverified.",
+    "sources": [
+      {
+        "label": "M48A1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m48a1_patton_III",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "106mm-m40a1c",
+    "name": "106 mm M40A1C recoilless rifle",
+    "type": "cannon",
+    "caliberMm": 106,
+    "fireRateRpm": 120,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m50-ontos"
+    ],
+    "notes": "Group of six recoilless rifles on the M50 Ontos; ammo is M344A1 HEAT and M361A1 HESH. The wiki page lists a 120 shots/min rate of fire and penetration values but not muzzle velocity, so velocity is left unverified.",
+    "sources": [
+      {
+        "label": "M50 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m50_ontos",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "12.7mm-m2hb-mg",
+    "name": "12.7 mm M2HB machine gun",
+    "type": "machine-gun",
+    "caliberMm": 12.7,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m2a2-light-tank"
+    ],
+    "notes": "Main armament of the M2A2 light tank, mounted in the left twin turret with a secondary 7.62 mm M1919A4. The wiki unit page does not list rate of fire or muzzle velocity, so both are left unverified.",
+    "sources": [
+      {
+        "label": "M2A2 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m2a2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
   }
 ];

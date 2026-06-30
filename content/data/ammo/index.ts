@@ -2281,5 +2281,1391 @@ export const ammo: Ammo[] = [
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "l15a3-l11a5",
+    "name": "Shot L15A3 (APDS)",
+    "type": "APDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 298,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 296,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 288,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 277,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 268,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 258,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The L15A3 is a high-velocity armour-piercing discarding sabot round and the Chieftain's primary anti-tank shell, available from stock. Its sub-calibre tungsten core retains penetration well across distance and pairs with an unusually favourable slope modifier, letting it bite into angled plate that defeats other APDS rounds at the same rating. As a solid kinetic penetrator it carries no explosive filler, so kills depend on the spall cone and on routing the core through crew or modules. Aim for ammunition stowage or the densest cluster of crew, since a single channel of fragments can otherwise leave a target fighting.",
+    "sources": [
+      {
+        "label": "Chieftain Mk 3 — War Thunder Wiki (unit page, available ammunition / penetration table)",
+        "url": "https://wiki.warthunder.com/unit/uk_chieftain_mk_3",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "l31a7-l11a5",
+    "name": "Shell L31A7 (HESH)",
+    "type": "HESH",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 152,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 152,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 152,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 152,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 152,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 152,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The L31A7 is a high-explosive squash head round whose soft filler splatters against the target before detonating, blowing a scab of metal off the inside of the plate to wound crew and break modules. Because the effect is chemical rather than kinetic, its rated penetration is essentially flat with range, so it stays useful at distances where APDS has dropped off. It is slow and lobbed, demanding lead and elevation against moving targets, and it is largely defeated by spaced armour or thin screens that absorb the squash before it can form a scab. Treat it as a versatile secondary against lightly armoured vehicles and as a fallback against thick plate that the APDS cannot crack cleanly.",
+    "sources": [
+      {
+        "label": "Chieftain Mk 3 — War Thunder Wiki (unit page, available ammunition / penetration table)",
+        "url": "https://wiki.warthunder.com/unit/uk_chieftain_mk_3",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "l34-l11a5",
+    "name": "L34 (Smoke)",
+    "type": "other",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 5,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The L34 is a base-ejecting smoke round, the only unlockable shell on the Chieftain's 120 mm gun, and is fired to throw a concealing cloud rather than to damage anything. On impact it deploys a wall of smoke at the point of aim, useful for screening an advance, breaking a sightline, or covering a withdrawal. Its nominal armour figure is negligible, so it should never be relied on to kill a vehicle even though a direct hit can occasionally rattle an open crew position. Carry only a few and use them tactically, since they consume rounds that could otherwise be APDS or HESH.",
+    "sources": [
+      {
+        "label": "Chieftain Mk 3 — War Thunder Wiki (unit page, available ammunition / penetration table)",
+        "url": "https://wiki.warthunder.com/unit/uk_chieftain_mk_3",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "dm12-rh120l44",
+    "name": "DM12 (HEATFS)",
+    "type": "HEATFS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 480,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 480,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 480,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 480,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 480,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 480,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "DM12 is the stock multi-purpose HEATFS round, relying on a shaped-charge jet rather than kinetic energy, so its 480 mm of penetration holds constant across all ranges. Because it is a chemical round, sloped armour, spaced plating, and especially ERA degrade it heavily, making it unreliable against modern MBTs. It remains useful against lightly armoured vehicles and as a stopgap until the kinetic darts are unlocked.",
+    "sources": [
+      {
+        "label": "Leopard 2A4 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_leopard_2a4",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "dm13-rh120l44",
+    "name": "DM13 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 393,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 390,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 384,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 376,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 367,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 359,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "DM13 is the first unlockable APFSDS dart, defeating armour through pure kinetic energy with only modest penetration loss over distance (393 mm at 10 m falling to 359 mm at 2000 m). Its flat trajectory and high velocity make ranging and target leading easy, but post-penetration damage from a slim fin-stabilised rod is limited and depends on hitting crew or ammunition. It is a serviceable interim round before DM23 becomes available.",
+    "sources": [
+      {
+        "label": "Leopard 2A4 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_leopard_2a4",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "dm23-rh120l44",
+    "name": "DM23 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 408,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 407,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 393,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 385,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 377,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "DM23 is the top tier-4 APFSDS dart for the L/44, offering the highest kinetic penetration of the trio (408 mm at 10 m to 377 mm at 2000 m). It shares the flat, fast trajectory of DM13 but pierces slightly thicker armour at every range, making it the round of choice against contemporary MBTs. Like all APFSDS it carries no explosive filler, so lethality still hinges on accurate shot placement into crew or ammo stowage.",
+    "sources": [
+      {
+        "label": "Leopard 2A4 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_leopard_2a4",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m774-m68a1",
+    "name": "M774 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 372,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 371,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 366,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 359,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 352,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 345,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M774 is the top APFSDS dart for the 105 mm M68A1 and the standard armor-piercing answer for the early M1 Abrams. A depleted-uranium long-rod penetrator, it carries no explosive filler and relies on kinetic energy and spalling to kill, so aim for crew, ammo racks, and the breech to maximize internal damage. Its penetration falls only gently with range and it holds up well against sloped plate, giving it markedly better angled performance than the older M735.",
+    "sources": [
+      {
+        "label": "M1 Abrams - War Thunder Wiki (unit page, penetration table)",
+        "url": "https://wiki.warthunder.com/unit/us_m1_abrams",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m735-m68a1",
+    "name": "M735 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 292,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 291,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 284,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 275,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 266,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 257,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M735 is the earlier fin-stabilized discarding-sabot round for the M68A1, a tungsten-alloy long-rod dart that predates the M774. With no explosive filler it does its work through kinetic penetration and post-penetration fragmentation, so behind-armor effect depends on hitting crew and modules directly. Its flat trajectory and high velocity make it easy to land at range, but its lower penetration and weaker angled performance leave it outmatched by the M774 against well-protected frontal armor.",
+    "sources": [
+      {
+        "label": "M1 Abrams - War Thunder Wiki (unit page, penetration table)",
+        "url": "https://wiki.warthunder.com/unit/us_m1_abrams",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m456a2-m68a1",
+    "name": "M456A2 (HEATFS)",
+    "type": "HEATFS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 400,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M456A2 is a fin-stabilized HEAT round whose shaped-charge jet delivers a constant 400 mm of penetration regardless of range or impact angle, making it the M1's flexible chemical-energy option. It excels against lightly armored vehicles, SPAA, and IFVs but is readily defeated by spaced armor, ERA, and composite arrays that disrupt the jet. Penetration kills come from the jet and behind-armor spall, so it pairs poorly with modern protected MBTs and is best reserved for soft or thin-skinned targets.",
+    "sources": [
+      {
+        "label": "M1 Abrams - War Thunder Wiki (unit page, penetration table)",
+        "url": "https://wiki.warthunder.com/unit/us_m1_abrams",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m393a2-m68a1",
+    "name": "M393A2 (HESH)",
+    "type": "HESH",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 127,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 127,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 127,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 127,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 127,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 127,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M393A2 is a high-explosive squash-head round that flattens against the target and detonates to blow a scab of spall off the inside of the plate, giving a flat 127 mm of penetration at any range. Its low velocity and looping trajectory make long-range hits awkward, and it is stopped by spaced or composite armor that defeats the spall mechanism. Used against thin hull and turret sides, the roof, or unprotected vehicles, it can deliver heavy fragmentation damage inside the crew compartment.",
+    "sources": [
+      {
+        "label": "M1 Abrams - War Thunder Wiki (unit page, penetration table)",
+        "url": "https://wiki.warthunder.com/unit/us_m1_abrams",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m416-m68a1",
+    "name": "M416 (Smoke)",
+    "type": "other",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 3,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M416 is a smoke shell used to screen movement, mask an advance, or break an enemy's line of sight rather than to deal damage; its listed 3 mm of penetration is incidental. On impact it deploys a smoke cloud that obscures the area, useful for covering a retreat, blinding a defended position, or concealing a flank. It has no anti-armor role and should be carried only in small numbers as a utility option.",
+    "sources": [
+      {
+        "label": "M1 Abrams - War Thunder Wiki (unit page, penetration table)",
+        "url": "https://wiki.warthunder.com/unit/us_m1_abrams",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "3bm4-u5ts",
+    "name": "3BM4 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 284,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 280,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 264,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 244,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 223,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 203,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": 0,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The stock 3BM4 is a fin-stabilised discarding-sabot dart built around a solid steel penetrator. It leaves the smoothbore 115 mm barrel at very high velocity, giving a flat trajectory and short flight time that make long-range gunnery forgiving. As a kinetic round it carries no filler, relying entirely on the rod to punch through and shower the crew with spall, and it holds up well against sloped plate thanks to the slim sabot dart geometry.",
+    "sources": [
+      {
+        "label": "T-62 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_62",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "3bm3-u5ts",
+    "name": "3BM3 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 350,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 347,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 322,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 300,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 283,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 270,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": 0,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The unlockable 3BM3 is the T-62's premier kinetic round, pairing a steel body with an internal tungsten slug to lift penetration well above the stock dart. Its high muzzle velocity preserves a flat trajectory and excellent armour-piercing performance out to 2 km. With no explosive filler it does its damage through penetrator fragments and spall, so aiming for crew compartments and ammunition stowage is key to one-shot kills.",
+    "sources": [
+      {
+        "label": "T-62 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_62",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "3bk4-u5ts",
+    "name": "3BK4 (HEATFS)",
+    "type": "HEATFS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 440,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 440,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 440,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 440,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 440,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 440,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The 3BK4 fin-stabilised HEAT round outpenetrates both APFSDS shells and holds that figure constant at any distance because its shaped-charge jet does not lose energy over range. It also carries an explosive filler, so a penetrating hit produces blast and fragmentation behind the armour rather than relying on kinetic spall alone. The trade-off is a much lower muzzle velocity than the darts, giving a loopier trajectory that demands careful range estimation at long distances.",
+    "sources": [
+      {
+        "label": "T-62 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_62",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "3of11-u5ts",
+    "name": "3OF11 (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 31,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 31,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 31,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 31,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 31,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 31,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The 3OF11 is a fin-stabilised high-explosive fragmentation shell intended for soft targets such as unarmoured vehicles, anti-aircraft guns and exposed crews. Its negligible armour penetration makes it unreliable against tanks, where it depends on striking thin roof or rear plate to do meaningful damage. Against lightly protected targets the blast and fragment spray can disable or destroy in a single hit, but most players keep only a few rounds aboard.",
+    "sources": [
+      {
+        "label": "T-62 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_62",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "3bm15-2a46",
+    "name": "3BM15 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 440,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 430,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 420,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 410,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 405,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 400,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The 3BM15 is a finned sub-caliber dart with a tungsten-carbide slug, giving the T-72A its hardest-hitting round and the best penetration of its loadout. Like all APFSDS it loses very little penetration with distance, so it remains effective at long range, and its flat trajectory makes leading moving targets easy. It carries no explosive filler, relying entirely on kinetic energy and spalling, so aim for ammo racks, crew, and engine to disable enemies in one hit.",
+    "sources": [
+      {
+        "label": "T-72A — War Thunder Wiki (penetration statistics)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_72a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "3bm22-2a46",
+    "name": "3BM22 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 425,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 420,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 415,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 405,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 393,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 380,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The 3BM22 is a tungsten-cored APFSDS dart that trades a little raw penetration at point-blank for a more capable warhead overall. As a kinetic round it keeps a flat trajectory and sheds penetration only slowly across the engagement envelope. With no explosive filler it kills through kinetic spall, so target internal modules and crew compartments to maximise post-penetration damage.",
+    "sources": [
+      {
+        "label": "T-72A — War Thunder Wiki (penetration statistics)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_72a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "3bk12m-2a46",
+    "name": "3BK12M (HEATFS)",
+    "type": "HEATFS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 440,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 440,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 440,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 440,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 440,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 440,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The 3BK12M is a fin-stabilised shaped-charge round whose penetration is constant at all ranges, making it a reliable sniping tool when kinetic darts are still being chosen for the autoloader. Its shaped-charge jet carries an explosive after-effect, so penetrations tend to do good internal damage, but the jet can be disrupted by spaced armour, tracks, or screens. The relatively slow muzzle velocity means significant shell drop and travel time, so lead distant or moving targets generously.",
+    "sources": [
+      {
+        "label": "T-72A — War Thunder Wiki (penetration statistics)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_72a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "3of26-2a46",
+    "name": "3OF26 (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 42,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 42,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 42,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 42,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 42,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 42,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The 3OF26 is a high-explosive shell carrying a large filler that relies on blast and overpressure rather than penetration. It excels against open-topped vehicles, anti-aircraft mounts, and lightly armoured targets, where a near hit can knock out the whole crew through overpressure. Against well-armoured MBTs it is largely ineffective frontally and is best reserved for soft targets or finishing damaged enemies.",
+    "sources": [
+      {
+        "label": "T-72A — War Thunder Wiki (penetration statistics)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_72a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "pzgr3943-kwk43",
+    "name": "PzGr 39/43 (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 237,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 234,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 222,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 207,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 193,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 180,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 1000,
+    "explosiveMassTntEqG": 108.8,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 14,
+    "fuseDelayM": 1.2,
+    "mechanics": "The default round of the KwK43, this armour-piercing capped ballistic cap shell carries a small bursting charge that detonates after a short fuse delay once it has punched through plate, spraying fragments into the crew compartment. Its blunt penetrating cap helps it bite into sloped armour and resist ricochet better than a bare AP slug, and the high muzzle velocity gives it a flat trajectory and strong penetration retention out past 2 km. It is the workhorse choice for engaging almost any opponent the Tiger II faces, reliably knocking out targets with post-penetration explosive damage. The 14 mm fuse sensitivity means it arms readily against most armour but can over-penetrate very thin structures without fusing.",
+    "sources": [
+      {
+        "label": "Tiger II — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_b_tiger_IIh",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "KwK43 (88 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/KwK43_(88_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "pzgr4043-kwk43",
+    "name": "PzGr 40/43 (APCR)",
+    "type": "APCR",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 279,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 273,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 252,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 227,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 205,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 185,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 1130,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "This armour-piercing composite rigid round uses a dense tungsten core inside a lightweight carrier, giving it the highest muzzle velocity and best close-range penetration of the gun's belt. Being a solid kinetic penetrator it carries no explosive filler, so post-penetration damage relies on the core and any spalling rather than a bursting charge. Its light projectile bleeds velocity faster than the APCBC, so the penetration advantage shrinks with distance and is eventually overtaken at long range. It is best saved for heavily armoured frontal targets at short to medium range where its extra punch matters most, and it ricochets less readily off sloped plate than the APCBC.",
+    "sources": [
+      {
+        "label": "Tiger II — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_b_tiger_IIh",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "KwK43 (88 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/KwK43_(88_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "hlgr39-kwk43",
+    "name": "Hl.Gr 39 (HEAT)",
+    "type": "HEAT",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 110,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 110,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 110,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 110,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 110,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 110,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 600,
+    "explosiveMassTntEqG": 1100,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 0.3,
+    "fuseDelayM": 0,
+    "mechanics": "A shaped-charge high-explosive anti-tank round whose penetration comes from a focused metal jet rather than kinetic energy, so its 110 mm of pen is constant at every range. The low muzzle velocity and high drag give it a looping trajectory that demands range estimation at distance, making it awkward compared with the gun's kinetic rounds. Its very sensitive fuse arms against the thinnest contact, and the large explosive filler delivers substantial behind-armour blast and fragmentation when the jet breaks through. It is mainly a niche pick for lightly armoured or angled targets that the APCBC might bounce off, since its modest penetration is outclassed by the standard rounds against thick plate.",
+    "sources": [
+      {
+        "label": "Tiger II — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_b_tiger_IIh",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "KwK43 (88 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/KwK43_(88_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "sprgr43-kwk43",
+    "name": "Sprgr.43 (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 19,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 19,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 17,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 16,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 14,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 14,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 820,
+    "explosiveMassTntEqG": 1000,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 0.1,
+    "fuseDelayM": 0.2,
+    "mechanics": "A thin-walled high-explosive shell that relies on blast and fragmentation rather than penetration, with only token armour-piercing ability. It is intended for soft targets such as open-topped vehicles, anti-aircraft guns, trucks, and exposed crew, where the large explosive charge can disable or destroy without needing to punch through armour. The very sensitive fuse detonates on the lightest contact, so it bursts on the surface of most plate instead of penetrating. Against properly armoured tanks it is largely ineffective and should be reserved for situations where the kinetic rounds would be wasted.",
+    "sources": [
+      {
+        "label": "Tiger II — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_b_tiger_IIh",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "KwK43 (88 mm)/Ammunition — War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/KwK43_(88_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
   }
 ];

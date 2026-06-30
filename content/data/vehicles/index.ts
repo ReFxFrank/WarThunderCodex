@@ -4342,7 +4342,12 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 13.3,
       "ammoCapacity": 70,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "pzgr3943-kwk43",
+        "pzgr4043-kwk43",
+        "hlgr39-kwk43",
+        "sprgr43-kwk43"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -5909,7 +5914,12 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 44,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "3bm15-2a46",
+        "3bm22-2a46",
+        "3bk12m-2a46",
+        "3of26-2a46"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -6006,7 +6016,13 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 55,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "m774-m68a1",
+        "m735-m68a1",
+        "m456a2-m68a1",
+        "m393a2-m68a1",
+        "m416-m68a1"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -6104,7 +6120,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 42,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "dm12-rh120l44",
+        "dm13-rh120l44",
+        "dm23-rh120l44"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -6539,7 +6559,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 14.1,
       "ammoCapacity": 53,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "l15a3-l11a5",
+        "l31a7-l11a5",
+        "l34-l11a5"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -20988,7 +21012,12 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 16.1,
       "ammoCapacity": 40,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "3bm4-u5ts",
+        "3bm3-u5ts",
+        "3bk4-u5ts",
+        "3of11-u5ts"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -21113,7 +21142,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Climb hard from the start and convert that altitude into repeated diving passes rather than turn-fighting. Pick a target, commit to one accurate burst, and zoom back up to reset before the enemy can bring guns to bear. Avoid prolonged low-speed scraps where the thin armament and single defensive option leave you exposed.",
     "history": "The Bearcat was conceived after Midway underscored how decisive rate of climb could be, pairing the proven Pratt & Whitney R-2800 of the Hellcat with a far lighter airframe. It reached US Navy carrier service in late 1945, arriving too late to see combat in the Pacific. Its compact design and explosive performance later made it a darling of post-war air racing.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/f8f-1-bearcat.jpg",
+        "alt": "A Grumman F8F-1 Bearcat from USS Boxer photographed over San Francisco in June 1947; not the in-game model.",
+        "credit": "Bill Larkins · CC-BY-SA-2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "F8F-1 — War Thunder Wiki (unit page)",
@@ -21179,7 +21215,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fly it as a supporting fighter rather than a lead dogfighter, picking off distracted or slower targets with its powerful cannon battery. Conserve energy, fight in the horizontal only against worse jets, and use the nose guns for short, accurate bursts. Disengage when faced with faster swept-wing opponents instead of trying to out-turn or out-run them.",
     "history": "Grumman's Panther grew out of the abandoned XF9F-1 into the single-engine XF9F-2, powered by a license-built Rolls-Royce Nene as the J42. It entered US Navy service in 1949 and became one of the principal carrier jets of the Korean War, flying ground-attack and fighter sweeps. The straight-wing Panther later evolved into the swept-wing F9F Cougar family.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/f9f-2-panther.jpg",
+        "alt": "A preserved Grumman F9F-2 Panther in VMF-311 markings at the 2014 Miramar Air Show, photographed in real life and not the in-game model.",
+        "credit": "Tomás Del Coro · CC-BY-SA 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "F9F-2 — War Thunder Wiki (unit page)",
@@ -21245,7 +21288,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Sit in concealment overwatching the sky and open the belt the moment an aircraft commits, walking the twin 30 mm onto the target. Against ground threats, exploit the closed turret to flank and shred the sides and rears of enemy tanks, then reposition before return fire arrives. Manage the limited depression by choosing flat firing positions.",
     "history": "The Kugelblitz, or Ball Lightning, was among the most advanced German anti-aircraft tank designs of the war, mating a Panzer IV chassis with a novel enclosed oscillating turret carrying twin 30 mm cannons. Its fully protected mount was a major step beyond the open turrets of the Wirbelwind and Ostwind. Only a handful of prototypes were built before Allied bombing and the collapse of 1945 halted production.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/flakpanzer-iv-kugelblitz.jpg",
+        "alt": "A faithful scale model of the Flakpanzer IV Kugelblitz with its distinctive enclosed ball turret at the Panzermuseum Munster, shown because no completed real vehicle survives, a physical museum model and not the in-game model.",
+        "credit": "Banznerfahrer · CC-BY-SA 3.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Kugelblitz | War Thunder Wiki",
@@ -21334,7 +21384,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Position behind cover near contested areas and use the high elevation to engage aircraft as they commit to attack runs, leading targets so the slow-firing 37 mm connects. Against ground targets, aim for the sides and tops of light vehicles where the explosive filler does the most damage. Keep the thin open turret hull-down or behind terrain to protect the exposed crew.",
     "history": "The Flakpanzer IV Ostwind was developed late in the war to give German armoured formations mobile air defence as Allied air power grew dominant. It paired the existing Panzer IV chassis with a 37 mm FlaK43 in an open six-sided turret offering wider coverage than the earlier quad-20 mm Wirbelwind. Only a small number were completed before the war's end in 1945.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/flakpanzer-iv-ostwind.jpg",
+        "alt": "A wartime photograph of a real full-size Flakpanzer IV Ostwind showing its open hexagonal turret and single 3.7 cm Flak 43 on the Panzer IV chassis, a real-world vehicle and not the in-game model.",
+        "credit": "Unknown (anonymous WWII-era photograph) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Ostwind | War Thunder Wiki",
@@ -21423,7 +21480,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fly the Raiden as a boom-and-zoom interceptor: climb above the fight, pick a target, and commit to a single decisive pass with the four cannons before extending and re-climbing. Avoid turn-fighting nimble enemies, since the Raiden loses energy fast and its strength is vertical dominance, not maneuver. Manage your cannon ammunition carefully and exploit the high speed limit to disengage by diving away when threatened.",
     "history": "The Mitsubishi J2M Raiden (Thunderbolt) was designed as a land-based interceptor for the Imperial Japanese Navy, prioritizing climb and firepower over the dogfighting agility traditionally favored in Japanese designs. The J2M3 was the most widely produced variant, adding a four-cannon armament to counter high-flying bomber formations. Engine teething troubles and limited numbers blunted its wartime impact despite its strong interceptor credentials.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/j2m3-raiden.jpg",
+        "alt": "A captured Mitsubishi J2M3 Raiden interceptor marked and evaluated by US forces in the South West Pacific, April 1945; not the in-game model.",
+        "credit": "U.S. Navy / National Archives (80-G-194379) · Public Domain (U.S. Navy work) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "J2M3 | War Thunder Wiki",
@@ -21492,7 +21556,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Lean entirely into the Hayabusa's turning ability: bait faster enemies into a low-speed scrap where your turn rate wins, and never try to run from a pursuer who holds an energy advantage. The two machine guns require patient, well-aimed fire from close range to bring down targets, so prioritize positioning behind an enemy over snap shots. Keep your speed up enough to stay maneuverable, and use the rugged airframe to pull tight turns that opponents simply cannot match.",
     "history": "The Nakajima Ki-43 Hayabusa (Peregrine Falcon) was the Imperial Japanese Army's principal fighter for much of the Pacific War, beloved by its pilots for its agility. The Ki-43-II introduced a more powerful Ha-115 engine, a reinforced wing, protected fuel tanks, and a pilot backplate, addressing the fragility of the earlier model. Lightly armed but supremely maneuverable, it remained a dangerous turn-fighter throughout the conflict.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ki-43-2.jpg",
+        "alt": "A Nakajima Ki-43-II Hayabusa of the Imperial Japanese Army's 25th Hiko Sentai, circa 1943-1945; not the in-game model.",
+        "credit": "Unknown (uploader Vuvar1) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Ki-43-II | War Thunder Wiki",
@@ -21563,7 +21634,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fly the Ki-61-I Ko as an energy fighter: build and preserve altitude, then make diving attacks and zoom climbs rather than committing to flat turns. Its high speed limit lets you dive away from threats and re-engage on your terms, which suits the lighter armament that benefits from steady, aimed passes. Concentrate fire from the 12.7 mm guns at close range and avoid prolonged turn fights against more agile opponents.",
     "history": "The Kawasaki Ki-61 Hien (Flying Swallow) was unusual among Japanese fighters in using a license-built inline liquid-cooled engine, giving it a profile that Allied pilots initially mistook for a German or Italian design. The Ki-61-I Ko, designated Type 3 Fighter Model 1A, was the first production variant, armed with two 12.7 mm and two 7.7 mm machine guns. It offered better speed and diving ability than earlier Japanese fighters at the cost of some turning agility.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ki-61-1a-ko.jpg",
+        "alt": "A captured Kawasaki Ki-61 Hien fighter at Clark Field, Luzon, Philippines, in 1945; not the in-game model.",
+        "credit": "George T. Fischer, VPB-104, U.S. Navy · Public Domain (U.S. Navy work) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Ki-61-I Ko | War Thunder Wiki",
@@ -21632,7 +21710,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the air spawn to climb above the fight and engage from altitude in shallow diving passes. Bring all guns to bear in short, decisive bursts thanks to the concentrated nose armament, then extend and re-climb. Stay out of low-speed turning duels with nimble single-engine fighters and respect the dive speed where compressibility sets in.",
     "history": "The P-38J introduced a revised cooling layout with core-mounted intercoolers, giving the model its distinctive chin and allowing higher sustained power at altitude. Entering service in 1943, it corrected many of the high-altitude shortcomings of earlier Lightnings. Roughly 2,970 J-models were produced before the line moved on to the P-38L.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/p-38j-15-lightning.jpg",
+        "alt": "A restored Lockheed P-38J Lightning warbird parked at Chino, California, in 2007; not the in-game model.",
+        "credit": "Greg Goebel · CC-BY-SA-2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "P-38J-15 — War Thunder Wiki (unit page)",
@@ -21702,7 +21787,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the Puma's speed to reach flanks and capture points before slower tanks arrive, then strike enemy side and rear armour with the 50 mm gun. Never trade shots frontally; its survival depends entirely on not being seen or hit. Keep to roads and hard ground to exploit the top speed, and use the scout function to feed your team targets.",
     "history": "The Sd.Kfz.234/2 was the turreted member of the Sd.Kfz.234 family of heavy eight-wheeled reconnaissance vehicles built on the air-cooled Tatra diesel chassis. It mounted the 50 mm KwK39/1 in a turret originally designed for the cancelled VK 16.02 Leopard light tank. Roughly a hundred were produced from late 1943, serving with German reconnaissance units on both the Eastern and Western Fronts.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/sdkfz-234-2-puma.jpg",
+        "alt": "A surviving Sd.Kfz. 234/2 Puma eight-wheeled armoured car with its 5 cm KwK turret preserved at the Panzermuseum Munster, a real-world vehicle and not the in-game model.",
+        "credit": "Darkone · CC-BY-SA 2.5 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Sd.Kfz.234/2 | War Thunder Wiki",
@@ -21747,6 +21839,774 @@ export const vehicles: Vehicle[] = [
         "front": "30 mm",
         "side": "14 mm",
         "rear": "14 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "cn-m3a3-stuart",
+    "name": "M3A3 Stuart (China)",
+    "nation": "china",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 2.7,
+      "realistic": 2.7,
+      "simulator": 2.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M3A3 Stuart is an American-built light tank supplied to Nationalist Chinese forces, sitting at the low end of China's ground tree. It is a nimble, fast-firing scout armed with a 37 mm gun, prized for mobility and rate of fire rather than firepower.",
+    "prosCons": {
+      "pros": [
+        "Excellent gun depression of -10 degrees for fighting from cover",
+        "Very fast turret traverse for tracking targets",
+        "Quick 37 mm reload of under 3 seconds when aced",
+        "Large 174-round ammo load and good mobility"
+      ],
+      "cons": [
+        "37 mm gun struggles against better-armoured opponents",
+        "Thin armour offers little protection against most tank guns",
+        "Sluggish reverse speed limits clean disengagements",
+        "Tall profile makes it easy to spot and hit"
+      ]
+    },
+    "playstyle": "Use the M3A3 as a flanker and skirmisher, exploiting its speed and excellent gun depression to peek over hills and trade rapid 37 mm shots. Aim for crew compartments, modules, and side armour rather than frontal plates, and keep moving to avoid being caught by heavier tanks. Its fast turret lets it react quickly to flankers, so guarding caps and ambush lanes plays to its strengths.",
+    "history": "The M3A3 was the final mass-produced variant of the American M3 Stuart light tank, with sloped armour and a redesigned turret. Large numbers of Lend-Lease Stuarts were supplied to Chinese Nationalist forces during the Second World War, where they served in Burma and China against Japanese forces. The type continued in Chinese service into the post-war period.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M3A3 Stuart (China) | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/cn_m3a3_stuart",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 58,
+      "maxRevKph": 7,
+      "enginePowerHp": null,
+      "weightTons": 14.4,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "cn-m6-37mm",
+      "reloadBaseSec": 3.7,
+      "reloadAcedSec": 2.9,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 174,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "25 mm",
+        "side": "25 mm",
+        "rear": "25 mm"
+      },
+      "turretMm": {
+        "front": "38 mm",
+        "side": "31 mm",
+        "rear": "31 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "cn-pgz-04a",
+    "name": "PGZ04A",
+    "nation": "china",
+    "class": "ground",
+    "subclass": "SPAA",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.3,
+      "realistic": 9.3,
+      "simulator": 9.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The PGZ04A is a modern Chinese self-propelled anti-aircraft system combining four 25 mm autocannons with four HN-6 surface-to-air missiles on a tracked chassis. It is a flexible top-rank SPAA that can engage both aircraft and lightly armoured ground targets.",
+    "prosCons": {
+      "pros": [
+        "Four 25 mm autocannons deliver a dense wall of fire against aircraft",
+        "HN-6 missiles extend engagement range and threaten high-flying targets",
+        "Very high gun elevation of 85 degrees for near-vertical threats",
+        "Large 1,032-round ammo capacity sustains long bursts"
+      ],
+      "cons": [
+        "Minimal armour leaves it vulnerable to return fire and strafing",
+        "No APDS round limits its effectiveness versus armoured vehicles",
+        "Slow turret traverse for an SPAA can make snap shots harder",
+        "Exposed at top BR against fast jets and standoff weapons"
+      ]
+    },
+    "playstyle": "Position the PGZ04A behind the front line where it can cover the sky over your team while staying out of direct tank fire. Use the four autocannons for close-in aircraft and the HN-6 missiles to discourage attackers at range, leading targets carefully to compensate for projectile travel. Keep it hidden and reposition often, since its thin armour means any direct attention will quickly knock it out.",
+    "history": "The PGZ04A is a development of China's PGZ04 air-defence system, itself derived from work on combining gun and missile armament on a single tracked platform. It pairs quad 25 mm PG87 cannons with shoulder-launched HN-6 missiles adapted for vehicle mounting, giving short-range air defence units layered coverage. The system entered service with the People's Liberation Army to protect mechanized formations from low-altitude air attack.",
+    "media": [],
+    "sources": [
+      {
+        "label": "PGZ04A | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/cn_pgz_04a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 55,
+      "maxRevKph": 17,
+      "enginePowerHp": 544,
+      "weightTons": 22.5,
+      "powerToWeight": 24.2,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "cn-pg87-25mm",
+      "reloadBaseSec": null,
+      "reloadAcedSec": null,
+      "vertGuidanceDeg": [
+        -5,
+        85
+      ],
+      "turretTraverseDegSec": 47.6,
+      "ammoCapacity": 1032,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "12 mm",
+        "side": "10 mm",
+        "rear": "10 mm"
+      },
+      "turretMm": {
+        "front": "8 mm",
+        "side": "8 mm",
+        "rear": "8 mm"
+      },
+      "crewCount": 3,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "cn-type-63",
+    "name": "Type 63",
+    "nation": "china",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6.3,
+      "realistic": 6.3,
+      "simulator": 6.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Type 63 is China's first domestically produced amphibious light tank, marrying a PT-76-style swimming hull to a Type 62 turret with a hard-hitting 85 mm gun. It trades almost all protection for amphibious mobility and a HEAT-FS round that punches well above its weight.",
+    "prosCons": {
+      "pros": [
+        "85 mm gun with HEAT-FS gives reliable penetration against most contemporaries",
+        "Fully amphibious, able to cross water obstacles and flank from unexpected angles",
+        "Light and reasonably mobile on land for repositioning",
+        "Generous 47-round ammo stowage"
+      ],
+      "cons": [
+        "Paper-thin armour offers no protection beyond light autocannon and shrapnel",
+        "No two-plane stabilizer, so accurate fire on the move is difficult",
+        "Very poor reverse speed of 8 km/h makes disengaging risky",
+        "Limited gun depression of only -4 degrees hampers fighting from ridgelines"
+      ]
+    },
+    "playstyle": "Play the Type 63 as a flanker and ambusher rather than a frontline brawler. Use the amphibious capability to reach firing positions the enemy is not watching, fire from a full stop to land accurate HEAT-FS shots, and reposition before return fire arrives. Never trade head-on, since a single hit will usually disable or destroy the lightly armoured hull.",
+    "history": "The Type 63 was developed by China North Industries as the country's first generation of amphibious tanks, drawing on the Soviet PT-76 but fitting the more powerful turret and 85 mm gun used on the Type 62. Prototypes were built around 1959 by factories coded 201 and 617, with the design finalized in March 1963 and entering service in 1964. It was later supplied to North Vietnam and saw combat through the Vietnam War.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Type 63 | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/cn_type_63_I",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 64,
+      "maxRevKph": 8,
+      "enginePowerHp": 400,
+      "weightTons": 18.4,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "cn-type-63-85mm",
+      "reloadBaseSec": 9.2,
+      "reloadAcedSec": 7,
+      "vertGuidanceDeg": [
+        -4,
+        22
+      ],
+      "turretTraverseDegSec": 76,
+      "ammoCapacity": 47,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "14 mm",
+        "side": "13 mm",
+        "rear": "10 mm"
+      },
+      "turretMm": {
+        "front": "11 mm",
+        "side": "11 mm",
+        "rear": "11 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m2a2-light-tank",
+    "name": "M2A2",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "I",
+    "battleRatings": {
+      "arcade": 1,
+      "realistic": 1,
+      "simulator": 1
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M2A2 is a reserve-rank American interwar light tank armed only with machine guns mounted in twin turrets. It is fast and lively for its battle rating but completely unable to threaten armoured vehicles.",
+    "prosCons": {
+      "pros": [
+        "High top speed for nimble flanking and capping",
+        "Twin-turret machine guns shred open-topped and soft targets",
+        "Very large machine-gun ammo supply",
+        "Small, agile, and forgiving to learn the game with"
+      ],
+      "cons": [
+        "No cannon at all, so it cannot penetrate enemy tanks frontally",
+        "Thin 6-15 mm armour is defeated by almost everything it meets",
+        "Tall twin turrets make it a conspicuous target",
+        "Effectiveness collapses against even lightly armoured opponents"
+      ]
+    },
+    "playstyle": "Use the M2A2's speed to rush objectives and harass exposed crews, open-topped vehicles, and aircraft on the ground. Avoid head-on fights with any cannon-armed tank and instead flank to strike thin top or rear plating, or simply contest capture zones. It rewards aggressive, mobile play but punishes any attempt to stand and fight.",
+    "history": "The M2 light tank series was developed by the U.S. Army during the 1930s, with the M2A2 'Mae West' featuring its distinctive twin machine-gun turrets. It served as a training and doctrine-development platform during the interwar years and was rendered obsolete as foreign tanks adopted heavier armour and cannon armament. Its chassis and lessons influenced the later M2A4 and the M3 Stuart family.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M2A2 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m2a2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 72,
+      "maxRevKph": 9,
+      "enginePowerHp": 308,
+      "weightTons": 8.6,
+      "powerToWeight": 35.8,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "12.7mm-m2hb-mg",
+      "reloadBaseSec": 10.4,
+      "reloadAcedSec": 8,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": 10.5,
+      "ammoCapacity": 1400,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "15",
+        "side": "12",
+        "rear": "6"
+      },
+      "turretMm": {
+        "front": "15",
+        "side": "15",
+        "rear": "15"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m48a1-patton",
+    "name": "M48A1",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7.7,
+      "realistic": 7.7,
+      "simulator": 7.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M48A1 is a rank V American medium tank armed with the 90 mm M41 cannon and a rounded cast turret and hull. It blends respectable cast armour with a flexible ammunition selection, sitting at a competitive 7.7 battle rating.",
+    "prosCons": {
+      "pros": [
+        "Rounded cast turret can deflect or eat shells at favourable angles",
+        "M431 HEAT-FS round gives reliable penetration at any range",
+        "Good gun depression for working ridgelines and hull-down positions",
+        "Stabilizer-free but accurate gun with a workable reload"
+      ],
+      "cons": [
+        "Very slow reverse speed makes disengaging risky",
+        "Tall profile is easy to spot and hard to fully conceal",
+        "Side and rear armour are thin against most same-rank guns",
+        "Faces capable post-war opposition that often out-mobilities it"
+      ]
+    },
+    "playstyle": "Fight from hull-down ground where the rounded turret front is the only thing exposed, leaning on the good depression to minimise your silhouette. Carry a mix of M82 APHE for lightly armoured targets and M431 HEAT-FS for tougher foes, and pick fights at range where your gun handling shines. Avoid brawls that expose your flanks, since the side armour and crawling reverse leave little room to recover from a mistake.",
+    "history": "The M48 Patton entered U.S. service in the early 1950s as a successor to the M47, featuring an all-new cast hull and turret and a redesigned suspension. The M48A1 variant added a driver's hatch and an enclosed commander's cupola mounting a .50 calibre machine gun. The type served widely with the U.S. and allied armies and formed the basis for many later upgrade packages.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M48A1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m48a1_patton_III",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 45,
+      "maxRevKph": 8,
+      "enginePowerHp": 810,
+      "weightTons": 44.9,
+      "powerToWeight": 18.1,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "90mm-m41",
+      "reloadBaseSec": 8.7,
+      "reloadAcedSec": 6.7,
+      "vertGuidanceDeg": [
+        -9,
+        19
+      ],
+      "turretTraverseDegSec": 16.8,
+      "ammoCapacity": 60,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "110",
+        "side": "76",
+        "rear": "35"
+      },
+      "turretMm": {
+        "front": "130",
+        "side": "76",
+        "rear": "51"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m50-ontos",
+    "name": "M50 Ontos",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6.7,
+      "realistic": 6.7,
+      "simulator": 6.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M50 Ontos is a tiny rank IV American tank destroyer carrying six 106 mm recoilless rifles on a lightly armoured tracked chassis. It can salvo all six barrels for a devastating burst of HEAT, but must then expose itself to reload manually.",
+    "prosCons": {
+      "pros": [
+        "Six 106 mm recoilless rifles deliver an enormous one-volley alpha strike",
+        "M344A1 HEAT round penetrates well regardless of range",
+        "Extremely small and light, easy to hide and reposition",
+        "Cheap, expendable, and fun for ambush play"
+      ],
+      "cons": [
+        "Paper-thin 13 mm hull and uncovered gun group offer no protection",
+        "Slow reload after the volley leaves you defenceless",
+        "Only two crew members, so it dies quickly when hit",
+        "Limited total ammunition supply demands disciplined shooting"
+      ]
+    },
+    "playstyle": "Play it as a pure ambusher: find concealment, let an enemy commit, then unleash one or several barrels into a weak spot. Because reloading is slow and you have no armour, never trade shots in the open or linger after firing. Use the small size and decent mobility to relocate constantly and pick targets from the flank.",
+    "history": "The M50 Ontos was developed in the 1950s for the U.S. Army's airborne forces as a light air-transportable anti-tank vehicle, though it ultimately served with the Marine Corps. Its name, Greek for 'the thing', reflected its unusual configuration of six externally mounted recoilless rifles. It saw notable use in the Vietnam War, where its firepower proved valuable against fortifications and infantry.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M50 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m50_ontos",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 48,
+      "maxRevKph": 16,
+      "enginePowerHp": 145,
+      "weightTons": 8.3,
+      "powerToWeight": 17.5,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "106mm-m40a1c",
+      "reloadBaseSec": 16.9,
+      "reloadAcedSec": 13,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": 12.6,
+      "ammoCapacity": 18,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "13",
+        "side": "13",
+        "rear": "13"
+      },
+      "turretMm": {
+        "front": "0",
+        "side": "0",
+        "rear": "0"
+      },
+      "crewCount": 2,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "pvkv-ii",
+    "name": "Pvkv II",
+    "nation": "sweden",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4,
+      "realistic": 4.3,
+      "simulator": 4.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Pvkv II is a lightly built Swedish tank destroyer prototype that mates a hard-hitting 75 mm cannon to the thin, open-topped chassis of the Strv m/41. It trades almost all protection for firepower, making it a glass-cannon sniper at its battle rating.",
+    "prosCons": {
+      "pros": [
+        "Powerful 75 mm gun with strong penetration for its rank",
+        "APCBC shell carries a large explosive filler for lethal post-penetration damage",
+        "Good gun depression and elevation for hilly terrain",
+        "Light and compact, easy to tuck into concealed firing spots"
+      ],
+      "cons": [
+        "Paper-thin armour penetrated by almost anything that hits it",
+        "Open-topped fighting compartment is exposed to strafing, artillery and HE",
+        "Painfully slow reverse speed makes retreating dangerous",
+        "Large five-man crew packed into a fragile hull invites quick knockouts"
+      ]
+    },
+    "playstyle": "Treat the Pvkv II as a long-range ambusher: pick a flank or elevated spot, deal damage from maximum distance, and relocate before return fire arrives. The exceptional gun depression lets it fight from behind crests with only the upper hull showing. Never get drawn into a brawl, because a single hit will almost always disable or destroy this fragile vehicle.",
+    "history": "Designed by Landsverk in the late 1940s, the Pvkv II was one of several proposals to give the obsolescent Strv m/41 chassis a worthwhile anti-tank punch after its original 37 mm armament was deemed useless. It carried an adapted 75 mm anti-aircraft gun chosen for its strong armour-piercing performance. Tested alongside the Pvkv III, both designs were judged outdated and neither entered Swedish service.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Pvkv II | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sw_pvkv_II",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 44,
+      "maxRevKph": 6,
+      "enginePowerHp": 165,
+      "weightTons": 12,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "75mm-lvkan-m37a",
+      "reloadBaseSec": 7.8,
+      "reloadAcedSec": 6,
+      "vertGuidanceDeg": [
+        -11,
+        17
+      ],
+      "turretTraverseDegSec": 12,
+      "ammoCapacity": 32,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "50 mm",
+        "side": "20 mm",
+        "rear": "15 mm"
+      },
+      "turretMm": {
+        "front": "15 mm",
+        "side": "10 mm",
+        "rear": "10 mm"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "strv-103-0",
+    "name": "Strv 103-0",
+    "nation": "sweden",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 8,
+      "simulator": 8
+    },
+    "acquisition": [
+      "premium"
+    ],
+    "summary": "The Strv 103-0 is the pre-production 'zero series' of Sweden's iconic turretless S-tank, a fixed-gun design that aims its 105 mm cannon by pitching the whole hull on an adjustable suspension. Its extreme 77-degree glacis bounces kinetic rounds with ease, while an autoloader keeps the rate of fire high from a hull-down position.",
+    "prosCons": {
+      "pros": [
+        "Razor-thin but extremely sloped frontal armour deflects most AP and APDS shells",
+        "Autoloader gives a fast, consistent 4-second reload",
+        "Very low silhouette ideal for hull-down and ambush positions",
+        "Equal forward and reverse speed thanks to its dual-direction transmission"
+      ],
+      "cons": [
+        "No turret means the entire hull must be aimed, punishing close-range brawls",
+        "Highly vulnerable to HEAT, HEAT-FS and high-explosive rounds that ignore slope",
+        "Thin side and rear leave it exposed when flanked",
+        "Loses its armour advantage the moment it has to expose its flat sides while turning"
+      ]
+    },
+    "playstyle": "Play the Strv 103-0 as a long-range sniper and defensive wall, sitting hull-down on ridgelines and letting its absurd glacis slope bounce incoming fire. Keep the front pointed at threats at all times, since any turn exposes the soft sides and the lack of a turret makes reacquiring a flanker slow. Use the strong reverse speed to back off and re-angle rather than attempting to spin in place.",
+    "history": "After the S1 and S2 prototypes proved the radical fixed-gun concept, the Swedish Army ordered a small batch of ten pre-series vehicles to validate it under realistic conditions. These 'zero series' tanks were used between roughly 1964 and 1966 to refine logistics, crew training and unit integration. Their success led directly to the production Strv 103A and a doctrine of dug-in defensive armour that defined Swedish tank thinking for decades.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Strv 103-0 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sw_strv_103_0",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 50,
+      "maxRevKph": 44,
+      "enginePowerHp": 540,
+      "weightTons": 35,
+      "powerToWeight": 15.4,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "105mm-l74",
+      "reloadBaseSec": 4,
+      "reloadAcedSec": 4,
+      "vertGuidanceDeg": [
+        -10,
+        12
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 50,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "40 mm",
+        "side": "30 mm",
+        "rear": "30 mm"
+      },
+      "turretMm": {
+        "front": "0 mm",
+        "side": "0 mm",
+        "rear": "0 mm"
+      },
+      "crewCount": 3,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "strv-74",
+    "name": "Strv 74",
+    "nation": "sweden",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.7,
+      "realistic": 5.7,
+      "simulator": 5.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Strv 74 is a Swedish light tank that rebuilt the obsolete Strv m/42 hull with a new, lightly armoured turret carrying a high-velocity 75 mm gun. Its standout feature is enormous gun depression, letting it fight almost entirely concealed behind terrain.",
+    "prosCons": {
+      "pros": [
+        "Excellent -15 degrees of gun depression for fighting hull-down",
+        "High-velocity 75 mm gun with potent APDS ammunition",
+        "Small, low turret presents a hard target when peeking over ridges",
+        "Decent mobility for setting up flanking and sniping positions"
+      ],
+      "cons": [
+        "Thin armour offers little protection against return fire",
+        "Very slow reverse speed limits quick repositioning",
+        "Lightly armoured turret is easily knocked out or has crew killed",
+        "Reload is on the slow side for its rank without crew training"
+      ]
+    },
+    "playstyle": "The Strv 74 thrives on ridgelines and hilly maps where its huge gun depression lets it expose only the turret while the hull stays hidden. Snipe with the fast, flat-shooting APDS round, then drop back behind cover between shots. Avoid open ground and frontal duels, since its armour will not save it once spotted.",
+    "history": "By the mid-1950s Sweden's wartime Strv m/42 medium tanks were obsolete, so their hulls were rebuilt in 1957 into the Strv 74 with a new turret and a more capable 75 mm gun. The type entered service in 1958 as a stopgap until newer designs arrived. It soldiered on in Swedish use until 1984, a long career for what was essentially a modernised wartime chassis.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Strv 74 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sw_strv_74",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 45,
+      "maxRevKph": 5,
+      "enginePowerHp": 340,
+      "weightTons": 26,
+      "powerToWeight": 13.1,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "75mm-kan-strv-74",
+      "reloadBaseSec": 8.7,
+      "reloadAcedSec": 6.7,
+      "vertGuidanceDeg": [
+        -15,
+        15
+      ],
+      "turretTraverseDegSec": 18,
+      "ammoCapacity": 40,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "55 mm",
+        "side": "30 mm",
+        "rear": "20 mm"
+      },
+      "turretMm": {
+        "front": "30 mm",
+        "side": "20 mm",
+        "rear": "20 mm"
       },
       "crewCount": 4,
       "era": false,
