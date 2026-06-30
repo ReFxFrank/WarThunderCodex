@@ -76,6 +76,15 @@ export default async function VehiclePage({ params }: { params: Promise<{ id: st
 
       <p className="mt-5 max-w-3xl text-lg leading-relaxed text-muted">{vehicle.summary}</p>
 
+      <div className="mt-4">
+        <Link
+          href={`/compare?add=${vehicle.id}`}
+          className="inline-flex items-center gap-1.5 rounded-md border border-hairline bg-[rgba(8,10,13,0.5)] px-3 py-1.5 text-sm text-muted hover:border-[color:var(--hairline-strong)] hover:text-accent"
+        >
+          + Add to compare
+        </Link>
+      </div>
+
       {/* Instrument cluster */}
       <section className="mt-8">
         {vehicle.class === "ground" && <GroundCluster vehicle={vehicle} />}
@@ -248,10 +257,22 @@ function ArmamentSection({ vehicle }: { vehicle: NonNullable<ReturnType<typeof g
       <h2 className="font-display mb-3 text-2xl font-semibold tracking-wide text-ink">Armament &amp; ammunition</h2>
       {gun && (
         <p className="mb-4 text-sm text-muted">
-          Main armament: <span className="text-ink">{gun.name}</span>
+          Main armament:{" "}
+          <Link href={`/weapon/${gun.id}`} className="text-accent underline decoration-[color:var(--accent-dim)] underline-offset-2 hover:decoration-accent">
+            {gun.name}
+          </Link>
           {gun.caliberMm ? ` · ${gun.caliberMm} mm` : ""}
           {gun.muzzleVelocityMps ? ` · ${gun.muzzleVelocityMps} m/s` : ""}.
         </p>
+      )}
+      {ammo.length > 0 && (
+        <div className="mb-5 flex flex-wrap gap-2">
+          {ammo.map((a) => (
+            <Link key={a!.id} href={`/ammo/${a!.id}`} className="rounded border border-hairline bg-[rgba(8,10,13,0.45)] px-3 py-1.5 text-sm text-muted hover:border-[color:var(--hairline-strong)] hover:text-accent">
+              {a!.name} <span className="font-data text-[0.7rem] text-faint">{a!.type}</span>
+            </Link>
+          ))}
+        </div>
       )}
       {series.length > 0 && <PenetrationCurve series={series} />}
     </section>
