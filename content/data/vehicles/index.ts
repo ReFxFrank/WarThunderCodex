@@ -3227,7 +3227,10 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 14.1,
       "ammoCapacity": 70,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "shot-l28a1-l7a1",
+        "shell-l35-l7a1"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -8935,7 +8938,12 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 20,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "br-540-ml20s",
+        "of-540-ml20s",
+        "br-540b-ml20s",
+        "bp-540-ml20s"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -10737,7 +10745,12 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 64,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "m72-shot-oqf-mk-v",
+        "m61-shot-oqf-mk-v",
+        "m48-shell-oqf-mk-v",
+        "m89-smoke-oqf-mk-v"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -10922,7 +10935,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 10.4,
       "ammoCapacity": 70,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "type-1-aphe-75-type-3",
+        "type-94-he-75-type-3",
+        "type-90-smoke-75-type-3"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -12258,7 +12275,13 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 14.7,
       "ammoCapacity": 61,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "shot-mk6-oqf77",
+        "shell-mk1-oqf77",
+        "shot-mk4-oqf77",
+        "shot-mk8-oqf77",
+        "shot-sv-mk1-oqf77"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -20095,7 +20118,12 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 16.8,
       "ammoCapacity": 33,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "m358-shot-m58",
+        "m356-shell-m58",
+        "m469-shell-m58",
+        "m357-smoke-m58"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -22740,7 +22768,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat the BMP-1 as a shoot-and-scoot ambusher rather than a frontline brawler, because any return fire will likely kill it. Use terrain and concealment to set up flank shots with the HEAT round, and reserve the Malyutka for harder targets you can engage at a safe distance. Exploit the amphibious hull and speed to relocate constantly and contest objectives the heavier MBTs cannot reach quickly.",
     "history": "The BMP-1 entered Soviet service in the mid-1960s as the world's first mass-produced infantry fighting vehicle, pairing a 73 mm smoothbore gun with an anti-tank missile to give mechanised infantry organic firepower. It was widely exported and saw combat across the Arab-Israeli wars, the Iran-Iraq War, Afghanistan, and the Chechen conflicts. Its design emphasised mobility and firepower over protection, a trade-off that shaped a generation of Soviet IFVs.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/bmp-1.jpg",
+        "alt": "An Iraqi BMP-1 infantry fighting vehicle photographed during Operation Desert Storm in 1991, not the in-game model.",
+        "credit": "U.S. Department of Defense · Public Domain (U.S. federal government work) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "BMP-1 | War Thunder Wiki",
@@ -22824,7 +22859,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the FV4202 as a hull-down sniper, exposing only the thick turret while the vulnerable hull stays hidden behind cover. Pick a strong defensive angle early because the dismal speed makes repositioning a slow ordeal. Lean on the APDS round to punch through enemies at range and let your reload win head-on duels.",
     "history": "The FV4202 was a 1950s British experimental medium tank designed to trial layout and armour concepts that fed into the later Chieftain programme. It combined a steeply sloped cast turret with a low hull silhouette on running gear related to the Centurion. Only prototypes were built, and the lessons learned shaped Britain's main battle tank design philosophy.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/fv4202.jpg",
+        "alt": "The surviving FV4202 prototype test tank photographed at the Tank Museum, Bovington, in 2021, not the in-game model.",
+        "credit": "Geni · CC-BY-SA 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "FV4202 | War Thunder Wiki",
@@ -22909,7 +22951,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Hold back from the front line and use the strong 75 mm gun to snipe enemies before they close. Favour positions with cover for the flanks, since the narrow traverse and weak armour punish being flanked. Pre-aim toward likely lanes so the decent reload lets you trade efficiently with anything you spot first.",
     "history": "The Type 3 Ho-Ni III was a Japanese self-propelled gun produced from 1944 by mounting the 75 mm Type 3 gun in an enclosed casemate on the obsolete Type 97 Chi-Ha chassis. It improved on earlier open-topped Ho-Ni vehicles with full overhead and side armour for the gun crew. Only around 31 were completed amid material shortages, and most never left the home islands.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ho-ni-iii.jpg",
+        "alt": "An Imperial Japanese Army Type 3 Ho-Ni III self-propelled gun photographed circa 1945; not the in-game model.",
+        "credit": "Imperial Japanese Army · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Ho-Ni III | War Thunder Wiki",
@@ -22994,7 +23043,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight as a careful sniper or supporting flanker, using terrain and the low hull to expose as little as possible. Take a long-range shot with the potent 90 mm gun, then exploit the strong reverse to retreat into cover before being spotted. Avoid head-on brawls entirely, since the fragile armour cannot absorb hits the way its opponents can.",
     "history": "The ST-A1 was developed in the mid-1950s as Japan's first domestically designed tank after the war, drawing heavily on the American M46 Patton. It carried a 90 mm gun capable of firing HEAT-FS to counter contemporary Soviet armour and served as the first of the ST-A prototype series. The lessons learned fed directly into the later Type 61 main battle tank.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/st-a1.jpg",
+        "alt": "A Japanese Type 61 tank, the production MBT developed from the ST-A1 prototype, on display at the JGSDF Ordnance School in Tsuchiura; closest real variant, not the in-game model.",
+        "credit": "Megapixie (Max Smith) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "ST-A1 | War Thunder Wiki",
@@ -23079,7 +23135,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight the SU-85 as a long-range sniper, exploiting the 85 mm gun to land first shots before enemies can close. Stay back and to the flank so the limited gun traverse can still cover the approach without exposing the weak armour. Reposition after firing because the casemate offers no protection against a focused return, and avoid brawls where your slow re-aiming is exposed.",
     "history": "The SU-85 was rushed into service in 1943 after German tanks began outclassing the T-34's 76 mm gun, mating the 85 mm D-5S to the proven SU-122 self-propelled chassis. It gave Soviet forces a mobile anti-tank platform capable of defeating heavier German armour at range. It served until the T-34-85's turreted 85 mm gun made the dedicated tank destroyer largely redundant.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/su-85.jpg",
+        "alt": "A surviving Soviet SU-85 tank destroyer preserved as a monument in Czerniaków, Poland, not the in-game model.",
+        "credit": "Hubert Śmietanka (Hiuppo) · CC-BY-SA 2.5 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "SU-85 | War Thunder Wiki",
@@ -23163,7 +23226,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the T-55A as a patient angled brawler, using the sloped hull and turret to bounce shots while trading with the stabilised 100 mm gun. Pre-aim toward expected enemy positions because the slow turret rotation makes reactive turns costly. Avoid steep terrain that exposes the weak side and thin roof, and lean on its low profile to hold concealed firing lines.",
     "history": "The T-55A appeared in the early 1960s as a further development of the T-55, itself derived from the T-54, adding anti-radiation lining and a full NBC filtration system for the nuclear battlefield. The bow machine gun was deleted to make room for additional 100 mm ammunition. It became one of the most widely produced tanks in history and served across dozens of armies for decades.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/t-55a.jpg",
+        "alt": "A real-world T-55A main battle tank, not the in-game model.",
+        "credit": "Nick Long · CC-BY-SA 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "T-55A | War Thunder Wiki",
@@ -23248,7 +23318,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the high top speed to reach favourable angles early and catch enemies in the side or rear where the 25 mm APFSDS reliably penetrates. Stop fully before firing to land hits, then relocate before return fire arrives, since the thin hull cannot trade. Treat it as a scout-flanker rather than a brawler, picking off exposed targets and capping objectives.",
     "history": "The Type 87 Reconnaissance and Patrol Vehicle was developed by Komatsu for the Japan Ground Self-Defense Force and entered service in 1987. It was created to give recon units more firepower and protection than light jeeps and motorcycles once improved road infrastructure made wheeled armour practical on the home islands. It mounts a 25 mm Oerlikon KBA autocannon in a small two-man turret on a 6x6 chassis.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/type-87-rcv.jpg",
+        "alt": "A JGSDF Type 87 reconnaissance combat vehicle of the 1st Armored Training Unit at Camp Takeyama, Japan, in 2012; not the in-game model.",
+        "credit": "Los688 · CC0 1.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Type 87 RCV | War Thunder Wiki",
@@ -23427,7 +23504,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat the Conway as a long-range sniper that deletes targets with a single APDS hit, then relocates before the slow reload leaves you exposed. Keep maximum distance to exploit the gun's flat trajectory and to hide the fragile, tall turret. Carry HESH for overpressuring stubborn or angled targets where APDS is less ideal.",
     "history": "The FV4004 Conway was a 1950s British stopgap tank destroyer created to field the powerful 120 mm L1 gun before the Conqueror heavy tank was ready. It mounted that oversized cannon in a large turret on a Centurion Mk 3 chassis, with the gun raised to protect the turret ring from recoil. Only a single prototype was built once the Conqueror rendered it unnecessary.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/uk-fv4004-conway.jpg",
+        "alt": "The surviving FV4004 Conway prototype, mounting a 120 mm gun on a Centurion chassis, photographed at Tankfest 2021; not the in-game model.",
+        "credit": "Geni · CC-BY-SA 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Conway | War Thunder Wiki",
@@ -23481,6 +23565,737 @@ export const vehicles: Vehicle[] = [
         "rear": "30 mm"
       },
       "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "amx-10rc",
+    "name": "AMX-10RC",
+    "nation": "france",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 8.3,
+      "realistic": 8.3,
+      "simulator": 8.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The AMX-10RC is a fast six-wheeled French reconnaissance vehicle armed with a potent 105 mm gun, a laser rangefinder and thermal optics. It trades armour for speed, optics and firepower, making it a long-range sniper rather than a frontline brawler.",
+    "prosCons": {
+      "pros": [
+        "105 mm gun with APFSDS and HEATFS for strong long-range punch",
+        "Laser rangefinder and thermal sights aid first-shot accuracy",
+        "High road speed and excellent strategic mobility on wheels",
+        "Low silhouette helps it stay hidden while sniping"
+      ],
+      "cons": [
+        "Negligible armour; almost any hit is lethal",
+        "Wheels can be crippled, immobilising the vehicle",
+        "Gun lacks full stabilisation, hurting accuracy on the move",
+        "Reload is on the slow side for its battle rating"
+      ]
+    },
+    "playstyle": "Hang back from the initial push and use the laser rangefinder and thermals to pick off enemies at distance. Relocate after firing because the muzzle flash and your fragile hull make you easy to punish if spotted. Use the vehicle's speed to seize flanks and cap points once the front has been thinned out.",
+    "history": "The AMX-10RC entered French service in the late 1970s as a wheeled armoured reconnaissance vehicle built around a 105 mm gun. Its hydropneumatic suspension and amphibious hull made it a flexible scout and fire-support platform. It saw combat with French forces in conflicts including the Gulf War and operations in Africa.",
+    "media": [],
+    "sources": [
+      {
+        "label": "AMX-10RC | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_10rc",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxRevKph",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 85,
+      "maxRevKph": null,
+      "enginePowerHp": 434,
+      "weightTons": 16,
+      "powerToWeight": 27.1,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "cn105-f2-105mm",
+      "reloadBaseSec": 9.7,
+      "reloadAcedSec": 7.5,
+      "vertGuidanceDeg": [
+        -8,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 38,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "45",
+        "side": "25",
+        "rear": "25"
+      },
+      "turretMm": {
+        "front": "42",
+        "side": "42",
+        "rear": "25"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "b1-bis",
+    "name": "B1 bis",
+    "nation": "france",
+    "class": "ground",
+    "subclass": "Heavy tank",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 2.3,
+      "realistic": 2.3,
+      "simulator": 2.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The B1 bis is a heavily armoured French interwar heavy tank carrying a 47 mm gun in a small cast turret and a hull-mounted 75 mm gun. Its thick, rounded armour makes it very hard to penetrate at its battle rating, but it is slow and the cramped one-man turret limits its rate of fire.",
+    "prosCons": {
+      "pros": [
+        "Thick all-round armour that bounces many rounds at its BR",
+        "Hull 75 mm gun adds extra firepower against soft targets",
+        "Small, hard-to-hit turret that ricochets shots well",
+        "Sturdy enough to lead a push and hold ground"
+      ],
+      "cons": [
+        "Very slow forward and barely able to reverse",
+        "One-man turret slows aiming and reloading of the 47 mm",
+        "Tall hull side and weak rear are exploitable",
+        "Poor mobility makes flanking and repositioning painful"
+      ]
+    },
+    "playstyle": "Advance slowly and hold a chosen position, ideally angled and hull-down so the small turret takes the hits. Use the 47 mm turret gun for tank targets and the hull 75 mm for HE work against thin-skinned vehicles. Avoid open flanks; the dismal reverse speed means a bad position can quickly become a death trap.",
+    "history": "The Char B1 bis was a French heavy tank of the 1930s and one of the most heavily armoured tanks of its era. It combined a turret-mounted 47 mm gun with a hull 75 mm howitzer and was crewed by four men. Many fought in the 1940 Battle of France, where their armour proved formidable but their slow speed and one-man turret were serious handicaps.",
+    "media": [],
+    "sources": [
+      {
+        "label": "B1 bis | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_b1_bis",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 28,
+      "maxRevKph": 3,
+      "enginePowerHp": 396,
+      "weightTons": 31.1,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "sa35-l32-47mm",
+      "reloadBaseSec": 5.2,
+      "reloadAcedSec": 4,
+      "vertGuidanceDeg": [
+        -15,
+        18
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 50,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "60",
+        "side": "55",
+        "rear": "50"
+      },
+      "turretMm": {
+        "front": "56",
+        "side": "56",
+        "rear": "56"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "dardo-vcc",
+    "name": "Dardo",
+    "nation": "italy",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 10,
+      "realistic": 10,
+      "simulator": 10
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Dardo is a modern Italian infantry fighting vehicle built around a stabilised 25 mm Oerlikon KBA autocannon and a pair of TOW launchers. It is a fast, scout-style light vehicle that relies on speed, optics and missiles rather than armour to fight at top-rank ground battles.",
+    "prosCons": {
+      "pros": [
+        "Fully stabilised 25 mm autocannon with APFSDS for shredding light vehicles",
+        "TOW missiles give it credible anti-tank punch at range",
+        "Excellent mobility and power-to-weight for scouting and flanking",
+        "Generous gun elevation suits engaging helicopters and elevated targets"
+      ],
+      "cons": [
+        "Light armour offers little protection against most threats",
+        "Three-man crew is quickly knocked out by a single solid hit",
+        "Autocannon alone struggles against well-armoured MBTs frontally",
+        "Exposed when its TOW missiles are reloading or unavailable"
+      ]
+    },
+    "playstyle": "Use the Dardo as a fast scout and flanker, exploiting its speed to reach map edges and spot for the team while staying out of MBT lines of sight. The 25 mm autocannon makes short work of light vehicles and exposed crews, while the TOW launchers let it threaten heavier armour from concealment. Stay mobile and avoid head-on fights, since a single penetrating round can disable the small crew.",
+    "history": "The VCC-80 Dardo was developed from the early 1980s by a consortium of IVECO and OTO Melara, with IVECO providing the hull and powerplant and OTO Melara the turret and fire control. Entering Italian service in the late 1990s, it replaced ageing M113 and VCC-1 carriers as the army's primary tracked infantry fighting vehicle. The production Dardo pairs a stabilised 25 mm cannon with TOW anti-tank missiles to support dismounted infantry and engage light armour.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Dardo | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_dardo_vcc",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "reloadBaseSec",
+      "reloadAcedSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 70,
+      "maxRevKph": 32,
+      "enginePowerHp": 520,
+      "weightTons": 23.5,
+      "powerToWeight": 22.1,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "oerlikon-kba-b02-25mm",
+      "reloadBaseSec": null,
+      "reloadAcedSec": null,
+      "vertGuidanceDeg": [
+        -10,
+        60
+      ],
+      "turretTraverseDegSec": 40.1,
+      "ammoCapacity": 400,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "72 mm",
+        "side": "52 mm",
+        "rear": "38 mm"
+      },
+      "turretMm": {
+        "front": "40 mm",
+        "side": "40 mm",
+        "rear": "40 mm"
+      },
+      "crewCount": 3,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "do-217-e-4",
+    "name": "Do 217 E-4",
+    "nation": "germany",
+    "class": "aviation",
+    "subclass": "Bomber",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 5,
+      "realistic": 4.7,
+      "simulator": 4.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Do 217 E-4 is a large German medium bomber capable of hauling up to 4,000 kg of ordnance, including a torpedo. Heavy defensive armament and a roomy bomb load make it a flexible strike platform for ground pounding and naval attack.",
+    "prosCons": {
+      "pros": [
+        "Very large 4,000 kg maximum bomb load for its rank",
+        "Strong, layered defensive armament covering multiple angles",
+        "Can equip an aerial torpedo for anti-ship missions",
+        "Durable multi-crew airframe absorbs punishment well"
+      ],
+      "cons": [
+        "Slow top speed leaves it exposed to enemy fighters",
+        "Poor climb rate and lethargic acceleration",
+        "Only a single forward 20 mm cannon for offense",
+        "Large silhouette is an easy target from any direction"
+      ]
+    },
+    "playstyle": "Use the Do 217 E-4 as a dedicated bomber: climb steadily toward bases or ship targets and release its heavy load from a stable altitude. Let gunners manage trailing fighters while you avoid sharp maneuvers that bleed energy. For naval maps, drop to wave height and line up a torpedo run, then turn for home before defenders converge.",
+    "history": "The Dornier Do 217 was a substantial enlargement of the earlier Do 17 line, conceived as a heavy medium bomber. The E-4 introduced the BMW 801 radial engines and upgraded forward armament, replacing an earlier machine gun with a 20 mm cannon. Do 217s entered frontline service in 1941 and operated across the Western and Eastern fronts in level, dive, and anti-shipping roles through much of the war.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Do 217 E-4 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/do_217e_4",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "climbMps",
+      "turnTimeSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 465,
+      "maxSpeedAltM": 5100,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": 700,
+      "ceilingM": 7500,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "mg-151-20mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "Bomb loadouts up to 4,000 kg (SC1000L2, PC1000, SC500K, SC250JA combinations)",
+        "1 x F5W aerial torpedo"
+      ]
+    }
+  },
+  {
+    "id": "hs-129-b-2",
+    "name": "Hs 129 B-2",
+    "nation": "germany",
+    "class": "aviation",
+    "subclass": "Attacker",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 3.3,
+      "realistic": 2.3,
+      "simulator": 2.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Hs 129 B-2 is a heavily armored dedicated ground-attack aircraft built around a large-caliber cannon pod for killing tanks. Nicknamed the Panzerknacker, it trades speed and agility for armor protection and devastating anti-ground firepower.",
+    "prosCons": {
+      "pros": [
+        "Optional 30 mm or 37 mm cannon pod shreds armored vehicles",
+        "Heavily armored cockpit and engines survive ground fire",
+        "Stable gun platform for precise strafing passes",
+        "Decent low-altitude turn time for its weight"
+      ],
+      "cons": [
+        "Very slow top speed and weak climb make it easy to intercept",
+        "Almost helpless against attentive enemy fighters",
+        "Underpowered twin engines limit energy and recovery",
+        "Cannon pod adds drag and reduces an already poor performance"
+      ]
+    },
+    "playstyle": "Treat the Hs 129 B-2 as a tank hunter that lives at low altitude over the battlefield. Approach armored columns in shallow dives, line up the large-caliber pod cannon, and strike vehicles from the rear or top where armor is thin. Stay near friendly cover and disengage from any enemy fighter, since the aircraft cannot win an air-to-air fight.",
+    "history": "The Henschel Hs 129 was designed in the late 1930s as a heavily armored close-support aircraft for the Luftwaffe. The B-2 variant added increasingly powerful gun pods, culminating in large anti-tank cannons used heavily on the Eastern Front. Despite chronic engine reliability problems, it became one of Germany's most effective dedicated tank-busting aircraft.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Hs 129 B-2 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/hs-129b-2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 420,
+      "maxSpeedAltM": 3550,
+      "climbMps": 5.9,
+      "turnTimeSec": 29.6,
+      "structuralLimitKph": 630,
+      "ceilingM": 7500,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "mg-151-20mm",
+          "count": 2
+        },
+        {
+          "weaponId": "mg-17-7mm",
+          "count": 2
+        }
+      ],
+      "suspended": [
+        "1 x 30 mm MK 103 cannon pod",
+        "1 x 37 mm BK 3.7 cannon pod",
+        "4 x 50 kg SC50JA bombs"
+      ]
+    }
+  },
+  {
+    "id": "m14-41",
+    "name": "M14/41",
+    "nation": "italy",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "I",
+    "battleRatings": {
+      "arcade": 2.3,
+      "realistic": 2,
+      "simulator": 2
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M14/41 is an early-rank Italian medium tank, a desert-improved evolution of the M13/40 carrying the same 47 mm gun in a hull-mounted layout. It trades thin armour and a tall profile for a brisk rate of fire and nimble handling at the bottom of the tree.",
+    "prosCons": {
+      "pros": [
+        "Fast-firing 47 mm gun with a quick reload for its tier",
+        "Good gun depression of -15 degrees for working ridgelines",
+        "Light and reasonably mobile chassis",
+        "Generous ammunition stowage"
+      ],
+      "cons": [
+        "Thin armour that is penetrated by almost any opponent",
+        "Tall, boxy silhouette that is easy to spot and hit",
+        "Sluggish turret traverse leaves it vulnerable when flanked",
+        "Modest 47 mm penetration struggles against angled or heavier targets"
+      ]
+    },
+    "playstyle": "Play the M14/41 as a flanker and support gunner rather than a brawler, using cover and ridgelines to expose only the gun. Lean on the fast reload to chain shots into a target's weak points and finish vehicles your team has already damaged. Avoid prolonged duels in the open, since the thin hull offers no protection and the slow turret cannot react quickly to threats from the side.",
+    "history": "The Carro Armato M14/41 entered service in 1941 as a refinement of the M13/40, adding a more powerful diesel engine and improved air and fuel filtration to cope with the dust of the North African campaign. Roughly 750 were built before 1943, many converted directly from earlier hulls. They fought across the desert and later in the defence of Italy, with captured examples pressed into service by both Allied and German forces.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M14/41 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_m14_41",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "powerToWeight",
+      "reverseGears"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 33,
+      "maxRevKph": 6,
+      "enginePowerHp": 305,
+      "weightTons": 14.5,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "47-32-mod35",
+      "reloadBaseSec": 3.8,
+      "reloadAcedSec": 2.9,
+      "vertGuidanceDeg": [
+        -15,
+        25
+      ],
+      "turretTraverseDegSec": 9.8,
+      "ammoCapacity": 87,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "30 mm",
+        "side": "25 mm",
+        "rear": "25 mm"
+      },
+      "turretMm": {
+        "front": "45 mm",
+        "side": "25 mm",
+        "rear": "25 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "me-410-a-1",
+    "name": "Me 410 A-1",
+    "nation": "germany",
+    "class": "aviation",
+    "subclass": "Bomber",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 3.3,
+      "realistic": 3.3,
+      "simulator": 3.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Me 410 A-1 is a fast twin-engine heavy fighter and high-speed light bomber that pairs strong straight-line speed with a modest bomb load. Its rearward-firing remote turrets give it a self-defending sting that few interceptors expect.",
+    "prosCons": {
+      "pros": [
+        "Excellent dive speed and good top speed for its battle rating",
+        "Pair of side-mounted remote 13 mm turrets deter chasing fighters",
+        "Carries up to two 500 kg bombs for ground or base attack",
+        "Sturdy airframe with a high structural speed limit"
+      ],
+      "cons": [
+        "Sluggish turn time makes it easy prey in a turn fight",
+        "Light forward offensive armament of just two 20 mm cannons",
+        "Twin engines and large profile make it vulnerable to focused fire",
+        "Climb rate is mediocre, so altitude must be earned slowly"
+      ]
+    },
+    "playstyle": "Fly the Me 410 as an energy fighter and bomb truck rather than a dogfighter. Build speed in shallow dives, make slashing boom-and-zoom passes with the nose cannons, and rely on the remote turrets to discourage pursuers. Avoid sustained turning engagements and use the bombs against bases or ground targets before reverting to a fighter role.",
+    "history": "The Me 410 Hornisse evolved from the troubled Me 210, fitting more powerful DB 603 engines that corrected many of its predecessor's handling flaws. The A-1 variant entered service in 1943 as a fast bomber and Zerstoerer, though its limited internal load saw it used widely as a heavy fighter. It served on multiple fronts intercepting bombers and conducting fast strike sorties until later in the war.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Me 410 A-1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/me-410a-1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 624,
+      "maxSpeedAltM": 6700,
+      "climbMps": 10.8,
+      "turnTimeSec": 30.7,
+      "structuralLimitKph": 750,
+      "ceilingM": 10400,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "mg-151-20mm",
+          "count": 2
+        },
+        {
+          "weaponId": "mg-17-7mm",
+          "count": 2
+        }
+      ],
+      "suspended": [
+        "8 x 50 kg SC50JA bombs",
+        "2 x 250 kg SC250JA bombs",
+        "2 x 500 kg SC500K bombs"
+      ]
+    }
+  },
+  {
+    "id": "semovente-90-53-m41m",
+    "name": "90/53 M41M",
+    "nation": "italy",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 3.7,
+      "realistic": 3.7,
+      "simulator": 3.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The 90/53 M41M is an Italian open-topped tank destroyer that mounts a hard-hitting 90 mm gun, derived from an anti-aircraft cannon, on a lengthened M14/41 chassis. It is a glass-cannon ambusher: enormous single-shot potential paired with almost no protection and a small ammunition load.",
+    "prosCons": {
+      "pros": [
+        "Powerful 90 mm gun that defeats most contemporaries frontally",
+        "Good gun elevation for engaging targets on slopes",
+        "Compact, low chassis that hides well in cover",
+        "Strong sniping potential from concealed positions"
+      ],
+      "cons": [
+        "Open-topped crew compartment exposed to strafing and shrapnel",
+        "Tiny ammunition stowage of only 8 rounds",
+        "Long reload punishes missed shots",
+        "Weak engine and poor mobility limit repositioning"
+      ]
+    },
+    "playstyle": "Treat the 90/53 M41M as a pure ambush sniper that sets up in cover with a clear field of fire and lets enemies come to it. Make the first shot count, because the small ammunition pool and slow reload leave little room for error against multiple attackers. Relocate only when necessary, since the sluggish chassis and exposed crew make it extremely fragile if caught in the open.",
+    "history": "The Semovente da 90/53 was conceived in 1942 as an urgent answer to Soviet armour such as the T-34, marrying the powerful 90/53 anti-aircraft gun to a stretched medium-tank hull. The heavy weapon overstressed the chassis and only around thirty were completed, none of which reached the Eastern Front. They were instead committed to the defence of Sicily in 1943, where most were lost fighting the Allied landings.",
+    "media": [],
+    "sources": [
+      {
+        "label": "90/53 M41M | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_semovente_m41m_90",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxRevKph",
+      "reverseGears",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 35,
+      "maxRevKph": null,
+      "enginePowerHp": 160,
+      "weightTons": 15.7,
+      "powerToWeight": 10.29,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "90-53-mod41",
+      "reloadBaseSec": 10.4,
+      "reloadAcedSec": 8,
+      "vertGuidanceDeg": [
+        -5,
+        19
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 8,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "30 mm",
+        "side": "25 mm",
+        "rear": "25 mm"
+      },
+      "turretMm": {
+        "front": "30 mm",
+        "side": "15 mm",
+        "rear": "0 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "somua-s35",
+    "name": "S.35",
+    "nation": "france",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "I",
+    "battleRatings": {
+      "arcade": 1.3,
+      "realistic": 1.3,
+      "simulator": 1.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The SOMUA S.35 is a French interwar cavalry tank with well-sloped cast armour and a 47 mm gun. It is a mobile, well-protected reserve-tier brawler held back only by its slow one-man turret and modest ammunition velocity.",
+    "prosCons": {
+      "pros": [
+        "Sloped cast armour that bounces many low-tier rounds",
+        "Good mobility for a reserve-rank vehicle",
+        "Compact, hard-to-hit profile",
+        "Capable 47 mm gun for its battle rating"
+      ],
+      "cons": [
+        "One-man turret slows aiming and firing",
+        "Only three crew, so it knocks out easily",
+        "47 mm shells have mediocre post-penetration effect",
+        "Outclassed by dedicated heavy tanks if caught head-on"
+      ]
+    },
+    "playstyle": "Use the sloped armour by angling against enemies and letting shots glance off the rounded turret and hull. Push with allies and engage from medium range where the one-man turret's slow handling is less punishing. Flank lightly armoured opponents and aim for crew and modules since the 47 mm relies on placement rather than raw damage.",
+    "history": "The SOMUA S.35 was a French cavalry tank introduced in the late 1930s and considered one of the best-protected tanks of its day thanks to its cast, sloped armour. It armed a 47 mm SA35 gun in a one-man turret, which forced the commander to also load and fire. Numbers of S.35s fought during the 1940 campaign before many were captured and reused by occupying forces.",
+    "media": [],
+    "sources": [
+      {
+        "label": "S.35 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_somua_s35",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxRevKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 40,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 19.5,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": false
+    },
+    "firepower": {
+      "mainGunId": "sa35-l32-47mm",
+      "reloadBaseSec": 5.2,
+      "reloadAcedSec": 4,
+      "vertGuidanceDeg": [
+        -18,
+        18
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 84,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "35",
+        "side": "40",
+        "rear": "35"
+      },
+      "turretMm": {
+        "front": "45",
+        "side": "45",
+        "rear": "45"
+      },
+      "crewCount": 3,
       "era": false,
       "composite": false,
       "aps": false

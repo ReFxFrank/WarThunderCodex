@@ -4905,5 +4905,229 @@ export const weapons: Weapon[] = [
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "cn105-f2-105mm",
+    "name": "105 mm CN105 F2 cannon",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "amx-10rc"
+    ],
+    "notes": "Medium-pressure 105 mm gun fitted to the AMX-10RC, firing APFSDS and HEATFS rounds; it is not fully stabilised. In-game muzzle velocity and fire rate were not cleanly readable from the wiki render and are left unverified.",
+    "sources": [
+      {
+        "label": "AMX-10RC | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_10rc",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "sa35-l32-47mm",
+    "name": "47 mm SA35 L/32 cannon",
+    "type": "cannon",
+    "caliberMm": 47,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "b1-bis",
+      "somua-s35"
+    ],
+    "notes": "French 47 mm interwar tank gun used in the turret of the B1 bis and as the main gun of the SOMUA S.35, firing armour-piercing and high-explosive shells. In-game muzzle velocity and fire rate were not cleanly readable from the wiki render and are left unverified.",
+    "sources": [
+      {
+        "label": "S.35 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_somua_s35",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "B1 bis | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_b1_bis",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "sa35-l17-75mm",
+    "name": "75 mm SA35 L/17 cannon",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "b1-bis"
+    ],
+    "notes": "Hull-mounted 75 mm gun on the B1 bis, primarily used for high-explosive fire against soft targets. In-game muzzle velocity and fire rate were not cleanly readable from the wiki render and are left unverified.",
+    "sources": [
+      {
+        "label": "B1 bis | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_b1_bis",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "mg-151-20mm",
+    "name": "MG 151 (20 mm)",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 700,
+    "muzzleVelocityMps": 705,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "me-410-a-1",
+      "do-217-e-4",
+      "hs-129-b-2"
+    ],
+    "notes": "Standard German 20 mm autocannon used as forward-firing armament across many Luftwaffe aircraft. Effective against fighters and light targets with mineshell belts.",
+    "sources": [
+      {
+        "label": "Me 410 A-1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/me-410a-1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "mg-17-7mm",
+    "name": "MG 17 (7.92 mm)",
+    "type": "machine-gun",
+    "caliberMm": 7.92,
+    "fireRateRpm": 1200,
+    "muzzleVelocityMps": 905,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "me-410-a-1",
+      "hs-129-b-2"
+    ],
+    "notes": "Light 7.92 mm machine gun commonly mounted alongside heavier cannons on early and mid-war German aircraft for ranging and supplementary fire.",
+    "sources": [
+      {
+        "label": "Me 410 A-1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/me-410a-1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "47-32-mod35",
+    "name": "47 mm 47/32 mod.35 cannon",
+    "type": "cannon",
+    "caliberMm": 47,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": 630,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m14-41"
+    ],
+    "notes": "Italian 47 mm anti-tank gun firing APHE rounds (Granata Perforante mod.35 and mod.39). Effective against light and medium armour at close to medium range but limited penetration against heavier or angled targets.",
+    "sources": [
+      {
+        "label": "M14/41 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_m14_41",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "90-53-mod41",
+    "name": "90 mm 90/53 mod.41 cannon",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "semovente-90-53-m41m"
+    ],
+    "notes": "Italian 90 mm gun adapted from the 90/53 anti-aircraft cannon, firing APCBC and HE shells. Hard-hitting with strong penetration for its battle rating, but saddled with a long reload.",
+    "sources": [
+      {
+        "label": "90/53 M41M | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_semovente_m41m_90",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "oerlikon-kba-b02-25mm",
+    "name": "25 mm Oerlikon KBA B02 cannon",
+    "type": "autocannon",
+    "caliberMm": 25,
+    "fireRateRpm": 560,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "dardo-vcc"
+    ],
+    "notes": "Fully stabilised 25 mm autocannon with belts including APDS, HEI-T and APFSDS rounds, fed from a 100-round belt. Effective against light vehicles, exposed crews and aircraft.",
+    "sources": [
+      {
+        "label": "Dardo | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_dardo_vcc",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
   }
 ];
