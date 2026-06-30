@@ -9998,7 +9998,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 75,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "m62-m7",
+        "m79-m7",
+        "m42a1-m7"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -10673,7 +10677,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 54,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "m79-m7",
+        "m62-m7",
+        "m42a1-m7"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -12981,7 +12989,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": null,
       "ammoCapacity": 147,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "m74b1-m6",
+        "m51b1-m6",
+        "m63-m6"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -15362,7 +15374,15 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 17.8,
       "ammoCapacity": 70,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "m318-m3a1",
+        "m82-m3a1",
+        "m304-m3a1",
+        "m332-m3a1",
+        "m348-m3a1",
+        "m71-m3a1",
+        "m313-m3a1"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -15455,7 +15475,15 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 25.2,
       "ammoCapacity": 71,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "m318a1-m36",
+        "m82-m36",
+        "m304-m36",
+        "m332-m36",
+        "m431-m36",
+        "m71a1-m36",
+        "m313-m36"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -15549,7 +15577,13 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 15.7,
       "ammoCapacity": 63,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "m728-m68",
+        "m735-m68",
+        "m456-m68",
+        "m393a2-m68",
+        "m416-m68"
+      ]
     },
     "armor": {
       "hullMm": {
@@ -24427,7 +24461,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat the AD-4 as a strike platform first: pick your ground or naval target, deliver ordnance, and avoid drawing the attention of enemy fighters. If forced into air combat you can manage a few tight turns and use the cannons, but you must avoid bleeding all your speed because energy recovery is dismal. Stay low when egressing and let friendly fighters cover your climb back to altitude.",
     "history": "The Douglas AD Skyraider was a piston-engine attack aircraft designed late in World War II that went on to serve through Korea and Vietnam. The AD-4 variant added improved radar, reinforced landing gear, and a fourth pair of cannons, and became the backbone of US Navy and Marine strike forces during the Korean War. Its enormous payload and long loiter time kept the propeller-driven Skyraider in frontline service well into the jet age.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ad-4-skyraider.jpg",
+        "alt": "A real-world U.S. Navy Douglas AD-4 Skyraider of Attack Squadron 35 in flight circa 1950, not the in-game model.",
+        "credit": "U.S. Navy · Public Domain (PD US Navy) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "AD-4 | War Thunder Wiki",
@@ -24498,7 +24539,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Climb separate from the furball and keep your speed above the merge, using altitude as a reserve you can trade for a single decisive pass. Take a missile shot or a cannon snap on the way down, then extend and re-climb rather than committing to a turning fight. Drop ordnance early if you expect air combat, since a clean airframe handles dramatically better than a loaded one.",
     "history": "The North American F-100 Super Sabre was the first US fighter capable of supersonic level flight and entered service in the mid-1950s as a day fighter that evolved into a fighter-bomber. The F-100D was the definitive single-seat variant, adding an autopilot, larger fin, and expanded weapons pylons for the strike mission. It saw extensive combat in the early years of the Vietnam War flying close air support and interdiction sorties.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/f-100d.jpg",
+        "alt": "A real-world North American F-100D Super Sabre preserved at the Steven F. Udvar-Hazy Center, not the in-game model.",
+        "credit": "APK (Wikimedia Commons) · CC-BY 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "F-100D | War Thunder Wiki",
@@ -24569,7 +24617,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight at medium range where the eight 155 mm guns can keep up a punishing rate of fire on enemy destroyers and light cruisers. Angle the hull and use her speed to keep HE-spammers from settling on a clean shot, since the protection is light for a cruiser. Lean on the heavy AA suite to swat attacking aircraft rather than relying on maneuver alone.",
     "history": "Duguay-Trouin, the name ship of her class, was launched in 1923 as France's first cruiser designed after the First World War. Through the interwar years she served as a convoy escort and gunnery training ship. In War Thunder she debuted as an early pre-order vessel for the French navy before being folded into the regular roster and later removed from the store.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/fr-cruiser-duguay-trouin.jpg",
+        "alt": "The French Duguay-Trouin-class light cruiser Duguay-Trouin passing through the Suez Canal on 23 June 1943, not the in-game model.",
+        "credit": "E. E. Allen, Royal Naval photographer (Imperial War Museums) · Public Domain (PD-UKGov, photo taken before 1 June 1957) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Duguay-Trouin | War Thunder Wiki",
@@ -24639,7 +24694,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Exploit Le Triomphant's speed to flank and dictate engagement range, opening with the 138.6 mm guns at distance before enemies can return accurate fire. Anticipate the slow turret traverse by lining up shots before committing to a turn. Keep moving and angled to survive, and hold the torpedoes for high-value targets that crowd a capture point.",
     "history": "Le Triomphant was the fifth of six Le Fantasque-class contre-torpilleurs and entered service in 1936, among the fastest warships of her era at over 45 knots on trials. The class saw hard wartime service with the French Navy throughout the Second World War. In War Thunder she arrived as a reward for Battle Pass Season XIV, 'Airborne General'.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/fr-destroyer-le-triomphant.jpg",
+        "alt": "The Free French large destroyer Le Triomphant entering San Diego harbor in April 1941, the real-world Le Fantasque-class ship, not the in-game model.",
+        "credit": "Official U.S. Navy photo (NH 55853), Naval History and Heritage Command · Public Domain (PD US Navy) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Le Triomphant | War Thunder Wiki",
@@ -24713,7 +24775,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use Mogador's speed to dictate range, opening with long-range gunfire against enemy destroyers and light cruisers before they can close. Keep the hull angled and constantly moving so incoming shells skip or miss the slender frame, since any sustained hits will quickly thin her crew. Save the torpedo spread for committed targets or to punish capital ships that try to push your cap.",
     "history": "Launched in 1937, Mogador represented the apex of French pre-war contre-torpilleur design and famously reached around 43 knots on trials. In 1940 she served with the Force de Raid in the Atlantic before being badly damaged by a British 15-inch shell at Mers-el-Kebir during Operation Catapult. After lengthy Vichy-era repairs she was ultimately scuttled at Toulon in November 1942 to avoid German capture.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/fr-destroyer-mogador.jpg",
+        "alt": "The French Mogador-class large destroyer Volta, sister ship of Mogador, underway off Portsmouth on 8 August 1939, not the in-game model.",
+        "credit": "U.S. Navy (Naval History and Heritage Command, NH 86544) · Public Domain (PD-USGov-Navy) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Mogador | War Thunder Wiki",
@@ -24784,7 +24853,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use Enterprise's speed to control the engagement, keeping the bow toward the enemy so the twin forward turret and forward singles stay on target. Land repeated 6-inch hits to start fires and knock out modules rather than expecting one-shot citadels. Keep moving to spoil enemy aim and launch torpedoes when a larger ship overcommits to the chase.",
     "history": "HMS Enterprise was the second of the two Emerald-class light cruisers, laid down during the First World War with speed as the overriding design priority. She was completed with an experimental twin 6-inch turret that later influenced subsequent Royal Navy cruiser designs. Through the Second World War she served from the Indian Ocean to home waters, taking part in the Battle of the Bay of Biscay in 1943.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/hms-enterprise-d52.jpg",
+        "alt": "The Royal Navy Emerald-class light cruiser HMS Enterprise photographed in November 1943, not the in-game model.",
+        "credit": "Royal Navy / Ministry of Defence (Imperial War Museums) · Public Domain (PD-UKGov, photo taken before 1 June 1957) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "HMS Enterprise | War Thunder Wiki (unit page)",
@@ -24853,7 +24929,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Open at long to medium range and use the eight-gun broadside to land citadel hits before the enemy closes. Keep angling and avoid bow-on duels, because the thin belt offers little real protection against return fire. Lean on the heavy AA battery to swat aircraft and keep torpedoes ready for any cruiser that pushes into knife range.",
     "history": "HMS London was a County-class heavy cruiser of the second (London) group, built in the interwar years under the displacement limits of the Washington Naval Treaty. During the Second World War she served in the Mediterranean, took part in the hunt for the battleship Bismarck, and escorted Arctic convoys to the Soviet Union. She later operated in the Far East and survived to the end of the war.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/hms-london.jpg",
+        "alt": "The Royal Navy County-class heavy cruiser HMS London under tow on the Tyne during the Second World War, not the in-game model.",
+        "credit": "Royal Navy official photographer (Imperial War Museums) · Public Domain (PD-UKGov, Crown Copyright expired) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "HMS London | War Thunder Wiki (unit page)",
@@ -24927,7 +25010,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight at range where the six 8-inch guns can citadel enemy cruisers while your compact hull stays angled. Watch the skies carefully, since the light AA fit offers little defence against attackers. Save torpedoes for ambushes and avoid lingering broadside-on, as the plating cannot shrug off sustained fire.",
     "history": "HMS York was the lead ship of the two-vessel York class, a smaller and cheaper heavy cruiser design intended to ease the Royal Navy's cruiser numbers under treaty limits. In the Second World War she served in the Mediterranean, where she was crippled by Italian explosive motorboats in Suda Bay, Crete, in March 1941. Damaged beyond repair, she was scuttled and later scrapped after the war.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/hms-york.jpg",
+        "alt": "The British York-class heavy cruiser HMS York damaged in Souda Bay, Crete, May 1941, not the in-game model.",
+        "credit": "George Silk (Australian War Memorial) · Public Domain (PD-Australia, copyright expired) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "HMS York | War Thunder Wiki (unit page)",
@@ -24997,7 +25087,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight in the vertical at low to medium altitude, using dives to build speed and energy for slashing attacks. Line up the 37 mm carefully and conserve its small magazine for high-value targets like bombers, leaning on the machine guns for everything else. Avoid prolonged turnfights and never let your speed drop into the danger zone where the airframe can depart into a spin.",
     "history": "The Bell P-39 Airacobra was an unusual American fighter with its engine mounted behind the cockpit, driving the propeller through a long shaft to make room for a nose cannon. The P-39N was the most-produced variant, pairing a more powerful Allison engine with a new propeller and reduction gear. While US forces found its high-altitude performance lacking, the type excelled at low altitude and was used to great effect by the Soviet Union under Lend-Lease.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/p-39n-0-airacobra.jpg",
+        "alt": "A real-world preserved Bell P-39N Airacobra at the Planes of Fame Air Museum, Chino, the closest variant to the in-game P-39N-0, not the in-game model.",
+        "credit": "Dustin May · CC-BY-SA 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "P-39N-0 | War Thunder Wiki",
@@ -25038,5 +25135,677 @@ export const vehicles: Vehicle[] = [
         "500 lb AN-M64A1 bomb"
       ]
     }
+  },
+  {
+    "id": "f-104c",
+    "name": "F-104C",
+    "nation": "usa",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.7,
+      "realistic": 9.7,
+      "simulator": 9.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The F-104C is a rank VI American supersonic jet fighter built around blistering straight-line speed and a powerful M61A1 rotary cannon. Unlike the earlier F-104A interceptor it can also haul bombs and rockets, giving it a secondary strike role.",
+    "prosCons": {
+      "pros": [
+        "Exceptional top speed and acceleration for energy fighting and escape",
+        "M61A1 Vulcan delivers a devastating volume of 20 mm fire",
+        "Carries up to four AIM-9B Sidewinders plus ground-attack ordnance",
+        "Very high structural and altitude limits suit high-energy play"
+      ],
+      "cons": [
+        "Poor turn rate and high stall speed punish low-speed dogfights",
+        "No countermeasures leaves it helpless against modern missiles in uptiers",
+        "Stubby trapezoidal wings bleed energy fast in hard maneuvers",
+        "Early AIM-9B seekers are easily defeated and rear-aspect only"
+      ]
+    },
+    "playstyle": "Fly it as a boom-and-zoom energy fighter, using its enormous speed to dictate engagements and refuse to turn-fight. Climb high and fast, make a single committed pass with the Vulcan or a Sidewinder, then extend away to rebuild energy before re-engaging. Keep an eye on altitude and never bleed speed in a sustained turn, because once slow the Starfighter is an easy target with no flares to save it.",
+    "history": "The Lockheed F-104 Starfighter was designed by Kelly Johnson as a lightweight, high-performance interceptor with a razor-thin wing optimized for speed over agility. The F-104C was the tactical strike variant for Tactical Air Command, adding a refueling probe, the M61 cannon, and the ability to carry bombs and Sidewinders. Roughly 80 were built and the type served in Vietnam before being supplanted by the F-4 Phantom.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — F-104C",
+        "url": "https://wiki.warthunder.com/unit/f-104c",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 2142,
+      "maxSpeedAltM": 10668,
+      "climbMps": 235,
+      "turnTimeSec": 34,
+      "structuralLimitKph": 1555,
+      "ceilingM": 17678,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m61a1-20mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "Up to 4 x AIM-9B Sidewinder air-to-air missiles",
+        "Up to 19 x FFAR Mighty Mouse rockets",
+        "Up to 3 x 750 lb M117 cone 45 bombs",
+        "Up to 2 x BLU-1 incendiary bombs"
+      ]
+    }
+  },
+  {
+    "id": "f-84g-21-re",
+    "name": "F-84G-21-RE",
+    "nation": "usa",
+    "class": "aviation",
+    "subclass": "Strike aircraft",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7.7,
+      "realistic": 7.7,
+      "simulator": 8
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The F-84G-21-RE is a rank V American straight-wing jet strike aircraft nicknamed the 'Lead Sled' for its heavy, sluggish handling. It trades agility for a stable gun and bombing platform armed with six .50 cal machine guns and a wide range of suspended ordnance.",
+    "prosCons": {
+      "pros": [
+        "Stable, predictable platform for accurate strafing and bombing runs",
+        "Six 12.7 mm M3 Brownings with a large 1,800-round pool",
+        "Flexible suspended loadout of HVAR/Tiny Tim rockets and bombs up to 1,000 lb",
+        "Good high-altitude stability once it builds energy"
+      ],
+      "cons": [
+        "Very long takeoff roll of around 1,500 m",
+        "Sluggish acceleration and climb for its rating",
+        "Straight wing and heavy airframe make it a poor turn-fighter",
+        "Machine-gun armament lacks the punch of cannon-armed rivals"
+      ]
+    },
+    "playstyle": "Use the F-84G primarily as a ground-attack and energy fighter rather than a dogfighter. Take off with care given the long roll, climb to a comfortable altitude, and make slashing passes on ground targets or unaware enemies before extending. In air combat keep your speed up and avoid sustained turns, leveraging the stable gun platform to land hits in fast diving passes.",
+    "history": "The Republic F-84 Thunderjet was one of the U.S. Air Force's first operational jet fighters, and the F-84G introduced in-flight refueling and the capability to deliver a tactical nuclear weapon. It became the backbone of Tactical Air Command and equipped many NATO air forces in the early 1950s. The straight-wing Thunderjet served extensively in the ground-attack role during the Korean War before being succeeded by swept-wing designs.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — F-84G-21-RE",
+        "url": "https://wiki.warthunder.com/unit/f-84g",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 985,
+      "maxSpeedAltM": 0,
+      "climbMps": 36.2,
+      "turnTimeSec": 28,
+      "structuralLimitKph": 1045,
+      "ceilingM": 12500,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m3-browning-12-7mm",
+          "count": 6
+        }
+      ],
+      "suspended": [
+        "HVAR rockets (3, 4, or 6)",
+        "Tiny Tim rockets",
+        "AN-M30A1 100 lb bombs",
+        "AN-M57 250 lb bombs",
+        "AN-M64A1 500 lb bombs",
+        "AN-M65A1 1,000 lb bombs"
+      ]
+    }
+  },
+  {
+    "id": "f2h-2-banshee",
+    "name": "F2H-2 Banshee",
+    "nation": "usa",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7.3,
+      "realistic": 7.3,
+      "simulator": 8
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The F2H-2 Banshee is a rank V American twin-engine carrier jet fighter with a hard-hitting nose battery of four 20 mm cannons. It offers a strong blend of speed, decent maneuverability, and a high service ceiling for its battle rating.",
+    "prosCons": {
+      "pros": [
+        "Four nose-mounted 20 mm M3 cannons hit very hard in a tight cone",
+        "Twin engines give reliable thrust and redundancy",
+        "High service ceiling rewards altitude-based fighting",
+        "Good overall speed and respectable turn for an early jet"
+      ],
+      "cons": [
+        "Only 600 total cannon rounds demands disciplined trigger control",
+        "Can be outpaced and out-climbed by later swept-wing jets in uptiers",
+        "Limited suspended ordnance for ground attack",
+        "Energy retention suffers in prolonged turn-fights"
+      ]
+    },
+    "playstyle": "Fly the Banshee as a high-altitude energy fighter, climbing above the fight and diving on targets with its concentrated cannon battery. The four 20 mm guns destroy enemies quickly, so aim for short, decisive bursts to conserve the limited ammunition. Keep your speed high, use the twin-engine thrust to extend after a pass, and avoid grinding turn-fights with more nimble opponents.",
+    "history": "The McDonnell F2H Banshee was a development of the company's earlier FH Phantom and became a mainstay of U.S. Navy and Marine Corps carrier aviation in the early 1950s. The F2H-2 was the most-produced variant, with uprated J34 engines and provision for additional fuel and stores. Banshees flew extensively in the Korean War, primarily as escorts and ground-attack aircraft, prized for their high-altitude performance.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — F2H-2",
+        "url": "https://wiki.warthunder.com/unit/f2h-2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 933,
+      "maxSpeedAltM": 0,
+      "climbMps": 27.4,
+      "turnTimeSec": 26,
+      "structuralLimitKph": 994,
+      "ceilingM": 14965,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m3-20mm-cannon",
+          "count": 4
+        }
+      ],
+      "suspended": [
+        "Drop tanks (200 gal.)",
+        "8 x HVAR rockets",
+        "4 x 250 lb AN-M57 bombs",
+        "2 x 500 lb AN-M64A1 bombs"
+      ]
+    }
+  },
+  {
+    "id": "m247-sergeant-york",
+    "name": "M247 Sergeant York",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "SPAA",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9,
+      "realistic": 9,
+      "simulator": 9
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M247 Sergeant York is a radar-directed self-propelled anti-aircraft gun built on an M48 Patton chassis, mounting twin 40 mm Bofors L/70 cannons in a large turret. Its search-and-track radar and proximity-fused HE-VT shells make it a devastating mid-rank air defence platform that also punishes lightly armoured ground targets.",
+    "prosCons": {
+      "pros": [
+        "Twin 40 mm Bofors with proximity-fused HE-VT shells shred aircraft at long range",
+        "Onboard search and tracking radar with IFF makes detecting and ranging targets effortless",
+        "High-explosive payload and good elevation make it lethal against helicopters and jets",
+        "Two-plane stabilizer and fast turret traverse allow tracking fast movers"
+      ],
+      "cons": [
+        "No dedicated armour-piercing belt limits it badly against well-armoured ground vehicles",
+        "Tall turret and large silhouette make it easy to spot and hit",
+        "Modest 48 km/h top speed makes it slow to reposition with the team",
+        "Thin turret armour means a single hit can knock out the exposed crew"
+      ]
+    },
+    "playstyle": "Position the Sergeant York slightly behind the front line where its radar can sweep the sky and warn you of incoming aircraft, then let the proximity fuses do the work at range. Lead targets generously and fire in bursts; the twin Bofors put out enough fragmentation to kill most aircraft with a single tracking burst. Avoid direct duels with tanks because the lack of penetration leaves you reliant on tracking out modules rather than killing through armour.",
+    "history": "The M247 Sergeant York DIVAD was developed by Ford Aerospace in the late 1970s as a quick, off-the-shelf air defence answer using a modified M48 hull, twin radar-laid Bofors guns and a derivative of the F-16's radar. Persistent technical problems and cost overruns dogged the programme, and it was cancelled in 1985 after only about fifty vehicles were built. It is named after the World War I hero Sergeant Alvin York.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M247 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m247",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 48,
+      "maxRevKph": 11,
+      "enginePowerHp": 750,
+      "weightTons": 54.4,
+      "powerToWeight": 13.8,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "40mm-m266-bofors-l70",
+      "reloadBaseSec": 6.5,
+      "reloadAcedSec": 5,
+      "vertGuidanceDeg": [
+        10,
+        85
+      ],
+      "turretTraverseDegSec": 90,
+      "ammoCapacity": 500,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "110",
+        "side": "76",
+        "rear": "35"
+      },
+      "turretMm": {
+        "front": "25",
+        "side": "12",
+        "rear": "12"
+      },
+      "crewCount": 3,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m3-bradley",
+    "name": "M3 Bradley",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "IFV",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 8.3,
+      "realistic": 8.3,
+      "simulator": 8.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M3 Bradley is the cavalry fighting variant of the Bradley family, combining a fast-firing 25 mm M242 Bushmaster autocannon with TOW anti-tank missiles. It plays as a mobile scout and ambush vehicle, relying on speed, optics and missiles rather than armour to win fights.",
+    "prosCons": {
+      "pros": [
+        "25 mm M242 with APDS belts chews through light vehicles, tracks and sides of heavier tanks",
+        "TOW missiles give it a 430 mm penetrating punch capable of killing MBTs from cover",
+        "Excellent gun elevation lets the autocannon engage aircraft and helicopters",
+        "Good mobility and optics make it a strong flanker and scout"
+      ],
+      "cons": [
+        "Paper-thin armour is defeated by almost any incoming fire, including machine guns and shrapnel",
+        "TOW launcher takes a long time to deploy and demands you stop fully to fire",
+        "Tall, boxy hull is easy to spot and hard to hide",
+        "Limited reverse speed makes disengaging after a missed shot risky"
+      ]
+    },
+    "playstyle": "Use the M3 Bradley's speed to reach flanking positions early, then rake enemy sides and tracks with the autocannon or set up TOW shots from concealment. Keep moving and avoid head-on engagements, because a single penetrating hit usually disables the vehicle. The high gun elevation also makes it a credible anti-air platform when caught in the open by aircraft.",
+    "history": "The Bradley family grew out of the U.S. Army's long MICV programme, entering production in 1981 as the M2 infantry variant and the M3 cavalry fighting vehicle. The M3 drops troop-carrying capacity in favour of extra ammunition and scouting equipment for armoured cavalry units. It saw extensive service from the Gulf War onward, where its autocannon and TOW missiles proved highly effective.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M3 Bradley | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m3_bradley",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "M3 Bradley - War Thunder Wiki (old)",
+        "url": "https://old-wiki.warthunder.com/index.php?title=M3_Bradley",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 77,
+      "maxRevKph": 16,
+      "enginePowerHp": 507,
+      "weightTons": 22.3,
+      "powerToWeight": 22.7,
+      "reverseGears": 2,
+      "neutralSteering": true
+    },
+    "firepower": {
+      "mainGunId": "m242-bushmaster-25mm",
+      "reloadBaseSec": 0.3,
+      "reloadAcedSec": 0.2,
+      "vertGuidanceDeg": [
+        9,
+        59
+      ],
+      "turretTraverseDegSec": 60,
+      "ammoCapacity": 1500,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "38",
+        "side": "44",
+        "rear": "44"
+      },
+      "turretMm": {
+        "front": "25",
+        "side": "25",
+        "rear": "25"
+      },
+      "crewCount": 3,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m60a3-tts",
+    "name": "M60A3 TTS",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9,
+      "realistic": 9,
+      "simulator": 9
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M60A3 TTS is the most advanced production member of the American M60 Patton family in the tech tree, pairing the proven 105 mm M68 rifled cannon with a Tank Thermal Sight, laser rangefinder and ballistic computer. It sits at the awkward transition into the early MBT bracket, trading thin modern armour for excellent gunnery and one of the best night-fighting suites at its rating.",
+    "prosCons": {
+      "pros": [
+        "Gunner's thermal sight plus laser rangefinder makes spotting and ranging targets very reliable, day or night",
+        "105 mm M68 has access to strong APFSDS rounds that defeat most contemporaries",
+        "Two-plane stabilizer and solid gun handling allow accurate fire on the move",
+        "Decent gun depression of 10 degrees for working ridgelines and hull-down positions"
+      ],
+      "cons": [
+        "Tall, rounded turret and hull armour are easily penetrated by other MBTs and many autocannons",
+        "Sluggish forward speed and a tame 11 km/h reverse make repositioning slow",
+        "Reload is mediocre for the bracket, punishing missed shots",
+        "Large profile and weak sides make it vulnerable to flanking light vehicles"
+      ]
+    },
+    "playstyle": "Play the M60A3 TTS as a long-range support gunner rather than a brawler, leaning on the thermal sight and rangefinder to land first-shot kills before opponents close the distance. Use terrain to hide the vulnerable hull and present only the turret, then relocate carefully because the mobility will not save you from a flank. In night or low-visibility maps the thermal advantage becomes decisive, letting you engage targets that cannot see you.",
+    "history": "The M60A3 was the final major upgrade of the M60 Patton line, standardized in 1979 with a solid-state ballistic computer, laser rangefinder and a thermal sleeve for the 105 mm gun. The TTS variant added the AN/VSG-2 Tank Thermal Sight for the gunner, giving the tank a true thermal imaging capability. M60A3 TTS tanks served as the backbone of U.S. and allied armoured forces through the 1980s until the M1 Abrams took over frontline duties.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M60A3 TTS | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m60a3_tts",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 48,
+      "maxRevKph": 11,
+      "enginePowerHp": 750,
+      "weightTons": 52.6,
+      "powerToWeight": 14.3,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "m68-105mm",
+      "reloadBaseSec": 8.7,
+      "reloadAcedSec": 6.7,
+      "vertGuidanceDeg": [
+        10,
+        20
+      ],
+      "turretTraverseDegSec": 22.5,
+      "ammoCapacity": 63,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "108",
+        "side": "70",
+        "rear": "40"
+      },
+      "turretMm": {
+        "front": "230",
+        "side": "49",
+        "rear": "57"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "uss-atlanta",
+    "name": "USS Atlanta",
+    "nation": "usa",
+    "class": "naval",
+    "subclass": "Light cruiser",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.7,
+      "realistic": 5.7,
+      "simulator": 5.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "USS Atlanta (CL-51) is an anti-aircraft light cruiser bristling with sixteen rapid-firing 5-inch dual-purpose guns in eight twin mounts. She trades armor for an overwhelming rate of fire that buries destroyers and softer cruisers under high-explosive shells.",
+    "prosCons": {
+      "pros": [
+        "Sixteen 127 mm guns deliver a staggering volume of fire",
+        "Dual-purpose main battery doubles as a strong anti-aircraft screen",
+        "Carries eight 533 mm torpedoes for close-range threats",
+        "High rate of fire quickly overwhelms destroyers and light cruisers"
+      ],
+      "cons": [
+        "Very thin armor leaves it vulnerable to heavy-cruiser caliber fire",
+        "5-inch shells struggle to penetrate well-armored heavy cruisers",
+        "Light hull and modest crew make it fragile under sustained fire",
+        "Limited secondary anti-air autocannons in this early refit"
+      ]
+    },
+    "playstyle": "Stay at medium range and rain continuous 5-inch fire onto destroyers and light cruisers, exploiting the relentless rate of fire to start fires and knock out crews. Use the torpedo battery opportunistically when an enemy closes or presents a broadside. Keep moving and avoid trading shells with heavy cruisers, whose larger guns will citadel your lightly protected hull.",
+    "history": "The Atlanta-class light cruisers were conceived as fast flotilla leaders, reviving a pre-First-World-War concept with a destroyer-style main battery. USS Atlanta was laid down in 1940 and commissioned in late 1941, fighting at Midway, the Eastern Solomons and Guadalcanal. She was crippled by gunfire and friendly fire during the November 1942 naval battle of Guadalcanal and was scuttled the same day.",
+    "media": [],
+    "sources": [
+      {
+        "label": "USS Atlanta | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_cruiser_atlanta_class_atlanta",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "[Development] USS Atlanta: The Explosive Air Traffic Controller | War Thunder News",
+        "url": "https://warthunder.com/en/news/6334-development-uss-atlanta-the-explosive-air-traffic-controller-en",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "beltMm",
+      "deckMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 8473,
+      "lengthM": null,
+      "crew": 623
+    },
+    "propulsion": {
+      "maxKnots": 32.5
+    },
+    "armament": {
+      "mainBattery": "16 × 127 mm (8×2)",
+      "secondary": "12 × 28 mm (3×4)",
+      "aa": "12 × 28 mm (1.1 inch) (3×4)",
+      "torpedoes": "8 × 533 mm (Mk.15)",
+      "depthCharges": false
+    },
+    "armor": {
+      "citadel": "95/95/31 mm"
+    },
+    "survivability": "8 compartments, crew of 623"
+  },
+  {
+    "id": "uss-baltimore",
+    "name": "USS Baltimore",
+    "nation": "usa",
+    "class": "naval",
+    "subclass": "Heavy cruiser",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 6.3,
+      "realistic": 6.3,
+      "simulator": 6.3
+    },
+    "acquisition": [
+      "event"
+    ],
+    "summary": "USS Baltimore (CA-68) is the lead ship of an enlarged, treaty-free American heavy cruiser class, fielding nine 8-inch rifles and one of the densest anti-air suites of any cruiser in the game. She rewards aggressive cruiser captains who want heavy-caliber punch backed by a wall of automatic flak.",
+    "prosCons": {
+      "pros": [
+        "Nine 203 mm guns with potent super-heavy AP for devastating broadsides",
+        "Enormous anti-air battery (twelve quad 40 mm Bofors plus two dozen 20 mm) shreds aircraft",
+        "Capable secondary battery of twelve 5-inch dual-purpose guns",
+        "Roomy hull with eight compartments and a large crew aids survivability"
+      ],
+      "cons": [
+        "Cruiser-grade citadel armor offers limited protection against battleship-caliber fire",
+        "No torpedo armament removes a close-range threat option",
+        "Large silhouette makes it an easy target for enemy gunners",
+        "Event-only acquisition makes it hard to obtain after the fact"
+      ]
+    },
+    "playstyle": "Open at medium range and use the heavy 8-inch broadside to citadel enemy cruisers before they can range you. Angle the hull to bounce incoming fire and let the massive flak battery deny enemy aircraft and torpedo bombers free runs. Avoid brawling against battleships, where your thin belt becomes a liability.",
+    "history": "The Baltimore class was designed once the Washington and London naval treaty limits lapsed, allowing a larger, better-protected evolution of the Cleveland-class light cruisers. USS Baltimore was laid down in 1941 and commissioned in April 1943, then served extensively in the Pacific providing shore bombardment and fast-carrier escort. She supported amphibious landings across the central Pacific including Makin, Kwajalein and Eniwetok.",
+    "media": [],
+    "sources": [
+      {
+        "label": "USS Baltimore | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_cruiser_baltimore_class",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "beltMm",
+      "deckMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 17031,
+      "lengthM": null,
+      "crew": 1560
+    },
+    "propulsion": {
+      "maxKnots": 32.9
+    },
+    "armament": {
+      "mainBattery": "9 × 203 mm (3×3)",
+      "secondary": "12 × 127 mm (6×2)",
+      "aa": "48 × 40 mm Bofors (12×4), 24 × 20 mm Oerlikon",
+      "depthCharges": false
+    },
+    "armor": {
+      "citadel": "152/152/63 mm"
+    },
+    "survivability": "8 compartments, crew of 1,560"
+  },
+  {
+    "id": "uss-des-moines",
+    "name": "USS Des Moines",
+    "nation": "usa",
+    "class": "naval",
+    "subclass": "Heavy cruiser",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 6.7,
+      "realistic": 6.7,
+      "simulator": 6.7
+    },
+    "acquisition": [
+      "premium"
+    ],
+    "summary": "USS Des Moines (CA-134) is a post-war heavy cruiser and the first US ship to mount fully automatic 8-inch guns, giving her a rate of fire unmatched among heavy-caliber cruisers. Combined with a dense rapid-fire anti-air battery, she is a top-rank bluewater bruiser.",
+    "prosCons": {
+      "pros": [
+        "Autoloading 8-inch main battery fires far faster than any rival heavy cruiser",
+        "Heavy 12 × 5-inch secondary armament adds serious punch",
+        "Excellent anti-air with twelve twin 3-inch mounts plus 20 mm Oerlikons",
+        "Large, well-compartmented hull with a big crew complement"
+      ],
+      "cons": [
+        "Cruiser belt cannot reliably withstand battleship fire at top BR",
+        "No torpedoes limits options against capital ships at close range",
+        "Premium status (removed from store) makes it hard to acquire",
+        "Big hull is a conspicuous target for return fire"
+      ]
+    },
+    "playstyle": "Leverage the autoloading 8-inch guns to maintain a punishing rate of accurate fire, overwhelming enemy cruisers before they can match your output. Keep the hull angled and use the deep crew reserve and many compartments to absorb hits while damage control works. Lean on the dense 3-inch and 20 mm flak to clear the skies, and disengage from battleships that can citadel you.",
+    "history": "The Des Moines class evolved from the wartime Baltimore design to exploit a new automatic 8-inch gun, completed too late to see Second World War combat. USS Des Moines was laid down in 1945 and commissioned in 1948, serving thirteen years before her 1961 decommissioning. She spent much of her career as flagship of the Sixth Fleet in the Mediterranean and acted as a command center during the 1958 Lebanon crisis.",
+    "media": [],
+    "sources": [
+      {
+        "label": "USS Des Moines | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_cruiser_des_moines_class",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "beltMm",
+      "deckMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 20950,
+      "lengthM": null,
+      "crew": 1799
+    },
+    "propulsion": {
+      "maxKnots": 33
+    },
+    "armament": {
+      "mainBattery": "9 × 203 mm (3×3)",
+      "secondary": "12 × 127 mm (6×2)",
+      "aa": "24 × 76 mm (12×2), 24 × 20 mm Oerlikon (12×2)",
+      "depthCharges": false
+    },
+    "armor": {
+      "citadel": "122/147/86 mm"
+    },
+    "survivability": "8 compartments, crew of 1,799"
   }
 ];

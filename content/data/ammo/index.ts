@@ -7688,5 +7688,1513 @@ export const ammo: Ammo[] = [
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m79-m7",
+    "name": "M79 shot (AP)",
+    "type": "AP",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 134,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 132,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 121,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 109,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 99,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 89,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 792,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M79 is the stock solid armor-piercing shot, a hardened steel slug with no explosive filler. It relies entirely on kinetic energy and post-penetration spalling to disable crew and modules, so multi-crew targets often need several well-placed hits. With no cap it loses penetration more sharply at angle than the capped M62, but its flat trajectory at 792 m/s makes hits easy at the M10's combat ranges.",
+    "sources": [
+      {
+        "label": "M10 GMC — War Thunder Wiki (unit/us_m10)",
+        "url": "https://wiki.warthunder.com/unit/us_m10",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m62-m7",
+    "name": "M62 shell (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 149,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 146,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 133,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 119,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 106,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 95,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 792,
+    "explosiveMassTntEqG": 63.7,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 14,
+    "fuseDelayM": 1.2,
+    "mechanics": "The M62 is the M10's best round: an armor-piercing capped, ballistic-capped shell with a TNT filler that detonates after penetrating. The penetrating cap improves performance against sloped plate and resists shatter, while the explosive burst behind the armor wrecks crew and ammo, frequently delivering one-shot kills. The 14 mm fuse sensitivity means it arms reliably against most plates, and the 1.2 m delay lets it travel into the fighting compartment before bursting.",
+    "sources": [
+      {
+        "label": "M10 GMC — War Thunder Wiki (unit/us_m10)",
+        "url": "https://wiki.warthunder.com/unit/us_m10",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m42a1-m7",
+    "name": "M42A1 shell (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 16,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 16,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 14,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 13,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 11,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 10,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 823,
+    "explosiveMassTntEqG": 390,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 0.1,
+    "fuseDelayM": 0.2,
+    "mechanics": "The M42A1 is a high-explosive shell that detonates on contact, with a large TNT-equivalent filler for the caliber. Its negligible armor penetration makes it useless against tanks frontally, but it is highly effective against open-topped vehicles, anti-aircraft mounts, trucks and exposed crew, where the blast and fragments cause instant kills. The instant 0.1 mm fuse and short 0.2 m delay mean it bursts on the first surface it strikes.",
+    "sources": [
+      {
+        "label": "M10 GMC — War Thunder Wiki (unit/us_m10)",
+        "url": "https://wiki.warthunder.com/unit/us_m10",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m318-m3a1",
+    "name": "M318 (APBC)",
+    "type": "AP",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 175,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 173,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 161,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 147,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 135,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 123,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M318 is a solid armour-piercing ballistic-capped shot with no explosive filler, so it relies entirely on its kinetic punch and any spalling it knocks loose to disable a target. Its flat penetration curve holds up reasonably at range, but without a bursting charge it depends on hitting crew, ammunition or the engine to score a kill. As the stock round it is serviceable but generally outclassed once the APCBC and APCR rounds are unlocked.",
+    "sources": [
+      {
+        "label": "M46 Patton — War Thunder Wiki (unit page, penetration statistics)",
+        "url": "https://wiki.warthunder.com/unit/us_m46_patton",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m82-m3a1",
+    "name": "M82 (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 185,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 183,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 173,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 161,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 150,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 140,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M82 is an armour-piercing capped ballistic-capped round carrying a small high-explosive filler that detonates after a fuse delay once inside the target. The armour-piercing cap improves bite against sloped plate while the ballistic cap preserves velocity at range, and the internal burst adds post-penetration damage that the solid M318 lacks. It is the round of choice when you want better behind-armour effect against medium targets at this rating.",
+    "sources": [
+      {
+        "label": "M46 Patton — War Thunder Wiki (unit page, penetration statistics)",
+        "url": "https://wiki.warthunder.com/unit/us_m46_patton",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m304-m3a1",
+    "name": "M304 (APCR)",
+    "type": "APCR",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 287,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 281,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 259,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 234,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 211,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 191,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M304 is an armour-piercing composite rigid round built around a dense tungsten-carbide core in a lightweight body, giving it very high muzzle velocity and the strongest close-range penetration in the M46's belt. It loses energy quickly with range and has no explosive filler, so its post-penetration damage is a narrow cone of fragments that can struggle against empty spaces in the enemy hull. Best reserved for cracking heavily armoured frontal plates at shorter distances.",
+    "sources": [
+      {
+        "label": "M46 Patton — War Thunder Wiki (unit page, penetration statistics)",
+        "url": "https://wiki.warthunder.com/unit/us_m46_patton",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m332-m3a1",
+    "name": "M332 (APCR)",
+    "type": "APCR",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 291,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 286,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 264,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 240,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 217,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 197,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M332 is the M46's strongest kinetic round, an armour-piercing composite rigid shot whose tungsten core posts the highest penetration figures in the belt across every range bracket. Like all APCR it carries no filler and sheds penetration as range grows, so its lethality leans on hitting something vital with its fragment cone. It is the go-to round for defeating the toughest frontal armour you will meet at 7.0.",
+    "sources": [
+      {
+        "label": "M46 Patton — War Thunder Wiki (unit page, penetration statistics)",
+        "url": "https://wiki.warthunder.com/unit/us_m46_patton",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m348-m3a1",
+    "name": "M348 (HEATFS)",
+    "type": "HEATFS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 305,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 305,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 305,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 305,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 305,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 305,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M348 is a fin-stabilised high-explosive anti-tank shell that defeats armour with a shaped-charge jet rather than kinetic energy, so its penetration is constant at every range. Fin stabilisation keeps it accurate and immune to the velocity loss that hurts the APCR rounds, making it a reliable answer to heavy armour at long distance. Its drawback is the post-penetration damage of a chemical round, which can fizzle against spaced plating or pass through empty crew compartments.",
+    "sources": [
+      {
+        "label": "M46 Patton — War Thunder Wiki (unit page, penetration statistics)",
+        "url": "https://wiki.warthunder.com/unit/us_m46_patton",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m71-m3a1",
+    "name": "M71 (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 20,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 20,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 18,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 17,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 16,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 16,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M71 is a high-explosive shell that bursts on impact, doing its work through blast and fragmentation rather than penetration. Its trivial armour-piercing figure means it is meant for soft targets, open-topped vehicles and exposed crew rather than well-protected tanks. It is most useful for finishing lightly armoured anti-tank vehicles or knocking out components on a thin-skinned target.",
+    "sources": [
+      {
+        "label": "M46 Patton — War Thunder Wiki (unit page, penetration statistics)",
+        "url": "https://wiki.warthunder.com/unit/us_m46_patton",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m313-m3a1",
+    "name": "M313 (Smoke)",
+    "type": "other",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 5,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M313 is a smoke shell that produces a screening cloud where it lands rather than damaging the target, so its nominal penetration figure is irrelevant in practice. It is fired to block enemy lines of sight, cover an advance or mask a retreat across open ground. Carrying a few rounds can buy time to reposition or revive a stalled push.",
+    "sources": [
+      {
+        "label": "M46 Patton — War Thunder Wiki (unit page, penetration statistics)",
+        "url": "https://wiki.warthunder.com/unit/us_m46_patton",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m318a1-m36",
+    "name": "M318A1 shot (AP)",
+    "type": "AP",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 193,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 190,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 177,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 162,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 148,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 136,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 912,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M318A1 is a solid armor-piercing ballistic-capped shot (in-game tag APBC) with no explosive filler, so it relies entirely on kinetic energy and spalling to disable a target. With the highest muzzle velocity of any solid round on this gun it offers the flattest trajectory and best snap-shot accuracy, but its post-penetration damage is concentrated along the shot path rather than spread by a bursting charge. It is the stock round and remains a dependable choice against lighter armor where its good close-range penetration shines.",
+    "sources": [
+      {
+        "label": "M47 (War Thunder Wiki unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m47_patton_II",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "M36 (90 mm) Ammunition (War Thunder Wiki)",
+        "url": "https://old-wiki.warthunder.com/M36_(90_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m82-m36",
+    "name": "M82 shot (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 185,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 183,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 173,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 161,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 150,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 140,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 853,
+    "explosiveMassTntEqG": 137.2,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 14,
+    "fuseDelayM": 1.2,
+    "mechanics": "The M82 is an armor-piercing capped, ballistic-capped shell carrying a small TNT-equivalent bursting charge, giving it the explosive after-armor effect that the solid shots lack. Its ballistic cap helps it bite into sloped plates while the explosive filler scatters fragments through the crew compartment once the fuse trips. With a 14 mm arming threshold and a 1.2 m delay it generally penetrates the plate before detonating, making it a strong all-round pick when one-shot crew kills matter more than raw penetration.",
+    "sources": [
+      {
+        "label": "M47 (War Thunder Wiki unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m47_patton_II",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "M36 (90 mm) Ammunition (War Thunder Wiki)",
+        "url": "https://old-wiki.warthunder.com/M36_(90_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m304-m36",
+    "name": "M304 shot (APCR)",
+    "type": "APCR",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 287,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 281,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 259,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 234,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 211,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 191,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 1021,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M304 is an armor-piercing composite rigid shot (in-game APCR) built around a dense tungsten core in a lightweight carrier, trading projectile mass for very high muzzle velocity and excellent close-range penetration. The light body bleeds energy quickly, so its penetration falls off faster with range than a full-caliber shot. Its narrow core delivers less post-penetration damage than an explosive shell, rewarding precise aim at modules and crew.",
+    "sources": [
+      {
+        "label": "M47 (War Thunder Wiki unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m47_patton_II",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "M36 (90 mm) Ammunition (War Thunder Wiki)",
+        "url": "https://old-wiki.warthunder.com/M36_(90_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m332-m36",
+    "name": "M332 shot (APCR)",
+    "type": "APCR",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 321,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 316,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 292,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 265,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 240,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 218,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 1249,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M332 is the gun's high-velocity APCR shot, with the lightest projectile and a blistering muzzle velocity that gives it the best straight-on penetration and flattest trajectory of any M36 round. Like all APCR it sheds penetration rapidly at distance and performs poorly against angled armor because its slim core is prone to shattering or ricocheting. Best reserved for punching through the frontal plates of heavier opponents at moderate range where its kinetic advantage is decisive.",
+    "sources": [
+      {
+        "label": "M47 (War Thunder Wiki unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m47_patton_II",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "M36 (90 mm) Ammunition (War Thunder Wiki)",
+        "url": "https://old-wiki.warthunder.com/M36_(90_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m431-m36",
+    "name": "M431 shell (HEATFS)",
+    "type": "HEATFS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 320,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 320,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 320,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 320,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 320,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 320,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 1216,
+    "explosiveMassTntEqG": 712.64,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 0.1,
+    "fuseDelayM": 0.05,
+    "mechanics": "The M431 is a fin-stabilized high-explosive anti-tank shell whose shaped-charge jet defeats armor chemically, so its penetration is essentially constant at all ranges regardless of velocity. This makes it the round of choice against thick or sharply sloped plates and at long distance where kinetic shots have dropped off. Its sizable explosive charge also gives strong post-penetration effect, though the jet is narrow and can be disrupted by spaced or angled structures.",
+    "sources": [
+      {
+        "label": "M47 (War Thunder Wiki unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m47_patton_II",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "M36 (90 mm) Ammunition (War Thunder Wiki)",
+        "url": "https://old-wiki.warthunder.com/M36_(90_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m71a1-m36",
+    "name": "M71A1 shell (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 17,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 17,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 16,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 16,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 16,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 16,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 732,
+    "explosiveMassTntEqG": 1210,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 0.1,
+    "fuseDelayM": 0.2,
+    "mechanics": "The M71A1 is a high-explosive shell with a large bursting charge that detonates on contact, designed to attack soft and lightly armored targets through blast and fragmentation rather than penetration. Against open-topped vehicles, anti-aircraft mounts, and exposed crew it can be devastating, and a direct hit on thin plating can knock out a target outright. Its sensitive fuse and minimal armor penetration mean it is useless against any meaningfully armored frontal plate.",
+    "sources": [
+      {
+        "label": "M47 (War Thunder Wiki unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m47_patton_II",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "M36 (90 mm) Ammunition (War Thunder Wiki)",
+        "url": "https://old-wiki.warthunder.com/M36_(90_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m313-m36",
+    "name": "M313 shell (Smoke)",
+    "type": "other",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 5,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 5,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 821,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M313 is a base-ejection smoke shell that bursts on impact to deploy a smoke screen, used to block enemy lines of sight rather than to deal damage. The screen takes a few seconds to fully form and then lingers for around twenty seconds, covering an advance, a retreat, or a capture point. It has negligible armor penetration and no anti-armor role.",
+    "sources": [
+      {
+        "label": "M47 (War Thunder Wiki unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m47_patton_II",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "M36 (90 mm) Ammunition (War Thunder Wiki)",
+        "url": "https://old-wiki.warthunder.com/M36_(90_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m74b1-m6",
+    "name": "M74B1 (AP)",
+    "type": "AP",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 79,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 76,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 65,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 54,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 45,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 37,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": 0,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M74B1 is a solid armor-piercing shot with no explosive filler, so it relies entirely on the kinetic energy of the bolt plus any spalling it produces after penetration. With no bursting charge it does its damage only along the path it carves through the target, meaning precise aim at crew, the breech, or the engine is required for a fast kill. It is the cheapest and most readily available round for the M6, but its modest penetration falls off quickly past 500 m.",
+    "sources": [
+      {
+        "label": "M5A1 Stuart — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m5a1_stuart",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m51b1-m6",
+    "name": "M51B1 (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 87,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 84,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 73,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 60,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 50,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 41,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": 0,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M51B1 is the M6's best armor-piercing round, an armor-piercing capped ballistic-capped shot whose hardened cap improves bite against sloped and face-hardened plate while the ballistic cap reduces drag for slightly flatter trajectory. Like the M74B1 it carries no explosive filler, so post-penetration damage comes from the shot itself and the spall it generates, rewarding aim at crew compartments and key modules. Its higher penetration makes it the round of choice against better-protected light targets, though it still struggles against heavy armor and loses effectiveness at longer ranges.",
+    "sources": [
+      {
+        "label": "M5A1 Stuart — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m5a1_stuart",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m63-m6",
+    "name": "M63 (SAP)",
+    "type": "SAP",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 32,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 31,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 26,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 21,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 16,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 13,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M63 is a semi-armor-piercing high-explosive incendiary shell (in-game type SAPHEI, modeled here as the closest SAP category) that trades penetration for an explosive and incendiary filler. Its low penetration limits it to thin-skinned vehicles, open-top guns, and aircraft, where the bursting charge and incendiary effect can do far more damage than a solid shot. It is best reserved for soft targets rather than as a general anti-tank round, since it will not defeat the armor of most contemporaries.",
+    "sources": [
+      {
+        "label": "M5A1 Stuart — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m5a1_stuart",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m728-m68",
+    "name": "M728 (APDS)",
+    "type": "APDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 265,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 263,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 252,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 240,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 228,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 216,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M728 is a solid armour-piercing discarding sabot round that sheds its lightweight sabot at the muzzle, sending a dense sub-calibre slug downrange at very high velocity. It carries no explosive filler, so it relies on raw kinetic penetration and post-penetration spalling rather than an internal burst. Its flat trajectory makes range estimation forgiving, but its penetration tapers with distance and it can ricochet off steeply angled plate. It is the baseline kinetic option when the APFSDS round is not yet unlocked.",
+    "sources": [
+      {
+        "label": "M60A1 RISE (P) — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m60a1_rise_passive_era",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m735-m68",
+    "name": "M735 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 292,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 291,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 284,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 275,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 266,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 257,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M735 is a long-rod fin-stabilised armour-piercing dart that discards its sabot at the muzzle and flies on its own fins rather than spin. It is the strongest round on this gun, delivering the highest penetration with a very flat trajectory and excellent retention of energy over distance. With no filler it kills through the kinetic impact and the spall thrown off behind the plate, so it rewards aiming at crew, ammo, or modules. Its slender rod is fairly forgiving of armour angle and resists ricochet far better than the APDS round.",
+    "sources": [
+      {
+        "label": "M60A1 RISE (P) — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m60a1_rise_passive_era",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m456-m68",
+    "name": "M456 (HEATFS)",
+    "type": "HEATFS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 400,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M456 is a fin-stabilised shaped-charge round whose penetration comes from a focused jet of metal formed on impact, so its 400 mm of pen holds constant at any range. Because it ignores velocity falloff, it is the go-to round against heavily armoured targets at long distance, though its lower muzzle velocity and arcing trajectory demand more lead and range correction against movers. The shaped charge is defeated by spaced armour, tracks, or any standoff that lets the jet disperse before reaching the main plate. Post-penetration damage is concentrated along the jet's path rather than spread by spall.",
+    "sources": [
+      {
+        "label": "M60A1 RISE (P) — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m60a1_rise_passive_era",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m393a2-m68",
+    "name": "M393A2 (HESH)",
+    "type": "HESH",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 127,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 127,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 127,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 127,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 127,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 127,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M393A2 is a high-explosive squash head shell that flattens its plastic explosive against the armour before detonating, sending a shock wave through the plate that blows a scab of metal off the inside. Its rated penetration is constant with range and it largely ignores impact angle, but it is defeated outright by spaced armour, thin plate that the charge punches through without squashing, or modern composites. Against thin-skinned and lightly armoured vehicles it is devastating, scattering lethal spall through the crew compartment. Its slow, arcing flight makes it the least suited round for long-range moving targets.",
+    "sources": [
+      {
+        "label": "M60A1 RISE (P) — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m60a1_rise_passive_era",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m416-m68",
+    "name": "M416 (Smoke)",
+    "type": "other",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 3,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M416 is a base-ejecting smoke shell that deploys a screening cloud where it lands rather than dealing meaningful damage, with only token penetration. It is used to blind enemy gunners, cover an advance or retreat, or mask a flanking move across open ground. Fired in an arc, it should be placed short of or between you and the threat so the screen sits in the enemy's line of sight. It carries no anti-armour value beyond a chance blast against fully exposed crew.",
+    "sources": [
+      {
+        "label": "M60A1 RISE (P) — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m60a1_rise_passive_era",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
   }
 ];

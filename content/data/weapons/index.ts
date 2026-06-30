@@ -1093,21 +1093,16 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
+      "m60a3-tts",
+      "merkava-mk-1",
       "magach-3",
-      "tiran-4s",
-      "merkava-mk-1"
+      "tiran-4s"
     ],
-    "notes": "American-built license of the British L7 105 mm rifled gun, fitted to Israeli Magach and Tiran upgrades; fires APDS/APFSDS, HEAT-FS, HESH and smoke.",
+    "notes": "American licence-built version of the British L7 105 mm rifled gun; on the M60A3 TTS it is paired with a two-plane stabilizer, laser rangefinder and ballistic computer. Carries 63 rounds with 37 in first-order ready racks; reload 8.7 s stock to 6.7 s aced.",
     "sources": [
       {
-        "label": "Magach 3 | War Thunder Wiki",
-        "url": "https://wiki.warthunder.com/unit/il_magach_3_idf",
-        "tier": 1,
-        "retrievedAt": "2026-06-30"
-      },
-      {
-        "label": "Tiran 4S | War Thunder Wiki",
-        "url": "https://wiki.warthunder.com/unit/il_tiran_4_sh",
+        "label": "M60A3 TTS | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m60a3_tts",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
@@ -5235,6 +5230,136 @@ export const weapons: Weapon[] = [
     ],
     "unverified": [
       "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m61a1-20mm",
+    "name": "20 mm M61A1 cannon",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 4000,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "f-104c"
+    ],
+    "notes": "Six-barrel rotary (Gatling-type) cannon delivering an extremely high volume of 20 mm fire; the F-104C carries 725 rounds.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — F-104C",
+        "url": "https://wiki.warthunder.com/unit/f-104c",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m3-browning-12-7mm",
+    "name": "12.7 mm M3 Browning machine gun",
+    "type": "machine-gun",
+    "caliberMm": 12.7,
+    "fireRateRpm": 1200,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "f-84g-21-re"
+    ],
+    "notes": "Faster-firing aircraft variant of the M2 Browning; the F-84G mounts six guns with 1,800 rounds total.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — F-84G-21-RE",
+        "url": "https://wiki.warthunder.com/unit/f-84g",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m3-20mm-cannon",
+    "name": "20 mm M3 cannon",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 750,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "f2h-2-banshee"
+    ],
+    "notes": "American 20 mm cannon mounted as a four-gun nose battery on the F2H-2 with 600 rounds total (150 per gun).",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — F2H-2",
+        "url": "https://wiki.warthunder.com/unit/f2h-2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "40mm-m266-bofors-l70",
+    "name": "40 mm M266 automatic cannon",
+    "type": "autocannon",
+    "caliberMm": 40,
+    "fireRateRpm": 300,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m247-sergeant-york"
+    ],
+    "notes": "Bofors L/70-derived 40 mm autocannon mounted as a twin installation on the M247. Each gun fires at 300 shots/min for roughly 600 rounds/min combined; total 500 rounds in 125-round belts. Belts include SAPHEI, HEF-I and proximity-fused HE-VT (M822). Reload 6.5 s stock to 5 s aced.",
+    "sources": [
+      {
+        "label": "M247 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m247",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m242-bushmaster-25mm",
+    "name": "25 mm M242 Bushmaster cannon",
+    "type": "autocannon",
+    "caliberMm": 25,
+    "fireRateRpm": 201,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m3-bradley"
+    ],
+    "notes": "Single-barrel chain-driven autocannon on the M3 Bradley with a two-plane stabilizer. Holds 1,500 rounds in 300-round belts; reload 0.3 s stock to 0.2 s aced. Belts include the default APDS/HEI-T mix plus the M791 (APDS-heavy) and M792 (HEI-T-heavy) options, all topping out around 81 mm of penetration.",
+    "sources": [
+      {
+        "label": "M3 Bradley | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m3_bradley",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
