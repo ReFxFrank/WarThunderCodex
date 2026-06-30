@@ -1,0 +1,295 @@
+@import "tailwindcss";
+
+/* =========================================================================
+   War Thunder Codex — design tokens
+   Concept: a backlit instrument panel meets a classified field manual.
+   Gunmetal glass, gauge readouts, tracer-amber signal, phosphor-green status.
+   Keep the boldness in the instrument cluster; everything else stays quiet.
+   ========================================================================= */
+
+:root {
+  /* Surfaces */
+  --bg: #0b0e11;            /* deep gunmetal near-black */
+  --bg-raised: #0e1318;     /* raised panels */
+  --bg-sunken: #080a0d;     /* recessed wells */
+
+  /* Glass */
+  --glass: rgba(20, 28, 34, 0.55);
+  --glass-strong: rgba(22, 31, 38, 0.78);
+  --hairline: rgba(125, 145, 155, 0.16);
+  --hairline-strong: rgba(125, 145, 155, 0.28);
+
+  /* Signal colors */
+  --accent: #f5a524;        /* tracer amber / brass — the energy of the site */
+  --accent-dim: #b9791a;
+  --ok: #5bd6a0;            /* phosphor green — active / online / positive */
+  --alert: #ff5c5c;         /* warning red — high-BR, lethal, danger */
+  --caution: #ffd24a;       /* caution yellow */
+
+  /* Text */
+  --text: #ecece6;          /* warm off-white */
+  --muted: #98a0a6;
+  --faint: #5d666d;         /* unverified / disabled */
+
+  /* Glow */
+  --glow-accent: 0 0 0.5rem rgba(245, 165, 36, 0.35);
+  --glow-ok: 0 0 0.5rem rgba(91, 214, 160, 0.3);
+
+  /* Nation accent edges (subtle — chips and card edges only) */
+  --nation-usa: #3d6fd6;        /* cobalt */
+  --nation-germany: #9aa3ad;    /* iron-grey */
+  --nation-ussr: #d63b33;       /* soviet red */
+  --nation-britain: #2a4d7a;    /* navy */
+  --nation-japan: #d7282f;      /* crimson */
+  --nation-china: #e0b43c;      /* red-gold */
+  --nation-italy: #3fa86a;      /* green */
+  --nation-france: #2b6fc4;     /* blue */
+  --nation-sweden: #4a8fd0;     /* blue-gold */
+  --nation-israel: #4a86c5;     /* blue */
+}
+
+/* Map tokens into Tailwind's theme so utilities like bg-base / text-accent work. */
+@theme inline {
+  --color-base: var(--bg);
+  --color-raised: var(--bg-raised);
+  --color-sunken: var(--bg-sunken);
+  --color-accent: var(--accent);
+  --color-accent-dim: var(--accent-dim);
+  --color-ok: var(--ok);
+  --color-alert: var(--alert);
+  --color-caution: var(--caution);
+  --color-ink: var(--text);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-hairline: var(--hairline);
+
+  --font-display: var(--font-display), "Saira Condensed", system-ui, sans-serif;
+  --font-sans: var(--font-body), "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: var(--font-mono-data), "JetBrains Mono", ui-monospace, monospace;
+
+  --radius-panel: 0.75rem;
+}
+
+/* ---------------------------------------------------------------- base ---- */
+* {
+  border-color: var(--hairline);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  /* Layered atmosphere: a soft top glow + the gunmetal base. */
+  background-image:
+    radial-gradient(120% 80% at 50% -10%, rgba(245, 165, 36, 0.06), transparent 60%),
+    radial-gradient(100% 60% at 50% 110%, rgba(43, 111, 196, 0.05), transparent 60%);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Tabular, monospace figures everywhere we show numbers. */
+.font-data {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+}
+
+/* ---------------------------------------------------------- components ---- */
+
+/* Glass card: translucent slate over blur, hairline border, faint inner glow. */
+.glass {
+  background-color: var(--glass);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-panel);
+  -webkit-backdrop-filter: blur(12px) saturate(120%);
+  backdrop-filter: blur(12px) saturate(120%);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.04),
+    inset 0 0 24px 0 rgba(0, 0, 0, 0.25),
+    0 8px 24px -12px rgba(0, 0, 0, 0.6);
+}
+
+.glass-strong {
+  background-color: var(--glass-strong);
+}
+
+/* Hairline divider that reads like an etched panel seam. */
+.seam {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--hairline-strong) 12%,
+    var(--hairline-strong) 88%,
+    transparent
+  );
+}
+
+/* Reticle-grid overlay, confined to hero regions. */
+.reticle-grid {
+  background-image:
+    linear-gradient(var(--hairline) 1px, transparent 1px),
+    linear-gradient(90deg, var(--hairline) 1px, transparent 1px);
+  background-size: 32px 32px;
+  -webkit-mask-image: radial-gradient(70% 70% at 50% 40%, #000 30%, transparent 75%);
+  mask-image: radial-gradient(70% 70% at 50% 40%, #000 30%, transparent 75%);
+}
+
+/* Small caps label, the voice of the field manual. */
+.label-tag {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Card hover lift + accent edge glow. */
+.lift {
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+.lift:hover {
+  transform: translateY(-2px);
+  border-color: var(--hairline-strong);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.05),
+    0 12px 28px -14px rgba(0, 0, 0, 0.7),
+    0 0 0 1px rgba(245, 165, 36, 0.12);
+}
+
+/* ---------------------------------------------------------- atmosphere ---- */
+
+/* Film grain + vignette overlay, applied via the <Atmosphere /> component. */
+.atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+}
+.atmosphere::before {
+  /* vignette */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(120% 100% at 50% 50%, transparent 55%, rgba(0, 0, 0, 0.55));
+}
+.atmosphere::after {
+  /* film grain */
+  content: "";
+  position: absolute;
+  inset: -50%;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ----------------------------------------------------------- motion ------- */
+
+/* "Power-on" sweep that settles the instrument cluster on load. */
+@keyframes power-on {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+    filter: brightness(0.6);
+  }
+  60% {
+    filter: brightness(1.15);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: brightness(1);
+  }
+}
+
+@keyframes sweep {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(220%);
+  }
+}
+
+.power-on {
+  animation: power-on 700ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+/* A scan-line that sweeps across hero panels once on load. */
+.scan::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(245, 165, 36, 0.12),
+    transparent
+  );
+  transform: translateX(-120%);
+  animation: sweep 1100ms ease-out 120ms 1 both;
+  pointer-events: none;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+.pulse-dot {
+  animation: pulse-dot 2.2s ease-in-out infinite;
+}
+
+/* Respect reduced-motion fully: no sweep, no power-on, no pulse. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .power-on,
+  .scan::after,
+  .pulse-dot,
+  .lift {
+    animation: none !important;
+    transition: none !important;
+  }
+  .lift:hover {
+    transform: none;
+  }
+}
+
+/* --------------------------------------------------------- a11y / focus --- */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: rgba(245, 165, 36, 0.28);
+  color: var(--text);
+}
+
+/* Thin instrument-style scrollbar. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--hairline-strong) transparent;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--hairline-strong);
+  border-radius: 6px;
+}
