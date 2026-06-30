@@ -1,7 +1,8 @@
 import type { Vehicle } from "@/lib/schema";
 
-// Seeded vehicle records — generated from the Phase 3 research/verify workflow.
+// Seeded vehicle records — generated from the research/verify workflow.
 // Every numeric stat is sourced; unverifiable fields are null and listed in unverified[].
+// media[] holds license-verified real-world photos (PD/CC) with credit.
 export const vehicles: Vehicle[] = [
   {
     "id": "t-34-85-1944",
@@ -15176,7 +15177,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat the M46 as a flanking and second-line medium rather than a brawler, since its armour will not bounce much at this rating. Use its improved speed to reach side angles, then rely on the 90 mm gun's penetration to knock out enemies before they can return accurate fire. Avoid prolonged duels against heavier or better-protected opponents and keep moving between shots.",
     "history": "After the M26 Pershing proved underpowered in service, the US Army rebuilt the design around a new engine and transmission and the improved M3A1 cannon, redesignating it the M46 Patton in 1949. It became one of the first standardized post-war American mediums and saw combat in the Korean War. The lineage it began led directly to the later M47 and M48 Patton series.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/m46-patton.jpg",
+        "alt": "A US Marine Corps M46 Patton just landed from a Landing Ship Utility to support Marine infantry in Korea, 8 July 1952, in a three-quarter view showing the real-world vehicle, not the in-game model.",
+        "credit": "TSGT. Amerine, U.S. Marine Corps (DoD media repository, VIRIN HM-SN-98-06888) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "M46 | War Thunder Wiki",
@@ -15262,7 +15270,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the M47 as a mobile medium that picks favourable angles rather than trading shots head-on. Its turret is its best feature, so hull-down positions exploit the better-shaped mantlet while hiding the weak hull. Capitalize on the quick traverse and strong gun to win short-range scrambles, but disengage from heavies you cannot reliably penetrate.",
     "history": "The M47 was a stopgap design rushed into production in the early 1950s, mating an improved turret to a hull derived from the M46. It served widely with the US Army and was exported in large numbers to NATO and allied nations, becoming one of the most numerous Western tanks of the period. It was soon supplanted in US service by the more thoroughly modern M48 Patton.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/m47-patton-ii.jpg",
+        "alt": "Profile (side) view of a real M47 Patton tank on static display in Barstow, California, showing the actual vehicle, not the in-game model.",
+        "credit": "Epolk (Wikimedia Commons) · CC BY-SA 3.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "M47 | War Thunder Wiki",
@@ -15348,7 +15363,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "The M60A1 RISE (P) excels in defensive, hull-down positions where its strong turret and ERA can shrug off hits while the M68 gun and M735 dart punch through almost anything it faces. Avoid open dashes, since its weak mobility leaves it exposed; instead pre-position on good sightlines and let opponents come to you. Manage the poor reverse carefully by choosing fallback routes before committing to a peek.",
     "history": "The M60A1 RISE program upgraded existing M60A1 tanks in the 1970s with improved engines, fire-control electronics, and passive night vision, hence the Passive designation. Late in their careers many received bolt-on explosive reactive armour to counter the spread of shaped-charge weapons. These updates kept the M60 family relevant until the M1 Abrams fully replaced it in US service.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/m60a1-rise-p.jpg",
+        "alt": "An M60A1 RISE (Passive) running in the arena at TankFest, The Tank Museum, Bovington, UK, a three-quarter view of the genuine RISE-variant vehicle, not the in-game model.",
+        "credit": "Alan Wilson · CC BY-SA 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "M60A1 RISE (P) | War Thunder Wiki",
@@ -15435,7 +15457,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play it as a long-range ambusher, parking in cover or bushes well behind the front line where its gun can punish targets before they close. Avoid exposing the open crew compartment to aircraft, artillery, or high-explosive splash. Reposition after a kill rather than trading shots at close range, where its lack of armour is fatal.",
     "history": "The Marder III Ausf. H mounted the captured-chassis-friendly 7.5 cm PaK 40 on the Czech-built Panzer 38(t) hull to give German forces a mobile counter to increasingly well-armoured Allied tanks. Roughly 450 of the Ausf. H variant were converted and built from 1942 to 1945. It served on every front as a stopgap that delivered heavy anti-tank firepower from a cheap, expendable platform.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/marder-iii-h.jpg",
+        "alt": "A wartime Bundesarchiv photograph of a Marder III Ausf. H (Sd.Kfz. 138) tank destroyer in Russia, 21 June 1943, during Operation Citadel, shown in side view of the real vehicle, not the in-game model.",
+        "credit": "Bundesarchiv, Bild 101I-022-2949-28 / photographer unknown · CC BY-SA 3.0 Germany · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Marder III H | War Thunder Wiki",
@@ -15519,7 +15548,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat the Nashorn as a dedicated long-range sniper that picks off enemies from concealed rear positions. Use the strong gun to land first-shot kills, then relocate before return fire arrives. Keep flanks covered by teammates, because anything that reaches your side or rear will defeat the crew with ease.",
     "history": "The Nashorn (Rhinoceros) was a German heavy panzerjager that mated the powerful 8.8 cm PaK 43/1 to the Geschutzwagen III/IV chassis. The same 88 mm gun family later armed the King Tiger. Fielded from 1943, it served as a long-range tank hunter whose firepower far outstripped its fragile, lightly armoured carriage.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/nashorn.jpg",
+        "alt": "The surviving Nashorn (Sd.Kfz. 164) tank destroyer on display at the Kubinka Tank Museum, photographed from ground level, showing the real-world vehicle, not the in-game model.",
+        "credit": "Галин Владимир Петрович (Vladimir Petrovich Galin) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Nashorn | War Thunder Wiki",
@@ -15689,7 +15725,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the small hull and good depression to peek over ridgelines and pick off exposed crews and modules. Stay on the flanks rather than the front line, since a single solid hit can knock you out. Aim carefully at weak points, because the 37 mm rewards precise shots over volume of fire.",
     "history": "The Type 95 Ha-Go was designed in the mid-1930s to keep pace with motorised infantry that the slower Type 89 I-Go could not match. Light and inexpensive, it became Japan's most numerous tank of the Second World War and served across the Pacific and Asian theatres. Its thin armour and small gun left it badly outclassed once it met Allied armour later in the war.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/type-95-ha-go.jpg",
+        "alt": "A preserved Type 95 Ha-Go light tank on static display in front of the Surasakmontree Army Camp in Lampang, Thailand, in side view of the real surviving vehicle, not the in-game model.",
+        "credit": "Z3144228 (Wikimedia Commons) · CC BY-SA 3.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — Ha-Go (unit)",
@@ -15774,7 +15817,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight at medium range where the 47 mm can punch through enemy armour and the APHE filler can wreck the crew inside. Lean on the strong gun depression to fight hull-down on rises. Avoid prolonged close brawls, as the slow turret and thin armour put you at a disadvantage.",
     "history": "After the 1939 defeat at Khalkhin Gol exposed the weakness of the Chi-Ha's low-velocity 57 mm gun, Japan fitted the faster Type 1 47 mm cannon into a redesigned Shinhoto turret. The resulting Chi-Ha Kai performed well in early Pacific battles such as Malaya and Corregidor against lightly armoured opponents. By the mid-war period its inter-war design left it outmatched by newer tanks like the M4 Sherman.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/type-97-chi-ha-kai.jpg",
+        "alt": "A Type 97 ShinHōtō Chi-Ha (Chi-Ha Kai) medium tank with the 47 mm Type 1 gun, recovered from Shumshu Island and displayed at Victory Park on Poklonnaya Hill, Moscow, in a front-to-side view of the real vehicle, not the in-game model.",
+        "credit": "Alan Wilson · CC BY-SA 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — Chi-Ha Kai (unit)",
@@ -15859,7 +15909,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Exploit the high road speed to reach flanking positions and side-shoot enemies before they can react. Fire and relocate constantly, since standing still invites return fire that will easily penetrate. Treat it as a glass cannon: the 105 mm kills almost anything, but a single hit can end you.",
     "history": "The Type 16 Maneuver Combat Vehicle was developed by Japan in the 2010s as a wheeled, air-deployable fire-support platform for the Ground Self-Defense Force. It mounts a domestically produced 105 mm rifled gun and emphasises strategic mobility over heavy protection. It entered service in 2016 and represents one of the most modern vehicles in Japan's ground tree.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/type-16-mcv.jpg",
+        "alt": "A JGSDF Type 16 maneuver combat vehicle (serial 26-7844) seen from the left front at Camp Itami on 8 October 2017, showing the real-world vehicle, not the in-game model.",
+        "credit": "Hunini (Wikimedia Commons) · CC BY-SA 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — Type 16 (unit)",
@@ -15944,7 +16001,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight from second-line positions and let teammates spot for you, using the HEAT round to punch through frontal armour the moment a target shows its side or stops. Keep the hull angled toward the most likely threat and avoid open ground, since a single penetration usually ends the vehicle. Reposition often, as the fixed gun and slow speed make it helpless if flanked.",
     "history": "The Semovente da 75/18 emerged in 1941 when Italy mounted the 75 mm Obice da 75/18 mountain howitzer on the chassis of the M13/40 and M14/41 medium tanks to create a cheap assault gun. It proved one of the more effective Italian armoured vehicles of the war, serving in North Africa, Sicily, and on the Eastern Front. After Italy's surrender many were taken over by German forces, who continued to operate them.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/semovente-75-18-m41.jpg",
+        "alt": "A surviving Semovente da 75/18 (M40 or M41) self-propelled gun on display at the Musee des Blindes in Saumur, France, the closest preserved real variant and not the in-game model.",
+        "credit": "Fat yankey (Igor Kurtulov) · CC BY-SA 2.5 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki - 75/18 M41",
@@ -16112,7 +16176,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the Centauro's road speed to seize map control and reach unguarded flanks, then strike with the powerful 105 mm gun before falling back. Its stabiliser lets it fire accurately while repositioning, but the paper-thin armour means any return fire is lethal. Avoid open brawls and treat every engagement as a hit-and-run.",
     "history": "The B1 Centauro entered service with the Italian Army in the early 1990s as a wheeled tank destroyer intended for rapid deployment and reconnaissance roles. Its 8x8 configuration gives it road speeds far beyond tracked tanks while carrying a full-power 105 mm gun. The type has seen extensive use in Italian peacekeeping and overseas operations and has been exported to several countries.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/centauro-i-105.jpg",
+        "alt": "A real early-model B1 Centauro 105 mm wheeled tank destroyer in side profile at Fort Lewis, Washington, 2001, not the in-game model.",
+        "credit": "U.S. Army, Scene Camera Operator Elaine L. Walton (CIV) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki - Centauro I 105",
@@ -16196,7 +16267,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fly the Yak-9U as an energy fighter, using its climb to sit above the fight and dive on targets that have bled their speed. Make short, deliberate bursts because the limited ammunition does not allow spray-and-pray gunnery. If a turn fight is unavoidable the airframe can hold its own, but disengaging with a zoom climb is almost always the safer play.",
     "history": "The Yak-9U appeared in late 1944 as Yakovlev pushed the lightweight Yak-9 design toward higher performance with the new Klimov VK-107A (M-107A) engine. The variant became one of the best Soviet piston fighters of the war, prized by pilots for its speed and handling once early engine-reliability problems were addressed. It served into the post-war years and was exported and license-influenced across the Eastern bloc.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/yak-9u.jpg",
+        "alt": "A preserved Yakovlev Yak-9U fighter on static display at the Museum of Flight in Seattle, not the in-game model.",
+        "credit": "Frank Kovalchek (Anchorage, Alaska) · CC BY 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — Yak-9U",
@@ -16262,7 +16340,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the La-9's speed and firepower for boom-and-zoom passes, since a single well-aimed burst from the four cannons can shred most targets. Keep the fight low where the engine breathes best and avoid prolonged climbs against jets. Conserve ammunition with disciplined trigger control because the pool empties quickly under continuous fire.",
     "history": "The La-9 entered service in 1946 as Lavochkin replaced the wooden construction of the La-7 with an all-metal airframe and a uniform battery of NS-23 cannons. It became a mainstay Soviet piston fighter of the early Cold War and was widely exported, including to China and North Korea. The design was further developed into the longer-ranged La-11 escort fighter.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/la-9.jpg",
+        "alt": "An airworthy Lavochkin La-9 fighter photographed at the Warbirds Over Wanaka airshow in New Zealand, not the in-game model.",
+        "credit": "Mpj17 (English Wikipedia) · CC BY 2.5 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — La-9",
@@ -16324,7 +16409,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Climb steadily to a comfortable bombing altitude and use the generous bomb load against bases or ground columns. Keep teammates or the map edge to your rear so the turret gunners can punish pursuing fighters. The forward cannons make the Tu-2S surprisingly dangerous on a strafing pass, but never linger low among enemy fighters where its size becomes a liability.",
     "history": "The Tu-2 was Andrei Tupolev's twin-engine frontline bomber that reached the front in numbers from 1944 after a protracted development. The Tu-2S production standard, powered by ASh-82FN radial engines, was fast and well armed for its class and saw extensive service in the final year of the war. It remained in Soviet and allied service into the post-war period and influenced several later Tupolev designs.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/tu-2s.jpg",
+        "alt": "A preserved Tupolev Tu-2 bomber on display at the Polish Aviation Museum, not the in-game model.",
+        "credit": "San Diego Air & Space Museum Archives (SDASM) · Public Domain (No known copyright restrictions) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — Tu-2S",
@@ -16397,7 +16489,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fly the Tempest as a high-energy interceptor: climb out to the side of the fight, then convert altitude into speed and slash through enemy formations. Keep your speed above 500 km/h so the controls stay responsive and never commit to a flat turn against dedicated dogfighters. Use the four Hispanos in short, decisive bursts on the merge and extend away to rebuild energy before re-engaging.",
     "history": "The Tempest evolved from the Hawker Typhoon, receiving a thinner laminar-flow wing and a lengthened fuselage that cured the Typhoon's high-altitude shortcomings. Entering RAF service in 1944, it became one of the fastest piston fighters of the war and was famously effective at intercepting V-1 flying bombs. It also performed ground-attack and bomber-escort duties over north-west Europe in the closing months of the conflict.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/tempest-mk-v.jpg",
+        "alt": "A real Hawker Tempest Mk V (Series II, serial NV696) in flight on a test from the Hawker factory at Langley in November 1944, not the in-game model.",
+        "credit": "Royal Air Force (UK Government) · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Tempest Mk V | War Thunder Wiki",
@@ -16466,7 +16565,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the Mosquito as a gun-armed strike aircraft and bomber-hunter: build speed in a shallow dive, line up a target, and deliver one crushing pass with the combined cannon and machine gun battery. Avoid prolonged turn fights and instead extend, reposition, and attack from advantageous angles. When equipped for ground strikes, drop ordnance early and keep your speed up so you can defend yourself with the formidable forward armament.",
     "history": "The de Havilland Mosquito was conceived as an unarmed wooden bomber fast enough to outrun interceptors, but its versatility led to many variants. The FB Mk VI fighter-bomber added a heavy cannon-and-machine-gun nose plus underwing ordnance, serving in intruder, anti-shipping, and precision-strike roles. Its plywood-balsa construction kept it light and fast while easing wartime production demands on strategic materials.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/mosquito-fb-mk-vi.jpg",
+        "alt": "The restored airworthy de Havilland Mosquito FB.26/FB Mk VI KA114, the closest flying real variant, not the in-game model.",
+        "credit": "Walter Civitico (wallycacsabre) · CC BY 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Mosquito FB Mk VI | War Thunder Wiki",
@@ -16539,7 +16645,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Lean on the Meteor's surprising agility: it can bait faster jets into turn fights they cannot win while keeping its speed reasonable. Avoid drawn-out drag races against more powerful jets and instead use shallow energy tactics, forcing opponents to overshoot. Place the four nose cannons on target in concentrated bursts, as their combined punch downs most contemporaries in a single pass.",
     "history": "The Gloster Meteor was the only Allied jet to enter combat during World War II, first intercepting V-1 flying bombs over southern England in 1944. The F Mk 3 introduced more powerful Rolls-Royce Derwent I engines and a sliding bubble canopy, entering RAF service in December 1944. It went on to form the backbone of postwar RAF fighter strength before swept-wing designs superseded it.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/meteor-f-mk-3.jpg",
+        "alt": "A real white-painted Gloster Meteor F Mk III (EE239, No. 616 Squadron RAF) being pushed to dispersal at Melsbroek, Belgium in 1945, not the in-game model.",
+        "credit": "Royal Air Force official photographer (F/O Saidman), IWM CL 2934 · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Meteor F Mk 3 | War Thunder Wiki",
