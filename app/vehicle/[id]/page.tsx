@@ -245,6 +245,12 @@ function renderStatTables(vehicle: ReturnType<typeof getVehicle> & {}) {
           <StatRow label="Ceiling" value={f.ceilingM} unit="m" />
           <StatRow label="Engines" value={f.engineCount} />
         </StatTable>
+        {vehicle.protection && (vehicle.protection.steelMm || vehicle.protection.glassMm) ? (
+          <StatTable title="Protection">
+            <StatRow label="Steel plate" value={vehicle.protection.steelMm ?? null} unit="mm" />
+            <StatRow label="Bulletproof glass" value={vehicle.protection.glassMm ?? null} unit="mm" />
+          </StatTable>
+        ) : null}
       </>
     );
   }

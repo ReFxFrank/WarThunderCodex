@@ -102,6 +102,16 @@ export const aviationVehicleSchema = z.object({
     .object({ radar: z.string().optional(), irst: z.boolean().optional(), rwr: z.boolean().optional() })
     .optional(),
   countermeasures: z.string().optional(),
+  // Aircraft don't have a tank-style armour map, but most carry localised
+  // protection: pilot/engine steel plate and bulletproof glass (mm). Optional so
+  // existing records remain valid; filled as each airframe is sourced.
+  protection: z
+    .object({
+      steelMm: z.string().nullable().optional(),
+      glassMm: z.string().nullable().optional(),
+      notes: z.string().optional(),
+    })
+    .optional(),
 });
 
 export const groundVehicleSchema = z.object({

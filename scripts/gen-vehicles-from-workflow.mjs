@@ -75,6 +75,9 @@ function toVehicle(entry) {
         ceilingM: a.ceilingM ?? null, engineCount: a.engineCount ?? null,
       },
       armament: { fixed: a.fixedArmament ?? [], suspended: a.suspended && a.suspended.length ? a.suspended : undefined },
+      protection: a.protectionSteelMm != null || a.protectionGlassMm != null || a.protectionNotes
+        ? { steelMm: a.protectionSteelMm ?? null, glassMm: a.protectionGlassMm ?? null, notes: a.protectionNotes || undefined }
+        : undefined,
     });
   }
   // naval

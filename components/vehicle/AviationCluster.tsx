@@ -33,6 +33,20 @@ export function AviationCluster({
           <Readout label="Ceiling" value={f.ceilingM} unit="m" />
         </div>
         <div className="seam my-3" />
+        <div className="label-tag mb-1.5">Protection</div>
+        {vehicle.protection && (vehicle.protection.steelMm || vehicle.protection.glassMm || vehicle.protection.notes) ? (
+          <div className="mb-3 grid grid-cols-2 gap-2">
+            <Readout label="Steel plate" value={vehicle.protection.steelMm ?? null} unit="mm" />
+            <Readout label="Bulletproof glass" value={vehicle.protection.glassMm ?? null} unit="mm" />
+            {vehicle.protection.notes && <p className="col-span-2 text-xs text-muted">{vehicle.protection.notes}</p>}
+          </div>
+        ) : (
+          <p className="mb-3 text-xs text-faint">
+            Pilot/engine steel plate &amp; bulletproof glass — being sourced (aircraft carry localised protection, not a
+            full armour map).
+          </p>
+        )}
+
         <div className="label-tag mb-1.5">Fixed armament</div>
         {armament.length > 0 ? (
           <ul className="space-y-1 text-sm">
