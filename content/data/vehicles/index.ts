@@ -1,8 +1,7 @@
 import type { Vehicle } from "@/lib/schema";
 
-// Seeded vehicle records — generated from the research/verify workflow.
+// Seeded vehicle records — generated from the Phase 3 research/verify workflow.
 // Every numeric stat is sourced; unverifiable fields are null and listed in unverified[].
-// media[] holds license-verified real-world photos (PD/CC) with credit.
 export const vehicles: Vehicle[] = [
   {
     "id": "t-34-85-1944",
@@ -1299,5 +1298,655 @@ export const vehicles: Vehicle[] = [
         "Up to 6 x M8 rockets"
       ]
     }
+  },
+  {
+    "id": "is-2",
+    "name": "IS-2",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Heavy tank",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6.3,
+      "realistic": 6.3,
+      "simulator": 6.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The IS-2 is a Soviet rank IV heavy tank built around the enormous 122 mm D-25T gun. A single hit from its high-explosive-filled APHE shell can wreck almost any opponent it meets, but the trade-off is a punishingly slow reload and a magazine of just 28 separated-charge rounds. Frontally the cast turret and sloped glacis shrug off many shots, making the IS-2 a brawler that rewards patience and good first-shot discipline over rate of fire.",
+    "prosCons": {
+      "pros": [
+        "122 mm gun delivers devastating one-shot potential against nearly any target",
+        "Well-sloped turret and front hull armour bounce a lot of incoming fire",
+        "Strong overpressure and post-penetration effect from the large APHE filler"
+      ],
+      "cons": [
+        "Very long reload leaves you exposed between shots",
+        "Small ammunition load of 28 rounds demands shot economy",
+        "Limited gun depression restricts use of hull-down and uneven terrain"
+      ]
+    },
+    "playstyle": "Fight on your own terms: pick angles where you can land the first shot, then back off into cover during the long reload. Use the thick frontal armour to bully opponents at medium range, but avoid open brawls against faster-firing tanks that can chip you down between your shots. Manage your limited ammunition carefully and prioritise high-value targets.",
+    "history": "The IS-2 succeeded the IS-1 in 1943 as the Soviet Union's answer to heavily armoured German tanks. Mounting the 122 mm D-25T derived from a field gun, it could defeat Tiger and Panther armour at combat ranges and doubled as a breakthrough vehicle, smashing fortifications ahead of advancing infantry. It became one of the most recognisable heavy tanks of the late war on the Eastern Front.",
+    "media": [],
+    "sources": [
+      {
+        "label": "IS-2 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_is_2_1943",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "enginePowerHp",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 46,
+      "powerToWeight": 11.31,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "d-25t-122mm",
+      "reloadBaseSec": 27.1,
+      "reloadAcedSec": 20.8,
+      "vertGuidanceDeg": [
+        -3,
+        20
+      ],
+      "turretTraverseDegSec": 9.8,
+      "ammoCapacity": 28,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "120",
+        "side": "90",
+        "rear": "60"
+      },
+      "turretMm": {
+        "front": "100",
+        "side": "100",
+        "rear": "100"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m26-pershing",
+    "name": "M26 Pershing",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Heavy tank",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6.7,
+      "realistic": 6.7,
+      "simulator": 6.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M26 Pershing is the United States' first heavy tank in the tech tree, pairing a quick-firing 90 mm M3 cannon with a well-balanced cast hull and turret. Where the IS-2 trades everything for one big punch, the Pershing leans on a fast reload, excellent gun handling, and a generous 70-round magazine to win extended trades. Its armour is good for its weight but not impenetrable, so positioning still matters.",
+    "prosCons": {
+      "pros": [
+        "90 mm M3 reloads quickly and handles smoothly with strong depression",
+        "Generous 70-round ammunition stowage supports sustained engagements",
+        "Sloped cast frontal armour is effective for a vehicle of its weight"
+      ],
+      "cons": [
+        "Penetration is only average for its battle rating",
+        "Side and rear armour is thin and easily defeated",
+        "Mobility is unremarkable, so repositioning is slow"
+      ]
+    },
+    "playstyle": "Play the Pershing as a flexible mid-line fighter. Use the strong gun depression to fight hull-down over ridges, exploit the fast reload to win one-on-one duels, and angle the hull to make the most of your frontal protection. Avoid getting flanked, since your sides give up easy penetrations, and rely on accurate, repeated fire rather than a single decisive shot.",
+    "history": "Developed late in the Second World War, the M26 Pershing reached Europe in early 1945 in limited numbers, too late to change the war's outcome but proving capable against German armour. Reclassified after the war as a medium tank, it went on to serve in the Korean War before being phased out, bridging the gap between wartime US designs and the Patton series that followed.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M26 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m26_pershing",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 41.6,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "m3-90mm",
+      "reloadBaseSec": 9.7,
+      "reloadAcedSec": 7.5,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 70,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "101",
+        "side": "76",
+        "rear": "51"
+      },
+      "turretMm": {
+        "front": "101",
+        "side": "76",
+        "rear": "76"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "jagdpanther",
+    "name": "Jagdpanther",
+    "nation": "germany",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6.3,
+      "realistic": 6.3,
+      "simulator": 6.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Jagdpanther mounts the formidable 8.8 cm Pak 43 in a low, well-sloped casemate on the proven Panther chassis. It combines a hard-hitting, flat-shooting gun with respectable mobility and a sloped frontal plate that can deflect rounds at range. As a casemate tank destroyer it has no rotating turret, so the whole hull must be turned to aim — making it deadly from prepared positions but vulnerable when caught out of place.",
+    "prosCons": {
+      "pros": [
+        "8.8 cm Pak 43 has excellent penetration and a very flat trajectory",
+        "Sloped frontal casemate armour can bounce shots at distance",
+        "Good mobility for a tank destroyer thanks to the Panther chassis"
+      ],
+      "cons": [
+        "No turret — must traverse the entire hull to track targets",
+        "Thin side and rear armour offers little protection from flanks",
+        "Long, tall casemate is easy to spot once it fires"
+      ]
+    },
+    "playstyle": "Fight at long range from hull-down or concealed positions where the strong frontal armour and powerful gun are decisive. Pre-aim toward likely enemy approaches so you do not need to swing the hull under fire, relocate after firing to avoid being flanked, and never expose your vulnerable sides. Patience and sightlines win games in the Jagdpanther.",
+    "history": "Introduced in 1944, the Jagdpanther married the Panther's hull and running gear to the powerful 8.8 cm Pak 43 anti-tank gun, producing one of the most capable tank destroyers of the war. Only a few hundred were built before Germany's collapse, but the type earned a fearsome reputation for being able to knock out Allied armour well before its targets could reply.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Jagdpanther G1 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/germ_panzerjager_panther",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 46,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "pak43-88mm",
+      "reloadBaseSec": 9.7,
+      "reloadAcedSec": 7.5,
+      "vertGuidanceDeg": [
+        -8,
+        14
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 49,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "80",
+        "side": "40",
+        "rear": "40"
+      },
+      "turretMm": {
+        "front": "80",
+        "side": "50",
+        "rear": "40"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "churchill-vii",
+    "name": "Churchill Mk VII",
+    "nation": "britain",
+    "class": "ground",
+    "subclass": "Heavy tank",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4.7,
+      "realistic": 4.7,
+      "simulator": 4.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Churchill Mk VII is a slow, immensely well-protected British infantry tank built around survivability rather than punch. Its thick, well-shaped frontal plate shrugs off most rounds it meets at its battle rating, but the short 75 mm OQF gun trades penetration for a fast reload, making the tank a patient brawler that wins by absorbing fire and grinding down opponents up close.",
+    "prosCons": {
+      "pros": [
+        "Very thick, well-distributed frontal armour for its rank",
+        "Five crew members spread damage and reduce one-shot risk",
+        "Fast gun reload lets it trade shots favourably at close range",
+        "Long, stable hull is steady when firing on the move"
+      ],
+      "cons": [
+        "Low top speed and sluggish acceleration make repositioning slow",
+        "75 mm gun has weak penetration and low muzzle velocity",
+        "Large, tall profile is easy to spot and flank",
+        "Struggles against angled or heavily armoured frontal opponents"
+      ]
+    },
+    "playstyle": "Play it as a mobile pillbox. Push slowly into contested ground, angle the hull slightly to make the already strong armour even harder to defeat, and use the quick reload to win short-range exchanges. Avoid open sniping duels where the weak penetration and low shell velocity let you down; instead force enemies into close fights where your armour and rate of fire dominate. Lean on the large crew to keep fighting after taking hits.",
+    "history": "The Churchill grew out of a 1939 British requirement for an infantry tank able to cross broken ground and survive enemy anti-tank fire, with speed treated as secondary. Named in 1940 for morale during the dark days of the Battle of Britain, it first saw heavy combat at Dieppe in 1942 before maturing through successive marks. The Mk VII (A22F) was a major redesign with markedly thicker, better-shaped frontal armour and the 75 mm gun, and it served extensively from the Normandy landings through the end of the war in north-west Europe and Italy, prized as a dependable infantry-support tank.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Churchill VII | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_a_22f_mk_7_churchill_1944",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "The Churchill: The Iron Prime Minister | War Thunder Wiki (history)",
+        "url": "https://wiki.warthunder.com/3468-the-churchill-the-iron-prime-minister",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "enginePowerHp",
+      "weightTons",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec",
+      "maxFwdKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 23,
+      "maxRevKph": 2,
+      "enginePowerHp": null,
+      "weightTons": null,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "qf-75mm-mk5",
+      "reloadBaseSec": 6.5,
+      "reloadAcedSec": 5,
+      "vertGuidanceDeg": [
+        12,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 84,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "152",
+        "side": "95",
+        "rear": "51"
+      },
+      "turretMm": {
+        "front": "152",
+        "side": "95",
+        "rear": "95"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "a6m5-zero",
+    "name": "A6M5 Zero",
+    "nation": "japan",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4.7,
+      "realistic": 5,
+      "simulator": 4.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The A6M5 is the definitive late-production Zero, blending the famous low-speed agility of the type with a strengthened airframe that allows higher dive speeds than earlier models. It remains one of the best-turning fighters at its rank, but its modest top speed and light, slow-firing armament mean it must dictate the fight on its own terms rather than chase faster, harder-hitting opponents.",
+    "prosCons": {
+      "pros": [
+        "Outstanding low-speed turn rate and energy retention in a turn",
+        "Stronger airframe permits higher dive speeds than earlier Zeros",
+        "Mixed cannon-and-machine-gun battery is forgiving to aim",
+        "Excellent visibility and gentle, predictable handling"
+      ],
+      "cons": [
+        "Low top speed leaves it unable to disengage from faster fighters",
+        "Light armament and slow cannon rate of fire give short bursts limited punch",
+        "Minimal protection for pilot and fuel",
+        "Loses badly in pure boom-and-zoom energy fights"
+      ]
+    },
+    "playstyle": "Fight on the horizontal. Bait faster opponents into turning with you, where your superb agility lets you reverse onto their tail, and snap-shoot with the cannons while the machine guns help you walk rounds onto target. Avoid prolonged climbs and high-speed dives against energy fighters; if you lose energy you cannot run, so keep speed up, stay in the merge, and pick off aircraft that overcommit to turning with you.",
+    "history": "The A6M5 Model 52 was the most numerous wartime variant of Mitsubishi's Type 0 carrier fighter, introduced in 1943 to keep the ageing Zero competitive against newer Allied fighters. It featured redesigned, shorter wings with rounded tips and a revised exhaust arrangement that extracted extra thrust from the Sakae engine. While it preserved the Zero's legendary manoeuvrability, it could not match the speed, firepower and protection of contemporary American types, and it served through the increasingly desperate air battles of the Pacific war's final years, including use in late-war strike and special-attack roles.",
+    "media": [],
+    "sources": [
+      {
+        "label": "A6M5 | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/a6m5_zero",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 565,
+      "maxSpeedAltM": 6000,
+      "climbMps": 15.6,
+      "turnTimeSec": 16,
+      "structuralLimitKph": 703,
+      "ceilingM": 10900,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "type-99-mk2-20mm",
+          "count": 2
+        },
+        {
+          "weaponId": "type-97-7mm",
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "fw-190-a-5",
+    "name": "Fw 190 A-5",
+    "nation": "germany",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.3,
+      "realistic": 4.3,
+      "simulator": 4.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Fw 190 A-5 is a German rank IV radial-engine fighter that turns the Würger's heavy four-cannon battery into a textbook boom-and-zoom platform. With an armoured BMW 801 up front, self-sealing tanks, and a brutal roll rate, it bullies anything it can dive on and rips wings off pursuers who try to follow it down. It is fragile in a sustained turn fight but devastating in the vertical and on the energy game.",
+    "prosCons": {
+      "pros": [
+        "Heavy four-cannon armament shreds airframes in a single pass",
+        "Excellent roll rate lets it reverse and switch targets instantly",
+        "Strong dive acceleration and high structural speed for boom-and-zoom",
+        "Armoured radial engine and protected fuel tanks shrug off light hits",
+        "Good low-to-medium altitude performance against contemporaries"
+      ],
+      "cons": [
+        "Poor sustained turn time bleeds energy fast in a dogfight",
+        "Performance falls off noticeably at high altitude",
+        "Heavy controls and mushy elevator at high speed",
+        "Relatively short cannon ammo count rewards trigger discipline",
+        "Spins readily if over-pulled at low speed"
+      ]
+    },
+    "playstyle": "Climb to a comfortable altitude advantage at the match start, then convert that height into speed in slashing diving attacks. Pick one target per pass, fire a short burst with the cannons at convergence, and keep the speed to zoom back up out of reach. Never commit to a flat turn fight; if an enemy gets on your tail, roll hard and dive away, using your superior roll and dive to break the lock. Save your limited cannon rounds for high-percentage shots and let the energy game do the rest.",
+    "history": "Developed in 1942, the A-5 sub-variant lengthened the engine mount to shift the centre of gravity and free up payload capacity aft, giving the airframe room for the additional equipment and ordnance that later defined the Focke-Wulf 190 family. The type served the Luftwaffe across the Western Front, the Eastern Front, North Africa, and home defence in fighter, fighter-bomber, ground-attack, and night-fighter roles. At low and medium altitude it proved superior to the Spitfire Mk V, though its performance tapered off in the thinner air at height.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Fw 190 A-5 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/fw-190a-5_cannons",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Fw 190 A-5 — old-wiki.warthunder.com (official, legacy)",
+        "url": "https://old-wiki.warthunder.com/Fw_190_A-5",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "climbMps",
+      "turnTimeSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": 6300,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": 912,
+      "ceilingM": 10300,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "mg17",
+          "count": 2
+        },
+        {
+          "weaponId": "mg151-20",
+          "count": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "hms-mohawk",
+    "name": "HMS Mohawk",
+    "nation": "britain",
+    "class": "naval",
+    "subclass": "Destroyer",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 4.7,
+      "realistic": 4.7,
+      "simulator": null
+    },
+    "acquisition": [
+      "premium",
+      "event"
+    ],
+    "summary": "HMS Mohawk is a British rank II Tribal-class destroyer that leans hard into the gunboat role. Four 4.7-inch guns in two twin mounts give it heavy, fast-firing broadsides for a destroyer of its rating, backed by a quartet of torpedoes for finishing wounded targets. Lightly built like all destroyers, it lives and dies by positioning and accurate gunnery rather than soaking damage. NOTE: this entry stands in for the requested HMS Cossack, which is not present in War Thunder as of this version.",
+    "prosCons": {
+      "pros": [
+        "Heavy 4.7-inch main battery hits hard for a low-rank destroyer",
+        "Four torpedoes provide a strong secondary punch against larger ships",
+        "Good crew count for a destroyer aids damage-control survivability",
+        "Capable AA and depth-charge fit for its rating"
+      ],
+      "cons": [
+        "Thin plating offers almost no protection from gunfire",
+        "Large hull is an easy target for enemy destroyers and aircraft",
+        "Limited gun count compared with later, larger destroyers",
+        "Relies on positioning; trades poorly in a stand-up gun duel with cruisers"
+      ]
+    },
+    "playstyle": "Fight from the edges of an engagement, using islands and smoke to control sightlines. Open with gunfire on enemy destroyers, walking your shells onto the waterline to start fires and knock out their guns, then break off before return fire finds you. Hold the torpedoes for cruisers or distracted destroyers and launch in spreads from concealment. Keep the ship moving and angled, and pull back to repair the moment you take crew or steering hits rather than trading blows toe-to-toe.",
+    "history": "The Tribal class were a series of 27 large destroyers built before and during the Second World War for the Royal Navy and the Commonwealth navies, designed to carry a heavier gun armament than the destroyers that preceded them. HMS Mohawk served in the early war period before being lost in action. The class as a whole earned a hard-fighting reputation across the Mediterranean, Atlantic, and Arctic theatres.",
+    "media": [],
+    "sources": [
+      {
+        "label": "HMS Mohawk — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_destroyer_tribal_mohawk",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Tribal-class destroyer family — War Thunder Wiki (official; confirms in-game roster excludes HMS Cossack)",
+        "url": "https://wiki.warthunder.com/collections/family/tribal-class_destroyer",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "brSimulator",
+      "lengthM",
+      "maxKnots",
+      "beltMm",
+      "deckMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 2559,
+      "lengthM": null,
+      "crew": 260
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "4 x 120 mm",
+      "secondary": "4 x 40 mm 2pdr QF Mk.IIc",
+      "aa": "8 x 12.7 mm Vickers Mk.V",
+      "torpedoes": "4 x 533 mm Mk.IX",
+      "depthCharges": true
+    },
+    "armor": {
+      "citadel": "3 / 3 / 0 mm (fire control tower)"
+    },
+    "survivability": "As a destroyer, HMS Mohawk has effectively no belt or deck armour and survives by not being hit. Its only meaningful plating is a few millimetres on the fire-control tower and the 16 mm steel hull, neither of which stops cruiser-calibre shells. Survivability rests on its 260-man crew for damage control, on careful angling so hits pass through rather than detonating in vital spaces, and on staying mobile and at range. A single well-placed torpedo or a magazine penetration is fatal, so the ship must avoid trading fire in the open and lean on cover and disengagement."
+  },
+  {
+    "id": "uss-helena",
+    "name": "USS Helena",
+    "nation": "usa",
+    "class": "naval",
+    "subclass": "Light cruiser",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6.3,
+      "realistic": 6.3,
+      "simulator": null
+    },
+    "acquisition": [
+      "premium"
+    ],
+    "summary": "USS Helena is a premium American rank IV Brooklyn-class light cruiser built around an enormous fifteen-gun main battery of 6-inch rifles with an exceptionally fast reload. That volume of fire lets it smother destroyers and rival light cruisers in a wall of shells, while a strong dual-purpose secondary battery and heavy Bofors and Oerlikon AA make it dangerous to aircraft too. It is fast and manoeuvrable but only modestly armoured, so it wins by output rather than endurance.",
+    "prosCons": {
+      "pros": [
+        "Fifteen 6-inch guns deliver overwhelming volume of fire",
+        "Very fast main-battery reload sustains a punishing rate of fire",
+        "Strong dual-purpose 5-inch secondaries add reach and AA",
+        "Heavy 40 mm Bofors and 20 mm Oerlikon AA suite",
+        "Fast and manoeuvrable for a cruiser"
+      ],
+      "cons": [
+        "Light cruiser armour offers limited protection against cruiser-calibre fire",
+        "Large profile makes it an easy target at range",
+        "Premium ship locked behind Golden Eagles",
+        "Ammunition magazines are vulnerable to plunging fire and torpedoes"
+      ]
+    },
+    "playstyle": "Play to the gun count: find a firing line where you can pour shells onto a single target and overwhelm its damage control before it can answer. Stay angled and keep moving to make incoming fire glance off the thin belt, and use your speed to dictate range against slower battlecruisers and battleships. Engage destroyers at distance where your reload turns them to scrap quickly, and keep the AA suite hot for aircraft. Avoid stationary slugging matches with heavy cruisers; reposition and reset rather than trade citadels.",
+    "history": "Laid down on 9 December 1936 and commissioned on 18 September 1939, USS Helena (CL-50) was the ninth and final Brooklyn-class light cruiser. She was torpedoed at Pearl Harbor and, after repair and refit, returned to service in 1942 for the Guadalcanal campaign. During the Battle of Kula Gulf on the night of 5-6 July 1943 she sank the destroyer Niizuki before being struck by multiple Japanese torpedoes; the damage proved fatal and Helena went down.",
+    "media": [],
+    "sources": [
+      {
+        "label": "USS Helena — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_cruiser_brooklyn_class_helena",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "brSimulator",
+      "lengthM",
+      "maxKnots",
+      "beltMm",
+      "deckMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 13327,
+      "lengthM": null,
+      "crew": 1188
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "15 x 152 mm",
+      "secondary": "8 x 127 mm",
+      "aa": "16 x 40 mm Bofors, 12 x 20 mm Oerlikon",
+      "torpedoes": "None",
+      "depthCharges": false
+    },
+    "armor": {
+      "citadel": "95 / 127 / 51 mm"
+    },
+    "survivability": "USS Helena trades protection for firepower and speed. Its citadel armour is on the order of 95 to 127 mm, enough to resist destroyer guns at range but not the heavy cruiser shells it will often face, and there is no thick belt to lean on. The hull plating is only millimetres thick, so the ship must avoid presenting a flat broadside to large-calibre fire. Survivability comes from its 1,188-man crew for damage control, from angling and speed to deflect or outrun incoming rounds, and from killing threats quickly with its volume of fire before they can land magazine or steering hits. Plunging fire and torpedoes are the principal dangers, as the magazines that feed its many guns are a tempting and vulnerable target."
   }
 ];

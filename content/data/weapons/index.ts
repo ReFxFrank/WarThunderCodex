@@ -456,5 +456,165 @@ export const weapons: Weapon[] = [
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "d-25t-122mm",
+    "name": "122 mm D-25T",
+    "type": "cannon",
+    "caliberMm": 122,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "is-2"
+    ],
+    "notes": "Soviet 122 mm rifled tank gun firing separate-loading ammunition, giving it a slow rate of fire but a heavy APHE shell with strong post-penetration and overpressure effect. The signature weapon of the IS-2 heavy tank.",
+    "sources": [
+      {
+        "label": "IS-2 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_is_2_1943",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m3-90mm",
+    "name": "90 mm M3",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m26-pershing"
+    ],
+    "notes": "American 90 mm rifled tank gun with smooth handling and a quick reload. Its standard APCBC round offers moderate penetration, while specialised APCR and HEAT shells extend its effectiveness against tougher targets. Main armament of the M26 Pershing.",
+    "sources": [
+      {
+        "label": "M26 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m26_pershing",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "pak43-88mm",
+    "name": "8.8 cm Pak 43",
+    "type": "cannon",
+    "caliberMm": 88,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "jagdpanther"
+    ],
+    "notes": "High-velocity German 88 mm anti-tank gun known for excellent armour penetration and a flat trajectory that makes ranging easy. Mounted in the casemate of the Jagdpanther, where the whole hull must be turned to aim it.",
+    "sources": [
+      {
+        "label": "Jagdpanther G1 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/germ_panzerjager_panther",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "qf-75mm-mk5",
+    "name": "OQF 75 mm",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "churchill-vii"
+    ],
+    "notes": "The Churchill VII's 75 mm OQF Mk.V is a quick-loading but low-velocity tank gun firing AP, APCBC, HE and smoke rounds. It rewards close-range engagements where its fast reload offsets its limited penetration. The wiki unit page lists four shells: M72 shot (AP), M61 shot (APCBC), M48 shell (HE) and M89 (smoke).",
+    "sources": [
+      {
+        "label": "Churchill VII | War Thunder Wiki (unit page, armament section)",
+        "url": "https://wiki.warthunder.com/unit/uk_a_22f_mk_7_churchill_1944",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type-99-mk2-20mm",
+    "name": "20 mm Type 99 Model 2",
+    "type": "cannon",
+    "caliberMm": 20,
+    "fireRateRpm": 490,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "a6m5-zero"
+    ],
+    "notes": "Belt-fed 20 mm autocannon mounted in the wings of the late-model Zero. It hits hard per shell but fires slowly, so it favours deliberate, well-led bursts rather than spray. The A6M5 carries two of these with 200 rounds total (100 per gun) at a fire rate of 490 rounds per minute. Muzzle velocity was not shown as a clean stat on the Tier-1 pages fetched and is left unverified.",
+    "sources": [
+      {
+        "label": "A6M5 | War Thunder Wiki (unit page, armament section)",
+        "url": "https://wiki.warthunder.com/unit/a6m5_zero",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type-97-7mm",
+    "name": "7.7 mm Type 97",
+    "type": "machine-gun",
+    "caliberMm": 7.7,
+    "fireRateRpm": 900,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "a6m5-zero"
+    ],
+    "notes": "Cowl-mounted rifle-calibre machine guns that supplement the Zero's cannons, useful for tracer-guided aiming and shredding lightly armoured targets. NOTE: the task brief expected the A6M5 to mount 2x 13 mm Type 3 machine guns, but the Tier-1 A6M5 unit page (verified twice) clearly lists 2x 7.7 mm Type 97 machine guns instead; the 13 mm Type 3 is fitted to other A6M5 sub-variants (Ko/Otsu/Hei), not this base A6M5. Recorded the source-accurate weapon. The pair carries 1,400 rounds total (700 per gun) at 900 rounds per minute. Muzzle velocity was not shown on the unit page and is left unverified.",
+    "sources": [
+      {
+        "label": "A6M5 | War Thunder Wiki (unit page, armament section)",
+        "url": "https://wiki.warthunder.com/unit/a6m5_zero",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
   }
 ];
