@@ -1218,20 +1218,21 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "m50-20mm",
-    "name": "20 mm M50",
-    "type": "autocannon",
+    "name": "M50 (20 mm)",
+    "type": "cannon",
     "caliberMm": 20,
     "fireRateRpm": 750,
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
+      "md-450b-ouragan",
       "ouragan"
     ],
-    "notes": "A 20 mm autocannon of the Hispano lineage, mounted as a battery of four in the nose of the Israeli M.D.450B Ouragan. The unit page lists a fire rate of 750 rounds per minute and a combined 500-round ammunition pool, giving a heavy, concentrated burst at close range. The in-game entry is named M50 and is associated with the 20 mm Hispano 404 family; the page does not publish a muzzle velocity, so that value is left unverified.",
+    "notes": "French 20 mm cannon derived from the Hispano family, mounted in a battery of four in the nose of the Ouragan. Reliable ballistics and a dense burst, though individual rounds are lighter than 30 mm shells.",
     "sources": [
       {
-        "label": "War Thunder Wiki — M.D.450B (29) (Israel)",
-        "url": "https://wiki.warthunder.com/unit/md_450b_ouragan_iaf_29",
+        "label": "M.D.450B Ouragan - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/md_450b_ouragan",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
@@ -1620,27 +1621,28 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "defa-552-30mm",
-    "name": "30 mm DEFA 552",
-    "type": "autocannon",
+    "name": "DEFA 552 (30 mm)",
+    "type": "cannon",
     "caliberMm": 30,
-    "fireRateRpm": null,
+    "fireRateRpm": 1200,
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
+      "md-454-mystere-iva",
       "mirage-iiic",
-      "kfir-c2"
+      "kfir-c2",
+      "md-460-saar"
     ],
-    "notes": "French 30 mm revolver-type aircraft autocannon; the Mirage IIIC mounts a pair of them (the unit page labels the exact in-game variant '30 mm DEFA 552A cannon'). The Mirage IIIC unit page does not list fire rate, per-gun/total ammunition count, or muzzle velocity, so those values are left null rather than guessed.",
+    "notes": "French 30 mm revolver cannon with a high cyclic rate and heavy explosive shells. A handful of hits can cripple most contemporaries, making it a strong energy-fighting armament despite limited ammunition.",
     "sources": [
       {
-        "label": "Mirage IIIC | War Thunder Wiki (official unit page)",
-        "url": "https://wiki.warthunder.com/unit/mirage_3c",
+        "label": "Mystere IVA - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/md_454_mystere_4a",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
-      "fireRateRpm",
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
@@ -2342,22 +2344,23 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "aden-30mm",
-    "name": "30 mm ADEN Mk.4",
-    "type": "autocannon",
+    "name": "30 mm ADEN",
+    "type": "cannon",
     "caliberMm": 30,
     "fireRateRpm": 1200,
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
+      "j34-hunter",
       "harrier-gr1",
       "hunter-f6",
       "j35-draken"
     ],
-    "notes": "The ADEN Mk.4 is a 30 mm revolver cannon carried in pairs on the Harrier GR.1, with each gun firing at roughly 1,200 rounds per minute and sharing a combined load of about 260 rounds. Its hard-hitting 30 mm shells are effective against light ground targets and, in a defensive pinch, against aircraft, supporting the Harrier's strike role alongside its bombs and rockets. The wiki page does not publish a muzzle-velocity figure for this gun, so that value is left unverified rather than estimated.",
+    "notes": "British ADEN 30 mm revolver cannon as fitted to the Swedish Hunter (J34), mounted as a four-gun pack. Muzzle velocity not confirmed from the unit page and left null.",
     "sources": [
       {
-        "label": "War Thunder Wiki — Harrier GR.1 (harrier_gr1)",
-        "url": "https://wiki.warthunder.com/unit/harrier_gr1",
+        "label": "War Thunder Wiki — J34",
+        "url": "https://wiki.warthunder.com/unit/hunter_f50_sweden",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
@@ -2826,27 +2829,27 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "type-30-1-30mm",
-    "name": "30 mm Type 30-1 cannon",
+    "name": "Type 30-1 (30 mm)",
     "type": "cannon",
     "caliberMm": 30,
-    "fireRateRpm": 850,
-    "muzzleVelocityMps": null,
+    "fireRateRpm": 1000,
+    "muzzleVelocityMps": 800,
     "ammoTypeIds": [],
     "usedBy": [
+      "j-7ii",
+      "j-7e",
       "mig-19j_6a"
     ],
-    "notes": "Chinese 30 mm autocannon fitted to the J-6A, the domestic equivalent of the Soviet NR-30. Distinct from the NR-30 record on the wiki page, which lists it as the Type 30-1. The J-6A carries 140 rounds total.",
+    "notes": "Chinese license-produced copy of the Soviet NR-30 30 mm autocannon, known for high explosive shell mass that can destroy targets in one or two hits, offset by a small ammunition reserve per gun.",
     "sources": [
       {
-        "label": "J-6A — Official War Thunder Wiki",
-        "url": "https://wiki.warthunder.com/unit/mig-19j_6a",
+        "label": "J-7II - War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/j_7_mk2",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
-    "unverified": [
-      "muzzleVelocityMps"
-    ],
+    "unverified": [],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
   },
@@ -3518,6 +3521,270 @@ export const weapons: Weapon[] = [
       }
     ],
     "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type-23-2k-23mm",
+    "name": "Type 23-2K (23 mm)",
+    "type": "autocannon",
+    "caliberMm": 23,
+    "fireRateRpm": 1150,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "q-5-early"
+    ],
+    "notes": "Chinese license-produced copy of the Soviet AM-23 23 mm autocannon, fitted with a muzzle brake; mounted on Q-5 series strike aircraft. Muzzle velocity not confirmed on the official unit page and left unverified.",
+    "sources": [
+      {
+        "label": "Q-5 early - War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/q_5_early",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "defa-552a-30mm",
+    "name": "DEFA 552A",
+    "type": "cannon",
+    "caliberMm": 30,
+    "fireRateRpm": 1300,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "mirage-3cj-shahak"
+    ],
+    "notes": "French 30 mm revolver cannon mounted in pairs on the Mirage IIICJ, with 125 rounds per gun. Hard-hitting but limited ammunition rewards short, accurate bursts.",
+    "sources": [
+      {
+        "label": "Shahak | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/mirage_3cj",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps",
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "defa-553-30mm",
+    "name": "DEFA 553",
+    "type": "cannon",
+    "caliberMm": 30,
+    "fireRateRpm": 1200,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "a-4n-ayit"
+    ],
+    "notes": "Improved 30 mm DEFA revolver cannon fitted in pairs on the A-4N Ayit, carrying 150 rounds per gun. Replaces the Skyhawk's standard 20 mm Colt cannons for far greater hitting power.",
+    "sources": [
+      {
+        "label": "Ayit | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/a_4n",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "akan-m55-30mm",
+    "name": "30 mm Akan m/55",
+    "type": "cannon",
+    "caliberMm": 30,
+    "fireRateRpm": 1400,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "j32b-lansen"
+    ],
+    "notes": "Swedish licence-built version of the British ADEN 30 mm revolver cannon, fitted as a battery of four in the J32B. Muzzle velocity not confirmed from the unit page and left null.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — J32B",
+        "url": "https://wiki.warthunder.com/unit/saab_j32b",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "akan-m49-20mm",
+    "name": "20 mm Akan m/49",
+    "type": "cannon",
+    "caliberMm": 20,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "a32a-lansen"
+    ],
+    "notes": "Swedish 20 mm cannon of the Hispano family, mounted as four guns in the A32A with 720 rounds total. Fire rate and muzzle velocity were not confirmed from the unit page and are left null.",
+    "sources": [
+      {
+        "label": "War Thunder Wiki — A32A",
+        "url": "https://wiki.warthunder.com/unit/saab_a32a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "defa-551-30mm",
+    "name": "DEFA 551 (30 mm)",
+    "type": "cannon",
+    "caliberMm": 30,
+    "fireRateRpm": 1200,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "so-4050-vautour-iia"
+    ],
+    "notes": "Early French 30 mm revolver cannon mounted as a four-gun nose battery on the Vautour IIA. Delivers devastating firepower in a short burst, well suited to fast strike passes and head-on engagements.",
+    "sources": [
+      {
+        "label": "S.O.4050 Vautour IIA - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/so_4050_vautour_2a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "breda-safat-127",
+    "name": "12.7 mm Breda-SAFAT",
+    "type": "machine-gun",
+    "caliberMm": 12.7,
+    "fireRateRpm": 700,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "mc-205-serie1",
+      "g55-serie1"
+    ],
+    "notes": "Standard Italian heavy machine gun used as the primary or supplementary armament on many Regia Aeronautica fighters. Reliable but modest in punch and muzzle velocity compared with later cannon-armed designs.",
+    "sources": [
+      {
+        "label": "C. 205 serie 1 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/mc-205_serie1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "breda-safat-77",
+    "name": "7.7 mm Breda-SAFAT",
+    "type": "machine-gun",
+    "caliberMm": 7.7,
+    "fireRateRpm": 900,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "mc-205-serie1"
+    ],
+    "notes": "Light rifle-calibre machine gun fitted to early and mid-war Italian fighters. High fire rate but limited damage, generally used to supplement heavier weapons.",
+    "sources": [
+      {
+        "label": "C. 205 serie 1 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/mc-205_serie1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "mg-151-20",
+    "name": "20 mm MG 151",
+    "type": "cannon",
+    "caliberMm": 20,
+    "fireRateRpm": 700,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "g55-serie1"
+    ],
+    "notes": "Licence-used German 20 mm autocannon prized for its blend of fire rate, ballistics and a potent minengeschoss high-explosive shell. A mainstay heavy weapon on Italian Series 5 fighters.",
+    "sources": [
+      {
+        "label": "G.55 serie 1 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/g_55_serie1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m3-browning-127",
+    "name": "12.7 mm M3 Browning",
+    "type": "machine-gun",
+    "caliberMm": 12.7,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "fiat-g91-r1"
+    ],
+    "notes": "High-rate development of the M2 .50 calibre Browning, fitted as the nose battery of the G.91. Effective against light targets but underpowered against well-armoured jets.",
+    "sources": [
+      {
+        "label": "G.91 R/1 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fiat_g91_r1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",

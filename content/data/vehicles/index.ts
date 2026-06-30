@@ -1,8 +1,7 @@
 import type { Vehicle } from "@/lib/schema";
 
-// Seeded vehicle records — generated from the research/verify workflow.
+// Seeded vehicle records — generated from the Phase 3 research/verify workflow.
 // Every numeric stat is sourced; unverifiable fields are null and listed in unverified[].
-// media[] holds license-verified real-world photos (PD/CC) with credit.
 export const vehicles: Vehicle[] = [
   {
     "id": "t-34-85-1944",
@@ -16572,5 +16571,1265 @@ export const vehicles: Vehicle[] = [
         "2 × 1000 lb H.E. M.C. Mk.13 bomb"
       ]
     }
+  },
+  {
+    "id": "j-7ii",
+    "name": "J-7II",
+    "nation": "china",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.3,
+      "realistic": 9.3,
+      "simulator": 9.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The J-7II is China's domestically refined MiG-21 derivative, a clean delta-wing supersonic fighter armed with a pair of hard-hitting 30 mm cannons and short-range PL-2 missiles. It rewards energy fighting and quick, decisive cannon passes rather than prolonged turning duels.",
+    "prosCons": {
+      "pros": [
+        "Excellent high-altitude top speed and acceleration",
+        "Twin 30 mm Type 30-1 cannons hit extremely hard",
+        "Strong vertical energy retention and climb",
+        "Can mount all-aspect-adjacent PL-2 heat-seeking missiles"
+      ],
+      "cons": [
+        "Only 120 rounds of cannon ammunition total, demanding trigger discipline",
+        "Sluggish sustained turn rate compared to lighter rivals",
+        "Bleeds energy quickly if forced into a horizontal scrap",
+        "Limited missile loadout and short missile range"
+      ]
+    },
+    "playstyle": "Climb above the fight on the merge and use the delta wing's strong acceleration to dictate engagements on your terms. Make slashing dive attacks, fire short bursts from the 30 mm cannons, and immediately convert speed back into altitude. Save the PL-2 missiles for unaware targets and avoid grinding turn fights where energy-efficient opponents will out-rotate you.",
+    "history": "After the Sino-Soviet split, Chengdu reverse-engineered the MiG-21F-13 without Soviet technical documentation, correcting roughly 250 inherent issues in the process. The improved J-7II first flew in late 1978 with a Chinese ejection seat, a forward-opening canopy and a more reliable, more powerful engine. Mass production ran until 1986, with around 375 aircraft built for the PLAAF and export customers.",
+    "media": [],
+    "sources": [
+      {
+        "label": "J-7II - War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/j_7_mk2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 2262,
+      "maxSpeedAltM": 13000,
+      "climbMps": 135,
+      "turnTimeSec": 33,
+      "structuralLimitKph": 1365,
+      "ceilingM": 16000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "type-30-1-30mm",
+          "count": 2
+        }
+      ],
+      "suspended": [
+        "2 x PL-2 air-to-air missiles",
+        "32 x Type 57-1 rockets",
+        "2 x 500 kg 500-2 bombs",
+        "2 x 250 kg 250-2 incendiary bombs",
+        "490 L drop tanks"
+      ]
+    }
+  },
+  {
+    "id": "j-7e",
+    "name": "J-7E",
+    "nation": "china",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 10.7,
+      "realistic": 11.3,
+      "simulator": 11
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The J-7E is the most heavily modernised Chinese Fishbed, fitting a distinctive double-delta wing with deployable leading-edge slats and a more powerful WP-13F engine for dramatically improved maneuverability. It trades one cannon for a much nimbler airframe and a strong heat-seeking missile loadout.",
+    "prosCons": {
+      "pros": [
+        "Outstanding turn rate for a delta-wing jet thanks to the double-delta and slats",
+        "Powerful WP-13F engine with excellent climb and acceleration",
+        "Carries capable PL-5B all-aspect-adjacent missiles",
+        "Good high-altitude speed and energy retention"
+      ],
+      "cons": [
+        "Only a single 30 mm cannon with limited ammunition",
+        "No radar or modern countermeasures relative to its high BR",
+        "Faces all-aspect missiles and far more advanced fighters at top tier",
+        "Energy bleeds in extended low-speed turn fights despite the slats"
+      ]
+    },
+    "playstyle": "Use the WP-13F's thrust to fight in the vertical and dictate engagements, then exploit the double-delta wing and slats to win the rate fight against heavier opponents. Open with PL-5B missiles at range and finish with the single 30 mm cannon, keeping bursts short. Stay aware of more advanced top-tier fighters and avoid bleeding all your energy in a single turn.",
+    "history": "Demand for a more agile J-7 came from both export customers and the PLAAF, which needed a stopgap fighter while the J-10 program matured during China's economic reforms. The J-7E adopted a double-delta wing designed by Northwestern Polytechnical University with slats deployable to 25 degrees, reportedly improving maneuverability by 43 percent over the J-7II. The trade-off was deleting the port cannon for additional fuel and longer range.",
+    "media": [],
+    "sources": [
+      {
+        "label": "J-7E - War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/j_7e",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 2387,
+      "maxSpeedAltM": 12000,
+      "climbMps": 180,
+      "turnTimeSec": 24,
+      "structuralLimitKph": 1365,
+      "ceilingM": 16000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "type-30-1-30mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "4 x PL-2 air-to-air missiles",
+        "4 x PL-5B air-to-air missiles",
+        "7 x Type 90-1 HEAT rockets",
+        "4 x Type 130-2 rockets",
+        "250 kg bombs",
+        "500 kg bombs",
+        "490 L and 720 L drop tanks"
+      ]
+    }
+  },
+  {
+    "id": "q-5-early",
+    "name": "Q-5 early",
+    "nation": "china",
+    "class": "aviation",
+    "subclass": "Strike aircraft",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.7,
+      "realistic": 9.3,
+      "simulator": 9.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Q-5 early is China's first indigenous supersonic strike aircraft, a twin-engine attacker derived from the MiG-19/J-6 with side intakes and an internal weapons bay. It blends respectable speed with a versatile rocket and bomb loadout for ground attack while keeping a pair of 23 mm cannons for self-defense.",
+    "prosCons": {
+      "pros": [
+        "Two engines give strong thrust and good acceleration for an attacker",
+        "Flexible ground-attack loadout of rockets and bombs",
+        "Twin 23 mm autocannons with a healthy 240-round reserve",
+        "Surprisingly capable in a dogfight against unwary opponents"
+      ],
+      "cons": [
+        "No guided air-to-ground weapons or radar",
+        "Vulnerable to enemy fighters when laden with ordnance",
+        "Modest turn performance when carrying a full bomb load",
+        "Limited payload weight compared to dedicated bombers"
+      ]
+    },
+    "playstyle": "Approach ground targets fast and low using the twin engines' speed, deliver rockets and bombs in a single accurate pass, then extend out before turning back. Keep the airframe clean once ordnance is expended so you can defend yourself with the 23 mm cannons. Avoid lingering over contested airspace and rely on speed rather than agility to escape interceptors.",
+    "history": "After observing IL-10 attackers during coastal island operations, the PLAAF sought a supersonic replacement and approved a J-6-based jet attacker with side intakes, originally the Dongfeng 106. Development stretched roughly ten years amid the economic disruption of the Great Leap Forward. The finalized Q-5 entered PLAAF service in 1969 and remained in production until 1979, with 515 examples built.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Q-5 early - War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/q_5_early",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1220,
+      "maxSpeedAltM": 7000,
+      "climbMps": 160,
+      "turnTimeSec": 24,
+      "structuralLimitKph": 1260,
+      "ceilingM": 17000,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "type-23-2k-23mm",
+          "count": 2
+        }
+      ],
+      "suspended": [
+        "7 x Type 90-1 HEAT rockets",
+        "2 x 250 kg 250-2 bombs",
+        "2 x 100 kg 100-2 bombs",
+        "Incendiary bomb variants"
+      ]
+    }
+  },
+  {
+    "id": "mirage-3cj-shahak",
+    "name": "Shahak",
+    "nation": "israel",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 10,
+      "realistic": 10,
+      "simulator": 10.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Shahak is the Israeli Air Force designation for the Dassault Mirage IIICJ delta-wing interceptor, Israel's first Mach 2 fighter. In War Thunder it flies almost identically to the French Mirage IIIC but trades the Matra Magic for American AIM-9D Sidewinders.",
+    "prosCons": {
+      "pros": [
+        "Excellent top-end speed and acceleration in a dive",
+        "AIM-9D Sidewinders give a strong all-aspect-era IR missile punch",
+        "Twin 30 mm DEFA cannon hit hard against airframes",
+        "High structural and altitude limits reward energy fighting"
+      ],
+      "cons": [
+        "Delta wing bleeds energy fast in sustained turns",
+        "Sluggish low-speed handling and long turn time",
+        "No countermeasures leaves it exposed to enemy missiles",
+        "Limited cannon ammunition demands disciplined trigger control"
+      ]
+    },
+    "playstyle": "Fly the Shahak as an energy fighter, climbing high and using its speed to dictate every merge. Make slashing boom-and-zoom passes with the DEFA cannons or launch AIM-9Ds from advantageous positions rather than committing to turn fights. Never bleed your speed in a prolonged dogfight, because the delta wing recovers energy slowly and leaves you vulnerable.",
+    "history": "Israel acquired 72 Mirage III fighters from France in the 1960s and nicknamed the IIICJ variant Shahak, meaning sky or firmament. It served as the IAF's primary air-superiority fighter through the Six-Day War and the War of Attrition, scoring numerous kills against Arab air forces. The type was gradually replaced by the indigenous Kfir and the F-4 Phantom after the Yom Kippur War.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Shahak | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/mirage_3cj",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 2160,
+      "maxSpeedAltM": 12000,
+      "climbMps": 140,
+      "turnTimeSec": 28,
+      "structuralLimitKph": 1460,
+      "ceilingM": 16000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "defa-552a-30mm",
+          "count": 2
+        }
+      ],
+      "suspended": [
+        "AIM-9D Sidewinder air-to-air missiles",
+        "Shafrir 2 air-to-air missiles",
+        "Matra R530 air-to-air missiles",
+        "SAMP Type 25 250 kg bombs",
+        "SAMP Type 21 400 kg bombs",
+        "Drop tanks"
+      ]
+    }
+  },
+  {
+    "id": "a-4n-ayit",
+    "name": "Ayit",
+    "nation": "israel",
+    "class": "aviation",
+    "subclass": "Strike aircraft",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.7,
+      "realistic": 9.7,
+      "simulator": 9.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Ayit is the IAF's heavily upgraded A-4N Skyhawk, the ultimate development of the type with twin 30 mm DEFA cannon and a vast strike loadout. In War Thunder it is a versatile attacker that can also self-defend with all-aspect Sidewinders.",
+    "prosCons": {
+      "pros": [
+        "Enormous and varied air-to-ground arsenal including Mavericks and Walleye",
+        "Twin 30 mm DEFA 553 cannon out-hit most strike aircraft",
+        "AIM-9D Sidewinders allow credible air-to-air self-defense",
+        "Tough airframe and good ordnance flexibility for any battlefield role"
+      ],
+      "cons": [
+        "Subsonic top speed leaves it easy to run down",
+        "Long turn time and modest energy retention",
+        "Heavy ordnance loads severely sap acceleration and climb",
+        "Vulnerable to enemy jets when carrying a full strike load"
+      ]
+    },
+    "playstyle": "Use the Ayit primarily as a ground-pounder, picking off armor and bases with its precision-guided weapons before threats close in. Keep speed up between attack runs and stay low to mask your approach. If jumped, the DEFA cannons and AIM-9Ds let you fight back, but rely on disengaging rather than turning with dedicated fighters.",
+    "history": "The A-4N was the final and most advanced Skyhawk, developed specifically to Israeli requirements with enhanced avionics, a more powerful J52-P-408 engine, and twin 30 mm cannon replacing the standard 20 mm guns. The IAF operated the type as a primary attack aircraft from the mid-1970s. It saw extensive combat in the Yom Kippur War and subsequent conflicts before being retired in the early 2000s.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Ayit | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/a_4n",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1105,
+      "maxSpeedAltM": 1524,
+      "climbMps": 67.5,
+      "turnTimeSec": 32,
+      "structuralLimitKph": 1167,
+      "ceilingM": 12500,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "defa-553-30mm",
+          "count": 2
+        }
+      ],
+      "suspended": [
+        "AIM-9D Sidewinder air-to-air missiles",
+        "Shafrir 2 air-to-air missiles",
+        "AGM-65A Maverick air-to-ground missiles",
+        "AGM-12B Bullpup air-to-ground missiles",
+        "AGM-62A Walleye I guided bomb",
+        "FFAR Mighty Mouse rockets",
+        "Zuni Mk32 rockets",
+        "Mk 81/82/83/84 bombs",
+        "M117 bombs",
+        "GBU-8 guided bomb",
+        "20 mm Mk 11 gun pod"
+      ]
+    }
+  },
+  {
+    "id": "md-460-saar",
+    "name": "Sa'ar",
+    "nation": "israel",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9,
+      "realistic": 9,
+      "simulator": 9
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Sa'ar is Israel's re-engined Super Mystere B2, fitted with a non-afterburning Pratt & Whitney J52 engine in place of the original Atar. The swap improved reliability and range but cost it the afterburner, turning a former interceptor into a capable subsonic strike fighter armed with Shafrir 2 missiles.",
+    "prosCons": {
+      "pros": [
+        "Hard-hitting twin 30 mm DEFA 552 cannon",
+        "Shafrir 2 IR missiles add a useful air-to-air option",
+        "Maneuverable across the speed range with little compression",
+        "Solid ground-attack loadout of rockets and bombs"
+      ],
+      "cons": [
+        "No afterburner hurts acceleration and energy recovery",
+        "Long turn time makes sustained dogfighting risky",
+        "Subsonic top speed leaves it outpaced by faster jets",
+        "Poor climb compared with afterburning rivals at its rating"
+      ]
+    },
+    "playstyle": "Treat the Sa'ar as a hit-and-run fighter that prefers the merge on its own terms rather than a turn fight. Use its strong cannon and Shafrir 2 missiles in slashing attacks, then extend to rebuild energy since the engine is slow to accelerate. It also serves well as a secondary striker, delivering rockets and bombs against ground targets.",
+    "history": "By the early 1970s Israel found the Atar engine of its Super Mystere fleet weak and thirsty, so all 26 airframes were re-engined with the lighter, more economical J52-P-8 between 1969 and 1973. The resulting Sa'ar gained more range and ordnance capacity at the price of its afterburner. The upgraded jets served the IAF in the ground-attack role through the latter part of their careers.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Sa'ar | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/md_460_saar",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1148,
+      "maxSpeedAltM": 0,
+      "climbMps": 52.63,
+      "turnTimeSec": 38.4,
+      "structuralLimitKph": 1265,
+      "ceilingM": 16500,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "defa-552-30mm",
+          "count": 2
+        }
+      ],
+      "suspended": [
+        "Shafrir 2 air-to-air missiles",
+        "FFAR Mighty Mouse rockets",
+        "Zuni Mk32 rockets",
+        "100/50 kg G.P. bombs",
+        "250 lb LDGP Mk 81 bombs",
+        "500 lb LDGP Mk 82 bombs",
+        "Mk.2 incendiary (napalm) bomb"
+      ]
+    }
+  },
+  {
+    "id": "j32b-lansen",
+    "name": "J32B Lansen",
+    "nation": "sweden",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.7,
+      "realistic": 9.3,
+      "simulator": 9.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The J32B is the all-weather fighter variant of the Saab 32 Lansen, pairing a punchy quartet of 30 mm cannons with early infrared missiles. Strong climb and heavy firepower make it a capable energy fighter at its rating.",
+    "prosCons": {
+      "pros": [
+        "Four 30 mm cannons deliver devastating burst damage",
+        "Excellent climb rate lets it dictate the altitude fight",
+        "Carries RB24 (AIM-9B) air-to-air missiles",
+        "Generous structural limit for high-speed dives"
+      ],
+      "cons": [
+        "Sluggish turn time punishes prolonged dogfights",
+        "Single engine and large airframe make it an easy target if slowed",
+        "RB24 missiles are early-generation and easy to defeat",
+        "Loses energy quickly in sustained turns"
+      ]
+    },
+    "playstyle": "Climb at the match start and hold an altitude advantage over the enemy. Dive on isolated targets, deliver a quick cannon burst, and zoom back up to reset before re-engaging. Avoid flat turnfights where its mediocre handling becomes a liability.",
+    "history": "The Saab 32 Lansen was a Swedish two-seat transonic combat aircraft, with the J32B serving as the dedicated all-weather interceptor variant from 1958. Powered by the more potent RM6A engine, it carried radar and an infrared sight and replaced earlier attack-configured Lansens in the fighter role. Some 118 were built and the type soldiered on with the Swedish Air Force into the late 1970s.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — J32B",
+        "url": "https://wiki.warthunder.com/unit/saab_j32b",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1140,
+      "maxSpeedAltM": 0,
+      "climbMps": 119.3,
+      "turnTimeSec": 35.8,
+      "structuralLimitKph": 1160,
+      "ceilingM": 12500,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "akan-m55-30mm",
+          "count": 4
+        }
+      ],
+      "suspended": [
+        "RB24 air-to-air missiles",
+        "7.5 cm srak m/57B rockets",
+        "Bombs"
+      ]
+    }
+  },
+  {
+    "id": "a32a-lansen",
+    "name": "A32A Lansen",
+    "nation": "sweden",
+    "class": "aviation",
+    "subclass": "Strike aircraft",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9,
+      "realistic": 9,
+      "simulator": 9
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The A32A is the attack variant of the Saab 32 Lansen, built around a deep and varied ground-ordnance loadout backed by ballistic computers for bombs, rockets, and its four 20 mm cannons. It is a strike platform first, but its guns make it a credible threat in air combat.",
+    "prosCons": {
+      "pros": [
+        "Large and flexible ground-attack loadout of bombs and rockets",
+        "Ballistic computer aids accurate ordnance delivery",
+        "Four 20 mm cannons are effective against aircraft and soft targets",
+        "Solid top speed and structural limit for a strike jet"
+      ],
+      "cons": [
+        "No air-to-air missiles, unlike the later J32B",
+        "No flares; only chaff for countermeasures",
+        "Heavy when fully loaded, hurting climb and acceleration",
+        "Poor turn time leaves it vulnerable to dedicated fighters"
+      ]
+    },
+    "playstyle": "Use the A32A as a fast strike jet, hitting ground targets or bases with its varied ordnance before climbing back to safety. In air combat, rely on energy and the heavy 20 mm battery rather than turning. Manage your speed carefully on attack runs to avoid bleeding energy you cannot easily recover.",
+    "history": "The Saab A32A was the first production variant of the Lansen family, entering Swedish service in 1955 as a dedicated attack aircraft. It carried a wide range of bombs and rockets and pioneered an electronic sighting and ballistic-computing system for accurate strikes. A total of 287 Lansens of all variants were built, with the type remaining in Swedish service in various roles until 1997.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — A32A",
+        "url": "https://wiki.warthunder.com/unit/saab_a32a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1094,
+      "maxSpeedAltM": 0,
+      "climbMps": 42.6,
+      "turnTimeSec": 36.2,
+      "structuralLimitKph": 1160,
+      "ceilingM": 12500,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "akan-m49-20mm",
+          "count": 4
+        }
+      ],
+      "suspended": [
+        "120 kg sb m/61 bombs",
+        "250 kg mb m/50 bombs",
+        "500 kg mb m/56 bombs",
+        "600 kg mb m/50 bombs",
+        "14.5 cm psrak m/49B rockets",
+        "15 cm srak m/51 rockets",
+        "18 cm hprak m/49 rockets",
+        "Chaff pods"
+      ]
+    }
+  },
+  {
+    "id": "j34-hunter",
+    "name": "J34 (Hunter Mk.50)",
+    "nation": "sweden",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.3,
+      "realistic": 9,
+      "simulator": 9.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The J34 is the Swedish service designation for the Hawker Hunter F.50, a clean subsonic jet fighter armed with four 30 mm ADEN cannons and early infrared missiles. It is a forgiving energy fighter with a high ceiling and strong handling for its rating.",
+    "prosCons": {
+      "pros": [
+        "Hard-hitting battery of four 30 mm ADEN cannons",
+        "Good high-altitude performance and tall ceiling",
+        "Carries RB24 (AIM-9B) air-to-air missiles",
+        "Pleasant, responsive handling for a subsonic jet"
+      ],
+      "cons": [
+        "No radar, limiting all-weather interception",
+        "Subsonic top speed leaves it slower than many opponents",
+        "ADEN ammo count is limited, rewarding short bursts",
+        "Only two RB24s and no flares for defense"
+      ]
+    },
+    "playstyle": "Fight in the vertical, using the Hunter's strong climb and high ceiling to stay above opponents and pick energy-favorable engagements. Conserve your limited cannon rounds with disciplined short bursts on lined-up shots. Use the RB24s opportunistically against unaware targets rather than as a primary weapon.",
+    "history": "Sweden acquired the Hawker Hunter as the J34 from 1954 to bolster its air defenses while the J35 Draken was still in development. Operating primarily around Stockholm, the J34 was tasked with intercepting high-altitude bombers and was later fitted to carry the RB24 missile. Around 120 were procured, and they were gradually retired through the 1960s as the Draken entered widespread service.",
+    "media": [],
+    "sources": [
+      {
+        "label": "War Thunder Wiki — J34",
+        "url": "https://wiki.warthunder.com/unit/hunter_f50_sweden",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1093,
+      "maxSpeedAltM": 0,
+      "climbMps": 68.2,
+      "turnTimeSec": 33.4,
+      "structuralLimitKph": 1193,
+      "ceilingM": 14000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "aden-30mm",
+          "count": 4
+        }
+      ],
+      "suspended": [
+        "RB24 air-to-air missiles",
+        "Drop tanks"
+      ]
+    }
+  },
+  {
+    "id": "md-450b-ouragan",
+    "name": "M.D.450B Ouragan",
+    "nation": "france",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7.3,
+      "realistic": 7.7,
+      "simulator": 7.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Ouragan was France's first home-built jet fighter and serves as the entry point into the French jet line. It pairs four hard-hitting 20 mm cannons with honest energy retention, but its modest top speed and weak climb keep it firmly in the early-jet bracket.",
+    "prosCons": {
+      "pros": [
+        "Four 20 mm M50 cannons deliver a dense, reliable burst",
+        "Good energy retention and predictable handling in turns",
+        "Strong wing keeps it together well below the rip speed",
+        "Flexible ground-attack loadout of bombs and rockets"
+      ],
+      "cons": [
+        "Sluggish climb rate struggles to gain the energy advantage",
+        "Top speed is low for its battle rating, so disengaging is hard",
+        "Outclassed in a straight chase by faster swept-wing jets",
+        "Limited high-altitude performance compared to contemporaries"
+      ]
+    },
+    "playstyle": "Fight on your own terms by keeping speed up and dragging opponents into shallow energy turns where the Ouragan holds its corner. Avoid prolonged climbs or vertical merges against faster jets, since the weak climb leaves you below the fight. When the air clears, swap to bombs and rockets to farm ground targets and recover tickets.",
+    "history": "The M.D.450 Ouragan was designed by Dassault in the late 1940s and flew in 1949, becoming the first French-built jet aircraft to enter mass production. It served the Armée de l'Air through the 1950s and was exported to India and Israel, where it saw combat. Though quickly overshadowed by swept-wing successors, it established Dassault as France's premier jet manufacturer.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M.D.450B Ouragan - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/md_450b_ouragan",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 942,
+      "maxSpeedAltM": 0,
+      "climbMps": 2.8,
+      "turnTimeSec": 24,
+      "structuralLimitKph": 1030,
+      "ceilingM": 12000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m50-20mm",
+          "count": 4
+        }
+      ],
+      "suspended": [
+        "2 x 500 lb AN-M64A1 bombs",
+        "2 x 1,000 lb AN-M65A1 bombs",
+        "T10 140 rockets",
+        "T10 151 rockets"
+      ]
+    }
+  },
+  {
+    "id": "md-454-mystere-iva",
+    "name": "Mystère IVA",
+    "nation": "france",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9,
+      "realistic": 8.7,
+      "simulator": 8.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Mystère IVA is a swept-wing transonic gunfighter armed with two 30 mm DEFA cannons that hit hard despite their modest fire rate. It rewards energy fighting with good high-speed handling, but it bleeds speed quickly in tight maneuvers.",
+    "prosCons": {
+      "pros": [
+        "Two 30 mm DEFA 552 cannons with easy ballistics and heavy punch",
+        "Good top speed and acceleration for its rank",
+        "Strong high-speed handling and high angle of attack",
+        "Carries air-to-air rockets and a useful bomb/rocket loadout"
+      ],
+      "cons": [
+        "Only two cannons with limited fire rate, so hits must count",
+        "Loses energy rapidly in sustained or sharp turns",
+        "Modest sustained climb relative to peer swept-wing jets",
+        "No countermeasures or guided air-to-air weaponry of note"
+      ]
+    },
+    "playstyle": "Play the Mystère IVA as a boom-and-zoom energy fighter, keeping your speed high and converting altitude into firing passes. Make every pass count with the DEFA cannons rather than committing to a turning duel where you will bleed energy. Use the rocket and bomb loadout opportunistically against ground targets once the airspace is contested in your favor.",
+    "history": "The Dassault Mystère IV was developed from the Mystère II and first flew in 1952, becoming the first French aircraft to reach transonic speeds in regular service. Early production used British Rolls-Royce Tay turbojets before switching to the licence-built Hispano-Suiza Verdon 350. It served the French Air Force and was exported to India and Israel, seeing combat in the 1956 Suez Crisis and later conflicts.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Mystere IVA - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/md_454_mystere_4a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1090,
+      "maxSpeedAltM": 0,
+      "climbMps": 26.8,
+      "turnTimeSec": 25,
+      "structuralLimitKph": 1166,
+      "ceilingM": 13000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "defa-552-30mm",
+          "count": 2
+        }
+      ],
+      "suspended": [
+        "AA-20 air-to-air missiles",
+        "T10 151 rockets",
+        "Type 23 SNEB rockets",
+        "500 lb AN-M64A1 bombs",
+        "400 kg SAMP Type 21 bombs",
+        "1,000 lb AN-M65A1 bombs"
+      ]
+    }
+  },
+  {
+    "id": "so-4050-vautour-iia",
+    "name": "S.O.4050 Vautour IIA",
+    "nation": "france",
+    "class": "aviation",
+    "subclass": "Strike aircraft",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.7,
+      "realistic": 9,
+      "simulator": 9
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Vautour IIA is a fast twin-engine strike jet that flies more like a heavy fighter than a bomber, outrunning many subsonic jets in level flight. Four 30 mm DEFA cannons and a broad ground-attack loadout make it a potent strike platform when it keeps its speed up.",
+    "prosCons": {
+      "pros": [
+        "Twin Atar engines give excellent top speed and acceleration",
+        "Four nose-mounted 30 mm DEFA 551 cannons for heavy firepower",
+        "Large and varied bomb and rocket loadout for strike work",
+        "Faster than most subsonic jets it meets, easing disengagement"
+      ],
+      "cons": [
+        "Large airframe is sluggish and slow to turn in a dogfight",
+        "Big silhouette makes it an easy target for interceptors",
+        "Energy bleeds heavily once forced into maneuvering",
+        "Reliant on energy advantage; vulnerable if caught slow"
+      ]
+    },
+    "playstyle": "Use the Vautour IIA as a fast strike aircraft: come in high and fast, dump ordnance on ground targets, and rely on raw speed to extend away from threats. Avoid turn fights entirely, since the heavy airframe loses energy and cannot recover it quickly. When intercepted, the four 30 mm cannons let you punish anyone who overcommits to a head-on pass.",
+    "history": "The Sud-Ouest S.O.4050 Vautour was a French twin-jet designed as a multirole platform, with the IIA single-seat variant tailored for ground attack. It entered service in the late 1950s and served the French Air Force, with a number exported to Israel where they saw extensive combat use. Its speed and ruggedness made it a capable strike and interception aircraft during the transonic era.",
+    "media": [],
+    "sources": [
+      {
+        "label": "S.O.4050 Vautour IIA - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/so_4050_vautour_2a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1093,
+      "maxSpeedAltM": 0,
+      "climbMps": 42.8,
+      "turnTimeSec": 33.5,
+      "structuralLimitKph": 1166,
+      "ceilingM": 15000,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "defa-551-30mm",
+          "count": 4
+        }
+      ],
+      "suspended": [
+        "Type 23 SNEB rockets",
+        "T10 140 rockets",
+        "T10 151 rockets",
+        "250 lb to 1,000 lb bombs"
+      ]
+    }
+  },
+  {
+    "id": "mc-205-serie1",
+    "name": "C. 205 serie 1",
+    "nation": "italy",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 3.3,
+      "realistic": 3.7,
+      "simulator": 3.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Macchi C.205 Veltro serie 1 is an Italian Series 5 piston fighter built around the licence-produced DB 605 inline engine. It pairs strong high-altitude energy retention with a light but reliable battery of Breda-SAFAT machine guns.",
+    "prosCons": {
+      "pros": [
+        "Excellent energy retention and dive performance for its battle rating",
+        "Good climb rate lets it fight from an altitude advantage",
+        "Responsive, well-balanced handling that rewards boom-and-zoom",
+        "Sturdy airframe with a high indicated-airspeed limit"
+      ],
+      "cons": [
+        "Light armament of only machine guns lacks knockout punch",
+        "Limited ammunition pool demands careful trigger discipline",
+        "No bombs or rockets, so it offers nothing for ground targets",
+        "Can be out-turned by dedicated dogfighters if it bleeds energy"
+      ]
+    },
+    "playstyle": "Climb above the fight at the start of a match and use the Veltro's altitude as a reservoir of energy. Make slashing dive attacks against distracted opponents and zoom back up rather than committing to flat turns. Aim carefully and fire in short bursts, because the machine-gun battery rewards precision over volume.",
+    "history": "The C.205 Veltro evolved from the C.202 by mating that airframe to the more powerful licence-built Daimler-Benz DB 605 engine. Entering service with the Regia Aeronautica in 1943, it was widely regarded as one of the finest Italian fighters of the war. Comparatively few were completed before the armistice, but those that flew earned a strong reputation against Allied types over the Mediterranean.",
+    "media": [],
+    "sources": [
+      {
+        "label": "C. 205 serie 1 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/mc-205_serie1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 683,
+      "maxSpeedAltM": 7000,
+      "climbMps": 20.4,
+      "turnTimeSec": 18,
+      "structuralLimitKph": 845,
+      "ceilingM": 10360,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "breda-safat-127",
+          "count": 2
+        },
+        {
+          "weaponId": "breda-safat-77",
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "g55-serie1",
+    "name": "G.55 serie 1",
+    "nation": "italy",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.3,
+      "realistic": 5.3,
+      "simulator": 4.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Fiat G.55 Centauro serie 1 is a heavily armed Italian Series 5 fighter combining the DB 605 engine with three 20 mm cannons and a pair of heavy machine guns. It trades a little manoeuvrability for one of the strongest armament packages at its rank.",
+    "prosCons": {
+      "pros": [
+        "Devastating mixed battery of three 20 mm cannons and two heavy MGs",
+        "Strong energy fighter with good climb and dive characteristics",
+        "Robust airframe tolerant of high-speed dives",
+        "Can carry light bombs for situational ground attack"
+      ],
+      "cons": [
+        "Heavier than earlier Macchi fighters, so it turns less tightly",
+        "Cannon ammunition is finite and must be conserved",
+        "Engine performance fades at the highest altitudes",
+        "Faces stiff competition from contemporary high-BR fighters"
+      ]
+    },
+    "playstyle": "Fight the G.55 as an energy fighter, keeping speed and altitude on your side before diving on targets. The three-cannon nose battery shreds enemies in a single well-aimed pass, so set up clean firing solutions rather than scrappy turn fights. Use the bomb loadout only when the air is clear, and disengage upward whenever an opponent forces a sustained turn.",
+    "history": "Designed by Giuseppe Gabrielli, the Fiat G.55 Centauro was one of the trio of advanced Italian Series 5 fighters powered by the licence-built DB 605. It entered service in 1943 and continued in production under the Italian Social Republic after the armistice. Pilots and engineers alike rated it among the best Axis fighters, and its heavy centreline armament made it a dangerous interceptor.",
+    "media": [],
+    "sources": [
+      {
+        "label": "G.55 serie 1 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/g_55_serie1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 670,
+      "maxSpeedAltM": 6500,
+      "climbMps": 20.6,
+      "turnTimeSec": 19.1,
+      "structuralLimitKph": 840,
+      "ceilingM": 10000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "mg-151-20",
+          "count": 3
+        },
+        {
+          "weaponId": "breda-safat-127",
+          "count": 2
+        }
+      ],
+      "suspended": [
+        "2 x 50 kg GP 50 bomb",
+        "2 x 100 kg GP 100T bomb"
+      ]
+    }
+  },
+  {
+    "id": "fiat-g91-r1",
+    "name": "G.91 R/1",
+    "nation": "italy",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8.3,
+      "realistic": 8.7,
+      "simulator": 8.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Fiat G.91 R/1 is a compact Italian subsonic light strike and reconnaissance jet armed with four heavy machine guns and a versatile ordnance fit. It blends nimble low-altitude handling with early guided-missile capability.",
+    "prosCons": {
+      "pros": [
+        "Agile and easy to handle at low altitude",
+        "Flexible loadout of rockets, bombs and Nord guided missiles",
+        "Good acceleration and a high structural speed limit",
+        "Small airframe is a difficult target to hit"
+      ],
+      "cons": [
+        "Machine-gun armament is weak against well-built jet airframes",
+        "Subsonic top speed leaves it outrun by faster contemporaries",
+        "Limited ammunition for sustained gun engagements",
+        "Manual command missile guidance is demanding to use well"
+      ]
+    },
+    "playstyle": "Use the G.91 R/1 as a fast, low-flying skirmisher that picks fights on its own terms. Keep speed up and rely on energy retention rather than dragging fights into the vertical against faster jets. Its rockets, bombs and Nord missiles make it a capable ground-attacker, so swing to strike targets once the airspace is contested or cleared.",
+    "history": "The Fiat G.91 won a 1950s NATO competition for a lightweight tactical strike fighter and entered Italian service late that decade. The R/1 reconnaissance-strike variant added nose cameras and the ability to carry Nord AA-20 and AS-20 command-guided missiles. It went on to serve the Italian, German and Portuguese air forces for decades, becoming one of the most successful European light jets of its era.",
+    "media": [],
+    "sources": [
+      {
+        "label": "G.91 R/1 — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fiat_g91_r1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1084,
+      "maxSpeedAltM": 0,
+      "climbMps": 39.2,
+      "turnTimeSec": 26,
+      "structuralLimitKph": 1128,
+      "ceilingM": 11000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m3-browning-127",
+          "count": 4
+        }
+      ],
+      "suspended": [
+        "19 x FFAR Mighty Mouse rocket",
+        "2 x AS-20 Nord air-to-ground missile",
+        "2 x AA-20 Nord air-to-air missile",
+        "2 x 500 lb AN-M64A1 bomb",
+        "Aerea 559G1 incendiary bomb"
+      ]
+    }
+  },
+  {
+    "id": "emile-bertin",
+    "name": "Émile Bertin",
+    "nation": "france",
+    "class": "naval",
+    "subclass": "Light cruiser",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.3,
+      "realistic": 5.3,
+      "simulator": 5.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "A fast, lightly built French light cruiser carrying nine 152 mm guns in three triple turrets. She trades armour for speed and firepower, rewarding aggressive hit-and-run play.",
+    "prosCons": {
+      "pros": [
+        "Nine rapid-firing 152 mm guns deliver heavy broadsides",
+        "Very high top speed for a cruiser, ideal for repositioning",
+        "Capable 90 mm dual-purpose secondaries plus torpedoes",
+        "Good rank-for-rank firepower at her battle rating"
+      ],
+      "cons": [
+        "Minimal armour leaves her vulnerable to return fire",
+        "Large, exposed bridge is easily knocked out",
+        "Thin hull means flooding and crew losses come quickly",
+        "Limited survivability against larger cruisers"
+      ]
+    },
+    "playstyle": "Use her speed to dictate the engagement range and stay on the move so enemies struggle to land citadel hits. Open with concentrated 152 mm fire from the flanks, then disengage before sustained return fire arrives. Hold torpedoes for closing destroyers and keep the bridge angled away from incoming shells.",
+    "history": "Émile Bertin was a French light cruiser launched in 1933, named for the naval architect Louis-Émile Bertin and designed to serve as a fast destroyer flotilla leader and minelayer. In 1940 she famously carried part of France's gold reserves toward Halifax before the Armistice diverted her to Martinique. She later joined the Allies, supported Operation Dragoon, and served on into the 1950s before retirement.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Emile Bertin | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_cruiser_emile_bertin",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Development: Émile Bertin light cruiser: hit and run — War Thunder News",
+        "url": "https://warthunder.com/en/news/8315-development-%C3%A9mile-bertin-light-cruiser-hit-and-run-en",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "beltMm",
+      "deckMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 8480,
+      "lengthM": 177,
+      "crew": 567
+    },
+    "propulsion": {
+      "maxKnots": 40
+    },
+    "armament": {
+      "mainBattery": "9 × 152 mm/55 model 1930 gun (3×3)",
+      "secondary": "4 × 90 mm/50 model 1926 gun",
+      "aa": "8 × 37 mm/50 model 1933 (4×2); 13.2 mm Browning and Hotchkiss machine guns",
+      "torpedoes": "6 × 550 mm model 1923DT torpedo (2×3)",
+      "depthCharges": false
+    },
+    "armor": {
+      "citadel": "20 / 20 / 20 mm"
+    },
+    "survivability": "Lightly protected with a 25 mm hull and exposed bridge; relies on speed rather than armour"
+  },
+  {
+    "id": "la-galissonniere",
+    "name": "La Galissonnière",
+    "nation": "france",
+    "class": "naval",
+    "subclass": "Light cruiser",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.7,
+      "realistic": 5.7,
+      "simulator": 5.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "A well-balanced French light cruiser mounting nine 152 mm guns and carrying noticeably better armour than the earlier Émile Bertin. She blends respectable protection, speed, and firepower into a flexible all-rounder.",
+    "prosCons": {
+      "pros": [
+        "Nine 152 mm guns with strong rate of fire",
+        "Meaningful belt and turret armour for a light cruiser",
+        "Good top speed lets her control range",
+        "Dual-purpose 90 mm secondaries handle ships and aircraft"
+      ],
+      "cons": [
+        "Still vulnerable to heavy cruiser and battleship fire",
+        "Only four torpedo tubes limits close-range punch",
+        "AA suite is dated against later aircraft",
+        "Citadel can be penetrated at closer ranges"
+      ]
+    },
+    "playstyle": "Fight at medium range where her armour shrugs off splinters and her nine guns can work continuously. Angle the hull to bounce incoming fire and use her speed to break contact when focused. Keep her four torpedoes in reserve for ambushes and lean on the 90 mm guns to swat attacking aircraft.",
+    "history": "La Galissonnière was the lead ship of a class of French light cruisers laid down in the mid-1930s as the navy's standard cruiser design. The class proved fast, seaworthy, and well-armed, forming the backbone of France's light cruiser force on the eve of war. La Galissonnière herself was scuttled at Toulon in November 1942 to prevent her capture by German forces.",
+    "media": [],
+    "sources": [
+      {
+        "label": "La Galissonnière | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_cruiser_la_galissoniere_class_la_galissoniere",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Development: La Galissonnière: Harmony of Qualities — War Thunder News",
+        "url": "https://warthunder.com/en/news/9257-development-la-galissonniere-harmony-of-qualities-en",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "beltMm",
+      "deckMm",
+      "lengthM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 9867,
+      "lengthM": 179,
+      "crew": 557
+    },
+    "propulsion": {
+      "maxKnots": 35
+    },
+    "armament": {
+      "mainBattery": "9 × 152 mm/55 model 1930 gun (3×3)",
+      "secondary": "8 × 90 mm/50 model 1926 gun (4×2)",
+      "aa": "2 × 37 mm/50 model 1933; 25 mm/60 Hotchkiss; 13.2 mm model 1929 Hotchkiss machine guns",
+      "torpedoes": "4 × 550 mm model 1923DT torpedo (2×2)",
+      "depthCharges": false
+    },
+    "armor": {
+      "citadel": "60 / 105 / 38 mm"
+    },
+    "survivability": "Moderately armoured for a light cruiser with a 25 mm hull and protected fire tower; far tougher than Émile Bertin"
+  },
+  {
+    "id": "le-malin",
+    "name": "Le Malin",
+    "nation": "france",
+    "class": "naval",
+    "subclass": "Destroyer leader",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4.7,
+      "realistic": 4.7,
+      "simulator": 4.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "A large, exceptionally fast French destroyer of the Le Fantasque class, armed with five 138.6 mm guns that hit like a light cruiser's. Her speed and firepower make her a hunter of other destroyers.",
+    "prosCons": {
+      "pros": [
+        "Five hard-hitting 138.6 mm main guns",
+        "Outstanding straight-line speed among destroyers",
+        "Strong Bofors and Oerlikon AA after the refit",
+        "Good agility for her size"
+      ],
+      "cons": [
+        "Main guns traverse slowly, struggling to track turns",
+        "Effectively no armour beyond splinter plating",
+        "Reduced to two triple torpedo mounts after the refit",
+        "Large hull is an easy target broadside-on"
+      ]
+    },
+    "playstyle": "Exploit her blistering speed to flank and close on enemy destroyers, then overwhelm them with the heavy 138.6 mm battery. Manage the slow turret traverse by lining up shots before turning, since the guns lag behind sharp manoeuvres. Use the capable AA suite to fend off aircraft and save torpedoes for larger ships.",
+    "history": "Le Malin was a Le Fantasque-class large destroyer, a type built for the French Navy in the early 1930s and famed for record-breaking speed. The in-game vessel reflects her 1943 Boston refit, when American Bofors and Oerlikon guns replaced much of the original light armament and one triple torpedo launcher was removed. After serving the Free French, the class influenced post-war French destroyer thinking.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Le Malin | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_destroyer_le_fantasque_class_le_malin",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Development: Le Malin: the malign destroyer — War Thunder News",
+        "url": "https://warthunder.com/en/news/8232-development-le-malin-the-malign-destroyer-en",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxKnots",
+      "lengthM",
+      "beltMm",
+      "deckMm",
+      "citadel"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 3380,
+      "lengthM": 132,
+      "crew": 265
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "5 × 138.6 mm/50 model 1929 gun",
+      "secondary": "8 × 40 mm Bofors L/60 Mark 2 gun",
+      "aa": "10 × 20 mm/70 Oerlikon Mk.II autocannon",
+      "torpedoes": "6 × 550 mm model 1923DT torpedo (2×3)",
+      "depthCharges": true
+    },
+    "survivability": "Effectively unarmoured with a 16 mm hull and thin splinter shields; relies entirely on speed and evasion"
   }
 ];
