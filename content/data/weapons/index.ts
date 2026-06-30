@@ -553,7 +553,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "churchill-vii"
+      "churchill-vii",
+      "cromwell-v"
     ],
     "notes": "The Churchill VII's 75 mm OQF Mk.V is a quick-loading but low-velocity tank gun firing AP, APCBC, HE and smoke rounds. It rewards close-range engagements where its fast reload offsets its limited penetration. The wiki unit page lists four shells: M72 shot (AP), M61 shot (APCBC), M48 shell (HE) and M89 (smoke).",
     "sources": [
@@ -1395,7 +1396,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "crusader-mk-ii"
+      "crusader-mk-ii",
+      "matilda"
     ],
     "notes": "The 40 mm Ordnance QF 2-pounder is the standard early British cruiser-tank gun, fitted to the Crusader II. The wiki confirms a 40 mm calibre and lists a fast reload of about 3.6 seconds on a basic crew down to 2.8 seconds when aced. It fires solid armour-piercing shot with no high-explosive option, so it relies on hitting crew and modules; the wiki does not publish a muzzle-velocity or rate-of-fire figure for the gun, which are therefore left unverified.",
     "sources": [
@@ -1608,7 +1610,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "mirage-iiic"
+      "mirage-iiic",
+      "kfir-c2"
     ],
     "notes": "French 30 mm revolver-type aircraft autocannon; the Mirage IIIC mounts a pair of them (the unit page labels the exact in-game variant '30 mm DEFA 552A cannon'). The Mirage IIIC unit page does not list fire rate, per-gun/total ammunition count, or muzzle velocity, so those values are left null rather than guessed.",
     "sources": [
@@ -1871,7 +1874,9 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "f-16a"
+      "f-16a",
+      "f-14a-tomcat",
+      "f-1"
     ],
     "notes": "Six-barrel rotary autocannon firing 20 mm rounds at a very high cyclic rate, giving short bursts an exceptionally dense stream of shells. Standard cannon armament of the F-16A, fed from a 512-round drum.",
     "sources": [
@@ -1897,7 +1902,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "mig-29"
+      "mig-29",
+      "su-27"
     ],
     "notes": "Single-barrel 30 mm autocannon that trades sheer rate of fire for heavy, hard-hitting shells. A short burst is often enough to destroy an enemy aircraft, but the small 150-round magazine demands accuracy. Standard cannon of the MiG-29.",
     "sources": [
@@ -1923,7 +1929,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "jas39-gripen"
+      "jas39-gripen",
+      "tornado-ids"
     ],
     "notes": "Single-barrel revolver autocannon in the 27 mm class, balancing a healthy rate of fire with substantial per-shell damage. Known in Swedish service as the Akan m/85, it is the internal gun of the JAS39A Gripen, fed from a 120-round magazine.",
     "sources": [
@@ -2244,7 +2251,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "m6a1"
+      "m6a1",
+      "m10-wolverine"
     ],
     "notes": "The 3-inch (76 mm) Gun M7 is the primary armament of the M6A1 heavy tank. It reloads quickly for a heavy (about 7.6 s stock, 5.9 s aced). On the M6A1 it is paired in the turret with a 37 mm M3 cannon mounted alongside it. Muzzle velocity and fire rate were not clearly shown on the wiki unit page.",
     "sources": [
@@ -2330,6 +2338,273 @@ export const weapons: Weapon[] = [
       {
         "label": "War Thunder Wiki — Harrier GR.1 (harrier_gr1)",
         "url": "https://wiki.warthunder.com/unit/harrier_gr1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "stuk40-75mm",
+    "name": "75 mm StuK40 L/48",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "stug-iii-g"
+    ],
+    "notes": "Long-barrelled 75 mm assault gun cannon mounted in the StuG III G's fixed casemate. It shares its armour-penetration performance with the Panzer IV H's main gun, giving the StuG strong anti-tank capability at its battle rating. Fire rate and muzzle velocity were left null because the wiki rendered them as concatenated multi-mode digit strings.",
+    "sources": [
+      {
+        "label": "StuG III G — War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_stug_III_ausf_G",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps",
+      "ammoTypeIds"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "kwk39-50mm",
+    "name": "50 mm KwK39 L/60",
+    "type": "cannon",
+    "caliberMm": 50,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "pz-iii-m"
+    ],
+    "notes": "Long-barrelled 50 mm tank gun used on late Panzer III variants. Fast reload gives it a high practical rate of fire, but penetration falls off against heavily armoured targets at its battle rating.",
+    "sources": [
+      {
+        "label": "War Thunder Official Wiki — Pz.III M",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_M",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type3-75mm",
+    "name": "75 mm Type 3",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "chi-nu"
+    ],
+    "notes": "Japanese 75 mm tank gun derived from a field gun, fitted to the Type 3 Chi-Nu. Offers solid penetration for its rating but is held back by a slow reload and modest turret traverse.",
+    "sources": [
+      {
+        "label": "War Thunder Official Wiki — Type 3 Chi-Nu",
+        "url": "https://wiki.warthunder.com/unit/jp_type_3_chi_nu",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "sav-kan-m44-105mm",
+    "name": "105 mm kan m/44",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "sav-m43"
+    ],
+    "notes": "Swedish 105 mm gun mounted in the casemate of the Sav m/43 (1946). Delivers a heavy single-shot blow but suffers from a long reload, limiting its rate of fire to a handful of shots per minute.",
+    "sources": [
+      {
+        "label": "War Thunder Official Wiki — Sav m/43 (1946)",
+        "url": "https://wiki.warthunder.com/unit/sw_sav_m43_1946",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m2-75mm",
+    "name": "75 mm M2",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m3-lee"
+    ],
+    "notes": "Hull sponson gun of the M3 Lee, mounted low in the right hull with limited traverse. Available shells on the wiki include M72 shot (AP), M61 shot (APCBC), M48 (HE) and M89 (smoke). The M3's turret separately mounts a 37 mm M5 cannon, which is not modelled here.",
+    "sources": [
+      {
+        "label": "M3 Lee — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m3_lee",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "dca45-90mm",
+    "name": "90 mm SA45",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "arl-44"
+    ],
+    "notes": "Main gun of the ARL-44. The official wiki unit page labels this cannon the 90 mm SA45 (the requested id retains the dca45-90mm key). The unit page does not display a muzzle velocity; the listed cyclic fire rate figure was ambiguous and is left unverified rather than risk a wrong value. Paired with a 7.5 mm MAC 31 coaxial machine gun.",
+    "sources": [
+      {
+        "label": "ARL-44 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/fr_arl_44",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "azp-23-23mm",
+    "name": "23 mm AZP-23",
+    "type": "autocannon",
+    "caliberMm": 23,
+    "fireRateRpm": 850,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "zsu-23-4-shilka"
+    ],
+    "notes": "Quad-barrel water-cooled 23 mm autocannon battery used on the radar-directed ZSU-23-4 Shilka. The four barrels combine for a very high effective volume of fire against aircraft and light vehicles. Per-barrel fire rate of 850 rounds per minute as listed on the wiki; total ammunition load 2,000 rounds with 500-round belts.",
+    "sources": [
+      {
+        "label": "ZSU-23-4 — Official War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_zsu_23_4",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "kda-35mm",
+    "name": "35 mm Oerlikon KDA",
+    "type": "autocannon",
+    "caliberMm": 35,
+    "fireRateRpm": 550,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "gepard"
+    ],
+    "notes": "Twin-mounted 35 mm Oerlikon KDA autocannon used on the radar-directed Flakpanzer Gepard. The heavy 35 mm shells give long reach and high damage against aircraft and light armour. Per-barrel fire rate of 550 rounds per minute as listed on the wiki; 680 rounds total with 320-round belts.",
+    "sources": [
+      {
+        "label": "Gepard — Official War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/germ_flakpz_I_Gepard",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m168-20mm",
+    "name": "20 mm M168 Vulcan",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 3000,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m163-vads"
+    ],
+    "notes": "Six-barrelled 20 mm M168 Vulcan Gatling cannon used on the radar-directed M163 VADS. Its very high cyclic rate of fire (3,000 rounds per minute on the wiki) saturates aerial and ground targets but consumes the 2,200-round load (1,100-round belt) quickly. Reload after a belt is depleted is 26 s stock, 20 s aced.",
+    "sources": [
+      {
+        "label": "M163 — Official War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m163_vulcan",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type23-3-23mm",
+    "name": "23 mm Type 23-3 cannon",
+    "type": "autocannon",
+    "caliberMm": 23,
+    "fireRateRpm": 3396,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "j-8"
+    ],
+    "notes": "Single-barrel 23 mm cannon mounted on the Shenyang J-8B with a 200-round magazine and a high cyclic rate. Selectable belts include Default, Armored targets, Air targets and Stealth, firing HEFI-T, AP-I and HEF-I shells. Muzzle velocity is not displayed on the wiki unit page and is left null.",
+    "sources": [
+      {
+        "label": "J-8B — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/j_8b",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
