@@ -14,9 +14,9 @@ import { AviationCluster } from "@/components/vehicle/AviationCluster";
 import { NavalCluster } from "@/components/vehicle/NavalCluster";
 import { PenetrationCurve, type PenSeries } from "@/components/vehicle/PenetrationCurve";
 import { StatRow, StatTable } from "@/components/vehicle/Readout";
-import { getAllVehicles, getVehicle, getWeapon, getAmmo } from "@/lib/content";
+import { getAllVehicles, getVehicle, getWeapon, getAmmo, getAllAmmo } from "@/lib/content";
 import { NATION_MAP } from "@/lib/nations";
-import { classLabel, browsePath, browseLabel } from "@/lib/vehicle";
+import { classLabel, browsePath } from "@/lib/vehicle";
 
 export const dynamicParams = false;
 
@@ -123,7 +123,7 @@ export default async function VehiclePage({ params }: { params: Promise<{ id: st
 
       {/* Instrument cluster */}
       <section className="mt-8">
-        {vehicle.class === "ground" && <GroundCluster vehicle={vehicle} />}
+        {vehicle.class === "ground" && <GroundCluster vehicle={vehicle} ammo={penTestAmmo(vehicle)} />}
         {vehicle.class === "aviation" && (
           <AviationCluster
             vehicle={vehicle}
@@ -266,6 +266,30 @@ function renderStatTables(vehicle: ReturnType<typeof getVehicle> & {}) {
       </StatTable>
     </>
   );
+}
+
+/**
+ * Build the list of incoming shells offered in the 3D armour pen-test, ordered
+ * so this vehicle's own rounds come first, then every other kinetic shell in the
+ * dataset. Only shells with a 0° penetration-vs-range table can be tested.
+ */
+function penTestAmmo(vehicle: NonNullable<ReturnType<typeof getVehicle>>) {
+  if (vehicle.class !== "ground") return undefined;
+  const own = new Set(vehicle.firepower.ammoTypeIds);
+  const options = getAllAmmo()
+    .map((a) => ({
+      id: a.id,
+      name: a.name,
+      type: a.type,
+      pen: a.penetration.filter((p) => p.angleDeg === 0).map((p) => ({ rangeM: p.rangeM, penMm: p.penMm })),
+    }))
+    .filter((a) => a.pen.length > 0)
+    // This vehicle's own shells first, then the rest alphabetically.
+    .sort((a, b) => {
+      const ao = own.has(a.id), bo = own.has(b.id);
+      return ao === bo ? a.name.localeCompare(b.name) : ao ? -1 : 1;
+    });
+  return options.length > 0 ? options : undefined;
 }
 
 function fmtTriple(z?: { front?: string; side?: string; rear?: string }): string | null {

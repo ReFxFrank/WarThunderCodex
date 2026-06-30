@@ -3,11 +3,21 @@
 import { useRef, useState } from "react";
 import { cn } from "@/lib/cn";
 
+/** A selectable incoming shell: its 0° penetration-vs-range points. */
+export interface AmmoOption {
+  id: string;
+  name: string;
+  type: string;
+  pen: { rangeM: number; penMm: number }[];
+}
+
 interface ArmorViewerProps {
   hull?: { front?: string; side?: string; rear?: string };
   turret?: { front?: string; side?: string; rear?: string };
   /** Hint so casemate TDs / SPAA don't draw a rotating turret + barrel. */
   hasTurret?: boolean;
+  /** Selectable incoming shells for the penetration test (optional). */
+  ammo?: AmmoOption[];
   className?: string;
 }
 
@@ -37,13 +47,28 @@ function facingFor(angle: number): Face {
   return "rear";
 }
 
+/** Linear-interpolate a shell's penetration (mm) at a given range. */
+function interpPen(points: { rangeM: number; penMm: number }[], r: number): number | null {
+  if (!points.length) return null;
+  const pts = [...points].sort((a, b) => a.rangeM - b.rangeM);
+  if (r <= pts[0].rangeM) return pts[0].penMm;
+  if (r >= pts[pts.length - 1].rangeM) return pts[pts.length - 1].penMm;
+  for (let i = 1; i < pts.length; i++) {
+    if (r <= pts[i].rangeM) {
+      const a = pts[i - 1], b = pts[i];
+      const t = (r - a.rangeM) / (b.rangeM - a.rangeM);
+      return Math.round(a.penMm + t * (b.penMm - a.penMm));
+    }
+  }
+  return pts[pts.length - 1].penMm;
+}
+
 interface BoxDims {
   w: number; // lateral (x)
   d: number; // length, front→back (z)
   h: number; // height (y)
 }
 
-// Six faces of a box, each mapped to the armour zone it represents.
 const BOX_FACES: {
   k: string;
   zone: Face | null;
@@ -58,16 +83,18 @@ const BOX_FACES: {
   { k: "bottom", zone: null, tf: (b) => `rotateX(-90deg) translateZ(${b.h / 2}px)`, size: (b) => [b.w, b.d] },
 ];
 
-/** A 3D box whose faces are tinted by the armour zone they represent. */
+/** A 3D box whose faces are tinted by armour thickness — or by a pen verdict when a shell is selected. */
 function ArmorBox({
   dims,
   armor,
   facing,
+  penMm = null,
   showLabels = true,
 }: {
   dims: BoxDims;
   armor?: { front?: string; side?: string; rear?: string };
   facing: Face;
+  penMm?: number | null;
   showLabels?: boolean;
 }) {
   return (
@@ -75,7 +102,15 @@ function ArmorBox({
       {BOX_FACES.map((f) => {
         const raw = f.zone ? armor?.[f.zone] : undefined;
         const v = num(raw);
-        const color = f.zone ? armorColor(v) : "var(--hairline-strong)";
+        const testing = penMm != null && f.zone != null && v != null;
+        const pens = testing ? penMm! >= v! : false;
+        const color = testing
+          ? pens
+            ? "var(--alert)" // round defeats this face
+            : "var(--ok)" // armour holds
+          : f.zone
+            ? armorColor(v)
+            : "var(--hairline-strong)";
         const active = f.zone === facing;
         const [fw, fh] = f.size(dims);
         return (
@@ -109,6 +144,7 @@ function ArmorBox({
                 }}
               >
                 {raw ?? "—"}
+                {testing ? (pens ? " ✕" : " ✓") : ""}
               </span>
             )}
           </div>
@@ -118,29 +154,43 @@ function ArmorBox({
   );
 }
 
+const TEST_RANGES = [10, 500, 1000, 2000];
+
 /**
- * Interactive 3D armour model. The tank is built from CSS-3D boxes (hull +
- * turret + barrel) you can spin by dragging, with the slider, or the face
- * buttons. Each face is tinted by its armour thickness, the side currently
- * facing you is highlighted and read out, and the exact figures sit in the zone
- * table below. Uses only the documented front/side/rear values (top/floor armour
- * isn't in the dataset, so those faces are drawn neutral).
+ * Interactive 3D armour model. Drag to orbit (yaw + pitch); the slider and face
+ * buttons also rotate it. Each face is tinted by armour thickness, the side
+ * facing you is highlighted and read out. Pick an incoming shell to switch the
+ * faces to a pen verdict (red = the round defeats that face, green = the armour
+ * holds) at a chosen range — a nominal estimate against flat armour at 0°.
  */
-export function ArmorViewer({ hull, turret, hasTurret = true, className }: ArmorViewerProps) {
+export function ArmorViewer({ hull, turret, hasTurret = true, ammo, className }: ArmorViewerProps) {
   const [angle, setAngle] = useState(-28);
   const [pitch, setPitch] = useState(-24);
   const [dragging, setDragging] = useState(false);
+  const [ammoId, setAmmoId] = useState("");
+  const [rangeM, setRangeM] = useState(10);
   const drag = useRef<{ x: number; y: number; baseYaw: number; basePitch: number } | null>(null);
 
   const HULL: BoxDims = { w: 120, d: 176, h: 40 };
   const TURRET: BoxDims = { w: 86, d: 78, h: 34 };
   const GUN: BoxDims = { w: 9, d: 70, h: 9 };
 
+  const shell = ammo?.find((a) => a.id === ammoId);
+  const shellPen = shell ? interpPen(shell.pen, rangeM) : null;
+
   const facing = facingFor(angle);
   const hullVal = hull?.[facing];
   const turretVal = turret?.[facing];
   const faceLabel = facing === "side" ? "Side" : facing === "front" ? "Front" : "Rear";
   const norm = ((angle % 360) + 360) % 360;
+
+  const verdict = (armorStr?: string): "pen" | "stop" | null => {
+    const v = num(armorStr);
+    if (shellPen == null || v == null) return null;
+    return shellPen >= v ? "pen" : "stop";
+  };
+  const hullV = verdict(hullVal);
+  const turretV = verdict(turretVal);
 
   const onDown = (e: React.PointerEvent) => {
     drag.current = { x: e.clientX, y: e.clientY, baseYaw: angle, basePitch: pitch };
@@ -150,8 +200,7 @@ export function ArmorViewer({ hull, turret, hasTurret = true, className }: Armor
   const onMove = (e: React.PointerEvent) => {
     if (!drag.current) return;
     setAngle(drag.current.baseYaw + (e.clientX - drag.current.x) * 0.6);
-    // Vertical drag tilts (grab-and-pull feel): drag down → look down on the
-    // roof, drag up → look up at the belly.
+    // Vertical drag tilts (grab-and-pull): drag down → roof, drag up → belly.
     const p = drag.current.basePitch - (e.clientY - drag.current.y) * 0.6;
     setPitch(Math.max(-88, Math.min(88, p)));
   };
@@ -176,9 +225,8 @@ export function ArmorViewer({ hull, turret, hasTurret = true, className }: Armor
         onPointerUp={onUp}
         onPointerLeave={onUp}
         role="img"
-        aria-label={`3D armour model, facing ${faceLabel}`}
+        aria-label={`3D armour model, facing ${faceLabel}${shell ? `, testing ${shell.name}` : ""}`}
       >
-        {/* ground shadow */}
         <div
           className="pointer-events-none absolute left-1/2 top-[60%] h-10 w-56 -translate-x-1/2 rounded-[50%]"
           style={{ background: "radial-gradient(50% 50% at 50% 50%, rgba(0,0,0,0.5), transparent 70%)" }}
@@ -188,17 +236,11 @@ export function ArmorViewer({ hull, turret, hasTurret = true, className }: Armor
             "absolute left-1/2 top-[46%]",
             !dragging && "motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-out",
           )}
-          style={{
-            transformStyle: "preserve-3d",
-            transform: `rotateX(${pitch}deg) rotateY(${angle}deg)`,
-          }}
+          style={{ transformStyle: "preserve-3d", transform: `rotateX(${pitch}deg) rotateY(${angle}deg)` }}
         >
-          {/* hull */}
           <div style={{ position: "absolute", transformStyle: "preserve-3d" }}>
-            <ArmorBox dims={HULL} armor={hull} facing={facing} />
+            <ArmorBox dims={HULL} armor={hull} facing={facing} penMm={shellPen} />
           </div>
-
-          {/* turret + barrel (skipped for casemate/open SPAA mounts) */}
           {hasTurret && (
             <div
               style={{
@@ -207,8 +249,7 @@ export function ArmorViewer({ hull, turret, hasTurret = true, className }: Armor
                 transform: `translateY(${-(HULL.h / 2 + TURRET.h / 2)}px) translateZ(10px)`,
               }}
             >
-              <ArmorBox dims={TURRET} armor={turret} facing={facing} />
-              {/* barrel, pointing forward (+Z) from the turret face */}
+              <ArmorBox dims={TURRET} armor={turret} facing={facing} penMm={shellPen} />
               <div
                 style={{
                   position: "absolute",
@@ -216,12 +257,7 @@ export function ArmorViewer({ hull, turret, hasTurret = true, className }: Armor
                   transform: `translateZ(${TURRET.d / 2 + GUN.d / 2}px)`,
                 }}
               >
-                <ArmorBox
-                  dims={GUN}
-                  armor={undefined}
-                  facing={facing}
-                  showLabels={false}
-                />
+                <ArmorBox dims={GUN} armor={undefined} facing={facing} showLabels={false} />
               </div>
             </div>
           )}
@@ -229,20 +265,37 @@ export function ArmorViewer({ hull, turret, hasTurret = true, className }: Armor
       </div>
 
       {/* readout */}
-      <div className="mt-1 flex items-center justify-between rounded border border-hairline bg-[rgba(8,10,13,0.5)] px-3 py-2">
+      <div className="mt-1 flex items-center justify-between gap-2 rounded border border-hairline bg-[rgba(8,10,13,0.5)] px-3 py-2">
         <span className="label-tag">Facing · {faceLabel}</span>
-        <span className="flex items-center gap-3 font-data text-sm">
-          <span className="flex items-center gap-1.5">
-            <span className="inline-block h-2 w-2 rounded-full" style={{ background: armorColor(num(hullVal)) }} />
-            <span className={hullVal ? "text-ink" : "text-faint"}>Hull {hullVal ?? "—"}</span>
-          </span>
-          {hasTurret && (
+        {shell ? (
+          <span className="flex items-center gap-3 font-data text-sm">
             <span className="flex items-center gap-1.5">
-              <span className="inline-block h-2 w-2 rounded-full" style={{ background: armorColor(num(turretVal)) }} />
-              <span className={turretVal ? "text-ink" : "text-faint"}>Turret {turretVal ?? "—"}</span>
+              <span className={hullV === "pen" ? "text-alert" : hullV === "stop" ? "text-ok" : "text-faint"}>
+                Hull {hullVal ?? "—"} {hullV === "pen" ? "✕" : hullV === "stop" ? "✓" : ""}
+              </span>
             </span>
-          )}
-        </span>
+            {hasTurret && (
+              <span className="flex items-center gap-1.5">
+                <span className={turretV === "pen" ? "text-alert" : turretV === "stop" ? "text-ok" : "text-faint"}>
+                  Turret {turretVal ?? "—"} {turretV === "pen" ? "✕" : turretV === "stop" ? "✓" : ""}
+                </span>
+              </span>
+            )}
+          </span>
+        ) : (
+          <span className="flex items-center gap-3 font-data text-sm">
+            <span className="flex items-center gap-1.5">
+              <span className="inline-block h-2 w-2 rounded-full" style={{ background: armorColor(num(hullVal)) }} />
+              <span className={hullVal ? "text-ink" : "text-faint"}>Hull {hullVal ?? "—"}</span>
+            </span>
+            {hasTurret && (
+              <span className="flex items-center gap-1.5">
+                <span className="inline-block h-2 w-2 rounded-full" style={{ background: armorColor(num(turretVal)) }} />
+                <span className={turretVal ? "text-ink" : "text-faint"}>Turret {turretVal ?? "—"}</span>
+              </span>
+            )}
+          </span>
+        )}
       </div>
 
       {/* controls */}
@@ -273,21 +326,80 @@ export function ArmorViewer({ hull, turret, hasTurret = true, className }: Armor
         />
       </div>
 
+      {/* incoming-round penetration test */}
+      {ammo && ammo.length > 0 && (
+        <div className="mt-3 rounded border border-hairline bg-[rgba(8,10,13,0.35)] p-2.5">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="label-tag">Incoming round</span>
+            <select
+              value={ammoId}
+              onChange={(e) => setAmmoId(e.target.value)}
+              aria-label="Select an incoming shell"
+              className="min-w-0 flex-1 rounded border border-hairline bg-[rgba(8,10,13,0.6)] px-2 py-1 text-xs text-ink focus:outline-none"
+            >
+              <option value="">None — show armour thickness</option>
+              {ammo.map((a) => (
+                <option key={a.id} value={a.id}>
+                  {a.name}
+                </option>
+              ))}
+            </select>
+          </div>
+          {shell && (
+            <>
+              <div className="mt-2 flex flex-wrap items-center gap-2">
+                <span className="label-tag">Range</span>
+                {TEST_RANGES.map((r) => (
+                  <button
+                    key={r}
+                    type="button"
+                    onClick={() => setRangeM(r)}
+                    className={cn(
+                      "rounded border px-2 py-0.5 text-xs",
+                      rangeM === r ? "border-[color:var(--accent-dim)] text-accent" : "border-hairline text-muted hover:text-ink",
+                    )}
+                  >
+                    {r >= 1000 ? `${r / 1000} km` : `${r} m`}
+                  </button>
+                ))}
+                <span className="font-data ml-auto text-xs text-ink">
+                  {shellPen != null ? `${shellPen} mm pen` : "—"}
+                </span>
+              </div>
+              <p className="mt-2 text-[0.7rem] leading-relaxed text-faint">
+                Nominal penetration vs flat armour at 0° — a quick estimate. Real penetration also depends on impact
+                angle, armour slope, and shell type (HEAT/HESH/APHE behave differently).
+              </p>
+            </>
+          )}
+        </div>
+      )}
+
       {/* full zone table */}
       <dl className="mt-3 grid grid-cols-2 gap-x-4 gap-y-1 text-xs">
-        {(["front", "side", "rear"] as Face[]).map((f) => (
-          <div key={`h-${f}`} className={cn("flex items-center justify-between border-b border-hairline py-0.5", facing === f && "text-accent")}>
-            <dt className="text-muted">Hull {f}</dt>
-            <dd className={cn("font-data", hull?.[f] ? "text-ink" : "text-faint")}>{hull?.[f] ?? "—"}</dd>
-          </div>
-        ))}
-        {hasTurret &&
-          (["front", "side", "rear"] as Face[]).map((f) => (
-            <div key={`t-${f}`} className={cn("flex items-center justify-between border-b border-hairline py-0.5", facing === f && "text-accent")}>
-              <dt className="text-muted">Turret {f}</dt>
-              <dd className={cn("font-data", turret?.[f] ? "text-ink" : "text-faint")}>{turret?.[f] ?? "—"}</dd>
+        {(["front", "side", "rear"] as Face[]).map((f) => {
+          const vd = verdict(hull?.[f]);
+          return (
+            <div key={`h-${f}`} className={cn("flex items-center justify-between border-b border-hairline py-0.5", facing === f && "text-accent")}>
+              <dt className="text-muted">Hull {f}</dt>
+              <dd className={cn("font-data", vd === "pen" ? "text-alert" : vd === "stop" ? "text-ok" : hull?.[f] ? "text-ink" : "text-faint")}>
+                {hull?.[f] ?? "—"}{vd === "pen" ? " ✕" : vd === "stop" ? " ✓" : ""}
+              </dd>
             </div>
-          ))}
+          );
+        })}
+        {hasTurret &&
+          (["front", "side", "rear"] as Face[]).map((f) => {
+            const vd = verdict(turret?.[f]);
+            return (
+              <div key={`t-${f}`} className={cn("flex items-center justify-between border-b border-hairline py-0.5", facing === f && "text-accent")}>
+                <dt className="text-muted">Turret {f}</dt>
+                <dd className={cn("font-data", vd === "pen" ? "text-alert" : vd === "stop" ? "text-ok" : turret?.[f] ? "text-ink" : "text-faint")}>
+                  {turret?.[f] ?? "—"}{vd === "pen" ? " ✕" : vd === "stop" ? " ✓" : ""}
+                </dd>
+              </div>
+            );
+          })}
       </dl>
     </div>
   );

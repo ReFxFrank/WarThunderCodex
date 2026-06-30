@@ -1,4 +1,4 @@
-import { ArmorViewer } from "@/components/vehicle/ArmorViewer";
+import { ArmorViewer, type AmmoOption } from "@/components/vehicle/ArmorViewer";
 import { Gauge } from "@/components/ui/Gauge";
 import { Readout } from "@/components/vehicle/Readout";
 import type { GroundVehicle } from "@/lib/schema";
@@ -7,7 +7,7 @@ import type { GroundVehicle } from "@/lib/schema";
  * The ground instrument cluster: the interactive armour schematic alongside
  * backlit gauges for mobility and firepower.
  */
-export function GroundCluster({ vehicle }: { vehicle: GroundVehicle }) {
+export function GroundCluster({ vehicle, ammo }: { vehicle: GroundVehicle; ammo?: AmmoOption[] }) {
   const m = vehicle.mobility;
   const f = vehicle.firepower;
   const dep = f.vertGuidanceDeg?.[0] ?? null;
@@ -15,7 +15,7 @@ export function GroundCluster({ vehicle }: { vehicle: GroundVehicle }) {
 
   return (
     <div className="grid gap-4 lg:grid-cols-2">
-      <ArmorViewer hull={vehicle.armor.hullMm} turret={vehicle.armor.turretMm} className="power-on" />
+      <ArmorViewer hull={vehicle.armor.hullMm} turret={vehicle.armor.turretMm} ammo={ammo} className="power-on" />
 
       <div className="glass scan relative overflow-hidden p-4 power-on">
         <div className="mb-3 flex items-center justify-between">
