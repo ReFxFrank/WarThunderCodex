@@ -3,6 +3,7 @@ import { GlassCard } from "@/components/ui/GlassCard";
 import { NationChip } from "@/components/ui/NationChip";
 import { ClassIcon } from "@/components/ui/ClassIcon";
 import { AcquisitionPill } from "@/components/ui/StatusPill";
+import { VehicleSilhouette } from "@/components/vehicle/VehicleSilhouette";
 import { primaryBR } from "@/lib/vehicle";
 import { cn } from "@/lib/cn";
 import type { Vehicle } from "@/lib/schema";
@@ -18,7 +19,10 @@ function brColor(v: number | null): string {
 export function VehicleCard({ vehicle }: { vehicle: Vehicle }) {
   const br = primaryBR(vehicle.battleRatings);
   return (
-    <GlassCard as={Link} href={`/vehicle/${vehicle.id}`} interactive className="group flex flex-col p-4">
+    <GlassCard as={Link} href={`/vehicle/${vehicle.id}`} interactive className="group flex flex-col overflow-hidden p-4">
+      <div className="reticle-grid -mx-4 -mt-4 mb-3 flex h-20 items-center justify-center border-b border-hairline bg-[rgba(8,10,13,0.4)] px-6">
+        <VehicleSilhouette vehicle={vehicle} className="h-16 opacity-75 transition-opacity group-hover:opacity-100" />
+      </div>
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <div className="mb-1 flex items-center gap-2 text-muted">

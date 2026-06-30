@@ -8,6 +8,7 @@ import { AcquisitionPill } from "@/components/ui/StatusPill";
 import { BrReticle } from "@/components/ui/BrReticle";
 import { VerifiedStamp } from "@/components/ui/VerifiedStamp";
 import { SourcesFooter } from "@/components/article/SourcesFooter";
+import { VehicleSilhouette } from "@/components/vehicle/VehicleSilhouette";
 import { GroundCluster } from "@/components/vehicle/GroundCluster";
 import { AviationCluster } from "@/components/vehicle/AviationCluster";
 import { NavalCluster } from "@/components/vehicle/NavalCluster";
@@ -83,6 +84,19 @@ export default async function VehiclePage({ params }: { params: Promise<{ id: st
         >
           + Add to compare
         </Link>
+      </div>
+
+      {/* Generated silhouette (original schematic — not a photo) */}
+      <div className="reticle-grid power-on mt-6 flex items-center justify-center overflow-hidden rounded-lg border border-hairline bg-[rgba(8,10,13,0.4)] py-5">
+        <VehicleSilhouette
+          vehicle={vehicle}
+          caliberMm={
+            vehicle.class === "ground" && vehicle.firepower.mainGunId
+              ? getWeapon(vehicle.firepower.mainGunId)?.caliberMm ?? null
+              : null
+          }
+          className="h-32 max-w-xl opacity-90"
+        />
       </div>
 
       {/* Instrument cluster */}

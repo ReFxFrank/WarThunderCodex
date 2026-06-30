@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Container } from "@/components/layout/Container";
 import { VehicleCard } from "@/components/vehicle/VehicleCard";
 import { ClassIcon } from "@/components/ui/ClassIcon";
+import { NationFlag } from "@/components/ui/NationFlag";
 import { getVehiclesByNation } from "@/lib/content";
 import { NATIONS, NATION_MAP, type Nation } from "@/lib/nations";
 import { classLabel } from "@/lib/vehicle";
@@ -34,7 +35,7 @@ export default async function NationHub({ params }: { params: Promise<{ nation: 
   return (
     <Container className="py-12 sm:py-14">
       <header className="flex items-center gap-4 border-l-2 pl-4" style={{ borderLeftColor: meta.accentVar }}>
-        <span className="text-4xl" aria-hidden>{meta.flag}</span>
+        <NationFlag nation={meta.id} width={48} className="shadow-[0_2px_8px_-2px_rgba(0,0,0,0.6)]" />
         <div>
           <div className="label-tag mb-1 text-accent">Nation hub</div>
           <h1 className="font-display text-4xl font-semibold tracking-wide text-ink sm:text-5xl">{meta.name}</h1>

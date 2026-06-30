@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { VehicleCard } from "@/components/vehicle/VehicleCard";
+import { NationFlag } from "@/components/ui/NationFlag";
 import { NATION_MAP } from "@/lib/nations";
 import { primaryBR } from "@/lib/vehicle";
 import { cn } from "@/lib/cn";
@@ -93,8 +94,8 @@ export function VehicleBrowser({ vehicles }: { vehicles: Vehicle[] }) {
           <div className="flex flex-wrap items-center gap-1.5">
             <span className="label-tag mr-1">Nation</span>
             {nations.map((n) => (
-              <button key={n} type="button" onClick={() => toggle(pickedNations, n, setPickedNations)} className={chip(pickedNations.has(n))}>
-                {NATION_MAP[n]?.flag} {NATION_MAP[n]?.name ?? n}
+              <button key={n} type="button" onClick={() => toggle(pickedNations, n, setPickedNations)} className={cn(chip(pickedNations.has(n)), "inline-flex items-center gap-1.5")}>
+                <NationFlag nation={n} width={16} /> {NATION_MAP[n]?.name ?? n}
               </button>
             ))}
           </div>

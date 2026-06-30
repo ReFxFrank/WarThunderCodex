@@ -4,6 +4,7 @@ import { useMemo, useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { NATION_MAP } from "@/lib/nations";
+import { NationFlag } from "@/components/ui/NationFlag";
 import { classLabel } from "@/lib/vehicle";
 import { cn } from "@/lib/cn";
 import type { Vehicle, VehicleClass } from "@/lib/schema";
@@ -98,9 +99,9 @@ export function CompareTool({ vehicles }: { vehicles: Vehicle[] }) {
               key={v.id}
               onClick={() => add(v.id)}
               disabled={selected.length >= 3}
-              className="rounded-full border border-hairline px-2.5 py-1 text-xs text-muted hover:border-[color:var(--accent-dim)] hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
+              className="inline-flex items-center gap-1.5 rounded-full border border-hairline px-2.5 py-1 text-xs text-muted hover:border-[color:var(--accent-dim)] hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
             >
-              {NATION_MAP[v.nation]?.flag} {v.name}
+              <NationFlag nation={v.nation} width={15} /> {v.name}
             </button>
           ))}
           {activeClass && candidates.length === 0 && <span className="text-xs text-faint">No more {classLabel(activeClass).toLowerCase()} vehicles to add.</span>}

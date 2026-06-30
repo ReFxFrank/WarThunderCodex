@@ -1,5 +1,6 @@
 import { cn } from "@/lib/cn";
 import { NATION_MAP, type Nation } from "@/lib/nations";
+import { NationFlag } from "@/components/ui/NationFlag";
 
 /**
  * A nation flag chip with a subtle nation-colored left edge. The color is used
@@ -24,7 +25,7 @@ export function NationChip({
       )}
       style={{ borderLeftColor: meta.accentVar }}
     >
-      <span aria-hidden>{meta.flag}</span>
+      <NationFlag nation={nation} width={18} />
       {withName && <span className="text-muted">{meta.name}</span>}
     </span>
   );
