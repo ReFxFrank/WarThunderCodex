@@ -144,7 +144,7 @@ function ArmorBox({
                 }}
               >
                 {raw ?? "—"}
-                {testing ? (pens ? " ✕" : " ✓") : ""}
+                {testing ? (pens ? " · PEN" : " · STOP") : ""}
               </span>
             )}
           </div>
@@ -278,13 +278,13 @@ export function ArmorViewer({ hull, turret, hasTurret = true, ammo, className }:
           <span className="flex items-center gap-3 font-data text-sm">
             <span className="flex items-center gap-1.5">
               <span className={hullV === "pen" ? "text-alert" : hullV === "stop" ? "text-ok" : "text-faint"}>
-                Hull {hullVal ?? "—"} {hullV === "pen" ? "✕" : hullV === "stop" ? "✓" : ""}
+                Hull {hullVal ?? "—"} {hullV === "pen" ? "→ penetrates" : hullV === "stop" ? "→ holds" : ""}
               </span>
             </span>
             {hasTurret && (
               <span className="flex items-center gap-1.5">
                 <span className={turretV === "pen" ? "text-alert" : turretV === "stop" ? "text-ok" : "text-faint"}>
-                  Turret {turretVal ?? "—"} {turretV === "pen" ? "✕" : turretV === "stop" ? "✓" : ""}
+                  Turret {turretVal ?? "—"} {turretV === "pen" ? "→ penetrates" : turretV === "stop" ? "→ holds" : ""}
                 </span>
               </span>
             )}
@@ -373,6 +373,16 @@ export function ArmorViewer({ hull, turret, hasTurret = true, ammo, className }:
                   {shellPen != null ? `${shellPen} mm pen` : "—"}
                 </span>
               </div>
+              <div className="mt-2 flex items-center gap-4 text-[0.7rem]">
+                <span className="flex items-center gap-1.5">
+                  <span className="inline-block h-2.5 w-2.5 rounded-sm" style={{ background: "var(--alert)" }} />
+                  <span className="text-muted"><span className="text-ink">PEN</span> — round goes through</span>
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <span className="inline-block h-2.5 w-2.5 rounded-sm" style={{ background: "var(--ok)" }} />
+                  <span className="text-muted"><span className="text-ink">STOP</span> — armour holds</span>
+                </span>
+              </div>
               <p className="mt-2 text-[0.7rem] leading-relaxed text-faint">
                 Nominal penetration vs flat armour at 0° — a quick estimate. Real penetration also depends on impact
                 angle, armour slope, and shell type (HEAT/HESH/APHE behave differently).
@@ -390,7 +400,7 @@ export function ArmorViewer({ hull, turret, hasTurret = true, ammo, className }:
             <div key={`h-${f}`} className={cn("flex items-center justify-between border-b border-hairline py-0.5", facing === f && "text-accent")}>
               <dt className="text-muted">Hull {f}</dt>
               <dd className={cn("font-data", vd === "pen" ? "text-alert" : vd === "stop" ? "text-ok" : hull?.[f] ? "text-ink" : "text-faint")}>
-                {hull?.[f] ?? "—"}{vd === "pen" ? " ✕" : vd === "stop" ? " ✓" : ""}
+                {hull?.[f] ?? "—"}{vd === "pen" ? " PEN" : vd === "stop" ? " STOP" : ""}
               </dd>
             </div>
           );
@@ -402,7 +412,7 @@ export function ArmorViewer({ hull, turret, hasTurret = true, ammo, className }:
               <div key={`t-${f}`} className={cn("flex items-center justify-between border-b border-hairline py-0.5", facing === f && "text-accent")}>
                 <dt className="text-muted">Turret {f}</dt>
                 <dd className={cn("font-data", vd === "pen" ? "text-alert" : vd === "stop" ? "text-ok" : turret?.[f] ? "text-ink" : "text-faint")}>
-                  {turret?.[f] ?? "—"}{vd === "pen" ? " ✕" : vd === "stop" ? " ✓" : ""}
+                  {turret?.[f] ?? "—"}{vd === "pen" ? " PEN" : vd === "stop" ? " STOP" : ""}
                 </dd>
               </div>
             );
