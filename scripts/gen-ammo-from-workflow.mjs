@@ -22,6 +22,10 @@ function unwrap(parsed) {
 
 const data = unwrap(JSON.parse(await fs.readFile(inputPath, "utf8")));
 
+// br-365 verified as the NAVAL 85mm round, not the T-34-85's tank APHEBC (BR-365A,
+// which wasn't seeded). Drop it rather than ship a naval shell with no gun.
+const DROP = new Set(["br-365"]);
+
 function cleanAmmo(entry) {
   const a = entry.final ?? entry;
   const out = {
@@ -55,7 +59,7 @@ function cleanMissile(entry) {
   return out;
 }
 
-const ammo = data.ammo.map(cleanAmmo);
+const ammo = data.ammo.map(cleanAmmo).filter((a) => !DROP.has(a.id));
 const missiles = (data.missiles ?? []).map(cleanMissile);
 
 await fs.writeFile(

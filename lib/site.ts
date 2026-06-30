@@ -24,7 +24,7 @@ export const DATA_STATUS = {
   targetGameVersion: "Heavy Cavalry (2.57)",
   // Phase tracking so the front page is honest about what exists yet. Live
   // dataset counts come from the content engine (getContentCounts), not here.
-  phase: "Vehicle system live · weapons & comparison (Phase 4) next",
+  phase: "Weapons & comparison live · seed expansion + polish (Phase 5–6) next",
 } as const;
 
 export interface NavLink {

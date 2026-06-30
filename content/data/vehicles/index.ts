@@ -76,7 +76,6 @@ export const vehicles: Vehicle[] = [
       "ammoTypeIds": [
         "br-365k",
         "o-365k",
-        "br-365",
         "br-365p"
       ]
     },
@@ -274,7 +273,11 @@ export const vehicles: Vehicle[] = [
       ],
       "turretTraverseDegSec": 11.3,
       "ammoCapacity": 79,
-      "ammoTypeIds": []
+      "ammoTypeIds": [
+        "pzgr39-42",
+        "pzgr40-42",
+        "sprgr42"
+      ]
     },
     "armor": {
       "hullMm": {

@@ -9,7 +9,11 @@ export const weapons: Weapon[] = [
     "caliberMm": 85,
     "fireRateRpm": null,
     "muzzleVelocityMps": null,
-    "ammoTypeIds": [],
+    "ammoTypeIds": [
+      "br-365k",
+      "o-365k",
+      "br-365p"
+    ],
     "usedBy": [
       "t-34-85-1944"
     ],
@@ -68,7 +72,11 @@ export const weapons: Weapon[] = [
     "caliberMm": 75,
     "fireRateRpm": null,
     "muzzleVelocityMps": null,
-    "ammoTypeIds": [],
+    "ammoTypeIds": [
+      "pzgr39-42",
+      "pzgr40-42",
+      "sprgr42"
+    ],
     "usedBy": [
       "panther-d"
     ],
@@ -95,14 +103,7 @@ export const weapons: Weapon[] = [
     "caliberMm": 20,
     "fireRateRpm": 700,
     "muzzleVelocityMps": null,
-    "ammoTypeIds": [
-      "default",
-      "universal",
-      "air-targets",
-      "armored-targets",
-      "tracers",
-      "stealth"
-    ],
+    "ammoTypeIds": [],
     "usedBy": [
       "bf-109-f-4"
     ],
@@ -193,13 +194,7 @@ export const weapons: Weapon[] = [
     "caliberMm": 7.7,
     "fireRateRpm": 1000,
     "muzzleVelocityMps": null,
-    "ammoTypeIds": [
-      "default",
-      "universal",
-      "tracers",
-      "stealth",
-      "ground-targets"
-    ],
+    "ammoTypeIds": [],
     "usedBy": [
       "spitfire-mk-vb"
     ],

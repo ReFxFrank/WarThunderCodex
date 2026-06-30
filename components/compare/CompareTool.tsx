@@ -107,7 +107,7 @@ export function CompareTool({ vehicles }: { vehicles: Vehicle[] }) {
         </div>
         {activeClass && (
           <p className="mt-2 text-[0.7rem] text-faint">
-            Only {classLabel(activeClass).toLowerCase()} vehicles can be added — cross-class comparisons aren&apos;t meaningful.
+            Only same-class ({classLabel(activeClass).toLowerCase()}) vehicles can be added — cross-class comparisons aren&apos;t meaningful.
           </p>
         )}
       </div>

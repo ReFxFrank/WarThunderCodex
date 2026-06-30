@@ -44,7 +44,11 @@ Read this before continuing work in a new session.
   for ammo/weapon refs is now a non-fatal WARNING (lib/validate-content.ts) so the dataset grows
   in phases; schema violations + duplicate ids stay fatal. Two vehicles (t-34-85, spitfire) have
   speed fields nulled/flagged where the wiki render was unparseable — honest gaps, not guesses.
-- Phase 4 — Weapons system: weapon/ammo/missile pages, comparison tool.
+- Phase 4 ✅ Weapons system: /weapon/[id], /ammo/[id] (penetration table + curve + mechanics),
+  /missile/[id], all cross-linked with vehicles; /compare same-class tool (deltas, ?add=).
+  Seeded 10 ammo + 3 missiles (content/data/**, gen-ammo-from-workflow.mjs). Note: br-365 was a
+  spec artifact (naval, not the T-34's BR-365A) and was dropped; air-gun belt-name "ammoTypeIds"
+  were cleared (they aren't ammo entities).
 - Phase 5 — Seed dataset (~10–15 vehicles/nation, fully sourced) + import scaffold + workflow.
 - Phase 6 — Polish & ship: perf, a11y, reduced-motion, responsive QA, deploy docs.
 

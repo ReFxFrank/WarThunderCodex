@@ -173,7 +173,9 @@ This repository is being built in phases (deliberately, stopping for review at e
       demo slice (6 vehicles + 7 guns); every numeric stat verified against the live wiki or
       nulled and flagged. Dangling cross-references are non-fatal warnings so the dataset grows
       in phases.
-- [ ] **Phase 4 — Weapons system.** Weapon / ammo / missile pages, comparison tool.
+- [x] **Phase 4 — Weapons system.** Weapon, ammunition (penetration tables + curves), and
+      missile pages, fully cross-linked with vehicles; the same-class comparison tool with
+      green/red deltas. Seeded 10 sourced shells + 3 missile families (adversarially verified).
 - [ ] **Phase 5 — Seed dataset + tooling.** Curated, fully-sourced vehicle set + import scaffold.
 - [ ] **Phase 6 — Polish & ship.** Performance, a11y, responsive QA, final deploy docs.
 
