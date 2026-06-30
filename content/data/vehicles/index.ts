@@ -5831,7 +5831,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the T-72A as a patient ambusher. Use the low hull to peek hull-down or to wait in cover, fire, and roll back behind concealment before the autoloader cycles. Avoid prolonged duels in the open where its weak reverse and ringed ammo carousel get exploited; instead let teammates spot while you trade single, well-aimed shots.",
     "history": "The T-72A entered Soviet service in the late 1970s as an improved Ural, adding a laser rangefinder, upgraded fire control, composite turret armour and provisions for mounting explosive reactive armour. It became one of the most widely produced main battle tanks of the Cold War and the baseline for many export and licence-built derivatives.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/t-72a.jpg",
+        "alt": "A Soviet/Russian T-72A main battle tank preserved at the Australian Armoured and Artillery Museum in Cairns, not the in-game model.",
+        "credit": "Ank Kumar (Ank gsx) · CC BY-SA 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "T-72A | War Thunder Wiki (official)",
@@ -5919,7 +5926,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Exploit speed and reverse: rush to commanding positions early, fight hull-down where the turret cheeks shrug off many rounds, and back off the instant you are spotted. Flank with the turbine's pace to land side shots that offset the 105 mm's lighter punch, and avoid head-on slugfests against better-penetrating guns.",
     "history": "The M1 Abrams entered U.S. Army service in 1980 as the replacement for the M60 series, introducing a gas-turbine powerplant, Chobham-type composite armour and a modern fire-control system. The initial M1 retained the 105 mm M68 rifled gun before later variants moved to the 120 mm smoothbore.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/m1-abrams.png",
+        "alt": "An early 105 mm-armed US M1 Abrams photographed at Grafenwöhr Training Area, Germany, in 1986, not the in-game model.",
+        "credit": "W. B. Wilson · CC0 1.0 (also Public Domain under US law) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "M1 Abrams | War Thunder Wiki (official)",
@@ -6009,7 +6023,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight hull-down and let the flat turret cheeks bounce incoming rounds while the L/44 punishes anything in your sights. Use the strong mobility to claim early angles, but keep the weak hull behind cover and avoid exposing your sides; reposition rather than brawl when flanked.",
     "history": "Introduced in the mid-1980s, the Leopard 2A4 was the most-produced Leopard 2 variant, adding an all-digital fire-control system, an automatic fire-and-explosion suppression system and an upgraded turret with improved flat armour. It became one of the most widely exported Western MBTs of its era.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/leopard-2a4.jpg",
+        "alt": "A German-built Leopard 2A4 main battle tank in Finnish Defence Forces service during a parade in Lahti, 2005, not the in-game model.",
+        "credit": "Olli-Jukka Paloneva · CC BY-SA 2.5 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Leopard 2A4 | War Thunder Wiki (official)",
@@ -6100,7 +6121,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight on the vertical and keep your speed high. Use the radar and AIM-7 Sparrows to threaten enemies before the merge, then convert energy into climbs and dives rather than trying to out-turn nimbler opponents. Save AIM-9 Sidewinders for cleanup shots on distracted or slow targets, and disengage to rebuild energy whenever you lose the advantage. Reserve a gun pod only if you expect to be forced into a knife fight, since it noticeably hurts performance.",
     "history": "McDonnell Douglas developed the F-4C as the US Air Force's adaptation of the Navy's F-4B. The first production aircraft flew in May 1963 and exceeded Mach 2 on its maiden flight. Produced from 1963 to 1966, the type saw extensive combat over Vietnam and soldiered on in USAF and Air National Guard service into the late 1980s. Its lack of an internal gun, reflecting contemporary missile-centric doctrine, became a recurring lesson that later Phantom variants and US fighter design would address.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/f-4c-phantom.jpg",
+        "alt": "A USAF McDonnell Douglas F-4C Phantom II (serial 64-0829, a MiG-killer over Vietnam) at the National Museum of the United States Air Force, not the in-game model.",
+        "credit": "U.S. Air Force · Public Domain (PD-USGov-Military-Air Force) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "F-4C Phantom II | War Thunder Wiki (official unit page)",
@@ -6170,7 +6198,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Lean on avionics, not the airframe. Open engagements with radar and R-23R missiles at range, then close with R-23T infrared shots cued by the IRST against flaring targets. Keep the wings swept and your speed high to exploit acceleration, and avoid prolonged turning fights that will both bleed your energy and risk a structural failure. Husband your countermeasures and disengage early when threatened.",
     "history": "The MiG-23 (NATO: Flogger) was Mikoyan-Gurevich's variable-geometry successor to the MiG-21, intended to combine high speed, useful range and beyond-visual-range missile capability. The MiG-23M was the first large-scale production fighter variant, fitted with the Sapfir-23D radar and a TP-23 IRST, which allowed it to employ the R-23R and R-23T medium-range missiles. It became one of the most widely produced Soviet fighters of its era and served across the Warsaw Pact and many export operators.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/mig-23m.jpg",
+        "alt": "A Mikoyan MiG-23MF 'Flogger-B' (serial 3646) preserved at the Prague Aviation Museum, not the in-game model.",
+        "credit": "Alf van Beem · CC0 1.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "MiG-23M | War Thunder Wiki (official unit page)",
@@ -6249,7 +6284,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Exploit the delta's energy and altitude. Climb to use the aircraft's supersonic performance, then make slashing high-speed passes with the DEFA cannons rather than committing to a turning duel that drains the delta's energy. Use AIM-9B or Matra missiles to pressure targets before the merge, and keep your speed up so you can extend, reset and re-engage on your terms.",
     "history": "The Mirage IIIC was the first production model of Dassault's Mirage III family, derived closely from the preproduction IIIA with a revised fuselage. Built as both interceptor and dogfighter, it paired a tailless delta wing with an Atar 09B afterburning turbojet and could lift a supersonic drop tank or a modest strike load. Around 95 were produced, and the type served until 1988, helping establish the long and influential line of Dassault deltas.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/mirage-iiic.jpg",
+        "alt": "A French Air Force Dassault Mirage IIIC at Orange Air Base open day in May 2008, not the in-game model.",
+        "credit": "Jerry Gunner · CC BY 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Mirage IIIC | War Thunder Wiki (official unit page)",
@@ -6323,7 +6365,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight from prepared positions and ridgelines where the suspension can be tilted to expose only the turret while keeping the hull hidden. Range targets with the laser rangefinder, take the first accurate shot, then back off and relocate before return fire arrives. Avoid open brawls; the armour will not save you, so trade angles and sightlines instead of frontal exposure.",
     "history": "Developed by Mitsubishi Heavy Industries as the successor to the Type 61, the Type 74 entered service in 1975 to give Japan a tank competitive with contemporary Western designs. It standardised on the British-derived 105 mm L7 rifled gun and introduced a hydropneumatic suspension allowing the hull to be raised, lowered, and tilted to suit terrain. Roughly 870 were built through the late 1980s, and the type served as a mainstay of the Japan Ground Self-Defense Force for decades.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/type-74.jpg",
+        "alt": "A Japanese JGSDF Type 74 main battle tank displayed at the JGSDF Ordnance School in Tsuchiura, not the in-game model.",
+        "credit": "Megapixie (Max Smith) · Public Domain (released by author) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Type 74 (E) — War Thunder Wiki (unit page)",
@@ -6412,7 +6461,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play it as a defensive sniper: find a hull-down spot, expose only the heavily armoured turret, and use the deep depression to cover approaches while keeping the vulnerable hull plate hidden. Let the 120 mm punish anything that shows itself. Avoid flanking duties and open ground — the poor mobility and exposed lower plate make aggressive play risky.",
     "history": "The Chieftain entered British Army service in the 1960s as a successor to the Centurion, emphasising firepower and protection over mobility. It introduced the rifled 120 mm L11 gun firing separated ammunition and a heavily armoured cast turret, along with a reclined driving position to keep the hull profile low. The Mk 3 was a mid-life production standard with engine and auxiliary improvements; the family soldiered on into the 1990s and influenced later British designs.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/chieftain-mk-3.jpg",
+        "alt": "A British FV4201 Chieftain Mk.11C main battle tank preserved at The Tank Museum, Bovington, not the in-game model.",
+        "credit": "Alan Wilson · CC BY-SA 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Chieftain Mk 3 — War Thunder Wiki (unit page)",
@@ -6500,7 +6556,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight at the speeds where the Tunnan is comfortable: merge, then use its turn rate to gain angles rather than trying to out-run faster jets. Conserve energy, avoid prolonged high-speed dives, and bring the four cannon to bear in short decisive bursts. Disengage and re-position if an opponent forces a vertical energy fight you cannot win.",
     "history": "Designed by SAAB in the late 1940s, the SAAB 29 'Flygande Tunnan' (Flying Barrel) was among the first European jets to adopt swept wings, a layout informed by captured German aerodynamic research. Powered by a license-built de Havilland Ghost turbojet, it gave Sweden a genuinely modern fighter alongside the MiG-15 and F-86. The type served the Swedish Air Force for years and even flew UN peacekeeping sorties over the Congo in the early 1960s, making it the first Swedish-designed jet to see combat.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/j29-tunnan.jpg",
+        "alt": "A Saab 29 Tunnan (S 29C, registration 29970) preserved at the Swedish Air Force Museum in Linköping, not the in-game model.",
+        "credit": "Stefan Sjogren (Brorsson) · CC BY-SA 3.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "J29A — War Thunder Wiki (unit page)",
@@ -6531,6 +6594,664 @@ export const vehicles: Vehicle[] = [
           "weaponId": "akan-m47c-20mm",
           "count": 4
         }
+      ]
+    }
+  },
+  {
+    "id": "ah-1g-cobra",
+    "name": "AH-1G Cobra",
+    "nation": "usa",
+    "class": "aviation",
+    "subclass": "Attack helicopter",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8.7,
+      "realistic": 8,
+      "simulator": 8
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The AH-1G is the opening rotor-wing vehicle of the US helicopter line: a slim, single-engine gunship adapted from the UH-1 airframe. It leans on a chin turret packed with miniguns and 40 mm grenade launchers plus stub-wing rocket and gun pods, making it a saturation-fire platform rather than a precision tank hunter.",
+    "prosCons": {
+      "pros": [
+        "Dense, sustained suppressive fire from twin miniguns with a very large ammo pool",
+        "Flexible chin turret pairs miniguns with 40 mm grenade launchers",
+        "Slim profile is a smaller target than bulkier gunships",
+        "Generous selection of rocket and gun pods for stub-wing loadouts"
+      ],
+      "cons": [
+        "No guided anti-tank missiles, so armour kills rely on rockets and gunnery",
+        "Single engine and light structure offer little survivability under fire",
+        "Modest top speed limits the ability to disengage quickly"
+      ]
+    },
+    "playstyle": "Hover or skim at low altitude near cover, walk the turret onto soft targets and exposed crews, and salvo unguided rockets at armour or emplacements. Without ATGMs you must close to gun range, so use terrain to mask your approach and pull back the moment SPAA spots you.",
+    "history": "Bell had explored helicopter gunships since the late 1950s, mating fixed guns, a turret and stub-wing hardpoints to a sleeker development of the proven UH-1 Iroquois. The prototype first flew on 7 September 1965, drew strong official interest, and won the production contract in April 1966, making the AH-1G the first model of the long-lived Cobra family.",
+    "media": [],
+    "sources": [
+      {
+        "label": "AH-1G | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ah_1g",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "climbMps",
+      "turnTimeSec",
+      "structuralLimitKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": 1000,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": null,
+      "ceilingM": 3475,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m134-minigun-762mm",
+          "count": 2
+        },
+        {
+          "weaponId": "m129-grenade-40mm",
+          "count": 2
+        }
+      ],
+      "suspended": [
+        "7 x FFAR Mighty Mouse rockets",
+        "19 x FFAR Mighty Mouse rockets",
+        "7.62 mm M134 Minigun gun pod",
+        "20 mm M195 cannon pod",
+        "M18A1 gun pod",
+        "XM-35 gun pod"
+      ]
+    }
+  },
+  {
+    "id": "mi-24p",
+    "name": "Mi-24P",
+    "nation": "ussr",
+    "class": "aviation",
+    "subclass": "Attack helicopter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 10,
+      "realistic": 9.7,
+      "simulator": 9.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Mi-24P is the dedicated anti-armour version of the heavily built Hind gunship. In place of the Mi-24V's gunner-aimed chin turret it carries a fixed side-mounted twin-barrel 30 mm cannon borrowed from the Su-25, backed by Shturm guided missiles, rocket pods and a choice of air-to-air missiles for self-defence.",
+    "prosCons": {
+      "pros": [
+        "Hard-hitting fixed 30 mm cannon with a very high rate of fire",
+        "Shturm ATGMs give reliable stand-off anti-tank capability",
+        "Twin engines and a sturdy armoured airframe improve survivability",
+        "Can carry R-60 / R-60M air-to-air missiles to fend off aircraft"
+      ],
+      "cons": [
+        "Fixed cannon must be aimed with the whole airframe rather than a turret",
+        "Large, heavy silhouette is easy for SPAA to spot and engage",
+        "Handling is less nimble than lighter scout-style gunships"
+      ]
+    },
+    "playstyle": "Fight at the edge of your missile range, launching Shturms from behind cover and ducking back down before SPAA reacts. The fixed 30 mm rewards committed gun runs on light vehicles and helicopters, while R-60 missiles let you punish careless attackers, but always respect your own bulk and stay low.",
+    "history": "In 1981 a dedicated anti-tank Hind was developed by replacing the Mi-24V's gunner-controlled 12.7 mm nose turret with a pilot-controlled fixed twin-barrel 30 mm cannon adapted from the Su-25. The resulting Mi-24P entered service quickly and was widely exported alongside the Mi-24V, becoming one of the most recognisable Soviet attack helicopters.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Mi-24P | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/mi_24p",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "climbMps",
+      "turnTimeSec",
+      "structuralLimitKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": 1000,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": null,
+      "ceilingM": 4950,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "gsh-30k-30mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "9M114 Shturm ATGMs",
+        "S-8KO rocket pods",
+        "S-24 rockets",
+        "R-60 air-to-air missiles",
+        "R-60M air-to-air missiles",
+        "GSh-23L 23 mm cannon pod",
+        "GShG-7.62 / YaK-B machine gun pods",
+        "OFAB-250sv 250 kg bomb",
+        "FAB-500M-54 500 kg bomb"
+      ]
+    }
+  },
+  {
+    "id": "bo-105-pah-1",
+    "name": "Bo 105 PAH-1",
+    "nation": "germany",
+    "class": "aviation",
+    "subclass": "Attack helicopter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.7,
+      "realistic": 9.3,
+      "simulator": 9.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Bo 105 PAH-1 is West Germany's light anti-tank helicopter: tiny, quick and agile, built around a roof-mounted launcher for HOT guided missiles. It carries no built-in cannon, trading armour and firepower for a small profile and the ability to pop up, fire missiles and slip back behind cover.",
+    "prosCons": {
+      "pros": [
+        "Small, light and very manoeuvrable, hard to spot and hit",
+        "HOT-1 ATGMs deliver accurate, hard-hitting anti-tank fire",
+        "Fast for its class, making hit-and-run attacks easy",
+        "Twin engines for a light helicopter"
+      ],
+      "cons": [
+        "No fixed cannon or machine gun, so it is helpless once missiles run dry",
+        "Essentially no armour; small-arms or SPAA fire can cripple it instantly",
+        "Limited defensive options beyond countermeasures and optional gun pods"
+      ]
+    },
+    "playstyle": "Play it as a missile sniper: stay masked by terrain, rise just enough to lock and guide a HOT missile onto armour, then drop back down. With no cannon you should never trade fire directly, so manage missile stocks carefully and lean on your speed and small size to relocate after each shot.",
+    "history": "Derived from the Bo 105M multi-purpose helicopter by MBB, the Bo 105 PAH-1 (Panzerabwehrhubschrauber, 'anti-tank helicopter') could carry up to six HOT missiles. Between 1979 and 1984 the West German Army received 212 examples. Its inability to fight at night and its fragility eventually saw it replaced by the Eurocopter Tiger, with the last German Bo 105s retiring in 2016.",
+    "media": [],
+    "sources": [
+      {
+        "label": "BO 105 PAH-1 | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/bo_105pah1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "climbMps",
+      "turnTimeSec",
+      "structuralLimitKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": 0,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": null,
+      "ceilingM": 5180,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [],
+      "suspended": [
+        "HOT-1 ATGMs (up to 6)",
+        "12.7 mm FN M3P machine gun pods",
+        "FFAR Mighty Mouse rocket pods",
+        "Countermeasures (30)"
+      ]
+    }
+  },
+  {
+    "id": "sa-342m-gazelle",
+    "name": "SA.342M Gazelle",
+    "nation": "france",
+    "class": "aviation",
+    "subclass": "Attack helicopter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.3,
+      "realistic": 9.7,
+      "simulator": 9.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "A light French scout-attack helicopter built around the HOT anti-tank missile. The 342M trades the earlier 341F's nose autocannon for a second weapon pylon and adds a thermal imager, making it a quick, nimble missile carrier that relies on standoff range and small size rather than armour to survive.",
+    "prosCons": {
+      "pros": [
+        "Carries up to four HOT ATGMs with strong penetration",
+        "Thermal imaging gunner sight for spotting and night targeting",
+        "Small, agile airframe that hides well in terrain",
+        "Can mount Mistral air-to-air missiles for self-defence"
+      ],
+      "cons": [
+        "No fixed gun, so no quick answer to nearby threats",
+        "Very fragile - a single hit can be fatal",
+        "Modest top speed and climb limit repositioning",
+        "Light ordnance load compared with dedicated gunships"
+      ]
+    },
+    "playstyle": "Hover or perch behind cover at the edge of the map, pop up to lase and guide HOT missiles onto armour, then drop back down before return fire arrives. Use the thermal sight to find targets first. Keep Mistrals ready for enemy helicopters, and never get drawn into a close-range knife fight - with no gun and paper-thin survivability, distance is the only defence.",
+    "history": "The SA.342M was the French Army (ALAT) anti-tank variant of the Aerospatiale Gazelle, fielded from the mid-1980s with a more powerful Astazou engine, upgraded optics and avionics, and pylons for the HOT wire-guided missile. Gazelles of this type saw combat in the Gulf War and remained a frontline ALAT type for decades before being gradually retired.",
+    "media": [],
+    "sources": [
+      {
+        "label": "SA.342M Gazelle | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sa_342m",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "maxSpeedAltM",
+      "climbMps",
+      "turnTimeSec",
+      "structuralLimitKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": null,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": null,
+      "ceilingM": 5000,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [],
+      "suspended": [
+        "HOT-1 ATGMs",
+        "HOT-2 ATGMs",
+        "Mistral air-to-air missiles",
+        "FFAR Mighty Mouse rocket pods"
+      ]
+    }
+  },
+  {
+    "id": "a129-mangusta",
+    "name": "A129CBT",
+    "nation": "italy",
+    "class": "aviation",
+    "subclass": "Attack helicopter",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 9.7,
+      "realistic": 11,
+      "simulator": 9.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "Italy's purpose-built attack helicopter, the Mangusta Combat pairs a chin-mounted 20 mm turret cannon with a deep, flexible weapons load - TOW-2 and Hellfire ATGMs, Hydra-70 rockets, and both ATAS and Mistral air-to-air missiles. It is a true gunship rather than a light scout.",
+    "prosCons": {
+      "pros": [
+        "Chin turret 20 mm cannon for close defence and soft targets",
+        "Carries both TOW-2 and AGM-114B Hellfire ATGMs",
+        "ATAS and Mistral missiles give real air-to-air teeth",
+        "Twin-engine design and Hydra-70 rocket options"
+      ],
+      "cons": [
+        "High Realistic battle rating faces top-tier opposition",
+        "Still a helicopter - vulnerable to SPAA and fighters",
+        "Cannon ammo pool is limited for sustained strafing",
+        "Large signature compared with a light scout helicopter"
+      ]
+    },
+    "playstyle": "Use the turret cannon to deal with light vehicles and to fend off helicopters at close range, but lead with standoff ATGMs from cover. Mix Hellfires for fire-and-forget shots with TOWs when you need them, and keep ATAS or Mistral selected to ambush enemy helicopters. Respect the high BR matchups - stay masked by terrain and let the missiles do the long-range work.",
+    "history": "The Agusta A129 Mangusta was the first dedicated attack helicopter designed and built entirely in Western Europe, developed for the Italian Army from the late 1970s and first flown in 1983. The A129CBT (Combat) upgrade brought modernised avionics and an expanded Western weapons fit; Italian Mangustas served in theatres including Iraq and Afghanistan.",
+    "media": [],
+    "sources": [
+      {
+        "label": "A129CBT | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/a_129_cbt",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "maxSpeedAltM",
+      "climbMps",
+      "turnTimeSec",
+      "structuralLimitKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": null,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": null,
+      "ceilingM": 5400,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "tm197b-20mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "BGM-71D TOW-2 ATGMs",
+        "AGM-114B Hellfire ATGMs",
+        "Hydra-70 M247 70 mm rocket pods",
+        "ATAS (AIM-92) air-to-air missiles",
+        "Mistral air-to-air missiles"
+      ]
+    }
+  },
+  {
+    "id": "lynx-ah1",
+    "name": "Lynx AH.Mk.1",
+    "nation": "britain",
+    "class": "aviation",
+    "subclass": "Attack helicopter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.7,
+      "realistic": 10.7,
+      "simulator": 10
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "A fast, agile British utility helicopter pressed into the attack role. The Lynx AH.Mk.1 has no built-in gun but hauls a versatile suspended load: TOW-2 and Hellfire ATGMs, Hydra-70 rockets, ATAS missiles, and an optional 20 mm Oerlikon gun pod.",
+    "prosCons": {
+      "pros": [
+        "Fast and very maneuverable for a helicopter",
+        "Carries both TOW-2 and AGM-114B Hellfire ATGMs",
+        "Optional 20 mm Oerlikon gun pod adds gun firepower",
+        "ATAS missiles allow helicopter-vs-helicopter combat"
+      ],
+      "cons": [
+        "No permanently fixed gun - cannon is an optional pod",
+        "Low ceiling limits high-altitude standoff",
+        "Lightly protected and easy to destroy if caught",
+        "Carrying a gun pod competes with missile capacity"
+      ]
+    },
+    "playstyle": "Exploit the Lynx's speed to reach firing positions quickly, then guide TOWs or fire-and-forget Hellfires from behind terrain. Add the 20 mm Oerlikon pod when you expect close engagements or light targets, and keep ATAS ready for enemy helicopters. Because protection is minimal, treat every pop-up as brief: lase, launch, and re-mask before SPAA can range you.",
+    "history": "The Westland Lynx grew out of a 1960s Westland programme to replace the Scout and Wasp; the prototype first flew in 1971. The AH.Mk.1 army variant served the British Army Air Corps in conflicts from the Falklands and the Gulf War to the Balkans and anti-piracy patrols off Somalia, typically armed with TOW anti-tank missiles.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Lynx AH.Mk.1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/lynx_ah_mk1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "maxSpeedAltM",
+      "climbMps",
+      "turnTimeSec",
+      "structuralLimitKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": null,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": null,
+      "ceilingM": 3500,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [],
+      "suspended": [
+        "BGM-71D TOW-2 ATGMs",
+        "AGM-114B Hellfire ATGMs",
+        "Hydra-70 M247 70 mm rocket pods",
+        "ATAS (AIM-92) air-to-air missiles",
+        "20 mm Oerlikon KAD-B gun pod"
+      ]
+    }
+  },
+  {
+    "id": "ka-50",
+    "name": "Ka-50",
+    "nation": "ussr",
+    "class": "aviation",
+    "subclass": "Attack helicopter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 10.7,
+      "realistic": 11.3,
+      "simulator": 10.3
+    },
+    "acquisition": [
+      "premium"
+    ],
+    "summary": "Single-seat Soviet anti-tank helicopter built around the long-reach Vikhr beam-riding missile and a hull-mounted 30 mm 2A42 autocannon. The coaxial rotor layout gives it tight, tail-rotor-free handling and a high top speed for a rotorcraft.",
+    "prosCons": {
+      "pros": [
+        "Vikhr ATGMs reach far out (long stand-off engagement range)",
+        "Powerful, accurate hull-mounted 30 mm 2A42 with a deep 460-round magazine",
+        "Coaxial rotors remove tail-rotor vulnerability and aid agility",
+        "Igla air-to-air missiles for self-defence against other helicopters and slow aircraft"
+      ],
+      "cons": [
+        "Single seat means the pilot manages flying and targeting alone",
+        "Cannon is fixed to the airframe, so the whole helicopter must be aimed",
+        "Faces top-tier SPAA and radar-guided missiles at its battle rating",
+        "Premium-only acquisition"
+      ]
+    },
+    "playstyle": "Hold stand-off range and pop up from terrain masking to loose Vikhr missiles, then duck back behind cover. Use the 2A42 for light vehicles, exposed crews, and finishing damaged targets up close, and keep Iglas ready for enemy helicopters.",
+    "history": "The Ka-50 (NATO reporting name Hokum) grew out of the Kamov V-80 program of the 1980s as a single-seat dedicated anti-armour helicopter, an unusual choice meant to cut weight and lean on automation. Its coaxial twin rotors dispense with a tail rotor and give it distinctive agility. In War Thunder it arrived as a premium pack in Update 1.93 'Shark Attack'.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Ka-50 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ka_50",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedAltM",
+      "turnTimeSec",
+      "structuralLimitKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 251,
+      "maxSpeedAltM": 1000,
+      "climbMps": 12.5,
+      "turnTimeSec": null,
+      "structuralLimitKph": null,
+      "ceilingM": 5400,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "2a42-30mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "6 x 9K121 Vikhr anti-tank guided missiles",
+        "Up to 80 x S-8 unguided rockets (S-8KO)",
+        "2 x 9M39 Igla air-to-air missiles",
+        "Optional 23 mm GSh-23L gun pod",
+        "OFAB-250sv 250 kg bombs",
+        "FAB-500M-62 500 kg bombs"
+      ]
+    }
+  },
+  {
+    "id": "ah-64a-apache",
+    "name": "AH-64A Apache",
+    "nation": "usa",
+    "class": "aviation",
+    "subclass": "Attack helicopter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 10.3,
+      "realistic": 11.7,
+      "simulator": 10.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The U.S. Army's flagship attack helicopter, fielding fire-and-forget Hellfire missiles, a flexible chin-mounted 30 mm M230 chain gun, and a third-generation thermal sight that lets it find and kill targets at long range.",
+    "prosCons": {
+      "pros": [
+        "AGM-114 Hellfire fire-and-forget missiles need no continuous guidance after launch",
+        "Chin-turret 30 mm M230 chain gun slews independently of the airframe",
+        "Excellent thermal optics for spotting and engaging at distance",
+        "Versatile loadout mixing Hellfires, Hydra rockets, and air-to-air missiles"
+      ],
+      "cons": [
+        "High realistic battle rating drops it into heavy radar-SPAA territory",
+        "Large airframe is easy to spot when it unmasks",
+        "30 mm chin gun fires HEDP only, limited against heavier armour",
+        "Hellfire count is modest compared with some peer helicopters"
+      ]
+    },
+    "playstyle": "Use terrain masking and the thermal sight to detect armour first, then unmask just long enough to lock and launch Hellfires before dropping back. The slewable M230 turret handles soft targets and helicopters; mount air-to-air missiles when contesting other rotorcraft.",
+    "history": "The AH-64A came out of the U.S. Army's Advanced Attack Helicopter program begun in 1972 to replace the AH-1 Cobra, with the YAH-64 prototype selected in 1976. It entered War Thunder in Update 1.97 'Viking Fury', sitting near the top of the U.S. helicopter line.",
+    "media": [],
+    "sources": [
+      {
+        "label": "AH-64A — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ah_64a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "maxSpeedAltM",
+      "climbMps",
+      "turnTimeSec",
+      "structuralLimitKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": 1000,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": null,
+      "ceilingM": 5400,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m230-30mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "Up to 16 x AGM-114K Hellfire II anti-tank guided missiles",
+        "Hydra-70 70 mm unguided rockets (M247 HEAT and others)",
+        "AGR-20 APKWS II laser-guided rockets",
+        "AIM-9L Sidewinder air-to-air missiles",
+        "AIM-92 ATAS (Air-to-Air Stinger) missiles"
+      ]
+    }
+  },
+  {
+    "id": "ah-1s-kisarazu",
+    "name": "AH-1S Kisarazu",
+    "nation": "japan",
+    "class": "aviation",
+    "subclass": "Attack helicopter",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.7,
+      "realistic": 9.7,
+      "simulator": 9.7
+    },
+    "acquisition": [
+      "premium"
+    ],
+    "summary": "Japan's license-built Cobra gunship, carrying TOW anti-tank missiles with thermal sights and a three-barrel 20 mm M197 turret. A premium pack notable for its commemorative 'Kisarazu Sisters' livery and crew.",
+    "prosCons": {
+      "pros": [
+        "TOW-2 missiles with thermal night-vision sighting for clear target acquisition",
+        "Slewable 20 mm M197 turret traverses independently of the airframe",
+        "Slim Cobra silhouette is hard to spot head-on",
+        "Comparatively low battle rating for a missile-armed attack helicopter"
+      ],
+      "cons": [
+        "TOW missiles are SACLOS — you must keep the target tracked the whole flight",
+        "Single engine and modest top speed limit repositioning",
+        "20 mm cannon is weak against modern armour",
+        "Premium-only, bought with Golden Eagles"
+      ]
+    },
+    "playstyle": "Stay at stand-off range behind cover, lift just enough to guide a TOW onto target while holding the sight steady through impact, then re-mask. Lean on the M197 turret and rockets for light vehicles and emergencies.",
+    "history": "The AH-1S is the Japanese license-produced Cobra (a Step-3 / AH-1F-equivalent) built by Fuji Heavy Industries for the Ground Self-Defense Force. The Kisarazu pack in War Thunder, added in Update 1.89 'Imperial Navy', honours the 20th anniversary of the JGSDF 4th Anti-Tank Helicopter Unit at Kisarazu with a special illustrated livery and was the first vehicle in the game with a female flight crew.",
+    "media": [],
+    "sources": [
+      {
+        "label": "AH-1S Kisarazu — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ah_1s",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "maxSpeedAltM",
+      "climbMps",
+      "turnTimeSec",
+      "structuralLimitKph"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": 1000,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": null,
+      "ceilingM": 3475,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m197-20mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "Up to 8 x BGM-71D TOW-2 anti-tank guided missiles",
+        "FFAR Mighty Mouse 70 mm unguided rockets",
+        "Optional 7.62 mm M134 Minigun pod"
       ]
     }
   }

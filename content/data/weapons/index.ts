@@ -1675,5 +1675,187 @@ export const weapons: Weapon[] = [
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m134-minigun-762mm",
+    "name": "7.62 mm M134 Minigun",
+    "type": "machine-gun",
+    "caliberMm": 7.62,
+    "fireRateRpm": 4000,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ah-1g-cobra"
+    ],
+    "notes": "Electrically driven multi-barrel rotary machine gun mounted in the AH-1G's chin turret, prized for an extremely high cyclic rate and a large ammunition pool that lets it lay down sustained suppressive fire against soft targets.",
+    "sources": [
+      {
+        "label": "AH-1G | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ah_1g",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m129-grenade-40mm",
+    "name": "40 mm M129 grenade launcher",
+    "type": "autocannon",
+    "caliberMm": 40,
+    "fireRateRpm": 350,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ah-1g-cobra"
+    ],
+    "notes": "Automatic 40 mm grenade launcher carried in the AH-1G's chin turret. It lobs explosive grenades at a low velocity, useful against infantry, light vehicles and emplacements when paired with the turret miniguns.",
+    "sources": [
+      {
+        "label": "AH-1G | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ah_1g",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "gsh-30k-30mm",
+    "name": "30 mm GSh-30-2K cannon",
+    "type": "autocannon",
+    "caliberMm": 30,
+    "fireRateRpm": 2598,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "mi-24p"
+    ],
+    "notes": "Fixed twin-barrel 30 mm cannon adapted from the Su-25 and mounted on the side of the Mi-24P's nose. Aimed by pointing the whole airframe, it delivers a very high rate of fire that shreds light vehicles, helicopters and aircraft.",
+    "sources": [
+      {
+        "label": "Mi-24P | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/mi_24p",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "tm197b-20mm",
+    "name": "20 mm TM197B cannon",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 750,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "a129-mangusta"
+    ],
+    "notes": "Chin-mounted 20 mm turret cannon on the A129CBT, fed from a 500-round pool. Used for self-defence against light targets and helicopters at close range.",
+    "sources": [
+      {
+        "label": "A129CBT | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/a_129_cbt",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "2a42-30mm",
+    "name": "30 mm 2A42 cannon",
+    "type": "autocannon",
+    "caliberMm": 30,
+    "fireRateRpm": 546,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ka-50"
+    ],
+    "notes": "Hull-mounted 30 mm autocannon on the Ka-50, fed from a 460-round magazine. Effective against light vehicles, exposed crews, and helicopters; fixed to the airframe so the helicopter is aimed at the target.",
+    "sources": [
+      {
+        "label": "Ka-50 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ka_50",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m230-30mm",
+    "name": "30 mm M230E-1 chain gun",
+    "type": "autocannon",
+    "caliberMm": 30,
+    "fireRateRpm": 625,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ah-64a-apache"
+    ],
+    "notes": "Chin-turret 30 mm chain gun on the AH-64A, fed from a 1,200-round magazine and firing HEDP rounds. The turret slews independently of the airframe, slaved to the gunner's sight.",
+    "sources": [
+      {
+        "label": "AH-64A — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ah_64a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m197-20mm",
+    "name": "20 mm M197 cannon",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 750,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ah-1s-kisarazu"
+    ],
+    "notes": "Three-barrel 20 mm Gatling-type turret cannon on the AH-1S, fed from a 750-round magazine. Mounted in a slewable chin turret slaved to the gunner's sight; best against light targets and helicopters.",
+    "sources": [
+      {
+        "label": "AH-1S Kisarazu — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ah_1s",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
   }
 ];
