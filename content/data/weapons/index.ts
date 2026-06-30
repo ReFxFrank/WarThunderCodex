@@ -616,5 +616,235 @@ export const weapons: Weapon[] = [
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "shvak-20mm",
+    "name": "20 mm ShVAK",
+    "type": "cannon",
+    "caliberMm": 20,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "yak-3",
+      "la-5fn"
+    ],
+    "notes": "Soviet 20 mm aircraft autocannon, the standard cannon armament of mid-war Yak and Lavochkin fighters. In-game fire rate is mount-dependent and therefore not a single value for this shared record: the synchronised fuselage mount on the Yak-3 reads 800 shots/min while the La-5FN installation reads 720 shots/min on their respective unit pages. Because the figure differs by host airframe, fireRateRpm is left null here rather than committing to one number.",
+    "sources": [
+      {
+        "label": "20 mm ShVAK cannon | War Thunder Wiki (weaponry)",
+        "url": "https://wiki.warthunder.com/collections/weapon/20mm_shvak",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Yak-3 | War Thunder Wiki (armament fire rate: 800 shots/min)",
+        "url": "https://wiki.warthunder.com/unit/yak-3",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "La-5FN | War Thunder Wiki (armament fire rate: 720 shots/min)",
+        "url": "https://wiki.warthunder.com/unit/la-5fn",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "ubs-12mm",
+    "name": "12.7 mm UBS",
+    "type": "machine-gun",
+    "caliberMm": 12.7,
+    "fireRateRpm": 996,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "yak-3"
+    ],
+    "notes": "Synchronised variant of the Soviet 12.7 mm Berezin UB heavy machine gun, mounted in pairs over the engine of the Yak-3. The 996 shots/min fire rate is taken from the Yak-3 unit page armament listing. Muzzle velocity is not exposed numerically on the Tier-1 weapon page, so it is left null.",
+    "sources": [
+      {
+        "label": "12.7 mm Berezin UB machine gun | War Thunder Wiki (weaponry)",
+        "url": "https://wiki.warthunder.com/collections/weapon/12_7mm_ub",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Yak-3 | War Thunder Wiki (armament fire rate: 996 shots/min)",
+        "url": "https://wiki.warthunder.com/unit/yak-3",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "hs-404-20mm",
+    "name": "20 mm HS.404",
+    "type": "cannon",
+    "caliberMm": 20,
+    "fireRateRpm": 700,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "d-520"
+    ],
+    "notes": "French Hispano-Suiza 20 mm hub-firing autocannon, mounted through the propeller hub of the D.520. The 700 shots/min fire rate is read from the D.520 unit page armament listing. Muzzle velocity is not shown numerically on the Tier-1 pages and is left null.",
+    "sources": [
+      {
+        "label": "D.520 | War Thunder Wiki (armament fire rate: 700 shots/min)",
+        "url": "https://wiki.warthunder.com/unit/d_520_france",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "mac-1934-7mm",
+    "name": "7.5 mm MAC 1934",
+    "type": "machine-gun",
+    "caliberMm": 7.5,
+    "fireRateRpm": 1350,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "d-520"
+    ],
+    "notes": "French 7.5 mm rifle-calibre aircraft machine gun, carried in a bank of four in the wings of the D.520. The 1,350 shots/min fire rate is read from the D.520 unit page armament listing. Muzzle velocity is not exposed numerically on the Tier-1 pages and is left null.",
+    "sources": [
+      {
+        "label": "D.520 | War Thunder Wiki (armament fire rate: 1,350 shots/min)",
+        "url": "https://wiki.warthunder.com/unit/d_520_france",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "cannone-47-32",
+    "name": "47 mm Cannone da 47/32",
+    "type": "cannon",
+    "caliberMm": 47,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m13-40"
+    ],
+    "notes": "Italian 47 mm L/32 tank gun firing APHE shells (Granata Perforante mod.35 and mod.39). The explosive filler behind the penetrator gives strong post-penetration damage at close range, which is the M13/40's main strength against early opponents. The wiki unit page does not list a muzzle velocity or a rounds-per-minute fire rate for this gun, so both are recorded as unverified.",
+    "sources": [
+      {
+        "label": "M13/40 (I) | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_m13_40_serie_1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "cannone-75-34",
+    "name": "75 mm Cannone da 75/34",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "p40"
+    ],
+    "notes": "Italian 75 mm L/34 tank gun (listed in-game as the '75 mm Ansaldo 75 L/34') mounted on the P40. Its ammunition selection includes the Granata Perforante 75/32 APCBC round, an EPS M42 HEAT shell, and a Granata 75/32 HE shell, giving it both general-purpose and anti-armour options at its rank. The unit page does not state a muzzle velocity or rounds-per-minute fire rate, so both are recorded as unverified. Gun id/name/caliber were corrected from the 75/32 named in the brief to the 75/34 shown on the page.",
+    "sources": [
+      {
+        "label": "P40 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_p_40",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "akan-m41a-20mm",
+    "name": "20 mm Akan m/41A",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 630,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "j21a-1"
+    ],
+    "notes": "Swedish 20 mm automatic cannon mounted singly in the nose of the J21A-1. With a fire rate of 630 rounds per minute it forms the heavy core of the aircraft's concentrated nose battery and is effective against both fighters and larger targets. The unit page does not give a muzzle velocity, so that value is recorded as unverified.",
+    "sources": [
+      {
+        "label": "J21A-1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/saab_j21a_1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "akan-m39a-13mm",
+    "name": "13.2 mm Akan m/39A",
+    "type": "machine-gun",
+    "caliberMm": 13.2,
+    "fireRateRpm": 1080,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "j21a-1"
+    ],
+    "notes": "Swedish 13.2 mm heavy machine gun, four of which are mounted in the nose of the J21A-1 alongside the 20 mm cannon. At 1,080 rounds per minute each, the quartet adds a heavy stream of fire that complements the cannon and makes the aircraft a strong head-on and interceptor platform. The unit page does not give a muzzle velocity, so that value is recorded as unverified.",
+    "sources": [
+      {
+        "label": "J21A-1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/saab_j21a_1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
   }
 ];

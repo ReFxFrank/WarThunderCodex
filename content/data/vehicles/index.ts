@@ -1948,5 +1948,654 @@ export const vehicles: Vehicle[] = [
       "citadel": "95 / 127 / 51 mm"
     },
     "survivability": "USS Helena trades protection for firepower and speed. Its citadel armour is on the order of 95 to 127 mm, enough to resist destroyer guns at range but not the heavy cruiser shells it will often face, and there is no thick belt to lean on. The hull plating is only millimetres thick, so the ship must avoid presenting a flat broadside to large-calibre fire. Survivability comes from its 1,188-man crew for damage control, from angling and speed to deflect or outrun incoming rounds, and from killing threats quickly with its volume of fire before they can land magazine or steering hits. Plunging fire and torpedoes are the principal dangers, as the magazines that feed its many guns are a tempting and vulnerable target."
+  },
+  {
+    "id": "yak-3",
+    "name": "Yak-3",
+    "nation": "ussr",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4.7,
+      "realistic": 4.7,
+      "simulator": 4.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "A light, low-altitude Soviet fighter that trades range and high-altitude punch for blistering speed and turn performance near the deck. The Yak-3 is one of the most agile piston fighters of its rating, rewarding pilots who keep the fight low and fast where few opponents can follow.",
+    "prosCons": {
+      "pros": [
+        "Excellent low-altitude speed and acceleration",
+        "Very strong turn rate, especially below 3,000 m",
+        "Responsive, forgiving handling that suits dogfighting",
+        "Compact airframe is a hard target to hit"
+      ],
+      "cons": [
+        "Performance falls off sharply at high altitude",
+        "Light armament with limited ammunition for sustained fights",
+        "Short fuel endurance limits time on station",
+        "Airframe is fragile and punishes overspeeding"
+      ]
+    },
+    "playstyle": "Stay low and use the Yak-3's energy retention to dictate engagements. Drag higher-altitude opponents down into your performance band, then out-turn or out-accelerate them. Conserve cannon ammunition for decisive passes and avoid prolonged climbs that strand you with no energy advantage.",
+    "history": "Developed late in the Second World War as a refinement of the Yak fighter line, the type emphasised light weight and aerodynamic cleanliness to wring maximum agility from a modest engine. It reached frontline squadrons in 1944 and earned a reputation as a dangerous adversary in the close, low-altitude knife fights that characterised much of the Eastern Front air war.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Yak-3 | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/yak-3",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "climbMps",
+      "turnTimeSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": 4100,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": 685,
+      "ceilingM": 10400,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "shvak-20mm",
+          "count": 1
+        },
+        {
+          "weaponId": "ubs-12mm",
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "la-5fn",
+    "name": "La-5FN",
+    "nation": "ussr",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 4,
+      "realistic": 3.7,
+      "simulator": 4
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The most refined of the radial-engined Lavochkin fighters, the La-5FN pairs a fuel-injected engine with twin 20 mm cannons to deliver outstanding low- and medium-altitude performance. It is a punchy, well-rounded dogfighter that hits hard and climbs respectably for its rating.",
+    "prosCons": {
+      "pros": [
+        "Strong, reliable twin-cannon armament concentrated in the nose",
+        "Excellent acceleration and speed at low to medium altitude",
+        "Good roll and energy retention for boom-and-zoom or turn fights",
+        "Sturdy radial engine shrugs off frontal hits better than inline types"
+      ],
+      "cons": [
+        "Performance tapers off at higher altitudes",
+        "Turn time is unremarkable compared to lighter Yak fighters",
+        "Limited cannon ammunition demands disciplined firing",
+        "Cockpit visibility and endurance are mediocre"
+      ]
+    },
+    "playstyle": "Fight in the low-to-medium altitude band where the engine is happiest. Use nose-mounted cannons for precise, high-damage snapshots, then extend and re-engage rather than committing to prolonged turn fights against dedicated turn-fighters. Manage your throttle to keep the injected engine in its sweet spot.",
+    "history": "Introduced as a parallel development to the earlier La-5F rather than a successor, the FN variant centred on a fuel-injected radial that sustained high output for several minutes of combat. Comparative trials against contemporary German fighters showed clear advantages in speed and manoeuvrability at lower altitudes, and the type became a mainstay of Soviet fighter regiments in the war's later years.",
+    "media": [],
+    "sources": [
+      {
+        "label": "La-5FN | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/la-5fn",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 620,
+      "maxSpeedAltM": 6100,
+      "climbMps": 17.7,
+      "turnTimeSec": 20.1,
+      "structuralLimitKph": 735,
+      "ceilingM": 11350,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "shvak-20mm",
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "d-520",
+    "name": "D.520",
+    "nation": "france",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 3,
+      "realistic": 3,
+      "simulator": 2.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "France's most capable early-war monoplane fighter, the D.520 is a tidy-handling interceptor with a single nose cannon and four rifle-calibre wing guns. It is not a record-setter for speed or climb, but its solid turn and stable gun platform make it effective in patient, energy-aware hands.",
+    "prosCons": {
+      "pros": [
+        "Good turn time for its rank",
+        "High structural speed limit tolerates steep dives",
+        "Central cannon plus four machine guns gives reliable convergence-free aim",
+        "Stable, predictable handling that suits new pilots"
+      ],
+      "cons": [
+        "Low top speed compared to contemporaries",
+        "Weak rate of climb leaves it on the back foot in energy fights",
+        "Small 20 mm magazine forces careful trigger discipline",
+        "Rifle-calibre wing guns lack stopping power"
+      ]
+    },
+    "playstyle": "Lean on the airframe's dive resistance and turn rate rather than chasing speed contests. Hold altitude where you can, commit to boom-and-zoom passes against faster enemies, and fall back on the tight turn as a defensive escape. Save the cannon rounds for clean firing solutions and let the machine guns soften targets.",
+    "history": "The Dewoitine D.520 was regarded as the finest French fighter to see service in 1940, combining a clean low-drag airframe with a Hispano-Suiza inline engine and a hub-firing cannon. It fought in the Battle of France and later in colonial theatres on both Vichy and Free French sides, acquitting itself respectably against more numerous and often faster opposition.",
+    "media": [],
+    "sources": [
+      {
+        "label": "D.520 | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/d_520_france",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 550,
+      "maxSpeedAltM": 5000,
+      "climbMps": 13.9,
+      "turnTimeSec": 19.1,
+      "structuralLimitKph": 800,
+      "ceilingM": 11200,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "hs-404-20mm",
+          "count": 1
+        },
+        {
+          "weaponId": "mac-1934-7mm",
+          "count": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "m13-40",
+    "name": "M13/40",
+    "nation": "italy",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "I",
+    "battleRatings": {
+      "arcade": 1.7,
+      "realistic": 1.7,
+      "simulator": 1.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "An early Italian medium tank that opens the ground tree at a low rank. It pairs a hard-hitting 47 mm gun with reasonably angled armour, but is held back by a sluggish hull and an unhurried reload, rewarding a patient, defensive style of play.",
+    "prosCons": {
+      "pros": [
+        "47 mm APHE shell can one-shot most contemporaries at close range",
+        "Sloped frontal armour bounces a surprising amount of fire when angled",
+        "Large ammunition stowage of 104 rounds",
+        "Four-man crew is harder to knock out than two- or three-man rivals at the rank"
+      ],
+      "cons": [
+        "Top speed is poor and acceleration is leisurely",
+        "Reverse speed is almost non-existent, making repositioning dangerous",
+        "Gun reload is slow for the rank, punishing missed shots",
+        "Side and rear armour are thin and easily defeated"
+      ]
+    },
+    "playstyle": "Play it as a defensive brawler. Pick a position with cover, angle the hull to make the most of the frontal plate, and let enemies come to you so your single powerful shot lands first. Avoid open ground where your low speed and weak reverse leave you exposed, and never get caught reloading in the open.",
+    "history": "The M13/40 grew out of the earlier M11/39 programme, adding a fully traversing turret with a 47 mm gun and a fourth crewman to serve it. Adopted by the Italian army in 1940, it became the backbone of Italy's armoured divisions in North Africa, where its protection and firepower were competitive on introduction but were soon outclassed as the war progressed. Production figures are uncertain because many hulls were later rebuilt into the improved M14/41.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M13/40 (I) | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_m13_40_serie_1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "enginePowerHp",
+      "powerToWeight",
+      "turretTraverseDegSec",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 32,
+      "maxRevKph": 5,
+      "enginePowerHp": null,
+      "weightTons": 13.6,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "cannone-47-32",
+      "reloadBaseSec": 5.2,
+      "reloadAcedSec": 4,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 104,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "30",
+        "side": "25",
+        "rear": "25"
+      },
+      "turretMm": {
+        "front": "45",
+        "side": "25",
+        "rear": "25"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "p40",
+    "name": "P40",
+    "nation": "italy",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 3.3,
+      "realistic": 3.3,
+      "simulator": 3.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "Italy's heaviest wartime tank in-game, the P40 carries a capable 75 mm gun behind 50 mm of frontal armour. It plays like a slow but tough mid-rank brawler whose unusually fast reverse lets it trade shots and back off to cover.",
+    "prosCons": {
+      "pros": [
+        "75 mm gun has APCBC and HEAT, giving it answers to most foes at the rank",
+        "Fast reverse speed makes peek-and-retreat tactics very effective",
+        "50 mm frontal armour shrugs off many autocannons and light guns",
+        "Decent gun elevation for working uneven terrain"
+      ],
+      "cons": [
+        "Low top speed and weak acceleration make rotations slow",
+        "Flat armour plates offer little protection when not angled",
+        "Reload is on the slow side, so first-shot placement matters",
+        "Large profile is easy to spot and hit"
+      ]
+    },
+    "playstyle": "Anchor a flank or a contested lane. Use the strong reverse to expose only the front of the tank from behind cover, fire, then pull back to reload safely. Carry HEAT for heavily armoured targets and APCBC for everything else. Because the hull is slow, plan positions ahead of the cap rather than chasing fights across the map.",
+    "history": "Designated P26/40 for its 26-tonne weight and 1940 design year, the P40 was Italy's attempt at a heavier breakthrough tank to fight alongside its mediums. Development dragged on as the intended gun grew from a short 75 mm howitzer to a longer high-velocity weapon, and the vehicle only reached service in 1943. Very few were completed before the armistice, after which German forces took over the design and built additional examples, frequently emplacing turretless hulls as fixed defensive positions.",
+    "media": [],
+    "sources": [
+      {
+        "label": "P40 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/it_p_40",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "enginePowerHp",
+      "powerToWeight",
+      "turretTraverseDegSec",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 40,
+      "maxRevKph": 45,
+      "enginePowerHp": null,
+      "weightTons": 26,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "cannone-75-34",
+      "reloadBaseSec": 6.5,
+      "reloadAcedSec": 5,
+      "vertGuidanceDeg": [
+        -10,
+        23
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 63,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "50",
+        "side": "45",
+        "rear": "40"
+      },
+      "turretMm": {
+        "front": "50",
+        "side": "45",
+        "rear": "45"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "j21a-1",
+    "name": "J21A-1",
+    "nation": "sweden",
+    "class": "aviation",
+    "subclass": "Fighter",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 5.3,
+      "realistic": 4.3,
+      "simulator": 3.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "A distinctive twin-boom, pusher-prop Swedish fighter whose strength is its heavy nose-mounted battery. It is not especially fast or agile, but its concentrated firepower and tough airframe make it a strong energy fighter and bomber-interceptor.",
+    "prosCons": {
+      "pros": [
+        "Dense nose armament of a 20 mm cannon and four heavy machine guns hits very hard",
+        "Guns are nose-mounted, so there is no convergence to manage in head-ons",
+        "Holds energy well and is fast in level flight and dives",
+        "Durable airframe absorbs damage better than many rivals"
+      ],
+      "cons": [
+        "Turn time is mediocre, so it loses sustained dogfights",
+        "Climb rate is unremarkable for the battle rating",
+        "Pusher layout means a belly bail-out rather than a normal canopy escape in some situations",
+        "Rolls and decelerates poorly once energy is bled off"
+      ]
+    },
+    "playstyle": "Fly it as a boom-and-zoom energy fighter. Climb and keep speed, then make slashing diving passes and use the heavy nose battery to destroy targets in a single firing window. Avoid prolonged turn fights; extend, reset, and re-engage. Its firepower also makes it an excellent bomber- and attacker-interceptor.",
+    "history": "Designed by Frid Wanstrom under Sweden's wartime rearmament drive, the SAAB 21 broke with convention as a single-engine, twin-boom aircraft with the propeller mounted behind the cockpit in a pusher configuration. Powered by a licence-built Daimler-Benz DB 605 engine, the J21A-1 entered Swedish service after the war and, though it never saw combat, more than 300 of the series were produced to strengthen Sweden's air defences. The basic airframe later proved adaptable enough to be converted to jet power as the J21R.",
+    "media": [],
+    "sources": [
+      {
+        "label": "J21A-1 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/saab_j21a_1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "climbMps",
+      "turnTimeSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 640,
+      "maxSpeedAltM": 4300,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": 683,
+      "ceilingM": 10800,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "akan-m41a-20mm",
+          "count": 1
+        },
+        {
+          "weaponId": "akan-m39a-13mm",
+          "count": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "ijn-yugumo",
+    "name": "IJN Yugumo",
+    "nation": "japan",
+    "class": "naval",
+    "subclass": "Destroyer",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 4.7,
+      "realistic": 4.7,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The IJN Yugumo is a rank II Japanese destroyer that leans hard on a devastating torpedo broadside while keeping a respectable trio of dual 127 mm turrets. She blends solid mobility, a healthy crew complement, and one of the deadliest spreads of Type 93 'Long Lance' torpedoes available at her rating, rewarding players who time a salvo into a choke point or an unaware capital ship.",
+    "prosCons": {
+      "pros": [
+        "Outstanding torpedo punch: up to sixteen 610 mm Type 93 torpedoes for crippling alpha strikes",
+        "Three twin 127 mm turrets give a flexible mix of anti-ship and limited anti-air fire",
+        "Well-rounded mobility and a large crew pool for its rank, improving sustained survivability",
+        "Strong main-gun layout with good firing arcs for a destroyer"
+      ],
+      "cons": [
+        "Thin, lightly armored hull typical of a destroyer; vulnerable to cruiser fire and aircraft",
+        "Light dedicated AA (25 mm autocannons) struggles against determined air attack",
+        "Torpedo reliance means a missed salvo can leave you exposed during the long reload",
+        "Open mounts and modest fire-tower protection leave gun crews exposed to fragmentation"
+      ]
+    },
+    "playstyle": "Play the Yugumo as an ambush striker. Use islands, smoke, and angles to close to torpedo range, launch a wide spread at predictable targets, then fall back on your guns and speed before the enemy ranges in on you. Keep maneuvering to avoid return fire, and conserve torpedoes for high-value cruisers and battleships rather than spamming them at distant destroyers.",
+    "history": "Yugumo was the lead ship of her class of Imperial Japanese Navy destroyers, laid down at Maizuru in 1940 and commissioned in late 1941. She escorted carrier forces through several Pacific actions, including operations in the Solomons campaign, and torpedoed an American destroyer during a night surface engagement off Vella Lavella in 1943 before being overwhelmed and sunk by concentrated enemy fire.",
+    "media": [],
+    "sources": [
+      {
+        "label": "IJN Yugumo | War Thunder Wiki (official /unit/ page)",
+        "url": "https://wiki.warthunder.com/unit/jp_destroyer_yugumo",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "brSimulator",
+      "lengthM",
+      "maxKnots",
+      "secondary",
+      "beltMm",
+      "deckMm",
+      "citadel"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 2560,
+      "lengthM": null,
+      "crew": 228
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "3 x 2 x 127 mm",
+      "aa": "2 x 2 x 25 mm",
+      "torpedoes": "16 x 610 mm",
+      "depthCharges": true
+    },
+    "survivability": "As a destroyer, the Yugumo trades armor for agility: her hull plating is only around 16 mm of steel with 4 mm superstructure and barely a few millimeters protecting the fire tower, so she relies on speed, evasion, and a comparatively generous crew count to stay in the fight rather than on belt or deck armor. A single well-placed shell can knock out a turret or start fires, making damage control and constant movement essential to surviving cruiser-caliber return fire and strafing aircraft."
+  },
+  {
+    "id": "soobrazitelny",
+    "name": "Soobrazitelny",
+    "nation": "ussr",
+    "class": "naval",
+    "subclass": "Destroyer",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 4.7,
+      "realistic": 4.7,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Soobrazitelny is a rank II Soviet Project 7U destroyer armed with four single 130 mm B-13 guns and a layered automatic anti-aircraft suite. Her separated machinery layout and large crew make her a sturdier-than-average destroyer for her rating, while her hard-hitting main guns and torpedoes let her contest caps and trade blows with other destroyers.",
+    "prosCons": {
+      "pros": [
+        "Four powerful 130 mm B-13 main guns with strong shell performance for a destroyer",
+        "Comprehensive automatic AA (multiple 37 mm and 12.7 mm mounts) deters aircraft",
+        "Project 7U split machinery layout improves resistance to single crippling hits",
+        "Large crew complement for sustained survivability"
+      ],
+      "cons": [
+        "Manually traversed main turrets are slow to swing onto new targets",
+        "Single-mount main guns limit broadside weight compared to twin-turret rivals",
+        "Light hull armor leaves her exposed to cruiser fire",
+        "Only six torpedoes, so spreads must be chosen carefully"
+      ]
+    },
+    "playstyle": "Position the Soobrazitelny so her slow-turning guns are already pointed where the action will be, then hold ground and let the 130 mm guns and dense AA do the work. Pre-aim before peeking, support allies on the cap with accurate fire, and save torpedoes for ships that wander into a tight firing solution. Avoid getting flanked, since rotating the manual turrets across the deck is punishingly slow.",
+    "history": "Soobrazitelny was a Soviet Storozhevoy-class (Project 7U) destroyer, an improved derivative of the Project 7 design with separated boiler and engine rooms to reduce the chance of a single hit immobilizing the ship. Commissioned in 1941, she served in the Black Sea, supporting the defense of Odessa and Sevastopol, raiding Romanian coastal targets, and earning Guards honors before stepping back from frontline action later in the war.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Soobrazitelny | War Thunder Wiki (official /unit/ page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_destroyer_7y",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "brSimulator",
+      "lengthM",
+      "maxKnots",
+      "beltMm",
+      "deckMm",
+      "citadel"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 2404,
+      "lengthM": null,
+      "crew": 271
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "4 x 130 mm",
+      "secondary": "2 x 76 mm",
+      "aa": "7 x 37 mm, 4 x 12.7 mm, 2 x 2 x 12.7 mm",
+      "torpedoes": "6 x 533 mm",
+      "depthCharges": true
+    },
+    "survivability": "The Soobrazitelny is a lightly armored destroyer, with roughly 16 mm of hull steel and only 4 mm superstructure plating, so she depends on her large crew and the Project 7U separated-machinery layout rather than on belt armor to stay operational. The split engine arrangement means a single penetrating hit is less likely to leave her dead in the water than on the original Project 7, but she remains highly vulnerable to cruiser shells, fires, and flooding and must rely on damage control and maneuver to endure."
+  },
+  {
+    "id": "rn-bartolomeo-colleoni",
+    "name": "RN Bartolomeo Colleoni",
+    "nation": "italy",
+    "class": "naval",
+    "subclass": "Light cruiser",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 5,
+      "realistic": 5,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The RN Bartolomeo Colleoni is a rank III Italian Condottieri-class light cruiser built around speed. With four twin 152 mm turrets, a dual-purpose 100 mm secondary battery, and torpedoes, she is fast enough to grab caps and chase down lighter ships, but her thin protection and slow main-gun reload mean she must fight on her own terms rather than slug it out with heavier cruisers.",
+    "prosCons": {
+      "pros": [
+        "Eight 152 mm guns in four twin turrets with wide firing arcs for easy broadsides",
+        "Exceptional speed for rapid cap control and disengaging on her terms",
+        "Dual-purpose 100 mm secondaries add anti-ship and anti-air flexibility",
+        "Carries torpedoes for opportunistic strikes"
+      ],
+      "cons": [
+        "Very thin armor for a cruiser; punished badly by heavier cruiser fire",
+        "Slow main-gun reload limits sustained damage output",
+        "Lightly protected to save weight for speed, so citadel hits are dangerous",
+        "Outmatched by true heavy cruisers in a stand-up gunnery duel"
+      ]
+    },
+    "playstyle": "Exploit the Colleoni's speed: rush objectives early, harass light targets and torpedo boats, and use cover, smoke, and angles to break contact whenever a heavier ship turns its guns on you. Plan each engagement around her slow reload by picking targets you can hit decisively, and never let yourself get cornered where her fragile hull can be bracketed.",
+    "history": "RN Bartolomeo Colleoni was a Condottieri-class (Di Giussano subgroup) light cruiser of the Italian Regia Marina, commissioned in the early 1930s and named after the Renaissance condottiero. The design prioritized very high speed at the expense of armor. She was lost at the Battle of Cape Spada in July 1940 after Allied gunfire jammed her steering and devastated her superstructure, leaving her dead in the water to be finished by torpedoes.",
+    "media": [],
+    "sources": [
+      {
+        "label": "RN Bartolomeo Colleoni | War Thunder Wiki (official /unit/ page)",
+        "url": "https://wiki.warthunder.com/unit/it_cruiser_bartolomeocolleoni_1940",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "brSimulator",
+      "lengthM",
+      "maxKnots",
+      "deckMm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 6954,
+      "lengthM": null,
+      "crew": 521
+    },
+    "propulsion": {
+      "maxKnots": null
+    },
+    "armament": {
+      "mainBattery": "4 x 2 x 152 mm",
+      "secondary": "3 x 2 x 100 mm",
+      "aa": "2 x 40 mm, 4 x 2 x 13.2 mm",
+      "torpedoes": "8 x 533 mm",
+      "depthCharges": false
+    },
+    "armor": {
+      "beltMm": "25 mm (hull)",
+      "citadel": "20 / 24 / 20 mm"
+    },
+    "survivability": "The Colleoni is a thinly protected light cruiser by design, sacrificing armor for speed. Her hull plating is around 25 mm of steel, the fire tower carries roughly 23 mm, and the citadel is shielded by only about 20-24 mm, so she offers little resistance to cruiser-caliber shells and is extremely vulnerable to citadel penetrations, fires, and flooding. Her best defenses are her speed and the ability to disengage; standing and trading fire with better-armored opponents will quickly prove fatal."
   }
 ];
