@@ -41,6 +41,8 @@ export interface RawContent {
 export interface ValidationReport {
   ok: boolean;
   issues: ContentIssue[];
+  /** Non-fatal: dangling cross-references (e.g. ammo not yet seeded). */
+  warnings: ContentIssue[];
   counts: Record<string, number>;
   data: {
     vehicles: Vehicle[];
@@ -88,6 +90,7 @@ function validateArray<T>(
 
 export function runValidation(raw: RawContent = rawContent): ValidationReport {
   const issues: ContentIssue[] = [];
+  const warnings: ContentIssue[] = [];
 
   const v = validateArray("vehicles", raw.vehicles, vehicleSchema, (x) => x.id, issues);
   const w = validateArray("weapons", raw.weapons, weaponSchema, (x) => x.id, issues);
@@ -100,9 +103,12 @@ export function runValidation(raw: RawContent = rawContent): ValidationReport {
   const weaponIds = new Set(w.map((x) => x.id));
   const ammoIds = new Set(a.map((x) => x.id));
 
+  // Dangling references are warnings, not failures: the dataset grows in phases
+  // (e.g. a vehicle may cite ammo that is seeded in a later phase). Schema
+  // violations and duplicate ids remain fatal.
   const ref = (collection: string, id: string, kind: string, target: string, set: Set<string>) => {
     if (target && !set.has(target)) {
-      issues.push({ collection, id, message: `references unknown ${kind} "${target}"` });
+      warnings.push({ collection, id, message: `references not-yet-seeded ${kind} "${target}"` });
     }
   };
 
@@ -122,6 +128,7 @@ export function runValidation(raw: RawContent = rawContent): ValidationReport {
   return {
     ok: issues.length === 0,
     issues,
+    warnings,
     counts: {
       vehicles: v.length,
       weapons: w.length,

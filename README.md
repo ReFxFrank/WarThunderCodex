@@ -167,7 +167,12 @@ This repository is being built in phases (deliberately, stopping for review at e
 - [x] **Phase 2 — Knowledge backbone.** 16 original mechanics + getting-started articles and an
       87-term glossary, each researched against and cited to live Tier-1 official sources,
       adversarially fact-checked (every citation re-fetched), and date-stamped to Heavy Cavalry (2.57).
-- [ ] **Phase 3 — Vehicle system.** Detail template + instrument cluster, nation hubs, browsers.
+- [x] **Phase 3 — Vehicle system.** Instrument cluster in three class variants (interactive
+      armor schematic, aviation performance envelope, naval silhouette), `/vehicle/[id]` detail
+      template, nation hubs, and class browsers with filter/sort/search. Seeded with a sourced
+      demo slice (6 vehicles + 7 guns); every numeric stat verified against the live wiki or
+      nulled and flagged. Dangling cross-references are non-fatal warnings so the dataset grows
+      in phases.
 - [ ] **Phase 4 — Weapons system.** Weapon / ammo / missile pages, comparison tool.
 - [ ] **Phase 5 — Seed dataset + tooling.** Curated, fully-sourced vehicle set + import scaffold.
 - [ ] **Phase 6 — Polish & ship.** Performance, a11y, responsive QA, final deploy docs.

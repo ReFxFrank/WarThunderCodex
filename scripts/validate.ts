@@ -35,12 +35,18 @@ async function main() {
     console.log(`  ${name.padEnd(10)} ${n}`);
   }
   if (report.ok) {
-    console.log(`${GREEN}✓ all records valid; no dangling references${RESET}`);
+    console.log(`${GREEN}✓ all records valid${RESET}`);
   } else {
     failed = true;
     console.log(`${RED}✗ ${report.issues.length} issue(s):${RESET}`);
     for (const issue of report.issues) {
       console.log(`  ${RED}•${RESET} [${issue.collection}${issue.id ? ` ${issue.id}` : ""}] ${issue.message}`);
+    }
+  }
+  if (report.warnings.length > 0) {
+    console.log(`${YELLOW}⚠ ${report.warnings.length} non-fatal reference warning(s) (target seeded in a later phase):${RESET}`);
+    for (const w of report.warnings) {
+      console.log(`  ${YELLOW}•${RESET} [${w.collection}${w.id ? ` ${w.id}` : ""}] ${w.message}`);
     }
   }
 

@@ -37,8 +37,13 @@ Read this before continuing work in a new session.
   (content/articles/**) and an 87-term glossary (content/data/glossary.ts), all original prose,
   Tier-1 sourced + adversarially verified, date-stamped to Heavy Cavalry (2.57). Built with a
   research→write→verify Workflow; gen-content-from-workflow.mjs turns its JSON into files.
-- Phase 3 — Vehicle system: detail template + instrument cluster (3 class variants),
-  armor-schematic SVG, nation hubs, class browsers.
+- Phase 3 ✅ Vehicle system: instrument cluster (3 class variants: ground armor schematic,
+  aviation performance envelope, naval silhouette), /vehicle/[id], nation hubs, class browsers
+  (filter/sort/search). Seeded demo slice = 6 vehicles + 7 weapons (content/data/**, generated
+  by gen-vehicles-from-workflow.mjs from the research/verify workflow). Referential integrity
+  for ammo/weapon refs is now a non-fatal WARNING (lib/validate-content.ts) so the dataset grows
+  in phases; schema violations + duplicate ids stay fatal. Two vehicles (t-34-85, spitfire) have
+  speed fields nulled/flagged where the wiki render was unparseable — honest gaps, not guesses.
 - Phase 4 — Weapons system: weapon/ammo/missile pages, comparison tool.
 - Phase 5 — Seed dataset (~10–15 vehicles/nation, fully sourced) + import scaffold + workflow.
 - Phase 6 — Polish & ship: perf, a11y, reduced-motion, responsive QA, deploy docs.
