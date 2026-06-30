@@ -4404,24 +4404,26 @@ export const weapons: Weapon[] = [
   {
     "id": "m3-20mm",
     "name": "20 mm M3 cannon",
-    "type": "cannon",
+    "type": "autocannon",
     "caliberMm": 20,
-    "fireRateRpm": 750,
+    "fireRateRpm": null,
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
+      "ad-4-skyraider",
       "f9f-2-panther"
     ],
-    "notes": "A faster-firing development of the US 20 mm autocannon line, mounted as a four-gun nose battery on early Navy jets. Its concentrated fire gives the Panther a strong single-pass punch.",
+    "notes": "Four wing-mounted 20 mm M3 cannons on the AD-4 with 796 rounds total, effective against ground targets and aircraft.",
     "sources": [
       {
-        "label": "F9F-2 — War Thunder Wiki (unit page)",
-        "url": "https://wiki.warthunder.com/unit/f9f-2",
+        "label": "AD-4 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/douglas_ad_4",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
+      "fireRateRpm",
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
@@ -5125,6 +5127,114 @@ export const weapons: Weapon[] = [
       }
     ],
     "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m39a1-20mm",
+    "name": "20 mm M39A1 cannon",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "f-100d"
+    ],
+    "notes": "Revolver cannon mounted in groups of four in the nose of the F-100D, sharing 800 rounds total.",
+    "sources": [
+      {
+        "label": "F-100D | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/f-100d",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m4-37mm",
+    "name": "37 mm M4 cannon",
+    "type": "cannon",
+    "caliberMm": 37,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "p-39n-0-airacobra"
+    ],
+    "notes": "Hub-mounted 37 mm cannon firing through the propeller spinner of the P-39N with 30 rounds; hard-hitting but low velocity.",
+    "sources": [
+      {
+        "label": "P-39N-0 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/p-39n",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m2-browning-12.7mm",
+    "name": "12.7 mm M2 Browning machine gun",
+    "type": "machine-gun",
+    "caliberMm": 12.7,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "p-39n-0-airacobra"
+    ],
+    "notes": "Two nose-mounted 12.7 mm Browning machine guns on the P-39N with 400 rounds total.",
+    "sources": [
+      {
+        "label": "P-39N-0 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/p-39n",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "browning-7.62mm",
+    "name": "7.62 mm Browning machine gun",
+    "type": "machine-gun",
+    "caliberMm": 7.62,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "p-39n-0-airacobra"
+    ],
+    "notes": "Four wing-mounted 7.62 mm Browning machine guns on the P-39N with 1,200 rounds total.",
+    "sources": [
+      {
+        "label": "P-39N-0 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/p-39n",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",

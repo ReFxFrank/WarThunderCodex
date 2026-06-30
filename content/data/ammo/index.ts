@@ -6262,5 +6262,1431 @@ export const ammo: Ammo[] = [
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "shot-mk1-apt-2pdr",
+    "name": "Shot Mk.1 AP/T (AP)",
+    "type": "AP",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 72,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 68,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 52,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 37,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 27,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 19,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 792,
+    "explosiveMassTntEqG": 0,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "A solid, uncapped armour-piercing shot with a tracer and no explosive filler. It does its damage purely through kinetic spalling, so it relies on hitting crew or modules directly to be effective. Penetration is reasonable up close but falls off sharply with range, making it best suited to short brawls and flanking shots. The lack of a ballistic cap means it loses bite quickly against sloped plates.",
+    "sources": [
+      {
+        "label": "Crusader II - War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_crusader_mk_2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "QF 2-pounder (40 mm)/Ammunition - War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/QF_2-pounder_(40_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "shot-mk9b-apcbct-2pdr",
+    "name": "Shot Mk.IXB APCBC/T (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 89,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 86,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 77,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 66,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 57,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 50,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 792,
+    "explosiveMassTntEqG": 0,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "An armour-piercing capped, ballistic-capped solid shot with a tracer. The armour-piercing and ballistic caps dramatically improve penetration retention at range and against angled armour compared with the plain AP shot. This is the gun's best all-round round, holding strong figures out past 2 km, and should be the default choice for almost every engagement. Like the other shots it carries no filler, so post-penetration damage depends on hitting crew or ammo.",
+    "sources": [
+      {
+        "label": "Crusader II - War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_crusader_mk_2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "QF 2-pounder (40 mm)/Ammunition - War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/QF_2-pounder_(40_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "shot-mk1-aphvt-2pdr",
+    "name": "Shot Mk.1 APHV/T (AP)",
+    "type": "AP",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 80,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 75,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 58,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 41,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 30,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 21,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 853,
+    "explosiveMassTntEqG": 0,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "A high-velocity version of the solid AP shot, fired noticeably faster at 853 m/s for a flatter trajectory and easier long-range aiming. The extra speed raises close-range penetration over the standard AP shot, but as an uncapped solid round it still bleeds penetration quickly with distance. It carries no explosive filler, so damage comes from kinetic spalling and direct crew or module hits. Useful when lead and drop on fast or distant targets are the main problem.",
+    "sources": [
+      {
+        "label": "Crusader II - War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_crusader_mk_2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "QF 2-pounder (40 mm)/Ammunition - War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/QF_2-pounder_(40_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "shell-mk1-apt-2pdr",
+    "name": "Shell Mk.1 AP/T (APHE)",
+    "type": "APHE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 66,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 62,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 49,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 36,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 26,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 19,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 792,
+    "explosiveMassTntEqG": 20.9,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 9,
+    "fuseDelayM": 1.2,
+    "mechanics": "An armour-piercing round carrying a small explosive filler and a delayed fuse, so after punching through plate it detonates inside the tank for far better post-penetration damage than the solid shots. The trade-off is the lowest penetration of the gun's ammunition, since the hollowed body is weaker. The 9 mm fuse sensitivity and 1.2 m delay mean it arms reliably on most armour and bursts deep in the crew compartment. Best reserved for thinner-skinned targets where its filler can multiply the carnage.",
+    "sources": [
+      {
+        "label": "Crusader II - War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_crusader_mk_2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "QF 2-pounder (40 mm)/Ammunition - War Thunder Wiki",
+        "url": "https://old-wiki.warthunder.com/QF_2-pounder_(40_mm)/Ammunition",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m72-shot-m6",
+    "name": "M72 shot (AP)",
+    "type": "AP",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 91,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 88,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 78,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 67,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 57,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 49,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": 0,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M72 is a solid uncapped armour-piercing shot with no explosive filler, so all of its damage comes from the kinetic spall thrown off after a clean penetration. With no ballistic cap it loses penetration faster at angle and over distance than the capped M61, but at point-blank range it bites slightly differently and is the cheapest stock option. Aim for crew compartments, ammo, and fuel since a single solid shot relies on hitting something vital to disable the target. It is generally outclassed by the M61 once that round is unlocked.",
+    "sources": [
+      {
+        "label": "M24 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m24_chaffee",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m61-shot-m6",
+    "name": "M61 shot (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 104,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 102,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 93,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 84,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 75,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 68,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M61 is an armour-piercing capped ballistic-capped shell carrying a small base explosive charge that detonates a short distance behind the armour, scattering fragments through the crew compartment. The armour-piercing cap improves bite against sloped and face-hardened plate while the thin ballistic cap preserves velocity downrange, giving it both higher penetration and far better post-penetration lethality than the solid M72. This is the workhorse round for the M24: aim for the centre mass of a target so the post-penetration burst can wreck multiple crew or set off ammunition. Against very thin plates the fuse may pass through before arming, so target substantial armour for reliable detonation.",
+    "sources": [
+      {
+        "label": "M24 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m24_chaffee",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m48-shell-m6",
+    "name": "M48 shell (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 10,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 10,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M48 is a thin-walled high-explosive shell that bursts on contact, relying on blast and fragments rather than penetration. Its roughly 10 mm of nominal penetration means it cannot defeat meaningful armour directly, so it is reserved for open-topped vehicles, anti-aircraft mounts, exposed crews, and soft targets such as trucks. A direct hit on an unarmoured or lightly protected target can disable it outright, and near-misses can still rattle crew through overpressure. Against any closed-top tank it is largely ineffective and should be swapped for the M61.",
+    "sources": [
+      {
+        "label": "M24 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m24_chaffee",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m64-smoke-m6",
+    "name": "M64 (Smoke)",
+    "type": "other",
+    "penetration": [],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M64 is a base-ejecting smoke shell that produces a screening cloud where it lands rather than dealing damage. It is used to blind enemy gunners, cover an advance or retreat across open ground, or mask a capture point. Fire it short of or onto the line of sight you want to break, accounting for its arcing trajectory. It has no armour-piercing capability and should never be relied on to disable a target.",
+    "sources": [
+      {
+        "label": "M24 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m24_chaffee",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "pzgr-39-kwk39-l60",
+    "name": "PzGr 39 (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 106,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 101,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 83,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 65,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 50,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 39,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "PzGr 39 is the bread-and-butter round for the KwK39 L/60: an armour-piercing shell with a blunt penetrating cap and a streamlined ballistic cap that together help it bite into sloped plate and retain velocity downrange. A small explosive filler detonates after the cap punches through, scattering fragments inside the crew compartment for far better post-penetration damage than a solid shot. Penetration falls off steadily with range, so it is most reliable inside roughly 1000 m where it still defeats the frontal armour of most contemporary mediums. Aim for crew, ammunition, or engine to make the filler count.",
+    "sources": [
+      {
+        "label": "Pz.III M — War Thunder Wiki (unit page, ammunition/penetration table)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_M",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "pzgr-40-kwk39-l60",
+    "name": "PzGr 40 (APCR)",
+    "type": "APCR",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 137,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 126,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 88,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 56,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 36,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 23,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "PzGr 40 is a tungsten-cored composite-rigid round that trades mass for muzzle velocity, giving it the highest close-range penetration of the gun's belt. The dense sub-calibre core sheds the light alloy carrier on impact and concentrates energy into a small area, but it is purely kinetic with no explosive filler, so post-penetration damage relies on spalling and hitting something vital. Its light core bleeds velocity quickly, so penetration collapses dramatically beyond a few hundred metres and it normalizes poorly against sloped armour. Reserve it for point-blank shots on heavily armoured targets you cannot crack with PzGr 39.",
+    "sources": [
+      {
+        "label": "Pz.III M — War Thunder Wiki (unit page, ammunition/penetration table)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_M",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "pzgr-40-1-kwk39-l60",
+    "name": "PzGr 40/1 (APCR)",
+    "type": "APCR",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 130,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 121,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 90,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 62,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 42,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 29,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "PzGr 40/1 is a heavier variant of the tungsten-cored APCR round that sacrifices a little muzzle penetration for better velocity retention, so it actually out-penetrates the standard PzGr 40 from mid range outward. Like all composite-rigid shot it has no explosive filler and depends on spalling from the sub-calibre core for damage, rewarding precise aim at crew or modules. It still loses penetration faster than the capped PzGr 39 at long range and normalizes poorly on sloped plate. Treat it as the better choice when you need extra punch beyond knife-fight distance.",
+    "sources": [
+      {
+        "label": "Pz.III M — War Thunder Wiki (unit page, ammunition/penetration table)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_M",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "sprgr-38-kwk39-l60",
+    "name": "Sprgr. 38 (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 12,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 11,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 9,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 7,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 6,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 5,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "Sprgr. 38 is a thin-walled high-explosive shell that bursts on contact, with negligible armour penetration and a small blast radius. Against armoured vehicles it is largely useless except for stunning or finishing exposed crew through open hatches, thin roofs, or already-damaged plate. Its real value is engaging soft targets such as anti-aircraft guns, trucks, and open-topped vehicles where fragmentation does the work. Most crews carry only a few rounds, if any, in favour of the armour-piercing belt.",
+    "sources": [
+      {
+        "label": "Pz.III M — War Thunder Wiki (unit page, ammunition/penetration table)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_M",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "br-412-d10s",
+    "name": "BR-412 (APHE)",
+    "type": "APHE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 218,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 212,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 189,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 164,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 142,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 123,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 895,
+    "explosiveMassTntEqG": 100,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 19,
+    "fuseDelayM": 1.2,
+    "mechanics": "The baseline armor-piercing high-explosive round for the D-10S, BR-412 relies on a solid uncapped body that punches through plate and then detonates its A-IX-2 filler a short distance behind the armor, scattering spall through the crew compartment. Its 1.2 m fuse delay and substantial post-penetration explosive make a single solid hit frequently lethal against thin-to-medium armor. The uncapped nose tends to ricochet or shatter on steeply sloped plates, so aiming flat-on weak points pays off. As the cheapest stock round it remains effective against most contemporaries the SU-100 faces.",
+    "sources": [
+      {
+        "label": "SU-100 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_su_100_1945",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "br-412b-d10s",
+    "name": "BR-412B (APHEBC)",
+    "type": "APHE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 218,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 215,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 201,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 184,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 169,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 155,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 895,
+    "explosiveMassTntEqG": 100,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 19,
+    "fuseDelayM": 1.2,
+    "mechanics": "BR-412B adds a soft ballistic cap over the BR-412 penetrator, which improves penetration retention at range and helps the round bite into sloped armor instead of glancing off. It carries the same A-IX-2 charge and 1.2 m delay fuse, so its after-armor effect matches the plain BR-412 while its angled performance is noticeably better. This makes it a strong all-purpose round against tilted plates and at the longer ranges where the SU-100 likes to fight. It is usually the preferred stock-to-mid progression shell before BR-412D unlocks.",
+    "sources": [
+      {
+        "label": "SU-100 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_su_100_1945",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "br-412d-d10s",
+    "name": "BR-412D (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 239,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 236,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 220,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 202,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 185,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 170,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 887,
+    "explosiveMassTntEqG": 100,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 19,
+    "fuseDelayM": 1.2,
+    "mechanics": "BR-412D is the best armor-piercing round in the SU-100's belt, combining an armor-piercing cap with a ballistic cap for the highest flat and angled penetration of the four kinetic shells. Despite a slightly lower muzzle velocity than BR-412/B, its capped nose handles sloped plate far better and it retains more energy downrange. The same 65 g A-IX-2 filler and 1.2 m delay fuse give it a powerful after-armor explosion identical to the other APHE shells. It is the round of choice once researched, useful against the heavier armor the SU-100 meets when uptiered.",
+    "sources": [
+      {
+        "label": "SU-100 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_su_100_1945",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "of-412-d10s",
+    "name": "OF-412 (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 27,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 27,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 26,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 24,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 23,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 21,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 900,
+    "explosiveMassTntEqG": 1500,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 0.1,
+    "fuseDelayM": 0.2,
+    "mechanics": "OF-412 is a high-explosive fragmentation shell carrying roughly 1.5 kg of TNT, by far the largest charge in the SU-100's loadout. It is meant for soft and open-topped targets, exposed crew, and anti-aircraft or structural work rather than penetrating armor, with only a token kinetic value. Its instant-acting nose fuse (very low sensitivity, short 0.2 m delay) detonates on the lightest contact, and the large filler can disable thin vehicles through overpressure even without a clean penetration. Against well-armored tanks it is largely ineffective and is best reserved for situational use.",
+    "sources": [
+      {
+        "label": "SU-100 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_su_100_1945",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "3d3-d10s",
+    "name": "3D3 (Smoke)",
+    "type": "other",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 3,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 3,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": 880,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": 0.5,
+    "fuseDelayM": 0.4,
+    "mechanics": "3D3 is a smoke shell that deploys an obscuring screen at its point of impact, used to break line of sight, cover a repositioning move, or blind an enemy gun line. It carries a smoke composition rather than a high-explosive filler, so it does essentially no armor or post-impact damage. Fire it short of a target or across a chokepoint and let the cloud develop to mask friendly movement. Its TNT-equivalent is not a meaningful in-game stat for this round, so it is left unset.",
+    "sources": [
+      {
+        "label": "SU-100 — War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_su_100_1945",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "normalizationDeg",
+      "explosiveMassTntEqG"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "t32-t5e1",
+    "name": "Shot T32 (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 256,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 253,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 238,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 221,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 205,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 190,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The T32 is a solid armor-piercing capped, ballistic-capped shot with no explosive filler, relying purely on kinetic energy and post-penetration spalling to disable a target. Its ballistic cap preserves penetration at long range and angle, making it the steadiest performer of the gun's lineup against sloped plates. With no bursting charge it produces a tighter cone of fragments than a filled round, so well-aimed shots into crew or ammo are needed to one-shot heavily protected opponents.",
+    "sources": [
+      {
+        "label": "T29 — War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/us_t29",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "t13-t5e1",
+    "name": "Shell T13 (APCBC)",
+    "type": "APCBC",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 253,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 250,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 236,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 219,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 204,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 190,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The T13 is an armor-piercing capped, ballistic-capped shell that the official wiki lists with penetration just below the T32. It pairs a piercing cap for defeating face-hardened or angled armor with a ballistic cap to retain velocity downrange. The wiki page does not expose its filler or fuse figures, so any post-penetration burst behavior is left unverified here rather than assumed.",
+    "sources": [
+      {
+        "label": "T29 — War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/us_t29",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "t29e3-t5e1",
+    "name": "Shot T29E3 (APCR)",
+    "type": "APCR",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 292,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 287,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 266,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 242,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 220,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 200,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The T29E3 is an armor-piercing composite rigid (HVAP) round with a dense tungsten-carbide core in a light carrier, giving it the highest close-range penetration of the gun's shells. Its light overall mass means it sheds velocity and penetration faster with distance than the steel AP rounds, so it is best reserved for close- to medium-range shots against the toughest frontal armor. Lacking explosive filler, it kills through core spalling and benefits from aiming at modules or crew concentrations.",
+    "sources": [
+      {
+        "label": "T29 — War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/us_t29",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "t30e1-t5e1",
+    "name": "Shell T30E1 (HE)",
+    "type": "HE",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 27,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 27,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 25,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 23,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 21,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 20,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The T30E1 is a high-explosive shell that detonates on contact, doing its damage through blast and fragmentation rather than penetration. It is effective against open-topped vehicles, light armor, exposed crew, and gun barrels, and can finish lightly protected targets that the AP rounds would over-penetrate. Against thick frontal armor its tiny listed penetration means it will splash on the surface, so it is a situational secondary load.",
+    "sources": [
+      {
+        "label": "T29 — War Thunder Wiki (official)",
+        "url": "https://wiki.warthunder.com/unit/us_t29",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type-91-l7-type74",
+    "name": "Type 91 (HEATFS)",
+    "type": "HEATFS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 400,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 400,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The Type 91 is a fin-stabilized shaped-charge round whose chemical jet delivers a flat 400 mm of penetration regardless of range, making it the Type 74's reliable answer against heavy armor at any distance. Because its penetration does not decay over distance, it is the preferred long-range option, though shaped-charge jets are defeated by spaced plating and any volumetric armor that disrupts the jet. As a HEAT-MP design it also carries useful post-penetration explosive filler and can be used against light targets. Lacking the velocity and overmatch of the APFSDS rounds, it is best aimed at modules and crew rather than relied upon for one-shot kills against angled hulls.",
+    "sources": [
+      {
+        "label": "Type 74 (E) — War Thunder Wiki (unit jp_type_74)",
+        "url": "https://wiki.warthunder.com/unit/jp_type_74",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m735-l7-type74",
+    "name": "M735 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 292,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 291,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 284,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 275,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 266,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 257,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M735 is the Type 74's stock-tier fin-stabilized discarding-sabot round, a high-velocity kinetic dart that flies flat and loses penetration only gradually with range. It has no explosive filler, so kills depend on the long-rod penetrator and resulting spall striking crew or ammunition after it punches through. Its flat trajectory and minimal travel time make it the go-to round for snap shots and moving targets, but its sub-300 mm penetration struggles against the frontal armor of well-protected MBTs, rewarding shots at weak points or angled side plates.",
+    "sources": [
+      {
+        "label": "Type 74 (E) — War Thunder Wiki (unit jp_type_74)",
+        "url": "https://wiki.warthunder.com/unit/jp_type_74",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type-93-l7-type74",
+    "name": "Type 93 (APFSDS)",
+    "type": "APFSDS",
+    "penetration": [
+      {
+        "rangeM": 10,
+        "penMm": 405,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 100,
+        "penMm": 404,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 500,
+        "penMm": 397,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1000,
+        "penMm": 387,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 1500,
+        "penMm": 378,
+        "angleDeg": 0
+      },
+      {
+        "rangeM": 2000,
+        "penMm": 369,
+        "angleDeg": 0
+      }
+    ],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The Type 93 is the Type 74's top tier-IV APFSDS, a modern long-rod dart that pushes kinetic penetration past 400 mm at point blank while bleeding off slowly with range, giving the tank genuine frontal-kill capability against many Cold War MBTs. Like all sabot rounds it carries no filler and relies on penetrator fragments and spall to knock out crew and ammo, so aiming center-mass or at densely packed compartments maximizes lethality. Its very high muzzle velocity yields a flat trajectory ideal for sniping, making it the default choice once researched, with the Type 91 HEAT reserved for targets that defeat kinetic rounds.",
+    "sources": [
+      {
+        "label": "Type 74 (E) — War Thunder Wiki (unit jp_type_74)",
+        "url": "https://wiki.warthunder.com/unit/jp_type_74",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m416-l7-type74",
+    "name": "M416 (smoke)",
+    "type": "other",
+    "penetration": [],
+    "velocityMps": null,
+    "explosiveMassTntEqG": null,
+    "normalizationDeg": null,
+    "fuseSensitivityMm": null,
+    "fuseDelayM": null,
+    "mechanics": "The M416 is a smoke shell rather than an anti-armor round; on impact it bursts to create a smoke screen used to break line of sight, mask a retreat, or cover an advance across open ground. It has no meaningful armor penetration and deals negligible direct damage, so it occupies a utility slot in the ammunition rack rather than serving as a combat round. Carrying a few of these lets the Type 74 reposition or disengage under cover without relying solely on its hull-down hydropneumatic suspension.",
+    "sources": [
+      {
+        "label": "Type 74 (E) — War Thunder Wiki (unit jp_type_74)",
+        "url": "https://wiki.warthunder.com/unit/jp_type_74",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "velocityMps",
+      "explosiveMassTntEqG",
+      "normalizationDeg",
+      "fuseSensitivityMm",
+      "fuseDelayM"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
   }
 ];
