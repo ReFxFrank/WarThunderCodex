@@ -26,9 +26,11 @@ const data = unwrap(JSON.parse(await fs.readFile(inputPath, "utf8")));
 const dropUndef = (o) => JSON.parse(JSON.stringify(o)); // strips undefined keys
 const triple = (f, s, r) => {
   const o = {};
-  if (f != null) o.front = f;
-  if (s != null) o.side = s;
-  if (r != null) o.rear = r;
+  // Armour fields are strings in the schema (e.g. "80 + 20 ERA"); coerce in case
+  // a research agent emitted bare numbers.
+  if (f != null) o.front = String(f);
+  if (s != null) o.side = String(s);
+  if (r != null) o.rear = String(r);
   return Object.keys(o).length ? o : undefined;
 };
 const br = (a) => ({ arcade: a.brArcade ?? null, realistic: a.brRealistic ?? null, simulator: a.brSimulator ?? null });
