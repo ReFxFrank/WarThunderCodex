@@ -7350,7 +7350,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Position Arizona at a stand-off range where her twelve rifles can land full broadsides while you angle the hull to keep the citadel from being punched through. Because the reload is punishingly long, split the four turrets onto separate targets so you always have guns coming online rather than emptying everything into one ship and waiting helplessly. Keep her bow or stern angled toward the heaviest fire and lean on the deep crew pool to ride out hits.",
     "history": "USS Arizona was the second of the two Pennsylvania-class battleships, laid down in 1914 and commissioned at the end of 1916. Her First World War service was limited to home waters, after which she famously formed part of the escort that carried President Woodrow Wilson to the Paris Peace Conference. Through the interwar years she served largely in training and fleet roles before being destroyed in a catastrophic magazine explosion during the attack on Pearl Harbor, where her wreck remains today as a memorial.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/uss-arizona.jpg",
+        "alt": "The Pennsylvania-class battleship USS Arizona underway with President Herbert Hoover aboard in March 1931, not the in-game model.",
+        "credit": "U.S. Navy, Naval History & Heritage Command (unknown photographer) · Public Domain (PD-USGov-Navy) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "USS Arizona | War Thunder Wiki",
@@ -7420,7 +7427,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use Scharnhorst's speed to dictate the range and close into the mid-to-short band where her fast-cycling 283 mm guns overwhelm targets with volume of fire rather than per-shell penetration. Angle the well-armoured hull while you advance, exploit her mobility to flank slower battleships, and keep the torpedoes ready for opportunistic launches against ships that drift too close. Avoid a static long-range duel against heavier-gunned battleships, where her smaller calibre is at its weakest.",
     "history": "Scharnhorst and her sister Gneisenau were conceived by the Kriegsmarine as battleships, but treaty limits and Germany's lack of heavy-gun production capacity at the time saw them armed with 283 mm main guns instead of a larger calibre. Launched in early 1939, Scharnhorst spent the opening years of the war raiding Atlantic convoys, took part in the Norwegian campaign, and engaged Allied warships including the loss of HMS Glorious. In December 1943 she was caught by a British task force during a convoy interception attempt and sunk at the Battle of the North Cape, with only a handful of survivors.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/scharnhorst.jpg",
+        "alt": "The German battleship Scharnhorst photographed in 1939, not the in-game model.",
+        "credit": "Deutsches Bundesarchiv (German Federal Archive), DVM 10 Bild-23-63-07 · CC BY-SA 3.0 de · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Scharnhorst | War Thunder Wiki",
@@ -7490,7 +7504,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Lean on Kongo's speed: get to commanding firing positions early, and use her quick turn-in to angle the comparatively thin armour against incoming salvos so shells skip or land on the thickest plate. Pick your engagements rather than trading blows toe-to-toe with better-armoured battleships, and use the mobility to relocate when focused. Her thick anti-aircraft battery means she can hold her own against medium- and close-range air attack while she repositions.",
     "history": "Kongo was the lead ship of her class and the last major Japanese capital ship built abroad, designed by British naval engineer George Thurston and laid down in 1911 as a battlecruiser. Commissioned in 1913, she patrolled the Chinese coast during the First World War, then underwent two major reconstructions that raised her speed and protection enough for her to be reclassified as a fast battleship. She fought through many of the Pacific War's major surface actions before being torpedoed and sunk by a submarine while in transit in November 1944.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/kongo.jpg",
+        "alt": "The Japanese battlecruiser Kongo during full-power trials in the Irish Sea on 8 May 1913, not the in-game model.",
+        "credit": "Unknown (published in Scientific American, 1913; Sankey Family Photographic Collection) · Public Domain (PD-Japan-oldphoto) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "IJN Kongo | War Thunder Wiki",
@@ -7561,7 +7582,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use Hood's speed to control the range, opening at distance to land 15-inch salvoes while keeping her belt angled toward the enemy. Avoid presenting the deck to high-arc fire and disengage if focused by multiple battleships. The secondary battery and torpedoes punish smaller ships that close in.",
     "history": "Laid down on 31 May 1916, the same day as the Battle of Jutland, Hood was the first of four planned Admiral-class battlecruisers and the only one completed. Redesigned after Jutland to carry a heavier belt, she combined battleship-level protection with battlecruiser speed and was for two decades the largest warship in the world, a symbol of British naval power. In May 1941 she was sent to intercept the German battleship Bismarck and was lost in the Denmark Strait when a salvo triggered a catastrophic magazine explosion, killing all but three of her crew.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/hms-hood.jpg",
+        "alt": "The British battlecruiser HMS Hood photographed on 17 March 1924, not the in-game model.",
+        "credit": "Allan C. Green (State Library of Victoria); restoration by Adam Cuerden · Public Domain (PD-Australia) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "HMS Hood - War Thunder official wiki (unit page)",
@@ -7634,7 +7662,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play Marat as a gun platform: bring all twelve 12-inch barrels to bear with a broadside and rely on weight of fire rather than armour. Keep at medium range, stay angled, and use the dense AA battery to fend off aircraft. Because she is slow and lightly protected, avoid being flanked or caught in the open against heavier battleships.",
     "history": "Marat was the third Gangut-class dreadnought built for the Imperial Russian Navy before the First World War, named after the French revolutionary Jean-Paul Marat. After the 1917 Revolution she served the Soviet Baltic Fleet, fighting in the Russian Civil War, and underwent a major 1928-1931 refit that converted her boilers to oil firing, strengthened her anti-aircraft armament, and cut down and angled her forward funnel. During the Second World War she was crippled by a German dive-bomber attack at Kronstadt in 1941 but continued to serve as a stationary battery.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/marat.jpg",
+        "alt": "Aerial view of the Soviet Gangut-class battleship Marat off Spithead for the 1937 Fleet Review, not the in-game model.",
+        "credit": "Royal Air Force (assumed), Imperial War Museums (MH 7) · Public Domain (PD-UKGov) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Marat - War Thunder official wiki (unit page)",
@@ -7707,7 +7742,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight Dunkerque bow-on: present the heavily protected front, keep both quad turrets bearing on the target, and exploit her speed to maintain a favourable angle. Because all eight guns face forward, avoid situations that force you to turn away. She rewards aggressive downtier play but should disengage cautiously when outmatched, using her aircraft for smoke when retreating.",
     "history": "Dunkerque was the lead ship of a new class of French fast battleships designed to counter the German Deutschland-class cruisers, commissioned in late 1936 with trials running into 1938. In May 1937 she represented France at the Coronation Naval Review at Portsmouth. At Mers-el-Kebir on 3 July 1940 she was struck by British 15-inch shells that penetrated her engineering spaces and killed many of her crew. After repairs at Toulon she was scuttled there in November 1942 to prevent her capture by advancing German forces.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/dunkerque.jpg",
+        "alt": "The French battleship Dunkerque after being partially scrapped, photographed 1944-1945, not the in-game model.",
+        "credit": "Unknown official U.S. Army photographer · Public Domain (PD-USGov-Military-Army) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Dunkerque - War Thunder official wiki (unit page)",
@@ -7776,7 +7818,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play her as a mobile knife-fighter rather than a brawler. Keep the bow or stern angled to deny enemy gunners a clean citadel, use the speed to dictate range, and lean on the four turrets to keep a full broadside on target whenever you can safely show your side. Pick the torpedo setup when you expect close, island-cluttered maps.",
     "history": "Laid down in October 1931 and commissioned in June 1935, Raimondo Montecuccoli was the first ship of her sub-class within the broader Condottieri programme of fast Italian light cruisers. During the Second World War she saw action in the Mediterranean, including convoy-interdiction battles in which she engaged British forces. She survived the war and went on to serve the post-war Italian navy as a training cruiser for roughly two decades.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/montecuccoli.jpg",
+        "alt": "The Italian Condottieri-class light cruiser Raimondo Montecuccoli during a 1938 visit to Australia, not the in-game model.",
+        "credit": "Allan C. Green (State Library of Victoria); restoration by Adam Cuerden · Public Domain (PD-Australia) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "RN Raimondo Montecuccoli - War Thunder Wiki (unit page)",
@@ -7850,7 +7899,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight at the edge of effective range, using speed to keep heavy cruisers from landing clean citadel hits while your eight 152s work their armour and superstructure down. Angle constantly, prioritise enemy destroyers and light cruisers you can out-gun, and use the dense AA suite to swat attackers when air spawns are active.",
     "history": "Eugenio di Savoia was the second ship of the Duca d'Aosta sub-class of Condottieri cruisers, launched in 1935. She took part in operations during the Spanish Civil War and saw extensive Mediterranean service in the Second World War, including convoy escort and surface actions against the Royal Navy. After the war she was handed to Greece as reparations, serving the Hellenic Navy under a new name.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/eugenio-di-savoia.jpg",
+        "alt": "The Italian Condottieri-class light cruiser Eugenio di Savoia, not the in-game model.",
+        "credit": "Marina Militare Italiana (Italian Navy) · Public Domain (PD-Italy / PD-1996) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "RN Eugenio di Savoia - War Thunder Wiki (unit page)",
@@ -7925,7 +7981,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat her as a long-range gunboat: open at distance where the ten 152s can rain accurate fire while keeping you out of heavy-cruiser citadel range. Angle the bow to make the 100 mm citadel work, manage the larger crew across damage control priorities, and avoid knife-fights with 203 mm ships that will out-penetrate you up close.",
     "history": "Duca degli Abruzzi was the first ship of her sub-class within the Condottieri programme, commissioned on 1 December 1937. Her wartime service was relatively limited: she fought at the Battle of Punta Stilo without scoring hits, and in November 1941 had her stern blown off by an air-dropped torpedo from a Malta-based aircraft, later repaired. After the 1943 Armistice she surrendered at Malta and went on to serve the post-war Italian navy until 1961.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/duca-degli-abruzzi.jpg",
+        "alt": "The Italian Condottieri-class light cruiser Duca degli Abruzzi in 1944 with co-belligerent markings, not the in-game model.",
+        "credit": "Unknown · Public Domain (PD-Italy) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "RN Duca degli Abruzzi - War Thunder Wiki (unit page)",
@@ -7967,5 +8030,698 @@ export const vehicles: Vehicle[] = [
       "citadel": "100/100/40 mm citadel; 25 mm hull; 8 mm superstructure"
     },
     "survivability": "The best-protected of the Italian light cruisers, Duca degli Abruzzi's 100 mm citadel face genuinely resists 152 mm fire when angled and will defeat most destroyer guns outright. Her 772-man crew gives strong redundancy against floods and fires. Even so, she is still a light cruiser fighting at a heavy-cruiser battle rating, so 203 mm shells will punch through a flat broadside and the thin 25 mm hull leaves the ends vulnerable to flooding. Disciplined angling and fast damage control keep her in the fight."
+  },
+  {
+    "id": "f-16a",
+    "name": "F-16A",
+    "nation": "usa",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VIII",
+    "battleRatings": {
+      "arcade": 12.3,
+      "realistic": 12.3,
+      "simulator": 12.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The F-16A is the USA's nimble single-engine, fourth-generation multirole fighter, prized for its blistering energy retention and tight sustained turns at the top of the jet tree.",
+    "prosCons": {
+      "pros": [
+        "Excellent sustained turn rate and instantaneous maneuverability",
+        "Strong thrust-to-weight ratio and high top speed",
+        "Reliable all-aspect AIM-9L infrared missiles",
+        "Wide nine-g airframe and responsive controls"
+      ],
+      "cons": [
+        "Lacks radar-guided missiles, limiting beyond-visual-range options",
+        "Single engine means a single point of catastrophic failure",
+        "Modest cannon ammunition load for prolonged gun fights",
+        "Large radar and heat signature make it easy to lock"
+      ]
+    },
+    "playstyle": "Fight at the merge or just before it. Keep your speed high, force opponents into a turning contest where the airframe excels, and conserve your AIM-9L shots for clean all-aspect rear or front shots rather than spamming them at range.",
+    "history": "The General Dynamics F-16 emerged from the U.S. Air Force Lightweight Fighter program of the 1970s, prioritizing agility and affordability over the heavier designs of the era. Its relaxed-stability fly-by-wire layout, bubble canopy and reclined seat became hallmarks of the type, and the early A-model entered service in the late 1970s as a day fighter that would go on to serve dozens of air forces worldwide.",
+    "media": [],
+    "sources": [
+      {
+        "label": "F-16A | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/f_16a_block_10",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "climbMps",
+      "turnTimeSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": 10973,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": 1555,
+      "ceilingM": 15240,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m61-vulcan-20mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "AIM-9J Sidewinder",
+        "AIM-9L Sidewinder"
+      ]
+    }
+  },
+  {
+    "id": "mig-29",
+    "name": "MiG-29",
+    "nation": "ussr",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VIII",
+    "battleRatings": {
+      "arcade": 12.7,
+      "realistic": 13,
+      "simulator": 13
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The MiG-29 (9-13) is the USSR's twin-engine fourth-generation fighter, combining brutal acceleration and a strong radar-missile suite with a helmet-mounted sight for off-boresight infrared shots.",
+    "prosCons": {
+      "pros": [
+        "Twin RD-33 engines give exceptional thrust and acceleration",
+        "Carries potent R-27ER radar missiles and R-73 dogfight missiles",
+        "Helmet-mounted sight enables wide off-boresight launches",
+        "High structural speed limit tolerates aggressive dives"
+      ],
+      "cons": [
+        "Bleeds energy quickly in sustained hard turns",
+        "Limited cannon ammunition rewards disciplined gunnery",
+        "Radar missiles are vulnerable to chaff and notching",
+        "Airframe gets sluggish at lower speeds"
+      ]
+    },
+    "playstyle": "Use the twin-engine acceleration to dictate the engagement, open with R-27ER shots at range, then close to merge with R-73s slaved to the helmet sight. Avoid prolonged low-speed scissors where the airframe loses its edge.",
+    "history": "The Mikoyan MiG-29 was the Soviet Union's answer to the new generation of Western fighters, conceived as a frontline air-superiority aircraft to operate alongside the heavier Su-27. Entering service in the early 1980s, its blended fuselage, twin tail fins and twin afterburning turbofans gave it a fearsome reputation for short-field performance and close-in agility, and the type was widely exported across the Warsaw Pact and beyond.",
+    "media": [],
+    "sources": [
+      {
+        "label": "MiG-29 (9-13) | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/mig_29_9_13",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "climbMps",
+      "turnTimeSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": 14000,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": 1575,
+      "ceilingM": 16000,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "gsh-30-1-30mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "R-73",
+        "R-27R",
+        "R-27ER",
+        "R-27T",
+        "R-27ET"
+      ]
+    }
+  },
+  {
+    "id": "jas39-gripen",
+    "name": "JAS39A",
+    "nation": "sweden",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "VIII",
+    "battleRatings": {
+      "arcade": 13,
+      "realistic": 13,
+      "simulator": 13
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The JAS39A Gripen is Sweden's compact single-engine delta-canard fourth-generation fighter, blending razor-sharp instantaneous turn rate with strong all-aspect missiles at the top of the Swedish tree.",
+    "prosCons": {
+      "pros": [
+        "Delta-canard layout gives outstanding instantaneous turn rate",
+        "Carries Rb 74 (AIM-9L-class) all-aspect infrared missiles",
+        "Strong thrust-to-weight from the RM12 engine",
+        "Small airframe is hard to spot and lock"
+      ],
+      "cons": [
+        "Single engine is a single point of failure",
+        "Bleeds energy heavily when pulling hard with the deltas",
+        "Modest cannon ammunition load",
+        "Limited fuel and reach compared with twin-engine rivals"
+      ]
+    },
+    "playstyle": "Exploit the explosive instantaneous turn to win the first merge, snap an Rb 74 onto a fleeing target, then extend to rebuild energy before re-engaging. Treat sustained dogfights cautiously since the deltas drain speed fast.",
+    "history": "Saab's JAS 39 Gripen was developed in the 1980s as a lightweight, cost-effective multirole replacement for Sweden's Viggen and Draken fleets, embodying the country's doctrine of dispersed road-base operations. Its close-coupled delta-canard configuration and digital fly-by-wire flight controls deliver agility out of proportion to its small size, and the type entered Swedish service in the 1990s as a true swing-role fighter.",
+    "media": [],
+    "sources": [
+      {
+        "label": "JAS39A | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/saab_jas39a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxSpeedKph",
+      "climbMps",
+      "turnTimeSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": null,
+      "maxSpeedAltM": 11000,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": 1543,
+      "ceilingM": 14500,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "bk27-27mm",
+          "count": 1
+        }
+      ],
+      "suspended": [
+        "Rb 74",
+        "Rb 74(M)",
+        "Rb 71"
+      ]
+    }
+  },
+  {
+    "id": "challenger-1",
+    "name": "Challenger 1",
+    "nation": "britain",
+    "class": "ground",
+    "subclass": "Main battle tank",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 10.3,
+      "realistic": 10.3,
+      "simulator": 10.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "British third-generation main battle tank derived from the Shir 2 export project. It pairs Chobham composite turret protection with the 120 mm L11 rifled gun, first-generation thermal optics and a laser rangefinder, making it a strong long-range hull-down defender despite only adequate mobility.",
+    "prosCons": {
+      "pros": [
+        "Well-protected Chobham composite turret rewards hull-down play",
+        "120 mm L11 rifled gun with capable APFSDS and HESH options",
+        "First-generation thermal sight plus laser rangefinder for long-range gunnery",
+        "Large 52-round ammunition stowage"
+      ],
+      "cons": [
+        "Only average mobility for its battle rating",
+        "Slow on-the-spot turning and modest turret traverse",
+        "Engine bulge severely limits effective fire to the rear",
+        "Thin hull armour leaves the lower front vulnerable"
+      ]
+    },
+    "playstyle": "Fight from prepared, hull-down positions where the thick composite turret can soak hits while the weak hull stays covered. Use the thermals and rangefinder to spot and ping targets first, then trade carefully. Avoid open flanking sprints; the sluggish turn rate and inability to fire well backwards punish over-extension.",
+    "history": "The FV4030/4 Challenger 1 grew out of the Shir 2 project that Vickers Defence Systems had designed for export to Iran. After the order was cancelled, the design was adopted by the British Army and entered service in 1983, retaining the powerful 120 mm rifled gun and Chobham composite armour. It served as Britain's main battle tank until being superseded by the Challenger 2 around 2001.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Challenger Mk.2 (FV4030/4 Challenger 1) — War Thunder Wiki unit page",
+        "url": "https://wiki.warthunder.com/unit/uk_challenger_1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "turretTraverseDegSec",
+      "reverseGears",
+      "neutralSteering",
+      "apsModel"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": 1314,
+      "weightTons": 64.8,
+      "powerToWeight": 20.3,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "l11-120mm",
+      "reloadBaseSec": 6.5,
+      "reloadAcedSec": 5,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 52,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "80 mm",
+        "side": "38 mm",
+        "rear": "25 mm"
+      },
+      "turretMm": {
+        "front": "110 mm",
+        "side": "80 mm",
+        "rear": "44 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": true,
+      "aps": false
+    }
+  },
+  {
+    "id": "type-90",
+    "name": "Type 90",
+    "nation": "japan",
+    "class": "ground",
+    "subclass": "Main battle tank",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 11.7,
+      "realistic": 11.7,
+      "simulator": 11.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "Japanese third-generation main battle tank built by Mitsubishi Heavy Industries for the JGSDF. It is the only production tank to mate an autoloader to the German-pattern 120 mm L/44 smoothbore, giving a constant 4-second reload, and trades armour for a small, light, fast hull.",
+    "prosCons": {
+      "pros": [
+        "Autoloaded 120 mm L/44 delivers a consistent 4-second reload",
+        "Excellent power-to-weight ratio and high top speed",
+        "Compact, low silhouette is easy to hide",
+        "Capable fire-control with automatic target tracking and composite armour"
+      ],
+      "cons": [
+        "Thin armour offers little protection against APFSDS",
+        "Poor gun depression of only -7° hampers hull-down play",
+        "Three-man crew is fragile and easily knocked out",
+        "Light weight makes it prone to being shoved or flipped"
+      ]
+    },
+    "playstyle": "Lean on speed and the steady autoloader rather than armour. Use mobility to seize firing angles and flanks, fire and reposition before return fire arrives, and avoid head-on duels where its thin plating fails. The shallow -7° depression means picking gentle crests or staying mobile instead of fully hull-down.",
+    "history": "Developed by Mitsubishi Heavy Industries through the 1980s, the Type 90 was accepted into Japanese Ground Self-Defense Force service in 1990 to replace the Type 61 and Type 74. It adopted the Rheinmetall 120 mm L/44 smoothbore, license-built in Japan, paired with an indigenous autoloader, advanced fire-control computer and automatic tracking system.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Type 90 — War Thunder Wiki unit page",
+        "url": "https://wiki.warthunder.com/unit/jp_type_90",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "powerToWeight",
+      "turretTraverseDegSec",
+      "reverseGears",
+      "neutralSteering",
+      "apsModel"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": 1500,
+      "weightTons": 50.2,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "type90-120mm",
+      "reloadBaseSec": 4,
+      "reloadAcedSec": 4,
+      "vertGuidanceDeg": [
+        -7,
+        10
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 40,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "40 mm",
+        "side": "35 mm",
+        "rear": "25 mm"
+      },
+      "turretMm": {
+        "front": "35 mm",
+        "side": "80 mm",
+        "rear": "25 mm"
+      },
+      "crewCount": 3,
+      "era": false,
+      "composite": true,
+      "aps": false
+    }
+  },
+  {
+    "id": "ariete",
+    "name": "Ariete",
+    "nation": "italy",
+    "class": "ground",
+    "subclass": "Main battle tank",
+    "rank": "VII",
+    "battleRatings": {
+      "arcade": 11.7,
+      "realistic": 11.7,
+      "simulator": 11.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "Italy's domestically developed third-generation main battle tank, built by OTO Melara/Iveco for the Italian Army. The C1 Ariete carries a 120 mm smoothbore firing potent APFSDS, good optics and a capable fire-control system, but is the most lightly armoured top-tier MBT in its bracket.",
+    "prosCons": {
+      "pros": [
+        "Strong 120 mm smoothbore with high-penetration DM53 APFSDS",
+        "Good gunner and commander thermal optics and fire control",
+        "Generous +20° gun elevation and respectable mobility",
+        "Reasonable reload that improves with crew skill"
+      ],
+      "cons": [
+        "Lightest armour of any top-tier MBT, vulnerable everywhere",
+        "Crew and ammunition are easily knocked out by penetrating hits",
+        "Relies on optional add-on protection to survive frontal hits",
+        "Punished hard in close brawls against better-armoured tanks"
+      ]
+    },
+    "playstyle": "Play it as a sniper and second-line supporter, exploiting the strong APFSDS and thermals to kill at range before the enemy can return fire. Stay mobile, use cover and avoid being the front of a push; its thin armour means most penetrations are fatal. Pick angles where the +20° elevation lets it engage from reverse-slope positions.",
+    "history": "The C1 Ariete was developed by OTO Melara (turret and armament) and Iveco Fiat (hull and powerpack) during the late Cold War so the Italian Army could field a modern tank capable of countering Warsaw Pact and Yugoslav armour. It entered Italian service in the mid-1990s, equipping the army's armoured brigades with an indigenous 120 mm-gunned MBT.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Ariete (C1 Ariete) — War Thunder Wiki unit page",
+        "url": "https://wiki.warthunder.com/unit/it_c1_ariete",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "turretTraverseDegSec",
+      "reverseGears",
+      "neutralSteering",
+      "apsModel"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 59.554,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "oto-120-44",
+      "reloadBaseSec": 6.5,
+      "reloadAcedSec": 5,
+      "vertGuidanceDeg": [
+        -9,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 42,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "110 mm",
+        "side": "65 mm",
+        "rear": "20 mm"
+      },
+      "turretMm": {
+        "front": "140 mm",
+        "side": "60 mm",
+        "rear": "20 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": true,
+      "aps": false
+    }
+  },
+  {
+    "id": "pt-109",
+    "name": "PT-109",
+    "nation": "usa",
+    "class": "naval",
+    "subclass": "Motor torpedo boat",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 1.7,
+      "realistic": 1.7,
+      "simulator": null
+    },
+    "acquisition": [
+      "premium"
+    ],
+    "summary": "The PT-109 is a premium Elco 80 ft motor torpedo boat, famous as the wartime command of future U.S. president John F. Kennedy. In game it is a fast, lightly built craft that trades durability for a heavy torpedo broadside and a useful spread of machine guns and a single 20 mm autocannon.",
+    "prosCons": {
+      "pros": [
+        "Four 21-inch Mk.8 torpedoes deliver a devastating broadside against larger ships",
+        "High top speed and quick handling let it dictate engagement range",
+        "Twin .50-cal mounts plus a stern 20 mm Oerlikon shred enemy boats and aircraft",
+        "Low battle rating means it routinely overmatches similar early reserve craft"
+      ],
+      "cons": [
+        "Wooden hull offers almost no protection; crew loss happens fast under fire",
+        "No depth charges or mines for objective/area denial",
+        "Slow torpedoes are easy to dodge at range; best used in close ambushes",
+        "Premium status means it cannot be researched as a learning step"
+      ]
+    },
+    "playstyle": "Flank wide and use speed to close on the enemy's beam before launching all four torpedoes from short range where they cannot be evaded. Between torpedo runs, weave at high speed and rake exposed crew and ammo with the .50-cals and 20 mm. Avoid head-on gun duels with armored gunboats; the wooden hull means a single solid hit can cripple the crew.",
+    "history": "PT-109 was an Elco 80-foot patrol torpedo boat ordered in 1942 and built at Bayonne, New Jersey, the seventh boat of the PT-103 production batch. Delivered to the U.S. Navy in mid-1942, she was shipped to the South Pacific and joined the PT squadrons operating from Tulagi in the Solomon Islands. Lieutenant John F. Kennedy took command in April 1943 and led night strikes against the Japanese 'Tokyo Express' supply runs. On the night of 1-2 August 1943, during a confused action in Blackett Strait, the boat was rammed and cut in two by the Japanese destroyer Amagiri; two crewmen were killed, and Kennedy's efforts to save the survivors became part of his later political legend.",
+    "media": [],
+    "sources": [
+      {
+        "label": "PT-109 - War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt109_boat",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "PT-109 - War Thunder Wiki (legacy)",
+        "url": "https://old-wiki.warthunder.com/PT-109",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "brSimulator"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 38,
+      "lengthM": null,
+      "crew": 12
+    },
+    "propulsion": {
+      "maxKnots": 41
+    },
+    "armament": {
+      "mainBattery": "2 x turret, each 2 x 12.7 mm Browning AN-M2 machine gun",
+      "secondary": "20 mm/70 Oerlikon Mk.II autocannon",
+      "torpedoes": "4 x 21 in wet-heating Mk.8 torpedo",
+      "depthCharges": false
+    },
+    "survivability": "Survivability is poor: the hull and superstructure are unarmoured wood, so the boat relies entirely on speed and a small profile to stay alive. There is no belt, deck, or citadel protection. Incoming fire that reaches the open crew positions, fuel, or torpedo warheads can disable or destroy the boat quickly, so staying mobile and never lingering in the open are essential."
+  },
+  {
+    "id": "s-100",
+    "name": "S-100",
+    "nation": "germany",
+    "class": "naval",
+    "subclass": "Motor torpedo boat",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 2.3,
+      "realistic": 2.3,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The S-100 is a German Schnellboot (fast attack craft) of the late-war S-100 series. It pairs a strong autocannon armament built around twin 2 cm Flak and a 3.7 cm gun with four 533 mm torpedoes, making it a flexible gun-and-torpedo boat that can also lay mines. Its armoured wheelhouse is a notable improvement over earlier S-boats, but the wooden hull still limits survivability.",
+    "prosCons": {
+      "pros": [
+        "Heavy mixed battery: twin 2 cm Flak plus a 3.7 cm Flak M42 for sustained firepower",
+        "Four 533 mm G7a torpedoes for a powerful long-range strike option",
+        "Can swap in EMF moored magnetic mines for area denial",
+        "Excellent speed and agility typical of the Schnellboot family",
+        "Improved armoured wheelhouse protects key crew better than earlier S-boats"
+      ],
+      "cons": [
+        "Wooden hull means low overall survivability despite the armoured bridge",
+        "No depth charges",
+        "Large displacement for a coastal boat makes it a sizeable target",
+        "Torpedo tubes are fixed-forward, requiring the whole boat to aim"
+      ]
+    },
+    "playstyle": "Use the boat's speed to take an angle on the target, then volley the 2 cm and 3.7 cm guns to strip light targets and aircraft while keeping the torpedoes for larger ships. Line the bow up early for torpedo runs since the tubes fire forward. When playing objectives, the EMF mine option lets the S-100 deny chokepoints. Keep the armoured wheelhouse pointed toward threats and avoid prolonged broadside exposure of the wooden hull.",
+    "history": "The S-100 gave its name to the most numerous late-war class of German Schnellboote, built primarily at the Lurssen yard near Bremen from 1943 onward. The design introduced an armoured wheelhouse and other refinements drawn from hard wartime experience, improving crew protection and firepower over earlier boats. The lead boat entered service in 1943 and operated in the coastal-strike role before being lost to British air attack on Le Havre in June 1944. Hundreds of S-100-pattern boats served across the North Sea, English Channel, Baltic, and Mediterranean.",
+    "media": [],
+    "sources": [
+      {
+        "label": "S-100 - War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/germ_s_100_class",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "S-100 - War Thunder Wiki (legacy)",
+        "url": "https://old-wiki.warthunder.com/S-100",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "brSimulator"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 117,
+      "lengthM": null,
+      "crew": 21
+    },
+    "propulsion": {
+      "maxKnots": 42
+    },
+    "armament": {
+      "mainBattery": "2 x 2 cm/65 Flakzwilling 38 automatic cannon",
+      "secondary": "3.7 cm Flak M42 mounting",
+      "aa": "2 x turret, each 7.92 mm MG15 machine gun",
+      "torpedoes": "4 x 533 mm G7a torpedo (alternatively 4 x EMF moored magnetic mine)",
+      "depthCharges": false
+    },
+    "survivability": "The S-100 is better protected than earlier S-boats thanks to its armoured wheelhouse, but the main hull is wood and offers no belt, deck, or citadel armour. Crew clustered in the open gun positions remain vulnerable, and concentrated autocannon fire can disable the boat despite its size. Protection therefore comes mainly from the hardened bridge plating, speed, and aggressive maneuvering rather than from any structural armour scheme."
+  },
+  {
+    "id": "mo-4",
+    "name": "MO-4",
+    "nation": "ussr",
+    "class": "naval",
+    "subclass": "Sub chaser",
+    "rank": "I",
+    "battleRatings": {
+      "arcade": 1,
+      "realistic": 1,
+      "simulator": null
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The MO-4 is a small Soviet submarine chaser and reserve-tier coastal craft. It carries two 45 mm cannons fore and aft plus twin 12.7 mm DShK machine guns, and can be fitted with depth charges or a large bank of M-8 rockets, giving a versatile boat that punches above its low battle rating against other early coastal vessels.",
+    "prosCons": {
+      "pros": [
+        "Two 45 mm cannons hit hard against early boats and lightly armoured targets",
+        "Twin 12.7 mm DShK mounts add anti-boat and anti-air sting",
+        "Optional 64 M-8 rockets deliver a brutal close-range salvo",
+        "Depth charges available for objective and area work",
+        "Very low battle rating; a strong, forgiving entry point to coastal play"
+      ],
+      "cons": [
+        "Wooden hull gives weak survivability under sustained fire",
+        "Modest top speed compared with dedicated torpedo boats",
+        "No torpedoes for striking larger ships",
+        "45 mm guns in single mounts limit sustained rate of fire"
+      ]
+    },
+    "playstyle": "As a reserve gunboat the MO-4 rewards patient, accurate fire: use the 45 mm cannons to land aimed hits on enemy crew and modules while the DShKs suppress and finish lightly built boats. Save the M-8 rocket salvo for a point-blank pass on a clustered or stationary target where the spread guarantees hits. Keep moving to avoid return fire, and lean on the boat's flexibility - guns, rockets, or depth charges - to suit the match.",
+    "history": "The MO-4 was the fourth and most widely produced variant of the Soviet MO-class small guard/sub-chaser boats, with roughly 250 built during the Second World War. These compact wooden craft served across Soviet fleets in anti-submarine patrol, convoy escort, and amphibious-landing support roles. Their experience fed directly into the later, larger BMO class introduced in 1945. Cheap to build and easy to operate, the MO boats were a workhorse of the Soviet coastal defence forces.",
+    "media": [],
+    "sources": [
+      {
+        "label": "MO-4 - War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_mo_4",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "MO-4 - War Thunder Wiki (legacy)",
+        "url": "https://old-wiki.warthunder.com/index.php?title=MO-4&printable=yes",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "lengthM",
+      "brSimulator"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "hull": {
+      "displacementTons": 52,
+      "lengthM": null,
+      "crew": 22
+    },
+    "propulsion": {
+      "maxKnots": 36
+    },
+    "armament": {
+      "mainBattery": "2 x turret, each 45 mm/68 21-KM cannon",
+      "secondary": "2 x turret, each 12.7 mm DShK machine gun",
+      "depthCharges": true
+    },
+    "survivability": "The MO-4 has a wooden hull and superstructure with no belt, deck, or citadel armour, so survivability is low. It depends on its small size, maneuvering, and keeping enemies at the range of its 45 mm guns rather than any protective plating. Open crew positions mean concentrated machine-gun or autocannon fire can quickly knock out the boat, so it should be played as a hit-and-move gun platform."
   }
 ];

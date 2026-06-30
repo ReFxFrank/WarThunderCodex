@@ -1632,7 +1632,8 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "chieftain-mk-3"
+      "chieftain-mk-3",
+      "challenger-1"
     ],
     "notes": "Rifled 120 mm tank gun (in-game full designation '120 mm Ordnance BL Tk. L11A5') firing separated APDS/HESH/smoke ammunition. Primary armament of the Chieftain series. Reload of the host vehicle is 9.7 s (basic) to 7.5 s (aced).",
     "sources": [
@@ -1853,6 +1854,138 @@ export const weapons: Weapon[] = [
       }
     ],
     "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m61-vulcan-20mm",
+    "name": "20 mm M61A1 Vulcan",
+    "type": "autocannon",
+    "caliberMm": 20,
+    "fireRateRpm": 6000,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "f-16a"
+    ],
+    "notes": "Six-barrel rotary autocannon firing 20 mm rounds at a very high cyclic rate, giving short bursts an exceptionally dense stream of shells. Standard cannon armament of the F-16A, fed from a 512-round drum.",
+    "sources": [
+      {
+        "label": "F-16A | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/f_16a_block_10",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "gsh-30-1-30mm",
+    "name": "30 mm GSh-30-1",
+    "type": "autocannon",
+    "caliberMm": 30,
+    "fireRateRpm": 1800,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "mig-29"
+    ],
+    "notes": "Single-barrel 30 mm autocannon that trades sheer rate of fire for heavy, hard-hitting shells. A short burst is often enough to destroy an enemy aircraft, but the small 150-round magazine demands accuracy. Standard cannon of the MiG-29.",
+    "sources": [
+      {
+        "label": "MiG-29 (9-13) | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/mig_29_9_13",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "bk27-27mm",
+    "name": "27 mm Mauser BK27 (Akan m/85)",
+    "type": "autocannon",
+    "caliberMm": 27,
+    "fireRateRpm": 1700,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "jas39-gripen"
+    ],
+    "notes": "Single-barrel revolver autocannon in the 27 mm class, balancing a healthy rate of fire with substantial per-shell damage. Known in Swedish service as the Akan m/85, it is the internal gun of the JAS39A Gripen, fed from a 120-round magazine.",
+    "sources": [
+      {
+        "label": "JAS39A | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/saab_jas39a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type90-120mm",
+    "name": "120 mm Smoothbore Gun",
+    "type": "cannon",
+    "caliberMm": 120,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "type-90"
+    ],
+    "notes": "Japanese-built version of the Rheinmetall Rh120 L/44 120 mm smoothbore, fitted to the Type 90. On the Type 90 it is fed by an autoloader giving a constant 4-second reload. Wiki unit page lists it as the '120 mm Type 90 L/44 cannon'. Muzzle velocity is round-dependent and not stated as a single gun value on the unit page.",
+    "sources": [
+      {
+        "label": "Type 90 — War Thunder Wiki unit page (armament section)",
+        "url": "https://wiki.warthunder.com/unit/jp_type_90",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "oto-120-44",
+    "name": "120 mm OTO Melara 120/44",
+    "type": "cannon",
+    "caliberMm": 120,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ariete"
+    ],
+    "notes": "Italian 120 mm smoothbore gun fitted to the C1 Ariete. The War Thunder Wiki unit page labels the in-game weapon as the '120 mm OTO Breda 120/44 cannon'; recorded under the requested id 'oto-120-44' with the requested OTO Melara name. _note: actual wiki gun name is 'OTO Breda 120/44', not 'OTO Melara'. Muzzle velocity is round-dependent and not given as a single gun value on the unit page.",
+    "sources": [
+      {
+        "label": "Ariete (C1 Ariete) — War Thunder Wiki unit page (armament section)",
+        "url": "https://wiki.warthunder.com/unit/it_c1_ariete",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
