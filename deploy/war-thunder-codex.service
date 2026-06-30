@@ -1,0 +1,30 @@
+# No-nginx fallback: host the static ./out with `serve` under systemd, on port
+# 8080. Use this if the box has no system nginx (e.g. the other site runs in
+# Docker straight to :80). Requires Node on the VPS.
+#
+# IMPORTANT: adjust ExecStart's path to match your install. If Node came from
+# nvm, npx is NOT at /usr/bin — run `which npx` and use that absolute path, or
+# `npm i -g serve` and point ExecStart at the installed `serve` binary.
+#
+# Install:
+#   sudo cp deploy/war-thunder-codex.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now war-thunder-codex
+#   sudo systemctl status war-thunder-codex
+#
+# Open the port (both layers):
+#   sudo ufw allow 8080/tcp   # + an inbound TCP 8080 rule in your host firewall
+
+[Unit]
+Description=War Thunder Codex (static site)
+After=network.target
+
+[Service]
+Type=simple
+# `serve` resolves /about/ → /about/index.html, matching the trailingSlash export.
+ExecStart=/usr/bin/npx --yes serve /var/www/war-thunder-codex -l 8080
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

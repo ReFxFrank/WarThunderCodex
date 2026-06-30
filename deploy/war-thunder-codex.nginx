@@ -1,0 +1,35 @@
+# War Thunder Codex — static site on a dedicated port (8080) so it coexists with
+# whatever already runs on :80 / :443. This is a NEW file; your existing site's
+# config is never edited. Because there is no domain, server_name is the
+# catch-all "_" and the site is reached at http://<VPS_IP>:8080.
+#
+# Install:
+#   sudo cp deploy/war-thunder-codex.nginx /etc/nginx/sites-available/war-thunder-codex
+#   sudo ln -s /etc/nginx/sites-available/war-thunder-codex /etc/nginx/sites-enabled/
+#   sudo nginx -t && sudo systemctl reload nginx     # -t verifies before reload
+#
+# Open the port (both layers):
+#   sudo ufw allow 8080/tcp
+#   ...and add an inbound TCP 8080 rule in your host's firewall / security group.
+
+server {
+  listen 8080;
+  listen [::]:8080;
+  server_name _;
+
+  root /var/www/war-thunder-codex;
+  index index.html;
+
+  # Clean URLs: the static export uses trailingSlash, so /about/ → /about/index.html
+  location / {
+    try_files $uri $uri/ $uri.html /404.html;
+  }
+
+  # Long-cache the immutable hashed build assets.
+  location /_next/static/ {
+    expires 1y;
+    add_header Cache-Control "public, immutable";
+  }
+
+  error_page 404 /404.html;
+}

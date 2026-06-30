@@ -129,6 +129,21 @@ nginx — no app server, no process to keep alive.
 
    Add TLS with certbot (`sudo certbot --nginx -d codex.example.com`) once DNS resolves.
 
+### Running alongside another site on one IP (no domain)
+
+If the box already serves another site and you have **no domain — just the VPS IP** —
+give the Codex its own **port** instead of a subdomain (name-based vhosts need a
+hostname). It then lives at `http://<VPS_IP>:8080` and the other site keeps `:80`.
+Ready-made config and a one-shot build+upload script are in
+[`deploy/`](./deploy/) — `deploy/war-thunder-codex.nginx` (or
+`deploy/war-thunder-codex.service` if there's no nginx) plus:
+
+```bash
+VPS_HOST=deploy@<VPS_IP> ./scripts/deploy.sh   # builds with the right URL, rsyncs ./out
+```
+
+See [`deploy/README.md`](./deploy/README.md) for the full walkthrough.
+
 ### Alternative: Node server behind systemd
 
 If you later need server features that preclude static export, switch to a standalone Node
