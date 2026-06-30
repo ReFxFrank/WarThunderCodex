@@ -32,7 +32,7 @@ export default function AviationBrowser() {
         <div className="label-tag mb-2 text-accent">Class browser</div>
         <h1 className="font-display text-4xl font-semibold tracking-wide text-ink sm:text-5xl">Aviation</h1>
         <p className="mt-3 text-base text-muted">
-          Fighters, attackers, and bombers. Open any aircraft for its performance envelope and armament.
+          Fighters, attackers, bombers, and helicopters. Open any aircraft for its performance envelope and armament.
         </p>
       </div>
       <VehicleBrowser vehicles={vehicles} />
