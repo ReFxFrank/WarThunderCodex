@@ -87,18 +87,39 @@ export default async function VehiclePage({ params }: { params: Promise<{ id: st
         </Link>
       </div>
 
-      {/* Generated silhouette (original schematic — not a photo) */}
-      <div className="reticle-grid power-on mt-6 flex items-center justify-center overflow-hidden rounded-lg border border-hairline bg-[rgba(8,10,13,0.4)] py-5">
-        <VehicleSilhouette
-          vehicle={vehicle}
-          caliberMm={
-            vehicle.class === "ground" && vehicle.firepower.mainGunId
-              ? getWeapon(vehicle.firepower.mainGunId)?.caliberMm ?? null
-              : null
-          }
-          className="h-32 max-w-xl opacity-90"
-        />
-      </div>
+      {/* Hero: the license-verified real-world photo when we have one, else the
+          generated silhouette schematic. The photo is a real-world example,
+          kept separate from the in-game stat block below. */}
+      {photo ? (
+        <figure className="power-on mt-6 overflow-hidden rounded-lg border border-hairline">
+          <div className="relative h-56 w-full bg-[rgba(8,10,13,0.4)] sm:h-72">
+            {/* eslint-disable-next-line @next/next/no-img-element -- static export, credited real-world photo */}
+            <img
+              src={photo.src}
+              alt={photo.alt}
+              decoding="async"
+              className="h-full w-full object-cover object-center"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[rgba(6,8,10,0.55)] via-transparent to-transparent" />
+          </div>
+          <figcaption className="border-t border-hairline bg-[rgba(8,10,13,0.5)] px-4 py-1.5 text-[0.7rem] leading-relaxed text-faint">
+            <span className="label-tag mr-1.5">Real-world</span>
+            {photo.credit}
+          </figcaption>
+        </figure>
+      ) : (
+        <div className="reticle-grid power-on mt-6 flex items-center justify-center overflow-hidden rounded-lg border border-hairline bg-[rgba(8,10,13,0.4)] py-5">
+          <VehicleSilhouette
+            vehicle={vehicle}
+            caliberMm={
+              vehicle.class === "ground" && vehicle.firepower.mainGunId
+                ? getWeapon(vehicle.firepower.mainGunId)?.caliberMm ?? null
+                : null
+            }
+            className="h-32 max-w-xl opacity-90"
+          />
+        </div>
+      )}
 
       {/* Instrument cluster */}
       <section className="mt-8">
@@ -160,27 +181,12 @@ export default async function VehiclePage({ params }: { params: Promise<{ id: st
         <p className="leading-relaxed text-muted">{vehicle.playstyle}</p>
       </section>
 
-      {/* Real-world history, visually distinct — includes the licensed photo */}
-      {(vehicle.history || photo) && (
+      {/* Real-world history prose (the photo is shown as the hero above). */}
+      {vehicle.history && (
         <section className="mt-10 max-w-3xl">
           <div className="glass border-l-2 border-l-[color:var(--hairline-strong)] p-5">
             <div className="label-tag mb-3">Real-world history</div>
-            {photo && (
-              <figure className="mb-4">
-                {/* eslint-disable-next-line @next/next/no-img-element -- static export, remote-credited photo */}
-                <img
-                  src={photo.src}
-                  alt={photo.alt}
-                  loading="lazy"
-                  decoding="async"
-                  className="w-full rounded-md border border-hairline"
-                />
-                <figcaption className="mt-1.5 text-[0.7rem] leading-relaxed text-faint">
-                  {photo.alt} <span className="opacity-80">— {photo.credit}</span>
-                </figcaption>
-              </figure>
-            )}
-            {vehicle.history && <p className="leading-relaxed text-muted">{vehicle.history}</p>}
+            <p className="leading-relaxed text-muted">{vehicle.history}</p>
           </div>
         </section>
       )}
