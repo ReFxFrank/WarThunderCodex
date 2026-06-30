@@ -1,7 +1,8 @@
 import type { Vehicle } from "@/lib/schema";
 
-// Seeded vehicle records — generated from the Phase 3 research/verify workflow.
+// Seeded vehicle records — generated from the research/verify workflow.
 // Every numeric stat is sourced; unverifiable fields are null and listed in unverified[].
+// media[] holds license-verified real-world photos (PD/CC) with credit.
 export const vehicles: Vehicle[] = [
   {
     "id": "t-34-85-1944",
@@ -1329,7 +1330,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight on your own terms: pick angles where you can land the first shot, then back off into cover during the long reload. Use the thick frontal armour to bully opponents at medium range, but avoid open brawls against faster-firing tanks that can chip you down between your shots. Manage your limited ammunition carefully and prioritise high-value targets.",
     "history": "The IS-2 succeeded the IS-1 in 1943 as the Soviet Union's answer to heavily armoured German tanks. Mounting the 122 mm D-25T derived from a field gun, it could defeat Tiger and Panther armour at combat ranges and doubled as a breakthrough vehicle, smashing fortifications ahead of advancing infantry. It became one of the most recognisable heavy tanks of the late war on the Eastern Front.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/is-2.jpg",
+        "alt": "A preserved Soviet IS-2M heavy tank on display at the Imperial War Museum, Duxford, photographed in real life, not the in-game model.",
+        "credit": "Alan Wilson from Peterborough, Cambridgeshire, UK · CC BY-SA 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "IS-2 — War Thunder Wiki (official unit page)",
@@ -1415,7 +1423,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the Pershing as a flexible mid-line fighter. Use the strong gun depression to fight hull-down over ridges, exploit the fast reload to win one-on-one duels, and angle the hull to make the most of your frontal protection. Avoid getting flanked, since your sides give up easy penetrations, and rely on accurate, repeated fire rather than a single decisive shot.",
     "history": "Developed late in the Second World War, the M26 Pershing reached Europe in early 1945 in limited numbers, too late to change the war's outcome but proving capable against German armour. Reclassified after the war as a medium tank, it went on to serve in the Korean War before being phased out, bridging the gap between wartime US designs and the Patton series that followed.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/m26-pershing.jpg",
+        "alt": "A real M26 Pershing on exhibit at the U.S. Army Basic Combat Training Museum, Fort Jackson, South Carolina, not the in-game model.",
+        "credit": "Andrew McIntyre (U.S. Army) · Public domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "M26 — War Thunder Wiki (official unit page)",
@@ -1503,7 +1518,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight at long range from hull-down or concealed positions where the strong frontal armour and powerful gun are decisive. Pre-aim toward likely enemy approaches so you do not need to swing the hull under fire, relocate after firing to avoid being flanked, and never expose your vulnerable sides. Patience and sightlines win games in the Jagdpanther.",
     "history": "Introduced in 1944, the Jagdpanther married the Panther's hull and running gear to the powerful 8.8 cm Pak 43 anti-tank gun, producing one of the most capable tank destroyers of the war. Only a few hundred were built before Germany's collapse, but the type earned a fearsome reputation for being able to knock out Allied armour well before its targets could reply.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/jagdpanther.jpg",
+        "alt": "A preserved German Jagdpanther (Sd.Kfz. 173) tank destroyer at the Bovington Tank Museum, photographed in real life, not the in-game model.",
+        "credit": "Simon Q from United Kingdom · CC BY 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Jagdpanther G1 — War Thunder Wiki (official unit page)",
@@ -1593,7 +1615,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play it as a mobile pillbox. Push slowly into contested ground, angle the hull slightly to make the already strong armour even harder to defeat, and use the quick reload to win short-range exchanges. Avoid open sniping duels where the weak penetration and low shell velocity let you down; instead force enemies into close fights where your armour and rate of fire dominate. Lean on the large crew to keep fighting after taking hits.",
     "history": "The Churchill grew out of a 1939 British requirement for an infantry tank able to cross broken ground and survive enemy anti-tank fire, with speed treated as secondary. Named in 1940 for morale during the dark days of the Battle of Britain, it first saw heavy combat at Dieppe in 1942 before maturing through successive marks. The Mk VII (A22F) was a major redesign with markedly thicker, better-shaped frontal armour and the 75 mm gun, and it served extensively from the Normandy landings through the end of the war in north-west Europe and Italy, prized as a dependable infantry-support tank.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/churchill-vii.jpg",
+        "alt": "A real Churchill Mark VII Crocodile infantry tank on display at the Bovington Tank Museum, Dorset, not the in-game model.",
+        "credit": "Jim Linwood from London · CC BY 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Churchill VII | War Thunder Wiki (unit page)",
@@ -1689,7 +1718,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight on the horizontal. Bait faster opponents into turning with you, where your superb agility lets you reverse onto their tail, and snap-shoot with the cannons while the machine guns help you walk rounds onto target. Avoid prolonged climbs and high-speed dives against energy fighters; if you lose energy you cannot run, so keep speed up, stay in the merge, and pick off aircraft that overcommit to turning with you.",
     "history": "The A6M5 Model 52 was the most numerous wartime variant of Mitsubishi's Type 0 carrier fighter, introduced in 1943 to keep the ageing Zero competitive against newer Allied fighters. It featured redesigned, shorter wings with rounded tips and a revised exhaust arrangement that extracted extra thrust from the Sakae engine. While it preserved the Zero's legendary manoeuvrability, it could not match the speed, firepower and protection of contemporary American types, and it served through the increasingly desperate air battles of the Pacific war's final years, including use in late-war strike and special-attack roles.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/a6m5-zero.jpg",
+        "alt": "A preserved Mitsubishi A6M5 Zero (Model 52) on display at the Yushukan museum, Yasukuni Shrine, Tokyo, not the in-game model.",
+        "credit": "Paul Richter · CC BY-SA 3.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "A6M5 | War Thunder Wiki (unit page)",
@@ -1757,7 +1793,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Climb to a comfortable altitude advantage at the match start, then convert that height into speed in slashing diving attacks. Pick one target per pass, fire a short burst with the cannons at convergence, and keep the speed to zoom back up out of reach. Never commit to a flat turn fight; if an enemy gets on your tail, roll hard and dive away, using your superior roll and dive to break the lock. Save your limited cannon rounds for high-percentage shots and let the energy game do the rest.",
     "history": "Developed in 1942, the A-5 sub-variant lengthened the engine mount to shift the centre of gravity and free up payload capacity aft, giving the airframe room for the additional equipment and ordnance that later defined the Focke-Wulf 190 family. The type served the Luftwaffe across the Western Front, the Eastern Front, North Africa, and home defence in fighter, fighter-bomber, ground-attack, and night-fighter roles. At low and medium altitude it proved superior to the Spitfire Mk V, though its performance tapered off in the thinner air at height.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/fw-190-a-5.jpg",
+        "alt": "A captured Focke-Wulf Fw 190A in flight during U.S. Navy testing at Patuxent River, Maryland, in April 1944, not the in-game model.",
+        "credit": "U.S. Navy · Public domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Fw 190 A-5 — War Thunder Wiki (official unit page)",
@@ -1834,7 +1877,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight from the edges of an engagement, using islands and smoke to control sightlines. Open with gunfire on enemy destroyers, walking your shells onto the waterline to start fires and knock out their guns, then break off before return fire finds you. Hold the torpedoes for cruisers or distracted destroyers and launch in spreads from concealment. Keep the ship moving and angled, and pull back to repair the moment you take crew or steering hits rather than trading blows toe-to-toe.",
     "history": "The Tribal class were a series of 27 large destroyers built before and during the Second World War for the Royal Navy and the Commonwealth navies, designed to carry a heavier gun armament than the destroyers that preceded them. HMS Mohawk served in the early war period before being lost in action. The class as a whole earned a hard-fighting reputation across the Mediterranean, Atlantic, and Arctic theatres.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/hms-mohawk.jpg",
+        "alt": "Royal Navy official photograph of the Tribal-class destroyer HMS Mohawk (F31), taken in September 1938, not the in-game model.",
+        "credit": "Royal Navy official photographer · Public domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "HMS Mohawk — War Thunder Wiki (official unit page)",
@@ -1911,7 +1961,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play to the gun count: find a firing line where you can pour shells onto a single target and overwhelm its damage control before it can answer. Stay angled and keep moving to make incoming fire glance off the thin belt, and use your speed to dictate range against slower battlecruisers and battleships. Engage destroyers at distance where your reload turns them to scrap quickly, and keep the AA suite hot for aircraft. Avoid stationary slugging matches with heavy cruisers; reposition and reset rather than trade citadels.",
     "history": "Laid down on 9 December 1936 and commissioned on 18 September 1939, USS Helena (CL-50) was the ninth and final Brooklyn-class light cruiser. She was torpedoed at Pearl Harbor and, after repair and refit, returned to service in 1942 for the Guadalcanal campaign. During the Battle of Kula Gulf on the night of 5-6 July 1943 she sank the destroyer Niizuki before being struck by multiple Japanese torpedoes; the damage proved fatal and Helena went down.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/uss-helena.jpg",
+        "alt": "Historical photograph of the American light cruiser USS Helena (CL-50) underway in March 1943 after overhaul in Sydney, not the in-game model.",
+        "credit": "Australian War Memorial · Public domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "USS Helena — War Thunder Wiki (official unit page)",
@@ -1981,7 +2038,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Stay low and use the Yak-3's energy retention to dictate engagements. Drag higher-altitude opponents down into your performance band, then out-turn or out-accelerate them. Conserve cannon ammunition for decisive passes and avoid prolonged climbs that strand you with no energy advantage.",
     "history": "Developed late in the Second World War as a refinement of the Yak fighter line, the type emphasised light weight and aerodynamic cleanliness to wring maximum agility from a modest engine. It reached frontline squadrons in 1944 and earned a reputation as a dangerous adversary in the close, low-altitude knife fights that characterised much of the Eastern Front air war.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/yak-3.jpg",
+        "alt": "A restored Yakovlev Yak-3U (N130AM) on display at the Planes of Fame Air Museum, Chino, California, not the in-game model.",
+        "credit": "kitmasterbloke (Steve Knight) · CC BY 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Yak-3 | War Thunder Wiki (unit page)",
@@ -2051,7 +2115,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fight in the low-to-medium altitude band where the engine is happiest. Use nose-mounted cannons for precise, high-damage snapshots, then extend and re-engage rather than committing to prolonged turn fights against dedicated turn-fighters. Manage your throttle to keep the injected engine in its sweet spot.",
     "history": "Introduced as a parallel development to the earlier La-5F rather than a successor, the FN variant centred on a fuel-injected radial that sustained high output for several minutes of combat. Comparative trials against contemporary German fighters showed clear advantages in speed and manoeuvrability at lower altitudes, and the type became a mainstay of Soviet fighter regiments in the war's later years.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/la-5fn.jpg",
+        "alt": "A preserved Lavochkin La-5 on display at the Aviation Museum of the UMMC Museum Complex, not the in-game model.",
+        "credit": "Msgevans00 · CC BY 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "La-5FN | War Thunder Wiki (unit page)",
@@ -2113,7 +2184,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Lean on the airframe's dive resistance and turn rate rather than chasing speed contests. Hold altitude where you can, commit to boom-and-zoom passes against faster enemies, and fall back on the tight turn as a defensive escape. Save the cannon rounds for clean firing solutions and let the machine guns soften targets.",
     "history": "The Dewoitine D.520 was regarded as the finest French fighter to see service in 1940, combining a clean low-drag airframe with a Hispano-Suiza inline engine and a hub-firing cannon. It fought in the Battle of France and later in colonial theatres on both Vichy and Free French sides, acquitting itself respectably against more numerous and often faster opposition.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/d-520.jpg",
+        "alt": "A preserved Dewoitine D.520 fighter on display at the Musee de l'Air et de l'Espace, Le Bourget, France, not the in-game model.",
+        "credit": "PpPachy · CC BY-SA 3.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "D.520 | War Thunder Wiki (unit page)",
@@ -2179,7 +2257,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play it as a defensive brawler. Pick a position with cover, angle the hull to make the most of the frontal plate, and let enemies come to you so your single powerful shot lands first. Avoid open ground where your low speed and weak reverse leave you exposed, and never get caught reloading in the open.",
     "history": "The M13/40 grew out of the earlier M11/39 programme, adding a fully traversing turret with a 47 mm gun and a fourth crewman to serve it. Adopted by the Italian army in 1940, it became the backbone of Italy's armoured divisions in North Africa, where its protection and firepower were competitive on introduction but were soon outclassed as the war progressed. Production figures are uncertain because many hulls were later rebuilt into the improved M14/41.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/m13-40.jpg",
+        "alt": "A preserved Italian Fiat M13/40 medium tank on display at the Belgrade Military Museum, photographed in real life, not the in-game model.",
+        "credit": "Pudelek (Marcin Szala) · CC BY-SA 3.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "M13/40 (I) | War Thunder Wiki",
@@ -2267,7 +2352,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Anchor a flank or a contested lane. Use the strong reverse to expose only the front of the tank from behind cover, fire, then pull back to reload safely. Carry HEAT for heavily armoured targets and APCBC for everything else. Because the hull is slow, plan positions ahead of the cap rather than chasing fights across the map.",
     "history": "Designated P26/40 for its 26-tonne weight and 1940 design year, the P40 was Italy's attempt at a heavier breakthrough tank to fight alongside its mediums. Development dragged on as the intended gun grew from a short 75 mm howitzer to a longer high-velocity weapon, and the vehicle only reached service in 1943. Very few were completed before the armistice, after which German forces took over the design and built additional examples, frequently emplacing turretless hulls as fixed defensive positions.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/p40.jpg",
+        "alt": "A wartime photograph of the Italian Carro Armato P26/40 (P40) heavy tank, not the in-game model.",
+        "credit": "Unknown author · Public domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "P40 | War Thunder Wiki",
@@ -2355,7 +2447,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fly it as a boom-and-zoom energy fighter. Climb and keep speed, then make slashing diving passes and use the heavy nose battery to destroy targets in a single firing window. Avoid prolonged turn fights; extend, reset, and re-engage. Its firepower also makes it an excellent bomber- and attacker-interceptor.",
     "history": "Designed by Frid Wanstrom under Sweden's wartime rearmament drive, the SAAB 21 broke with convention as a single-engine, twin-boom aircraft with the propeller mounted behind the cockpit in a pusher configuration. Powered by a licence-built Daimler-Benz DB 605 engine, the J21A-1 entered Swedish service after the war and, though it never saw combat, more than 300 of the series were produced to strengthen Sweden's air defences. The basic airframe later proved adaptable enough to be converted to jet power as the J21R.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/j21a-1.jpg",
+        "alt": "A preserved SAAB 21 (J21) twin-boom pusher fighter, serial 21364, at the Flygvapenmuseum in Malmen, Sweden, not the in-game model.",
+        "credit": "Alan Wilson · CC BY-SA 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "J21A-1 | War Thunder Wiki",
@@ -2424,7 +2523,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the Yugumo as an ambush striker. Use islands, smoke, and angles to close to torpedo range, launch a wide spread at predictable targets, then fall back on your guns and speed before the enemy ranges in on you. Keep maneuvering to avoid return fire, and conserve torpedoes for high-value cruisers and battleships rather than spamming them at distant destroyers.",
     "history": "Yugumo was the lead ship of her class of Imperial Japanese Navy destroyers, laid down at Maizuru in 1940 and commissioned in late 1941. She escorted carrier forces through several Pacific actions, including operations in the Solomons campaign, and torpedoed an American destroyer during a night surface engagement off Vella Lavella in 1943 before being overwhelmed and sunk by concentrated enemy fire.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/ijn-yugumo.jpg",
+        "alt": "Historical photograph of the Imperial Japanese Navy destroyer Naganami, a Yugumo-class sister ship of Yugumo, not the in-game model.",
+        "credit": "Shizuo Fukui · Public domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "IJN Yugumo | War Thunder Wiki (official /unit/ page)",
@@ -2492,7 +2598,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Position the Soobrazitelny so her slow-turning guns are already pointed where the action will be, then hold ground and let the 130 mm guns and dense AA do the work. Pre-aim before peeking, support allies on the cap with accurate fire, and save torpedoes for ships that wander into a tight firing solution. Avoid getting flanked, since rotating the manual turrets across the deck is punishingly slow.",
     "history": "Soobrazitelny was a Soviet Storozhevoy-class (Project 7U) destroyer, an improved derivative of the Project 7 design with separated boiler and engine rooms to reduce the chance of a single hit immobilizing the ship. Commissioned in 1941, she served in the Black Sea, supporting the defense of Odessa and Sevastopol, raiding Romanian coastal targets, and earning Guards honors before stepping back from frontline action later in the war.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/soobrazitelny.jpg",
+        "alt": "Wartime photograph of the Soviet Project 7U destroyer Soobrazitelny (right) receiving evacuees from the leader Tashkent off Sevastopol on 27 July 1942, not the in-game model.",
+        "credit": "Unknown author · Public domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Soobrazitelny | War Thunder Wiki (official /unit/ page)",
@@ -2560,7 +2673,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Exploit the Colleoni's speed: rush objectives early, harass light targets and torpedo boats, and use cover, smoke, and angles to break contact whenever a heavier ship turns its guns on you. Plan each engagement around her slow reload by picking targets you can hit decisively, and never let yourself get cornered where her fragile hull can be bracketed.",
     "history": "RN Bartolomeo Colleoni was a Condottieri-class (Di Giussano subgroup) light cruiser of the Italian Regia Marina, commissioned in the early 1930s and named after the Renaissance condottiero. The design prioritized very high speed at the expense of armor. She was lost at the Battle of Cape Spada in July 1940 after Allied gunfire jammed her steering and devastated her superstructure, leaving her dead in the water to be finished by torpedoes.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/rn-bartolomeo-colleoni.jpg",
+        "alt": "Royal Navy official photograph of the Italian Condottieri/di Giussano-class light cruiser Bartolomeo Colleoni during the Battle of Cape Spada, 19 July 1940, not the in-game model.",
+        "credit": "Royal Navy official photographer · Public domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "RN Bartolomeo Colleoni | War Thunder Wiki (official /unit/ page)",
