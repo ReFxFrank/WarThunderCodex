@@ -4109,5 +4109,792 @@ export const vehicles: Vehicle[] = [
       "citadel": "Citadel 76 / 76 / 34 mm; conning tower 25 / 25 / 25 mm; hull 25 mm"
     },
     "survivability": "Furutaka is tougher than a destroyer but lightly built for a heavy cruiser, with a 76 mm citadel and 25 mm hull that resist destroyer and light-cruiser fire but give way to larger naval guns. Her 680-man crew lets her soak damage and keep fighting, yet the greatest threat is internal: the large Type 93 torpedo stowage can detonate and destroy the ship outright, exactly as happened to the real vessel. Angling to protect the citadel and shielding the torpedo spaces from incoming fire are key to staying afloat."
+  },
+  {
+    "id": "tiger-ii-h",
+    "name": "Tiger II (H)",
+    "nation": "germany",
+    "class": "ground",
+    "subclass": "Heavy tank",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 7,
+      "realistic": 6.7,
+      "simulator": 6.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Tiger II (H) is the Henschel-turreted production King Tiger: a heavily armoured German heavy tank built around the long 8.8 cm KwK43, which combines flat-shooting accuracy with deep penetration at any range typically seen in battle. Its sloped frontal hull and thick mantlet make it a punishing frontal opponent, but its considerable weight and limited engine output leave it ponderous and exposed to flanking.",
+    "prosCons": {
+      "pros": [
+        "Long 8.8 cm KwK43 with excellent accuracy and penetration at range",
+        "Well-sloped frontal hull armour that bounces many rounds head-on",
+        "Strong gun mantlet and turret cheeks",
+        "Generous 70-round ammo stowage"
+      ],
+      "cons": [
+        "Heavy and underpowered, so acceleration and turning are sluggish",
+        "Flat turret cheeks and ammo racks can be punished by flankers",
+        "Long reload compared with lighter-gunned rivals",
+        "Large profile makes it easy to spot and target"
+      ]
+    },
+    "playstyle": "Fight at medium to long range where the KwK43's accuracy and the angled hull pay off. Hull-down or angled behind cover, present the strong front and let the gun do the work; avoid open-ground turns where your weak sides and slow traverse get exploited. Pre-aim chokepoints rather than trading reloads up close.",
+    "history": "Developed by Henschel in 1943 as a successor to the Tiger I, the Panzerkampfwagen Tiger Ausf. B paired thick, sloped armour with the powerful long 88 mm gun. The Henschel turret was the standard production type after early vehicles used the rounded Porsche-design turret. Heavy and fuel-hungry, it nonetheless ranked among the most formidable heavy tanks of the war when mechanically sound.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Tiger II | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_b_tiger_IIh",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 69.8,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "kwk43-88mm",
+      "reloadBaseSec": 9.7,
+      "reloadAcedSec": 7.5,
+      "vertGuidanceDeg": [
+        -8,
+        15
+      ],
+      "turretTraverseDegSec": 13.3,
+      "ammoCapacity": 70,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "150",
+        "side": "80",
+        "rear": "80"
+      },
+      "turretMm": {
+        "front": "185",
+        "side": "80",
+        "rear": "80"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "is-3",
+    "name": "IS-3",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Heavy tank",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7.3,
+      "realistic": 7.3,
+      "simulator": 7.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The IS-3 is a Soviet heavy tank that introduced the pike-nose hull and a thick, rounded turret that would define postwar Soviet design. It carries the hard-hitting 122 mm D-25T and trades a slow reload and shallow gun depression for armour that is extremely difficult to penetrate frontally at its battle rating.",
+    "prosCons": {
+      "pros": [
+        "Heavily armoured pike-nose hull deflects many frontal shots",
+        "Thick, rounded turret front is hard to defeat head-on",
+        "Powerful 122 mm D-25T with strong post-penetration effect",
+        "Relatively light for a heavy, so it reaches a decent top speed"
+      ],
+      "cons": [
+        "Very long reload leaves you exposed between shots",
+        "Shallow -3° gun depression limits hull-down and ridge play",
+        "Sluggish to turn from a standstill and slow acceleration",
+        "Small 28-round ammo load"
+      ]
+    },
+    "playstyle": "Lead with the strong pike nose and turret, angling slightly to thicken the sides while keeping the cheeks safe. Pick fights where you can land the first 122 mm shot and retreat behind cover during the long reload. Avoid cresting steep ridges because the limited depression forces you to over-expose the hull.",
+    "history": "The IS-3 entered production in the closing weeks of World War II, with the first vehicles completed in May 1945. Its dramatically sloped pike-nose hull and dome-shaped turret were a leap in protection layout, but it saw little wartime combat and instead became a Cold War symbol, paraded in Berlin in 1945 and serving across numerous fronts thereafter.",
+    "media": [],
+    "sources": [
+      {
+        "label": "IS-3 | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_is_3",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 40,
+      "maxRevKph": 15,
+      "enginePowerHp": 671,
+      "weightTons": 48,
+      "powerToWeight": 10.89,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "d-25t-122mm",
+      "reloadBaseSec": 26,
+      "reloadAcedSec": 20,
+      "vertGuidanceDeg": [
+        -3,
+        20
+      ],
+      "turretTraverseDegSec": 6.35,
+      "ammoCapacity": 28,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "110",
+        "side": "90",
+        "rear": "60"
+      },
+      "turretMm": {
+        "front": "250",
+        "side": "172",
+        "rear": "70"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "t29",
+    "name": "T29",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Heavy tank",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 7,
+      "realistic": 7,
+      "simulator": 6.7
+    },
+    "acquisition": [
+      "gift"
+    ],
+    "summary": "The T29 is an American heavy tank that mounts the powerful 105 mm T5E2 in a large, well-armoured rotating turret. Its thick mantlet and turret face make it an outstanding hull-down brawler, and the 105 mm gun can knock out most contemporaries in a single hit despite the hull being thinner than its turret.",
+    "prosCons": {
+      "pros": [
+        "Excellent 105 mm T5E2 with strong armour-piercing punch",
+        "Very tough turret face and mantlet, superb hull-down",
+        "Good gun depression for using ridgelines",
+        "Large 63-round ammo capacity"
+      ],
+      "cons": [
+        "Hull armour is comparatively thin and easily penetrated",
+        "Low top speed; mobility is only average",
+        "Large six-man crew turret is a big target",
+        "Long reload between its heavy shots"
+      ]
+    },
+    "playstyle": "Play it hull-down: crest a ridge or sit behind a low rise so only the heavily protected turret is exposed, then trade shots from safety. Use the good depression to keep the weak hull hidden. In open ground beware of being flanked, since the side and hull armour offer little protection and the tank is slow to reposition.",
+    "history": "The T29 was a late-World-War-II American heavy tank program begun in 1944 to counter heavily armoured German designs such as the Tiger II. Armed with a 105 mm gun in a roomy turret, it arrived too late for wartime service and remained largely a development and testing vehicle, informing later US heavy tank work.",
+    "media": [],
+    "sources": [
+      {
+        "label": "T29 | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_t29",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 35,
+      "maxRevKph": 14,
+      "enginePowerHp": 770,
+      "weightTons": 64.2,
+      "powerToWeight": 12,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "t5e1-105mm",
+      "reloadBaseSec": 19.4,
+      "reloadAcedSec": 14.9,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": 12.6,
+      "ammoCapacity": 63,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "102",
+        "side": "76",
+        "rear": "51"
+      },
+      "turretMm": {
+        "front": "203",
+        "side": "158",
+        "rear": "102"
+      },
+      "crewCount": 6,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m18-hellcat",
+    "name": "M18 Hellcat",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 5.3,
+      "realistic": 6,
+      "simulator": 6
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M18 GMC, nicknamed the Hellcat, is the purest expression of the U.S. tank-destroyer doctrine: trade away armour entirely for blistering speed and a fully traversable turret carrying a 76 mm gun. It darts to a firing position, lands a shot, and relocates before the enemy can answer.",
+    "prosCons": {
+      "pros": [
+        "Exceptional top speed and acceleration for fast repositioning",
+        "Full 360-degree turret traverse, rare among tank destroyers of its tier",
+        "76 mm gun with capable armour-piercing rounds for its battle rating",
+        "Low silhouette compared to many casemate destroyers"
+      ],
+      "cons": [
+        "Paper-thin armour: roughly 12 mm everywhere, vulnerable to autocannons and even heavy machine guns",
+        "Any penetrating hit tends to knock out multiple crew or critical modules",
+        "Open-topped roof leaves the crew exposed to strafing and artillery",
+        "No survivability margin in a head-on brawl"
+      ]
+    },
+    "playstyle": "Play to the Hellcat's mobility. Use its speed to reach flanks and elevated overwatch positions before the enemy arrives, fire from concealment at exposed sides, and reverse out the moment you are spotted. Never trade blows frontally; even a single return shot is usually fatal. Pre-aim chokepoints and let the fast turret correct onto targets that appear.",
+    "history": "Developed by Buick from the T70 prototype, the M18 was standardized in 1943 as a fast self-propelled anti-tank vehicle embodying the wartime U.S. doctrine of countering armour with speed and a hard-hitting gun rather than protection. It served with U.S. tank-destroyer battalions in the final years of the Second World War.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M18 GMC — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m18_hellcat",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 80,
+      "maxRevKph": 26,
+      "enginePowerHp": null,
+      "weightTons": 17.7,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "m1-76mm",
+      "reloadBaseSec": 7.9,
+      "reloadAcedSec": 6.1,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 45,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "12 mm",
+        "side": "12 mm",
+        "rear": "12 mm"
+      },
+      "turretMm": {
+        "front": "25 mm",
+        "side": "12 mm",
+        "rear": "12 mm"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "su-100",
+    "name": "SU-100",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "IV",
+    "battleRatings": {
+      "arcade": 6,
+      "realistic": 6,
+      "simulator": 6
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The SU-100 is a Soviet casemate tank destroyer built on the T-34 chassis and armed with the hard-hitting 100 mm D-10S. With no rotating turret it relies on its powerful gun, sloped frontal plate, and patient positioning to dominate at range.",
+    "prosCons": {
+      "pros": [
+        "Potent 100 mm D-10S with strong penetration and post-penetration damage",
+        "Well-sloped 75 mm front plate that can deflect rounds at its battle rating",
+        "T-34-derived chassis gives good cross-country mobility",
+        "Compact casemate presents a relatively low frontal profile"
+      ],
+      "cons": [
+        "Fixed casemate gun with only a narrow horizontal traverse arc",
+        "Long reload punishes a missed shot",
+        "Very limited gun depression hampers fighting from ridgelines",
+        "Slow reverse makes disengaging from a bad position difficult"
+      ]
+    },
+    "playstyle": "Treat the SU-100 as a long-range sniper and ambusher. Hold hull-down or covered positions where the sloped front is angled toward likely threats, and engage enemies at distance before they can flank the fixed gun. Because the casemate cannot rotate quickly, pre-aim down lanes and avoid close-quarters fights where a faster turret will out-cycle you.",
+    "history": "Designed in 1944 under L. I. Gorlitskiy and produced at Uralmash, the SU-100 mated the T-34 chassis with the 100 mm D-10S to counter heavily armoured German tanks at range. It entered service in the last year of the Second World War and remained in use for decades with Soviet allies.",
+    "media": [],
+    "sources": [
+      {
+        "label": "SU-100 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_su_100_1945",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": 8,
+      "enginePowerHp": null,
+      "weightTons": 31.6,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "d-10s-100mm",
+      "reloadBaseSec": 13.7,
+      "reloadAcedSec": 10.5,
+      "vertGuidanceDeg": [
+        -3,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 33,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "75 mm",
+        "side": "45 mm",
+        "rear": "45 mm"
+      },
+      "turretMm": {
+        "front": "75 mm",
+        "side": "45 mm",
+        "rear": "45 mm"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "dicker-max",
+    "name": "Dicker Max",
+    "nation": "germany",
+    "class": "ground",
+    "subclass": "Tank destroyer",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 4,
+      "realistic": 3.7,
+      "simulator": 3.7
+    },
+    "acquisition": [
+      "premium"
+    ],
+    "summary": "The Dicker Max (Pz.Sfl.IVa) is a German open-casemate tank destroyer on a Panzer IV chassis carrying a 105 mm K.18 gun. At its battle rating its armour-piercing round overmatches almost anything it meets, but its thin, open superstructure offers little protection in return.",
+    "prosCons": {
+      "pros": [
+        "105 mm K.18 with overwhelming penetration for its battle rating",
+        "Heavy single-shot punch that can disable most opponents outright",
+        "Generous gun depression for an open casemate, good for ridgeline work",
+        "Comfortable battle rating where its gun outclasses enemy armour"
+      ],
+      "cons": [
+        "Thin armour that almost any opponent can penetrate frontally",
+        "Open-topped casemate exposes the crew to strafing, shrapnel and artillery",
+        "Long reload makes every shot count",
+        "Sluggish, with a narrow fixed-gun traverse arc"
+      ]
+    },
+    "playstyle": "Use the Dicker Max as a long-range first-strike platform. Set up in cover or behind teammates, pick off the most dangerous targets at distance with its high-penetration round, and relocate after firing so return fire cannot find the exposed casemate. Lean on its good depression to peek over crests while keeping the vulnerable hull hidden.",
+    "history": "Conceived in 1939 as a mobile bunker-buster for the Maginot Line, the 105 mm K.18 Panzer Selbstfahrlafette IV Ausf. A arrived too late for that role; only two were built in early 1941. The pair saw combat on the Eastern Front, where the powerful gun proved effective against armour despite the vehicle's fragility.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Dicker Max — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzsfl_IVa_dickermax",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxRevKph",
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 28,
+      "maxRevKph": null,
+      "enginePowerHp": null,
+      "weightTons": 21,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "k18-105mm",
+      "reloadBaseSec": 11.7,
+      "reloadAcedSec": 9,
+      "vertGuidanceDeg": [
+        -15,
+        10
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 26,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "50 mm",
+        "side": "20 mm",
+        "rear": "20 mm"
+      },
+      "turretMm": {
+        "front": "30 mm",
+        "side": "20 mm",
+        "rear": "20 mm"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "bt-7",
+    "name": "BT-7",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "I",
+    "battleRatings": {
+      "arcade": 1.3,
+      "realistic": 1.3,
+      "simulator": 1.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The BT-7 is an early Soviet 'fast tank' (bystrokhodny tank) that trades armour for blistering speed. Built on the Christie suspension lineage shared with the BT-5, it pairs a thin but adequately sloped hull with the 45 mm 20-K cannon, making it a darting flanker that punishes slower opponents at the bottom of the ground tree. Its mobility is its survival: it cannot win a straight slugging match, so it relies on speed to reach side and rear shots before the enemy can react.",
+    "prosCons": {
+      "pros": [
+        "Excellent top speed and acceleration for its battle rating",
+        "45 mm 20-K gun penetrates most contemporaries from the flank",
+        "Large 188-round ammunition stowage",
+        "Small, low-profile hull is easy to hide"
+      ],
+      "cons": [
+        "Paper-thin armour offers no protection against most shells",
+        "Only three crew, so a single penetration often disables it",
+        "Limited gun depression of -6 degrees hampers hull-down play",
+        "Lightly armed against anything with frontal armour"
+      ]
+    },
+    "playstyle": "Use the BT-7 as a scout and flanker rather than a brawler. Push wide on the map with your speed, get behind enemy lines, and aim the 45 mm 20-K at side and rear plates where it reliably penetrates. Stay moving, since standing still in such thin armour is fatal, and avoid head-on duels with anything heavier than another light tank.",
+    "history": "The BT-7 was developed in the mid-1930s as the most refined of the Soviet BT series of fast tanks, derived from the American Christie design. Powered by the Mikulin M-17T, a licensed copy of the German BMW VI aircraft engine, it served from the Spanish Civil War through the Winter War with Finland and into the opening stages of Operation Barbarossa, with roughly 5,700 examples built.",
+    "media": [],
+    "sources": [
+      {
+        "label": "BT-7 — official War Thunder wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_bt_7_1937",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 60,
+      "maxRevKph": 12,
+      "enginePowerHp": null,
+      "weightTons": 13.7,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "20k-45mm",
+      "reloadBaseSec": 3.8,
+      "reloadAcedSec": 2.9,
+      "vertGuidanceDeg": [
+        -6,
+        25
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 188,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "20",
+        "side": "15",
+        "rear": "13"
+      },
+      "turretMm": {
+        "front": "15",
+        "side": "15",
+        "rear": "13"
+      },
+      "crewCount": 3,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "crusader-mk-ii",
+    "name": "Crusader Mk II",
+    "nation": "britain",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "II",
+    "battleRatings": {
+      "arcade": 2.7,
+      "realistic": 2.7,
+      "simulator": 2.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Crusader II (Tank, Cruiser Mk VIA) is a British cruiser tank that pairs a fast-firing 40 mm QF 2-pounder with a five-man crew and a tall, riveted hull. The 2-pounder lacks high-explosive shells but reloads quickly and tracks targets well, rewarding precise solid-shot aim at crew and modules. Its mobility is good but not exceptional, and its armour, though improved over the Crusader I, is still vulnerable to most guns it faces.",
+    "prosCons": {
+      "pros": [
+        "Fast-reloading 40 mm QF 2-pounder with good accuracy",
+        "Excellent gun depression of -15 degrees for hull-down positions",
+        "Five-man crew improves survivability against single penetrations",
+        "Reasonable mobility for flanking"
+      ],
+      "cons": [
+        "2-pounder has no HE shell, limiting its use against soft targets",
+        "Tall, lightly armoured hull is easy to hit and penetrate",
+        "Very poor reverse speed makes retreating difficult",
+        "Solid-shot rounds rely on hitting crew or ammo to kill"
+      ]
+    },
+    "playstyle": "Play the Crusader II as a patient sniper and hull-down defender, exploiting the generous -15 degrees of gun depression to fight from ridgelines while keeping the hull hidden. Aim the 2-pounder at crew compartments and ammo racks since it has no HE. Plan escapes in advance because the reverse speed is dismal, and avoid open ground where its thin, tall hull is an easy target.",
+    "history": "The A15 Crusader was one of Britain's principal cruiser tanks of the early Second World War, used heavily in the North African campaign. The Crusader II added thicker frontal armour over the Crusader I while retaining the 40 mm Ordnance QF 2-pounder, a gun that was effective against early Axis armour but increasingly outclassed as the war progressed and heavier vehicles appeared.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Crusader II — official War Thunder wiki",
+        "url": "https://wiki.warthunder.com/unit/uk_crusader_mk_2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 47,
+      "maxRevKph": 8,
+      "enginePowerHp": null,
+      "weightTons": 16.3,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "qf-2pdr-40mm",
+      "reloadBaseSec": 3.6,
+      "reloadAcedSec": 2.8,
+      "vertGuidanceDeg": [
+        -15,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 110,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "20",
+        "side": "28",
+        "rear": "14"
+      },
+      "turretMm": {
+        "front": "52",
+        "side": "24",
+        "rear": "30"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "m24-chaffee",
+    "name": "M24 Chaffee",
+    "nation": "usa",
+    "class": "ground",
+    "subclass": "Light tank",
+    "rank": "III",
+    "battleRatings": {
+      "arcade": 3.7,
+      "realistic": 4,
+      "simulator": 4
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The M24 Chaffee is a late-war American light tank that mounts a 75 mm M6 cannon, a far harder-hitting gun than the autocannons and small-bore weapons on earlier US light tanks. It combines good mobility, an excellent reverse speed, and a low profile to excel at peek-a-boo tactics, darting out from cover to fire its 75 mm and pulling straight back before return fire arrives. Its armour is negligible, so positioning and timing matter more than any plate.",
+    "prosCons": {
+      "pros": [
+        "Hard-hitting 75 mm M6 gun for a light tank",
+        "Strong reverse speed enables quick peek-a-boo retreats",
+        "Good mobility and a low silhouette",
+        "Five-man crew aids survivability"
+      ],
+      "cons": [
+        "Thin armour penetrated by almost everything it meets",
+        "Slow 75 mm reload limits its rate of fire in brawls",
+        "Limited 48-round ammunition capacity",
+        "Modest gun depression of -10 degrees"
+      ]
+    },
+    "playstyle": "Lean into peek-a-boo tactics: position behind cover, use the strong reverse gear to expose only briefly, fire the 75 mm M6, and pull back before the enemy can range you. Flank when possible and aim for weak points, since the slow reload punishes missed shots. Never trade blows in the open, as the M24's armour will not save it.",
+    "history": "The M24 Chaffee entered service in late 1944 as a replacement for the M3/M5 Stuart light tank series, with roughly 4,731 built between 1944 and 1945. It first saw combat during the Battle of the Bulge and went on to a long postwar career in numerous armies, prized for its mobility and the relatively potent 75 mm gun fitted to a light chassis.",
+    "media": [],
+    "sources": [
+      {
+        "label": "M24 — official War Thunder wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m24_chaffee",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "enginePowerHp",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 63,
+      "maxRevKph": 26,
+      "enginePowerHp": null,
+      "weightTons": 18.4,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "m6-75mm",
+      "reloadBaseSec": 8.4,
+      "reloadAcedSec": 6.5,
+      "vertGuidanceDeg": [
+        -10,
+        15
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 48,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "25",
+        "side": "25",
+        "rear": "19"
+      },
+      "turretMm": {
+        "front": "25",
+        "side": "25",
+        "rear": "25"
+      },
+      "crewCount": 5,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
   }
 ];

@@ -467,9 +467,10 @@ export const weapons: Weapon[] = [
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "is-2"
+      "is-2",
+      "is-3"
     ],
-    "notes": "Soviet 122 mm rifled tank gun firing separate-loading ammunition, giving it a slow rate of fire but a heavy APHE shell with strong post-penetration and overpressure effect. The signature weapon of the IS-2 heavy tank.",
+    "notes": "Soviet 122 mm rifled tank gun firing separate-loading ammunition, giving it a slow rate of fire but a heavy APHE shell with strong post-penetration and overpressure effect. The signature weapon of the IS-2 and IS-3 heavy tanks.",
     "sources": [
       {
         "label": "IS-2 — War Thunder Wiki (official unit page)",
@@ -1211,6 +1212,222 @@ export const weapons: Weapon[] = [
       }
     ],
     "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "kwk43-88mm",
+    "name": "8.8 cm KwK43",
+    "type": "cannon",
+    "caliberMm": 88,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "tiger-ii-h"
+    ],
+    "notes": "Long-barrelled German 88 mm tank gun fitted to the Tiger II (H). Prized for flat trajectory, tight accuracy, and strong penetration at the ranges typical of its battle rating. In-game reload runs about 9.7 s on a basic crew down to roughly 7.5 s fully aced.",
+    "sources": [
+      {
+        "label": "Tiger II | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_b_tiger_IIh",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps",
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "t5e1-105mm",
+    "name": "105 mm T5E2",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "t29"
+    ],
+    "notes": "American 105 mm tank gun mounted in the T29 heavy tank's rotating turret. Hits hard enough to knock out most rivals at its rating in a single well-placed shot. The War Thunder unit page labels this gun '105 mm T5E2'; the request's gun name 'T5E1' appears to be an approximation. In-game reload is about 19.4 s on a basic crew, falling to roughly 14.9 s when aced.",
+    "sources": [
+      {
+        "label": "T29 | War Thunder Wiki (unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_t29",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps",
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m1-76mm",
+    "name": "76 mm M1",
+    "type": "cannon",
+    "caliberMm": 76,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m18-hellcat"
+    ],
+    "notes": "American 76 mm gun mounted in the M18 Hellcat's fully traversable turret. The unit page lists M79 (AP), M62 (APCBC), M93 (APCR), M42A1 (HE) and M88 (smoke) rounds. Muzzle velocity is not given on the vehicle unit page and is left unverified.",
+    "sources": [
+      {
+        "label": "M18 GMC — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/us_m18_hellcat",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "d-10s-100mm",
+    "name": "100 mm D-10S",
+    "type": "cannon",
+    "caliberMm": 100,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "su-100"
+    ],
+    "notes": "Soviet 100 mm casemate gun on the SU-100, fixed in the hull with only a narrow horizontal arc. The unit page lists BR-412 (APHE), BR-412B (APHEBC), BR-412D (APCBC), OF-412 (HE) and 3D3 (smoke). Muzzle velocity is not shown on the vehicle unit page and is left unverified.",
+    "sources": [
+      {
+        "label": "SU-100 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_su_100_1945",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "k18-105mm",
+    "name": "10.5 cm K18",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "dicker-max"
+    ],
+    "notes": "German 105 mm K.18 heavy gun on the Dicker Max open casemate, with a narrow fixed horizontal arc. The unit page lists PzGr (APHE), Pzgr.rot (APCBC) and Gr.19 (HE). Muzzle velocity is not shown on the vehicle unit page and is left unverified.",
+    "sources": [
+      {
+        "label": "Dicker Max — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/germ_pzsfl_IVa_dickermax",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "20k-45mm",
+    "name": "45 mm 20-K",
+    "type": "cannon",
+    "caliberMm": 45,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "bt-7"
+    ],
+    "notes": "The 45 mm 20-K is the standard early-war Soviet light-tank and light-armour gun, mounted on the BT-7 and many of its contemporaries. The wiki stat card lists a reload dropping from roughly 3.8 seconds on a basic crew to 2.9 seconds when aced; it does not publish a muzzle-velocity or rate-of-fire column for the gun, so those values are left unverified rather than estimated. It is effective against lightly armoured targets, especially from the flank.",
+    "sources": [
+      {
+        "label": "BT-7 — official War Thunder wiki",
+        "url": "https://wiki.warthunder.com/unit/ussr_bt_7_1937",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "qf-2pdr-40mm",
+    "name": "40 mm QF 2-pounder",
+    "type": "cannon",
+    "caliberMm": 40,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "crusader-mk-ii"
+    ],
+    "notes": "The 40 mm Ordnance QF 2-pounder is the standard early British cruiser-tank gun, fitted to the Crusader II. The wiki confirms a 40 mm calibre and lists a fast reload of about 3.6 seconds on a basic crew down to 2.8 seconds when aced. It fires solid armour-piercing shot with no high-explosive option, so it relies on hitting crew and modules; the wiki does not publish a muzzle-velocity or rate-of-fire figure for the gun, which are therefore left unverified.",
+    "sources": [
+      {
+        "label": "Crusader II — official War Thunder wiki",
+        "url": "https://wiki.warthunder.com/unit/uk_crusader_mk_2",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m6-75mm",
+    "name": "75 mm M6",
+    "type": "cannon",
+    "caliberMm": 75,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "m24-chaffee"
+    ],
+    "notes": "The 75 mm M6 is a lightweight 75 mm gun developed for the M24 Chaffee, giving the light tank a genuine 75 mm punch in a compact package. The wiki stat card lists a reload of about 8.4 seconds on a basic crew dropping to 6.5 seconds when aced, reflecting the larger shell. The wiki does not publish a muzzle-velocity or rate-of-fire column for the gun, so those values are left unverified rather than estimated.",
+    "sources": [
+      {
+        "label": "M24 — official War Thunder wiki",
+        "url": "https://wiki.warthunder.com/unit/us_m24_chaffee",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
