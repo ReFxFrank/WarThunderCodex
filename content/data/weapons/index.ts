@@ -283,23 +283,23 @@ export const weapons: Weapon[] = [
     "type": "cannon",
     "caliberMm": 75,
     "fireRateRpm": null,
-    "muzzleVelocityMps": null,
+    "muzzleVelocityMps": 940,
     "ammoTypeIds": [],
     "usedBy": [
+      "pvkv-m43-1946",
       "strv-m42"
     ],
-    "notes": "The 75 mm Pvkan m/43 is the main gun of the Strv m/42 DT. Its in-game character rests on a fast reload rather than a high rate of fire, rewarding rapid, well-placed shots from a fragile but mobile flanker. The Tier-1 wiki vehicle page lists a reload time but no muzzle-velocity column or per-cannon rounds-per-minute figure, so both are left as honest gaps rather than estimated.",
+    "notes": "Long-barrelled Swedish 75 mm anti-tank gun derived from an anti-aircraft weapon. Its slpgr m/43 APCBC round has a muzzle velocity of 940 m/s. Rate of fire is governed by the modelled reload rather than a stated rpm.",
     "sources": [
       {
-        "label": "Strv m/42 DT — War Thunder Wiki",
-        "url": "https://wiki.warthunder.com/unit/sw_strv_m42_delat_torn",
+        "label": "Pvkv m/43 (1946) - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sw_pvkv_m43_1946",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
     ],
     "unverified": [
-      "fireRateRpm",
-      "muzzleVelocityMps"
+      "fireRateRpm"
     ],
     "lastVerified": "2026-06-30",
     "gameVersion": "Heavy Cavalry (2.57)"
@@ -1081,20 +1081,28 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "m68-105mm",
-    "name": "105 mm Sharir cannon",
+    "name": "105 mm M68 cannon",
     "type": "cannon",
     "caliberMm": 105,
     "fireRateRpm": null,
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
+      "magach-3",
+      "tiran-4s",
       "merkava-mk-1"
     ],
-    "notes": "The Merkava Mk.1 unit page names its main gun '105 mm Sharir cannon'. The Sharir is the Israeli-produced member of the M68/L7 105 mm family; the requested label was '105 mm M68', but the in-game name used here follows the official page. The id 'm68-105mm' is retained as requested. Per-shell muzzle velocities are not shown on the unit stat card, so muzzleVelocityMps is left null.",
+    "notes": "American-built license of the British L7 105 mm rifled gun, fitted to Israeli Magach and Tiran upgrades; fires APDS/APFSDS, HEAT-FS, HESH and smoke.",
     "sources": [
       {
-        "label": "Merkava Mk.1 — War Thunder Wiki (official unit page)",
-        "url": "https://wiki.warthunder.com/unit/il_merkava_mk_1",
+        "label": "Magach 3 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/il_magach_3_idf",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      },
+      {
+        "label": "Tiran 4S | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/il_tiran_4_sh",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
@@ -2865,6 +2873,247 @@ export const weapons: Weapon[] = [
       }
     ],
     "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "cn-105-zpl94",
+    "name": "105 mm ZPL94 cannon",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "type-69-2g"
+    ],
+    "notes": "Chinese NORINCO 105 mm rifled gun, a long-barrelled L7 derivative. Fires APFSDS, HEATFS, HESH and a DTB-1 HE-VT round; two-plane stabilised on the Type 69-IIG. Reload 9.7 s stock / 7.5 s aced.",
+    "sources": [
+      {
+        "label": "T-69 II G - War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/cn_type_69_2g",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "cn-125-type88c",
+    "name": "125 mm Type 88C cannon",
+    "type": "cannon",
+    "caliberMm": 125,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ztz96"
+    ],
+    "notes": "125 mm smoothbore with autoloader giving a fixed ~7.1 s reload. Fires APFSDS, HEATFS and HE including the domestic 125-I dart; 22 rounds in first-order stowage on the ZTZ96.",
+    "sources": [
+      {
+        "label": "ZTZ96 - War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/cn_ztz_96",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "cn-120-ptz89",
+    "name": "120 mm PTZ89 cannon",
+    "type": "cannon",
+    "caliberMm": 120,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ptz89"
+    ],
+    "notes": "Purpose-built 120 mm smoothbore tank-destroyer gun with an assisted loader for a fast 5 s reload. Fires high-velocity APFSDS with strong penetration; 10 rounds in first-order stowage.",
+    "sources": [
+      {
+        "label": "PTZ89 - War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/cn_ptz_89",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "kan-strv-81-84mm",
+    "name": "84 mm kan Strv 81",
+    "type": "cannon",
+    "caliberMm": 84,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": 1430,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "strv-81"
+    ],
+    "notes": "Swedish designation for the British 20-pounder fitted to the Centurion Mk 3. The headline slpprj m/54 APDS round leaves the barrel at 1430 m/s. Fire rate is governed by the modelled reload rather than a stated rpm figure.",
+    "sources": [
+      {
+        "label": "Strv 81 - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sw_strv_81",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "kan-ikv-91-90mm",
+    "name": "90 mm kan Ikv 91",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": 825,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ikv-91"
+    ],
+    "notes": "Low-pressure 90 mm gun firing the slpsgr m/72 HEATFS as its primary round at a muzzle velocity of 825 m/s, giving penetration comparable to NATO 105 mm HEATFS. Rate of fire is set by the modelled reload rather than a stated rpm.",
+    "sources": [
+      {
+        "label": "Ikv 91 - War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/sw_ikv_91",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "fr-120mm-sa46",
+    "name": "120 mm SA46 cannon",
+    "type": "cannon",
+    "caliberMm": 120,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "amx-50-surbaisse"
+    ],
+    "notes": "Autoloading main gun of the AMX-50 Surbaissé, mounted in an oscillating turret; fires roughly one round every 6 seconds. Available shells are an APBC (Obus de rupture) and HE (Obus explosif).",
+    "sources": [
+      {
+        "label": "AMX-50 Surbaissé | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_50_surbaisse",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "fr-90mm-cn90-f3",
+    "name": "90 mm CN90 F3 cannon",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "amx-13-90"
+    ],
+    "notes": "Low-pressure 90 mm gun fed by the AMX-13's oscillating-turret autoloader, firing about one round every 5 seconds until the magazine empties and must restock. Shells include the OCC 90-62 HEATFS, OE 90 F1 HE and OFUM PH90-F2 smoke.",
+    "sources": [
+      {
+        "label": "AMX-13-90 | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_13_90",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "fr-90mm-d915",
+    "name": "90 mm D915 cannon",
+    "type": "cannon",
+    "caliberMm": 90,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "amx-elc-bis"
+    ],
+    "notes": "Main gun of the ELC bis mounted in an oscillating turret; manually loaded with a stock reload near 8.7 s improving to about 6.7 s with an aced crew. Fires the OCC 90-62 HEATFS, OE 90 F1 HE and OFUM PH90-F2 smoke rounds.",
+    "sources": [
+      {
+        "label": "ELC bis | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_elc_bis",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "sharir-105mm",
+    "name": "105 mm Sharir cannon",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "shot-kal-dalet"
+    ],
+    "notes": "Israeli-produced derivative of the British L7/M68 105 mm rifled gun mounted on the Sho't Kal Dalet; fires APFSDS, HEAT-FS and HESH and is paired with the Barak Or fire control system.",
+    "sources": [
+      {
+        "label": "Sho't Kal Dalet | War Thunder Wiki",
+        "url": "https://wiki.warthunder.com/unit/il_centurion_shot_kal_d",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
