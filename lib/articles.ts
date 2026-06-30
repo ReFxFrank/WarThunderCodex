@@ -4,6 +4,7 @@
 // uses lib/article-fs.ts instead to avoid the compiler's resolver quirks.
 import { pathToFileURL } from "node:url";
 import { evaluate } from "@mdx-js/mdx";
+import remarkGfm from "remark-gfm";
 import * as runtime from "react/jsx-runtime";
 import type { MDXComponents } from "mdx/types";
 import { getAllArticles, getLoadedArticle } from "@/lib/article-fs";
@@ -30,6 +31,7 @@ export async function getArticle(
   if (!found) return null;
   const { default: Content } = await evaluate(found.body, {
     ...runtime,
+    remarkPlugins: [remarkGfm],
     baseUrl: pathToFileURL(found.sourcePath).href,
   });
   return { meta: found.meta, Content: Content as never };

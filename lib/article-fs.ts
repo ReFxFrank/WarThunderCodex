@@ -8,6 +8,22 @@ import { articleSchema, type Article } from "@/lib/schema";
 
 export const ARTICLES_DIR = path.join(process.cwd(), "content", "articles");
 
+/**
+ * YAML auto-parses unquoted ISO dates (2026-06-30) into Date objects, which our
+ * string schema rejects. Recursively coerce any Date back to a YYYY-MM-DD string
+ * so frontmatter stays robust whether or not the author quoted the date.
+ */
+function normalizeDates(value: unknown): unknown {
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  if (Array.isArray(value)) return value.map(normalizeDates);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value as Record<string, unknown>).map(([k, v]) => [k, normalizeDates(v)]),
+    );
+  }
+  return value;
+}
+
 export interface LoadedArticle {
   meta: Article;
   /** Raw MDX body (frontmatter stripped) — used for compilation and search. */
@@ -41,7 +57,7 @@ export async function getAllArticles(): Promise<LoadedArticle[]> {
     files.map(async (sourcePath) => {
       const raw = await fs.readFile(sourcePath, "utf8");
       const { data, content } = matter(raw);
-      const parsed = articleSchema.safeParse(data);
+      const parsed = articleSchema.safeParse(normalizeDates(data));
       if (!parsed.success) {
         const detail = parsed.error.issues
           .map((i) => `${i.path.join(".") || "(root)"}: ${i.message}`)

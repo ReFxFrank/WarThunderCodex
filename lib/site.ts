@@ -19,9 +19,9 @@ export const SITE = {
 // wear the age of its data honestly. These values describe the dataset target
 // and current state, not a fabricated stat — they are updated as content lands.
 export const DATA_STATUS = {
-  // The patch/update the seeded dataset is being verified against. Confirm the
-  // live update name on warthunder.com/en/news before the first seed lands.
-  targetGameVersion: "to be confirmed against live patch notes",
+  // The patch/update content is being verified against (confirmed live on
+  // warthunder.com/en/news, June 2026).
+  targetGameVersion: "Heavy Cavalry (2.57)",
   // Phase tracking so the front page is honest about what exists yet. Live
   // dataset counts come from the content engine (getContentCounts), not here.
   phase: "Content engine ready · knowledge backbone (Phase 2) next",
