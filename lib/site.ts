@@ -5,6 +5,9 @@ export const SITE = {
   name: "War Thunder Codex",
   short: "WT Codex",
   tagline: "A research-driven field manual for War Thunder.",
+  // Canonical origin used for metadataBase, Open Graph URLs, and the sitemap.
+  // Set this to the real domain at deploy time (or via NEXT_PUBLIC_SITE_URL).
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://warthundercodex.example",
   description:
     "An unofficial, accuracy-first knowledge base for War Thunder — vehicles, " +
     "weapons, ammunition, and mechanics, every in-game value sourced and " +

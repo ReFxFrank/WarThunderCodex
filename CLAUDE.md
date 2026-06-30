@@ -52,10 +52,20 @@ Read this before continuing work in a new session.
 - Phase 5 🔄 Seed dataset + expansion tooling. Tooling DONE: `npm run import` stub generator
   (scripts/import.ts), research→write→verify workflow (scratchpad scripts) + merge generators
   (gen-vehicles / gen-ammo, merge-by-id), photo pipeline (scripts/integrate-photos.mjs),
-  docs/DATA-WORKFLOW.md. Seed so far = 14 vehicles (all 10 nations), 15 weapons, 10 ammo,
-  3 missiles, each with a PD/CC real-world photo + generated silhouette. Roster growth ongoing
-  in sourced batches (owner wants full ~2500-vehicle coverage over time).
-- Phase 6 — Polish & ship: perf, a11y, reduced-motion, responsive QA, deploy docs.
+  docs/DATA-WORKFLOW.md. Seed so far = 40 vehicles (all 10 nations, all 3 classes, WWII →
+  early-jet / Cold-War-MBT era), 38 weapons, 10 ammo, 3 missiles, each vehicle with a PD/CC
+  real-world photo + generated silhouette. Built in sourced batches via a 3-background-agent
+  research→verify pattern (batch1/2/3 in scratchpad; each agent flat-outputs {vehicles,weapons},
+  gen-vehicles merges by id). Roster growth ongoing (owner wants full ~2500-vehicle coverage).
+  NOTE: gen-vehicles mergeById REPLACES a weapon record by id, so a new vehicle reusing an
+  existing gun id clobbers the prior usedBy — re-add prior users by hand (done for cn-105-f1,
+  shared by m51-isherman + amx-30). Agent prompts must specify: rank as Roman-numeral STRING,
+  acquisition from the enum, source key "label" (not "title"), lowercase nation ids.
+- Phase 6 ✅ Polish & ship: global ⌘K search UI (components/search/SearchDialog.tsx — lazy-loads
+  minisearch + /search-index.json on first open, keyboard nav, ARIA combobox/listbox), a11y
+  (skip link, focus-visible, reduced-motion already in globals.css), lazy/async images, responsive
+  QA, Open Graph metadata + metadataBase (SITE.url / NEXT_PUBLIC_SITE_URL) + generated sitemap.xml
+  (app/sitemap.ts, force-static). Header search button (was a disabled "Phase 1" stub) is now live.
 - Extras shipped on request: SVG nation flags (components/ui/NationFlag — emoji flags break on
   Windows), generated vehicle silhouettes (VehicleSilhouette), 360° rotatable armor viewer
   (components/vehicle/ArmorViewer, replaced the static ArmorSchematic), `npm run dev:host`.

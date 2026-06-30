@@ -71,7 +71,8 @@ a malformed record or a dangling cross-reference **fails the build**.
 - **Articles** are MDX under `content/articles/**` with schema-checked frontmatter
   (`lib/articles.ts`); see `content/articles/README.md` for the frontmatter contract.
 - **Search** is a client-side MiniSearch index built at compile time over every content
-  type and emitted to `/search-index.json` (`lib/search.ts`).
+  type and emitted to `/search-index.json` (`lib/search.ts`), surfaced through a global
+  ⌘K dialog (`components/search/SearchDialog.tsx`) that lazy-loads the index on first open.
 
 Run `npm run validate` for a readable report; it exits non-zero on any issue, so it can gate CI.
 
@@ -178,10 +179,14 @@ This repository is being built in phases (deliberately, stopping for review at e
       green/red deltas. Seeded 10 sourced shells + 3 missile families (adversarially verified).
 - [~] **Phase 5 — Seed dataset + tooling.** Tooling shipped: `npm run import` stub scaffold
       (`scripts/import.ts`), the research→write→verify workflow + merge generators, and a
-      documented per-entry process (`docs/DATA-WORKFLOW.md`). Seed so far: 14 vehicles (all 10
-      nations), 15 guns, 10 shells, 3 missiles, each with a license-verified real-world photo —
-      growing in sourced batches.
-- [ ] **Phase 6 — Polish & ship.** Performance, a11y, responsive QA, final deploy docs.
+      documented per-entry process (`docs/DATA-WORKFLOW.md`). Seed so far: 40 vehicles (all 10
+      nations, all three classes, WWII through the early-jet / Cold-War-MBT era), 38 guns, 10
+      shells, 3 missiles, each vehicle with a license-verified real-world photo — growing in
+      sourced batches.
+- [x] **Phase 6 — Polish & ship.** Global client-side search (⌘K) over every content type,
+      built on the static index; accessibility (skip link, focus-visible, ARIA on the search
+      combobox/armour viewer, reduced-motion handling), lazy/async images, responsive QA
+      (mobile/tablet), Open Graph metadata + generated `sitemap.xml`, and the deploy guide below.
 
 ## Accuracy & sourcing
 
