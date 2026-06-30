@@ -1,7 +1,8 @@
 import type { Vehicle } from "@/lib/schema";
 
-// Seeded vehicle records — generated from the Phase 3 research/verify workflow.
+// Seeded vehicle records — generated from the research/verify workflow.
 // Every numeric stat is sourced; unverifiable fields are null and listed in unverified[].
+// media[] holds license-verified real-world photos (PD/CC) with credit.
 export const vehicles: Vehicle[] = [
   {
     "id": "t-34-85-1944",
@@ -37,7 +38,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat it as a mobile flanker and second-line supporter, not a stand-and-trade brawler. Exploit the strong acceleration and top speed to reach advantageous angles quickly, keep the hull angled so the 45 mm plates present more effective thickness, and let the ZIS-S-53 disable targets before they can punish your fragile sides. With only -5 degrees of depression, hull-down ridge fighting is awkward, so favour flat terrain and tight corner peeks, and stay in motion because a stationary T-34-85 is a large, easily penetrated target for almost any gun it meets.",
     "history": "Adopted by the Red Army in 1944, the T-34-85 was the up-gunned answer to heavier German tanks like the Panther and Tiger, fitting an 85 mm gun into an enlarged turret that finally gave the design a real chance against thick frontal armour. Cheap to build in huge numbers yet still mobile and well-armed, it became one of the most significant tanks of the war and remained in service with many nations long after 1945.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/t-34-85-1944.jpg",
+        "alt": "A preserved real-world Soviet T-34-85 medium tank on display at the Parola Tank Museum in Finland, shown in exterior profile (not the in-game model).",
+        "credit": "Richard Allen from Nottingham, UK · CC BY 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — T-34-85 (ussr_t_34_85_zis_53)",
@@ -129,7 +137,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Make the most of the M4A1's -12 degrees of gun depression by working ridgelines and reverse slopes, showing only the rounded turret while the thinner hull stays out of sight. With a reload that drops to 5 seconds when the crew is aced, the tank rewards landing the first hit and trading aggressively, then repositioning before the enemy recovers. Steer clear of drawn-out head-on fights against guns that punch through the 51 mm hull front, and treat the five-man crew as a margin that lets you keep shooting after taking a penetrating hit.",
     "history": "The M4A1 was among the first production members of the M4 Sherman family, set apart by its one-piece cast upper hull in place of the welded structure used on most other variants. Armed with the 75 mm gun, it served extensively with United States and Allied armies through the Second World War and earned a reputation as a dependable workhorse across the North African, Italian, and later campaigns.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/m4a1-sherman.jpg",
+        "alt": "A side view of a real-world American M4A1 Sherman medium tank preserved at the Fort Lewis Military Museum, showing its cast hull and sloped armor (not the in-game model).",
+        "credit": "Articseahorse · CC BY-SA 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "M4A1 (1942) Sherman — wiki.warthunder.com unit page",
@@ -232,7 +247,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat the Panther D as a long-range sniper and second-line support tank. Hold distance, angle the hull only slightly so the sloped glacis can deflect incoming fire, and let the L/70 gun defeat almost anything it meets at this rating with a single well-placed shot. Because the turret rotates slowly and the tank can only crawl backwards at 4 km/h, steer clear of close-quarters brawls and any position you cannot calmly reverse out of; pre-aim toward likely enemy lanes rather than depending on reactive turret rotation. Watch your own lower front plate, the flat turret cheeks beside the mantlet, and the driver and machine-gun ports, all of which give opponents dependable weak points.",
     "history": "The Panzerkampfwagen V Panther Ausf. D was the first production model of Germany's Panther medium tank, hurried into service in 1943 and fielded in quantity at the Battle of Kursk. Conceived as an answer to the Soviet T-34, it married sloped armour to the long 7.5 cm KwK 42 gun, yet early vehicles were plagued by mechanical troubles, especially with the engine and final drives.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/panther-d.jpg",
+        "alt": "An original 1943 German Panther Ausf. D (Panzerkampfwagen V) preserved as a war memorial in Breda, Netherlands, photographed as a real-world surviving vehicle (not the in-game model).",
+        "credit": "Pellynl · Public domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — Panther D unit page",
@@ -328,7 +350,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fly the F-4 as a boom-and-zoom energy fighter: climb above the fight at the match start, then dive on isolated targets and zoom back up to altitude rather than committing to flat turns. The centerline 20 mm is accurate and rewards short, well-aimed bursts, so prioritize firing solutions where convergence is not an issue. Avoid prolonged turnfights with dedicated dogfighters; instead use vertical maneuvers, your strong climb, and superior energy retention to dictate when and how each engagement happens. Watch your limited cannon ammo and disengage cleanly when low on energy.",
     "history": "The Messerschmitt Bf 109 F (\"Friedrich\") was a major aerodynamic refinement of the 109 family, introducing rounded wingtips, a cleaner cowling, and the more powerful Daimler-Benz DB 601E engine. The F-4 variant standardized the 20 mm MG 151/20 engine-mounted cannon and saw extensive service from 1941, widely regarded as one of the best-handling marks of the 109.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/bf-109-f-4.jpg",
+        "alt": "A real-world Messerschmitt Bf 109 F-4 preserved at the Canada Aviation Museum in Ottawa, not the in-game model.",
+        "credit": "Ahunt · Public Domain (released worldwide by the copyright holder) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — Bf 109 F-4",
@@ -408,7 +437,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fly it as a sustained-turn fighter rather than a boom-and-zoom platform: its strength is the ability to out-rotate most contemporaries while keeping speed up. Climb to a moderate altitude advantage at the start, then engage opponents who commit to turn fights or who have already bled their energy. Use the 20 mm cannons in short, deliberate bursts because total cannon ammunition is limited, and lean on the Brownings to finish lighter targets. Avoid prolonged vertical extensions against faster German fighters, and respect the airframe limits when diving to follow a target.",
     "history": "The Spitfire Mk V was a mid-war development that mated the proven Spitfire airframe with the more powerful Merlin 45 engine to counter improved Luftwaffe fighters. The \"b\" wing configuration combined two 20 mm cannons with four .303 machine guns, and the type served in large numbers across multiple theatres from 1941 onward.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/spitfire-mk-vb.jpg",
+        "alt": "A wartime photograph of a real Supermarine Spitfire Mk VB of No. 165 Squadron at Gravesend in October 1942, not the in-game model.",
+        "credit": "Royal Air Force official photographer (Imperial War Museums) · Public Domain (United Kingdom Government / Crown Copyright expired; IWM) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — Spitfire Mk Vb stat card",
@@ -478,7 +514,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the Fletcher as an aggressive gun-first destroyer: keep moving and use your five quick-loading 5-inch mounts to chew through enemy destroyers and torpedo boats before they can close. Stagger fire to keep at least one mount cooling while the others reload, and always keep the broadside angled so the rear mounts can contribute. Hold your ten torpedoes for ambushes against larger, slower targets or for area denial in choke points rather than spraying them early. Lean on the dual-purpose main battery plus the Bofors and Oerlikon mounts to swat incoming aircraft, and avoid prolonged duels with cruisers whose heavier shells will exploit your thin, near-unarmoured hull.",
     "history": "USS Fletcher (DD-445) was the lead ship of the prolific Fletcher class, laid down in October 1941 and commissioned on 30 June 1942. She was named after Rear Admiral Frank Friday Fletcher, a Medal of Honor recipient. Fletcher served extensively in the Pacific theatre during World War II, was decommissioned in 1969, and was ultimately scrapped in 1972.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/uss-fletcher.jpg",
+        "alt": "A real-world example: the lead Fletcher-class destroyer USS Fletcher underway off New York in July 1942, not the in-game model.",
+        "credit": "U.S. Navy Bureau of Ships photo (19-N-31245), Naval History & Heritage Command · Public Domain (work of the U.S. Navy / U.S. federal government) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki - USS Fletcher (stat card)",
@@ -551,7 +594,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Use the Chi-Ha as a close-to-mid range support tank rather than a frontline brawler. The 57 mm gun is short on penetration and slow to the target, so favour the flanks, tracks and exposed crew of enemies over frontal duels, and lead moving targets to account for the lobbed shell. The generous depression lets you peek from ridgelines and dips in the ground while keeping the fragile hull tucked away, and the deep 120-round magazine sustains fire from a held spot. Stay mobile and keep the hull angled, because 25 mm of frontal plate stops almost nothing and the unhurried turret leaves you exposed if a quick flanker reaches your side.",
     "history": "The Type 97 Chi-Ha served as the Imperial Japanese Army's standard medium tank for much of the Second World War, reaching units in the late 1930s with a short 57 mm gun chosen mainly to support advancing infantry. Capable enough against fortifications and soft targets in the war's opening years, it fell behind Allied armour as the conflict wore on and was eventually rearmed as the Shinhoto Chi-Ha to extend its usefulness.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/type-97-chi-ha.jpg",
+        "alt": "A real-world example: a preserved Imperial Japanese Army Type 97 Chi-Ha medium tank, photographed at a museum rather than the in-game model.",
+        "credit": "Max Smith (Megapixie at English Wikipedia) · Public Domain (released into the public domain worldwide by the author) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — Type 97 Chi-Ha unit page",
@@ -641,7 +691,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the AMX-13 as a scout and flanker rather than a frontline fighter — its 40 mm hull and 40 mm turret will not stop much, so every engagement should happen on your terms. Use the high top speed to seize early caps and reach the flanks of the enemy advance, then exploit the quick turret traverse to snap shots onto exposed sides before relocating. The 75 mm SA49 hits hard enough to knock out most same-rank targets, but the slow stock reload means you must place each round well; avoid prolonged trades, never get caught in the open, and lean on cover, smoke, and constant repositioning to stay alive in a tank that dies to almost any direct hit.",
     "history": "The AMX-13 was a French post-war light tank known for its oscillating turret and autoloader-fed gun, designed to be air-transportable and highly mobile. The FL-11 turret variant mounted a 75 mm gun and represented an earlier configuration of the widely exported AMX-13 family, which went on to serve in numerous armies around the world for decades.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/amx-13-75.jpg",
+        "alt": "A real-world example: a preserved French AMX-13 light tank on display at the Cavalry Tank Museum, India, not the in-game model.",
+        "credit": "Mohit S from Mumbai, India (via Flickr) · CC-BY-2.0 (Creative Commons Attribution 2.0 Generic) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — AMX-13 (FL11) (fr_amx_13_fl_11)",
@@ -733,7 +790,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat the Strv m/42 DT as an aggressive flanker and opportunist sniper rather than a frontline brawler. Its key advantage is the roughly three-second aced reload, which lets you stack hits faster than almost anything at its rating, so prioritise positions where you can put several rounds into a target before it can return fire. The hull and turret are no thicker than 60 mm, so any direct trade is a losing proposition; stay mobile, use cover and side angles, and pick off distracted or reloading opponents from the flank. Be especially mindful when withdrawing, since the reverse speed is poor (and currently unconfirmed) and getting caught mid-relocation usually means death; lean on the rapid follow-up shots to win brief exchanges, then break contact along a route you have scouted in advance.",
     "history": "The Swedish Stridsvagn m/42 was a domestically developed medium tank of the early 1940s, built to give Sweden a modern armoured vehicle during its wartime neutrality. The \"DT\" (Delat Torn, or \"split turret\") designation refers to a variant whose turret was reworked around a mechanised loading arrangement for its 75 mm gun, giving it an unusually high rate of fire for its era. A mock-up appeared in 1944 and a prototype in 1945, but after trials in 1946 the design was judged unsuccessful and shelved rather than entering service.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/strv-m42.jpg",
+        "alt": "A real-world example: a preserved Swedish Stridsvagn m/42 tank seen at a 2012 P7 regiment event in Revinge, not the in-game model.",
+        "credit": "Jorchr · CC-BY-SA-3.0 (Creative Commons Attribution-ShareAlike 3.0 Unported) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — Strv m/42 DT (sw_strv_m42_delat_torn)",
@@ -822,7 +886,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat the M-51 as a cautious ambusher and second-line support tank that relies entirely on its 105 mm HEAT round to knock out targets with one well-placed hit. Favour hull-down ridgelines or flank routes where you can fire first, then pull back into cover during the long reload instead of trading shots. The 63 mm hull and 76 mm turret front rarely stop same-rating guns, so avoid open ground and head-on duels. With no stabiliser, halt completely before firing and skip shots on the move; the modest forward speed near 38 km/h and the very slow 5 km/h reverse mean you should choose positions you can hold and leave deliberately rather than react under pressure.",
     "history": "The M-51 was an Israeli rebuild of the American M4 Sherman, rearmed with a modified French 105 mm gun and given an uprated engine to handle the heavier weapon. Worked up during the 1960s, these so-called Super Shermans kept the ageing chassis competitive against newer armour and saw notable use in Israel's mid-century wars.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/m51-isherman.jpg",
+        "alt": "A preserved real-world Israeli M-51 Sherman, an upgunned Sherman fitted with a 105 mm gun, on display at the Kubinka Tank Museum (not the in-game model).",
+        "credit": "Alan Wilson from Stilton, Peterborough, Cambs, UK · CC BY-SA 2.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — M-51 (il_m_51)",
@@ -909,7 +980,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Treat the Type 62 as a mobility-first flanker that wins through positioning, because 35 mm of hull front and 50 mm of turret front will stop almost nothing at this rating. Spend the 20.5 hp/t early to seize map edges and unwatched angles, put the 85 mm into enemy sides and rears, then relocate before the return shot lands. The brisk turret rotation helps it answer close-range surprises, but the shallow -5 degrees of depression makes cresting ridges clumsy, so favour level firing spots and stay mobile, since a parked Type 62 dies to nearly anything that sees it.",
     "history": "The Type 62 emerged in China during the early 1960s as a lightened offshoot of the Type 59 medium tank, conceived for the soft ground and narrow roads and bridges of southern China where heavier armour struggled to operate. By shedding weight and armour for the sake of mobility, it entered broad service with Chinese forces and was exported to several nations across a lengthy operational life.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/type-62.jpg",
+        "alt": "A real-world Chinese Type 62 light tank preserved at the Beijing Military Museum, shown front-on (not the in-game model).",
+        "credit": "Max Smith · Public Domain · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — Type 62 (cn_type_62)",
@@ -996,7 +1074,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the Tiger H1 as a long-range sniper and mid-range bully rather than a brawler. Its mobility is sluggish, so pick a hull-down or supported firing position early and let enemies come to you, using the 88 mm gun's flat trajectory and strong penetration to land first shots from afar. Angle the hull so the flat front and side plates present greater effective thickness, but watch the relatively weak side armour against flanking light tanks and the modest reverse speed, which makes disengaging slow. Spread the five-man crew advantage by trading blows: the tank can usually absorb a hit and keep fighting where thinner-crewed opponents cannot.",
     "history": "The Panzerkampfwagen VI Ausf. H, better known as the Tiger I, entered German service in 1942 as a heavy breakthrough tank built around the formidable 88 mm gun derived from anti-aircraft and anti-tank designs. Its thick armour and powerful cannon made it a feared opponent on the battlefield, though its weight, mechanical complexity, and high production cost limited the numbers that could be fielded.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/tiger-h1.jpg",
+        "alt": "The real-world German Tiger I heavy tank 'Tiger 131', the world's only running example, displayed at the Bovington Tank Museum in England (not the in-game model).",
+        "credit": "Morio · CC BY-SA 4.0 · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "Tiger H1 — War Thunder Wiki",
@@ -1085,7 +1170,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Fly the Folgore as a clean dogfighter and energy trader: climb on the merge, keep your speed up, and use the airframe's strong turn to bleed faster, heavier opponents into your gunsight. Because the armament is light and centred on two heavy machine guns backed by twin rifle-calibre 7.7 mm guns, you must close to short range and aim for fuel tanks, the pilot, and control surfaces rather than expecting a single deflection burst to do the job. Avoid prolonged low-speed scissors against equally agile fighters where your limited firepower drags fights out; instead, fight in the vertical, recover energy in shallow dives, and disengage cleanly when outnumbered since you carry no armour cushion against return fire. With no bombs or rockets, treat the C.202 strictly as a fighter and stay near friendly altitude to pick off distracted or low-energy targets.",
     "history": "Italy's Macchi C.202 paired Mario Castoldi's refined C.200-derived airframe with a license-built Daimler-Benz DB 601 inline engine (the R.A.1000 RC.41), giving the Regia Aeronautica one of its most capable wartime fighters. The result was fast and agile but, like many Italian designs of the period, comparatively lightly armed, leaning on flying qualities rather than weight of fire.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/macchi-c202.jpg",
+        "alt": "A real-world Macchi C.202 Folgore preserved at the National Air and Space Museum, one of only two surviving examples, not the in-game model.",
+        "credit": "Cliff (Flickr user 28567825@N03) · CC-BY 2.0 (Creative Commons Attribution 2.0 Generic) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "C. 202 — War Thunder Wiki (unit page)",
@@ -1158,7 +1250,14 @@ export const vehicles: Vehicle[] = [
     },
     "playstyle": "Play the P-51D-5 as an energy fighter: climb high at the start of a match and use the strong top speed and 12,700 m ceiling to dictate engagements from above. Pick targets that have already bled their speed, make a single diving pass with the concentrated six-gun battery, then zoom back up to altitude rather than turning to re-engage. Avoid prolonged horizontal turn fights against dedicated dogfighters, manage the airframe carefully in steep dives, and use bombs or rockets opportunistically for ground targets when the air is clear.",
     "history": "The P-51D was the definitive production variant of the North American Mustang, distinguished by its bubble canopy and a battery of six .50-calibre Browning machine guns. Powered by a Packard-built licence version of the Rolls-Royce Merlin, it combined long range with strong high-altitude performance and became one of the most important Allied escort fighters of the later war years.",
-    "media": [],
+    "media": [
+      {
+        "src": "/vehicles/p-51d-5.jpg",
+        "alt": "A wartime photograph of a real North American P-51D Mustang named \"American Beauty,\" flown by Capt. John Voll in 1944, not the in-game model.",
+        "credit": "United States Army Air Forces · Public Domain (work of the U.S. Army Air Forces) · Wikimedia Commons",
+        "type": "image"
+      }
+    ],
     "sources": [
       {
         "label": "War Thunder Wiki — P-51D-5 stat card",

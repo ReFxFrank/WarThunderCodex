@@ -1,4 +1,4 @@
-import { ArmorSchematic } from "@/components/vehicle/ArmorSchematic";
+import { ArmorViewer } from "@/components/vehicle/ArmorViewer";
 import { Gauge } from "@/components/ui/Gauge";
 import { Readout } from "@/components/vehicle/Readout";
 import type { GroundVehicle } from "@/lib/schema";
@@ -15,7 +15,7 @@ export function GroundCluster({ vehicle }: { vehicle: GroundVehicle }) {
 
   return (
     <div className="grid gap-4 lg:grid-cols-2">
-      <ArmorSchematic hull={vehicle.armor.hullMm} turret={vehicle.armor.turretMm} className="power-on" />
+      <ArmorViewer hull={vehicle.armor.hullMm} turret={vehicle.armor.turretMm} className="power-on" />
 
       <div className="glass scan relative overflow-hidden p-4 power-on">
         <div className="mb-3 flex items-center justify-between">

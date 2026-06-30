@@ -41,6 +41,7 @@ export default async function VehiclePage({ params }: { params: Promise<{ id: st
   if (!vehicle) notFound();
 
   const browseHref = `/${vehicle.class}`;
+  const photo = vehicle.media.find((m) => m.type === "image");
 
   return (
     <Container className="py-10 sm:py-12">
@@ -159,12 +160,26 @@ export default async function VehiclePage({ params }: { params: Promise<{ id: st
         <p className="leading-relaxed text-muted">{vehicle.playstyle}</p>
       </section>
 
-      {/* Real-world history, visually distinct */}
-      {vehicle.history && (
+      {/* Real-world history, visually distinct — includes the licensed photo */}
+      {(vehicle.history || photo) && (
         <section className="mt-10 max-w-3xl">
           <div className="glass border-l-2 border-l-[color:var(--hairline-strong)] p-5">
-            <div className="label-tag mb-2">Real-world history</div>
-            <p className="leading-relaxed text-muted">{vehicle.history}</p>
+            <div className="label-tag mb-3">Real-world history</div>
+            {photo && (
+              <figure className="mb-4">
+                {/* eslint-disable-next-line @next/next/no-img-element -- static export, remote-credited photo */}
+                <img
+                  src={photo.src}
+                  alt={photo.alt}
+                  loading="lazy"
+                  className="w-full rounded-md border border-hairline"
+                />
+                <figcaption className="mt-1.5 text-[0.7rem] leading-relaxed text-faint">
+                  {photo.alt} <span className="opacity-80">— {photo.credit}</span>
+                </figcaption>
+              </figure>
+            )}
+            {vehicle.history && <p className="leading-relaxed text-muted">{vehicle.history}</p>}
           </div>
         </section>
       )}
