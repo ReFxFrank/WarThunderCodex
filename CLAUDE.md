@@ -49,8 +49,16 @@ Read this before continuing work in a new session.
   Seeded 10 ammo + 3 missiles (content/data/**, gen-ammo-from-workflow.mjs). Note: br-365 was a
   spec artifact (naval, not the T-34's BR-365A) and was dropped; air-gun belt-name "ammoTypeIds"
   were cleared (they aren't ammo entities).
-- Phase 5 — Seed dataset (~10–15 vehicles/nation, fully sourced) + import scaffold + workflow.
+- Phase 5 🔄 Seed dataset + expansion tooling. Tooling DONE: `npm run import` stub generator
+  (scripts/import.ts), research→write→verify workflow (scratchpad scripts) + merge generators
+  (gen-vehicles / gen-ammo, merge-by-id), photo pipeline (scripts/integrate-photos.mjs),
+  docs/DATA-WORKFLOW.md. Seed so far = 14 vehicles (all 10 nations), 15 weapons, 10 ammo,
+  3 missiles, each with a PD/CC real-world photo + generated silhouette. Roster growth ongoing
+  in sourced batches (owner wants full ~2500-vehicle coverage over time).
 - Phase 6 — Polish & ship: perf, a11y, reduced-motion, responsive QA, deploy docs.
+- Extras shipped on request: SVG nation flags (components/ui/NationFlag — emoji flags break on
+  Windows), generated vehicle silhouettes (VehicleSilhouette), 360° rotatable armor viewer
+  (components/vehicle/ArmorViewer, replaced the static ArmorSchematic), `npm run dev:host`.
 
 ## Conventions
 

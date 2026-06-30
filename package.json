@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "validate": "tsx scripts/validate.ts"
+    "validate": "tsx scripts/validate.ts",
+    "import": "tsx scripts/import.ts"
   },
   "dependencies": {
     "@mdx-js/mdx": "^3.1.1",

@@ -176,7 +176,11 @@ This repository is being built in phases (deliberately, stopping for review at e
 - [x] **Phase 4 — Weapons system.** Weapon, ammunition (penetration tables + curves), and
       missile pages, fully cross-linked with vehicles; the same-class comparison tool with
       green/red deltas. Seeded 10 sourced shells + 3 missile families (adversarially verified).
-- [ ] **Phase 5 — Seed dataset + tooling.** Curated, fully-sourced vehicle set + import scaffold.
+- [~] **Phase 5 — Seed dataset + tooling.** Tooling shipped: `npm run import` stub scaffold
+      (`scripts/import.ts`), the research→write→verify workflow + merge generators, and a
+      documented per-entry process (`docs/DATA-WORKFLOW.md`). Seed so far: 14 vehicles (all 10
+      nations), 15 guns, 10 shells, 3 missiles, each with a license-verified real-world photo —
+      growing in sourced batches.
 - [ ] **Phase 6 — Polish & ship.** Performance, a11y, responsive QA, final deploy docs.
 
 ## Accuracy & sourcing
