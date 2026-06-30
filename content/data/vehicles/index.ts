@@ -1,8 +1,7 @@
 import type { Vehicle } from "@/lib/schema";
 
-// Seeded vehicle records — generated from the research/verify workflow.
+// Seeded vehicle records — generated from the Phase 3 research/verify workflow.
 // Every numeric stat is sourced; unverifiable fields are null and listed in unverified[].
-// media[] holds license-verified real-world photos (PD/CC) with credit.
 export const vehicles: Vehicle[] = [
   {
     "id": "t-34-85-1944",
@@ -2717,5 +2716,726 @@ export const vehicles: Vehicle[] = [
       "citadel": "20 / 24 / 20 mm"
     },
     "survivability": "The Colleoni is a thinly protected light cruiser by design, sacrificing armor for speed. Her hull plating is around 25 mm of steel, the fire tower carries roughly 23 mm, and the citadel is shielded by only about 20-24 mm, so she offers little resistance to cruiser-caliber shells and is extremely vulnerable to citadel penetrations, fires, and flooding. Her best defenses are her speed and the ability to disengage; standing and trading fire with better-armored opponents will quickly prove fatal."
+  },
+  {
+    "id": "mig-15bis",
+    "name": "MiG-15bis",
+    "nation": "ussr",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8.7,
+      "realistic": 8.3,
+      "simulator": 8.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The MiG-15bis is the refined production MiG-15, swapping in the more powerful Klimov VK-1 turbojet for a notable boost to acceleration, climb and top speed. It pairs a brutal mixed cannon battery with a swept wing that stays controllable to very high speed, making it one of the defining early Soviet jets at the top of the prop-to-jet transition.",
+    "prosCons": {
+      "pros": [
+        "Heavy-hitting mixed battery: a single 37 mm shell or a short 23 mm burst can shred most contemporaries",
+        "Strong energy retention and a high top speed for its battle rating",
+        "Generous structural speed limit lets it dive and extend aggressively",
+        "Excellent high-altitude performance with a very tall service ceiling"
+      ],
+      "cons": [
+        "The 37 mm and 23 mm cannons have different ballistic arcs, so converging fire at range takes practice",
+        "Small total ammunition pool, especially the 40-round 37 mm, punishes spray-and-pray",
+        "Can depart controlled flight or snap in hard, low-speed turns if mishandled",
+        "Air brakes and energy bleed mean a sustained turnfight is rarely in its favour"
+      ]
+    },
+    "playstyle": "Fight in the vertical and trade altitude for speed rather than committing to flat turns. Use the VK-1's thrust to climb above the merge, then make slashing boom-and-zoom passes; line the target up before squeezing so the heavy cannons land in the same instant. Disengage upward after each pass and let energy do the work instead of bleeding it in a dogfight.",
+    "history": "The bis (\"second\") revision of the MiG-15 entered Soviet service in the early 1950s, built around the indigenous Klimov VK-1 engine that replaced the licence-derived Nene-pattern powerplant of the original. The added thrust and aerodynamic refinements made it the standard frontline MiG-15 of the period and a widely exported fighter.",
+    "media": [],
+    "sources": [
+      {
+        "label": "MiG-15bis — War Thunder Wiki (unit stat card)",
+        "url": "https://wiki.warthunder.com/unit/mig-15",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "climbMps",
+      "turnTimeSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1076,
+      "maxSpeedAltM": 0,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": 1132,
+      "ceilingM": 15500,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "n-37d-37mm",
+          "count": 1
+        },
+        {
+          "weaponId": "nr-23-23mm",
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "f-86f-25",
+    "name": "F-86F-25",
+    "nation": "usa",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7.7,
+      "realistic": 8.3,
+      "simulator": 8.7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The F-86F-25 is a later, more powerful Sabre that drops the early jet's leading-edge slats and gains the J47-GE-27 engine and the all-flying tail. The result is a clean, fast, high-Mach swept-wing fighter that excels at controlled high-speed manoeuvring, balanced against a comparatively light all-machine-gun armament.",
+    "prosCons": {
+      "pros": [
+        "Outstanding high-speed handling and control authority thanks to the all-flying tail",
+        "High top speed and a very high structural speed limit for energy fighting",
+        "Forgiving, stable gun platform that is easy to learn",
+        "Six fast-firing M3 Brownings with a large combined ammo pool for sustained fire"
+      ],
+      "cons": [
+        ".50-cal armament lacks one-pass killing power against well-built targets",
+        "Slatless wing trades away some of the early Sabre's low-speed agility",
+        "Modest thrust-to-weight means it must protect its energy carefully",
+        "Climb is unremarkable, so it can be out-zoomed if it starts low"
+      ]
+    },
+    "playstyle": "Keep the speed up and use the F-86F's superb high-Mach control to dictate the fight: extend, build energy, then return on the attacker's blind side. Aim for concentrated bursts since the machine guns reward time-on-target rather than snapshots. Avoid prolonged flat turnfights against cannon-armed opponents and instead use rudder-assisted high-speed scissors and vertical extensions to set up clean firing solutions.",
+    "history": "The F-86F was a major Sabre subtype fielded during and after the Korean War, fitting a stronger engine and the hard-edged \"6-3\" wing on later blocks. The F-86F-25 (NA-193 contract) and the F-86F-30 (NA-191) were essentially the same aircraft differing mainly in the production factory.",
+    "media": [],
+    "sources": [
+      {
+        "label": "F-86F-25 — War Thunder Wiki (unit stat card)",
+        "url": "https://wiki.warthunder.com/unit/f-86f-25",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "climbMps",
+      "turnTimeSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 1106,
+      "maxSpeedAltM": 0,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": 1170,
+      "ceilingM": 14700,
+      "engineCount": 1
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "m3-browning-12mm",
+          "count": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": "me-262-a-1a",
+    "name": "Me 262 A-1a",
+    "nation": "germany",
+    "class": "aviation",
+    "subclass": "Jet fighter",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 7.3,
+      "realistic": 7,
+      "simulator": 7
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Me 262 A-1a Schwalbe is the world's first operational jet fighter and Germany's foundational jet in the tree. Twin Jumo 004 turbojets give it a commanding speed advantage over the piston fighters it usually faces, while four 30 mm MK 108 cannons turn a single firing pass into a kill against almost anything it hits.",
+    "prosCons": {
+      "pros": [
+        "Devastating nose battery of four 30 mm MK 108s: a brief burst destroys most targets",
+        "Large speed margin over the propeller fighters it commonly meets",
+        "Good high-altitude performance and a roomy service ceiling",
+        "Stable, predictable firing platform when held straight and level for a pass"
+      ],
+      "cons": [
+        "MK 108 shells are slow with heavy drop, demanding close-range, well-timed bursts",
+        "Sluggish acceleration and poor throttle response from the early turbojets",
+        "Turns and energy bleed badly; it must never be drawn into a dogfight",
+        "Fragile engines and airframe are unforgiving of rough handling or overspeed"
+      ]
+    },
+    "playstyle": "Treat it as a fast interceptor, not a dogfighter. Use the speed advantage to climb above the fight, pick a single target and make one committed slashing pass, holding fire until close so the short-ranged MK 108 rounds connect. Then extend in a shallow climb to rebuild speed before re-engaging. Manage the throttle gently to avoid flaming out, and never bleed energy trying to follow a turning opponent.",
+    "history": "The Me 262 entered Luftwaffe service in mid-1944 as the first operational jet-powered combat aircraft, flying its early sorties against Allied reconnaissance and bomber formations. Persistent engine reliability problems and its late introduction limited its strategic impact despite its clear performance edge.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Me 262 A-1a — War Thunder Wiki (unit stat card)",
+        "url": "https://wiki.warthunder.com/unit/me-262a-1a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "climbMps",
+      "turnTimeSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "flight": {
+      "maxSpeedKph": 865,
+      "maxSpeedAltM": 6000,
+      "climbMps": null,
+      "turnTimeSec": null,
+      "structuralLimitKph": 1050,
+      "ceilingM": 12500,
+      "engineCount": 2
+    },
+    "armament": {
+      "fixed": [
+        {
+          "weaponId": "mk108-30mm",
+          "count": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "t-54-1951",
+    "name": "T-54 (1951)",
+    "nation": "ussr",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 8,
+      "simulator": 8
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The T-54 Model 1951 is the mid-production member of the Soviet T-54 line, distinguished by its rounded hemispherical turret that replaced the earlier egg-shaped casting. At a moderate-high battle rating it pairs a sloped, well-protected hull and a thick cast turret with the hard-hitting 100 mm D-10T. It is a compact, low-profile gun platform that rewards patient, hull-down or angled play over a brawl in the open.",
+    "prosCons": {
+      "pros": [
+        "Heavily sloped 100 mm upper glacis and a thick cast turret that bounce many same-tier rounds when angled",
+        "100 mm D-10T hits hard with good post-penetration effect from its APHE shells",
+        "Low silhouette makes it easy to hide hull-down and hard to spot",
+        "Access to HEATFS for situational high-penetration shots"
+      ],
+      "cons": [
+        "Very limited gun depression of only -4 degrees restricts use of ridgelines and hull-down positions",
+        "Reverse speed of just 8 km/h makes disengaging after a peek slow and dangerous",
+        "Cramped four-crew layout means ammo or crew knockouts can disable it quickly",
+        "Stock grind before the better rounds and reload upgrade is painful"
+      ]
+    },
+    "playstyle": "Play the T-54 (1951) as an angled gun platform rather than a sniper. Use its sloped armour by sidescraping and presenting the hull at an angle so incoming rounds skip off the glacis and turret cheeks. Because depression is poor, favour flat firing lanes and gentle reverse slopes instead of steep ridges. Keep speed up when relocating, but remember the weak reverse: pick fights you can win on the first or second shot, and avoid over-extending where you would need to back out quickly.",
+    "history": "The T-54 family emerged in the late 1940s as the Soviet Union's standard medium tank, refining the wartime T-44 into a cleaner, better-protected design built around the 100 mm gun. The 1951 production standard introduced the rounded turret profile that would become iconic across the later T-54/T-55 series, alongside detail improvements to the sight and fire-suppression arrangements. Built in enormous numbers, the T-54 and its T-55 successor went on to serve in dozens of armies and saw combat across the Cold War's many regional conflicts.",
+    "media": [],
+    "sources": [
+      {
+        "label": "T-54 (1951) | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_54_1951",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxRevKph_byMode",
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 50,
+      "maxRevKph": 8,
+      "enginePowerHp": 520,
+      "weightTons": 35.5,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "d-10t-100mm",
+      "reloadBaseSec": 9.7,
+      "reloadAcedSec": 7.5,
+      "vertGuidanceDeg": [
+        -4,
+        17
+      ],
+      "turretTraverseDegSec": 7.6,
+      "ammoCapacity": 34,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "100",
+        "side": "80",
+        "rear": "45"
+      },
+      "turretMm": {
+        "front": "200",
+        "side": "160",
+        "rear": "65"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "leopard-1",
+    "name": "Leopard I",
+    "nation": "germany",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 8,
+      "simulator": 8
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Leopard I is West Germany's first post-war main battle tank and the embodiment of the Cold War mobility-over-armour doctrine. It is thinly armoured by design but extremely fast and agile, and it carries the superb 105 mm L7-pattern gun. In game it is a flanker and gun-runner: it uses its speed, excellent gun depression, and fast turret to win first-shot duels and then relocate before it can be answered.",
+    "prosCons": {
+      "pros": [
+        "Outstanding mobility with a high top speed and strong acceleration for repositioning and flanking",
+        "Excellent -9 degree gun depression makes it superb in hull-down and on ridgelines",
+        "Powerful 105 mm L7A3 with access to high-velocity rounds",
+        "Fast turret traverse for reactive close-range fights"
+      ],
+      "cons": [
+        "Almost no protective armour; vulnerable to autocannons, machine guns, and HE",
+        "Frontal hits frequently knock out crew or ammo because there is little steel to absorb them",
+        "Relies entirely on positioning and first shots; loses any prolonged trade",
+        "Large profile relative to its protection makes it easy to hit when caught in the open"
+      ]
+    },
+    "playstyle": "Treat the Leopard I as a glass cannon. Never lead an assault: use the map to flank, take side shots, and exploit your speed to reach firing positions before the enemy. Lean on the strong gun depression to fight hull-down over crests, exposing only the turret, and back off the moment you are spotted. Pick your engagements, fire first, and keep moving; standing still in the open is fatal because there is no armour to fall back on.",
+    "history": "Developed in the late 1950s and entering Bundeswehr service in 1965, the Leopard 1 answered a NATO requirement for a fast, well-armed medium tank under the assumption that growing ammunition lethality made thick armour a poor trade against mobility. Built around the British-designed 105 mm L7 gun and a powerful MTU diesel, it prioritised speed, a stable gun, and good optics. The Leopard 1 became one of the most widely exported tanks of the Cold War, serving across NATO and beyond in continually upgraded variants.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Leopard I | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/germ_leopard_I",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 65,
+      "maxRevKph": 25,
+      "enginePowerHp": 830,
+      "weightTons": 40,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "l7-105mm",
+      "reloadBaseSec": 8.7,
+      "reloadAcedSec": 6.7,
+      "vertGuidanceDeg": [
+        -9,
+        20
+      ],
+      "turretTraverseDegSec": 16.8,
+      "ammoCapacity": 60,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "70",
+        "side": "35",
+        "rear": "25"
+      },
+      "turretMm": {
+        "front": "65",
+        "side": "45",
+        "rear": "52"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "centurion-mk-10",
+    "name": "Centurion Mk 10",
+    "nation": "britain",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 8,
+      "simulator": 8
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Centurion Mk 10 is a late variant of Britain's archetypal post-war medium, mating the proven Centurion hull and turret to the 105 mm Royal Ordnance L7 gun. Unlike the lightly armoured Leopard, it leans on solid frontal protection and one of the best gun depressions in the game, making it a patient hull-down sniper. It is slow, but its armour and gun let it hold ground and win head-on trades from prepared positions.",
+    "prosCons": {
+      "pros": [
+        "Excellent -10 degree gun depression, ideal for hull-down ridgeline fighting",
+        "Well-armoured turret front and a respectable glacis for its tier",
+        "Accurate 105 mm L7 gun with strong ammunition options",
+        "Large 70-round ammo stowage supports long engagements"
+      ],
+      "cons": [
+        "Low top speed and sluggish acceleration make repositioning slow",
+        "Heavy at over 50 tonnes with limited engine power, hurting mobility",
+        "Slow to relocate, so a poor position is hard to escape",
+        "Modest turret traverse compared with faster contemporaries"
+      ]
+    },
+    "playstyle": "Fight the Centurion Mk 10 as a defensive sniper and hull-down anchor. Its standout -10 degree depression lets it crest hills exposing only the heavily armoured turret, where it can soak hits while landing accurate L7 shots. Because it is slow, choose your position early and hold it rather than chasing flanks. Angle the hull to make the most of the frontal armour, and let the enemy come to you across firing lanes you already control.",
+    "history": "The Centurion entered service just too late for the Second World War but became the benchmark Western tank of the early Cold War, prized for its gun, optics, and steady gun platform. The Mk 10, produced from 1960, standardised the 105 mm L7 gun across the line and added thicker frontal protection. Centurions served widely abroad and saw heavy combat in Middle Eastern wars and elsewhere, earning a reputation for toughness and accuracy that cemented the design's legacy.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Centurion Mk 10 | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_centurion_mk_10",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "powerToWeight",
+      "reverseGears",
+      "neutralSteering"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": 35,
+      "maxRevKph": 12,
+      "enginePowerHp": 650,
+      "weightTons": 51.8,
+      "powerToWeight": null,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "l7a1-105mm",
+      "reloadBaseSec": 8.7,
+      "reloadAcedSec": 6.7,
+      "vertGuidanceDeg": [
+        -10,
+        20
+      ],
+      "turretTraverseDegSec": 14.1,
+      "ammoCapacity": 70,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "76",
+        "side": "51",
+        "rear": "32"
+      },
+      "turretMm": {
+        "front": "152",
+        "side": "89",
+        "rear": "89"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "ztz59",
+    "name": "Type 59",
+    "nation": "china",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 8,
+      "simulator": 8
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Type 59 is China's first domestically built medium tank, a license-produced descendant of the Soviet T-54A. In game it plays as a classic post-war medium: a hard-hitting 100 mm rifled gun mounted in a well-rounded cast turret, backed by sloped frontal armour that bounces shots when angled, but hampered by a sluggish single-speed reverse and modest engine power.",
+    "prosCons": {
+      "pros": [
+        "Strong, heavily sloped cast turret front that trades well against same-rank rounds when hull-down",
+        "Capable 100 mm gun with a competitive reload and access to APDS for reliable penetration at its battle rating",
+        "Compact silhouette and good gun depression behaviour for a Soviet-pattern hull, making ridgelines workable",
+        "Solid all-round medium-tank protection scheme for ambush and angled engagements"
+      ],
+      "cons": [
+        "Very poor reverse speed, which punishes mistakes and makes peeking dangerous",
+        "Limited engine power and power-to-weight, so repositioning across open ground is slow",
+        "Lower glacis and turret cheeks can be defeated by more modern APFSDS and HEAT-FS at uptiers",
+        "Limited gun depression compared with Western contemporaries restricts hull-down play on steep terrain"
+      ]
+    },
+    "playstyle": "Fight as a second-line medium that leans on its turret armour. Find a ridge or hard cover, expose only the turret, and use the strong gun to trade favourably; angle the hull when you must show it so the sloped glacis works for you. Avoid open-field duels where the weak reverse and low power leave you stranded, and pick your repositioning carefully since you cannot reverse out of trouble quickly.",
+    "history": "Production of the Type 59 began in the late 1950s as a license-built copy of the Soviet T-54A, making it the first medium tank manufactured in the People's Republic of China. It became the backbone of the People's Liberation Army Ground Force for decades and was produced in enormous numbers, with later domestic upgrade programmes adding improved fire control, suspension, and protection to keep the platform relevant well into the 1990s.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Type 59 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/cn_type_59",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": 8,
+      "enginePowerHp": 520,
+      "weightTons": 36,
+      "powerToWeight": 14.4,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "type-59-100mm",
+      "reloadBaseSec": 9.7,
+      "reloadAcedSec": 7.5,
+      "vertGuidanceDeg": [
+        -5,
+        18
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 34,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "100",
+        "side": "80",
+        "rear": "45"
+      },
+      "turretMm": {
+        "front": "200",
+        "side": "155",
+        "rear": "65"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "amx-30",
+    "name": "AMX-30",
+    "nation": "france",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "V",
+    "battleRatings": {
+      "arcade": 8,
+      "realistic": 8,
+      "simulator": 8
+    },
+    "acquisition": [
+      "premium"
+    ],
+    "summary": "The AMX-30 is France's Cold-War main battle tank built around the philosophy that mobility and firepower beat heavy armour. In game it is a fast, agile, thinly armoured platform with a potent 105 mm gun whose star round is the OCC-105-F1 HEAT shell, letting it punch through almost anything from any angle as long as it shoots first and stays out of return fire.",
+    "prosCons": {
+      "pros": [
+        "Excellent mobility and high power-to-weight for quick flanks and repositioning",
+        "Powerful 105 mm gun with full-caliber HEAT that penetrates consistently regardless of range or angle",
+        "Good gun depression for using terrain and going hull-down",
+        "As a premium it earns boosted research and Silver Lion rewards"
+      ],
+      "cons": [
+        "Extremely thin armour all round; it is reliably penetrated by almost any threat that lands a hit",
+        "Relies on its HEAT round, which is defeated by spaced or volumetric obstacles and screens",
+        "Large, lightly protected crew compartment makes it prone to one-shot knockouts",
+        "No special protection (no composite, ERA, or APS), so survivability depends entirely on not being hit"
+      ]
+    },
+    "playstyle": "Play it like a glass cannon: use speed to reach firing positions on the flanks before the enemy, fire, and relocate before they can answer. Lean on the strong HEAT round to defeat heavily armoured targets that would shrug off an AP shell, and exploit gun depression to fight from ridgelines. Never brawl head-on or sit still in the open; your survival comes from positioning and first-shot kills, not armour.",
+    "history": "The AMX-30 entered French service in the mid-1960s as the nation's main battle tank and remained the backbone of France's armoured forces until the Leclerc arrived in the 1990s. French doctrine of the era concluded that no realistic armour thickness could reliably stop modern shaped-charge warheads, so designers deliberately traded protection for agility, betting that a tank that was hard to hit and could deliver a powerful gun quickly would survive better than a heavily armoured but ponderous one. Over 3,500 were built and the type was widely exported.",
+    "media": [],
+    "sources": [
+      {
+        "label": "AMX-30 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_30",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": 680,
+      "weightTons": 36,
+      "powerToWeight": 18.9,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "cn-105-f1",
+      "reloadBaseSec": 8.7,
+      "reloadAcedSec": 6.7,
+      "vertGuidanceDeg": [
+        -8,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 50,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "79",
+        "side": "35",
+        "rear": "30"
+      },
+      "turretMm": {
+        "front": "80",
+        "side": "41",
+        "rear": "30"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
+  },
+  {
+    "id": "merkava-mk-1",
+    "name": "Merkava Mk.1",
+    "nation": "israel",
+    "class": "ground",
+    "subclass": "Medium tank",
+    "rank": "VI",
+    "battleRatings": {
+      "arcade": 9.3,
+      "realistic": 9.3,
+      "simulator": 9.3
+    },
+    "acquisition": [
+      "tech-tree"
+    ],
+    "summary": "The Merkava Mk.1 is Israel's first indigenous main battle tank, a survivability-first design with its engine mounted in the front to act as extra protection for the crew. In game it is a tough, well-armed but slow platform: the 105 mm gun and good fire control let it trade hard, while the unusual layout and dense frontal protection help it absorb hits that would knock out lighter tanks.",
+    "prosCons": {
+      "pros": [
+        "Front-mounted engine and dense frontal layout give strong crew survivability against frontal hits",
+        "Capable 105 mm gun with good fire control and a solid reload for its rank",
+        "Good gun depression for hull-down fighting from terrain",
+        "Heavy, stable platform that shrugs off many hits that would cripple thinner tanks"
+      ],
+      "cons": [
+        "Low mobility and modest power-to-weight; slow to reposition and to reach cover",
+        "Very poor reverse speed makes disengaging from a bad peek dangerous",
+        "At its battle rating it faces APFSDS and ATGMs that can defeat the frontal protection if aimed well",
+        "Tall profile and heavy weight make it hard to hide and slow to relocate under fire"
+      ]
+    },
+    "playstyle": "Use it as a frontal anchor. Push into a position, point the well-protected front at the enemy, and trade shots while leaning on the front-engine layout to soak hits and protect the crew. Exploit gun depression to fight hull-down from ridges. Plan your moves in advance because the weak reverse and low power mean you cannot reposition quickly, so commit to firing lanes where your protection and gun do the work.",
+    "history": "Developed under General Israel Tal and entering service in the late 1970s, the Merkava Mk.1 was Israel's first domestically designed and built main battle tank, conceived in the aftermath of the Yom Kippur War with crew survivability as the paramount goal. Its most distinctive feature is the front-mounted engine, which places a large mass of machinery between incoming fire and the crew, and a rear hatch that allows the crew to evacuate or the tank to carry infantry under cover. The design prioritised protection and firepower over raw speed, reflecting hard lessons from Israel's armoured battles.",
+    "media": [],
+    "sources": [
+      {
+        "label": "Merkava Mk.1 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/il_merkava_mk_1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "maxFwdKph",
+      "maxRevKph",
+      "reverseGears",
+      "neutralSteering",
+      "turretTraverseDegSec"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)",
+    "mobility": {
+      "maxFwdKph": null,
+      "maxRevKph": null,
+      "enginePowerHp": 900,
+      "weightTons": 61,
+      "powerToWeight": 14.8,
+      "reverseGears": null,
+      "neutralSteering": null
+    },
+    "firepower": {
+      "mainGunId": "m68-105mm",
+      "reloadBaseSec": 8.7,
+      "reloadAcedSec": 6.7,
+      "vertGuidanceDeg": [
+        -8,
+        20
+      ],
+      "turretTraverseDegSec": null,
+      "ammoCapacity": 54,
+      "ammoTypeIds": []
+    },
+    "armor": {
+      "hullMm": {
+        "front": "90",
+        "side": "50",
+        "rear": "30"
+      },
+      "turretMm": {
+        "front": "65",
+        "side": "65",
+        "rear": "65"
+      },
+      "crewCount": 4,
+      "era": false,
+      "composite": false,
+      "aps": false
+    }
   }
 ];

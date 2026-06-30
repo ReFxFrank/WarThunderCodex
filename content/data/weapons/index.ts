@@ -296,20 +296,21 @@ export const weapons: Weapon[] = [
   },
   {
     "id": "cn-105-f1",
-    "name": "105 mm CN105F1",
+    "name": "105 mm CN105 F1 cannon",
     "type": "cannon",
     "caliberMm": 105,
     "fireRateRpm": null,
     "muzzleVelocityMps": null,
     "ammoTypeIds": [],
     "usedBy": [
-      "m51-isherman"
+      "m51-isherman",
+      "amx-30"
     ],
-    "notes": "A 105 mm rifled gun fitted to the M-51. Its standout round in game is the OCC 105 F1 HEAT-FS shell, which the wiki lists at a flat 400 mm of penetration unchanged across every range bracket (10 m through 2000 m), so it threatens most of its peers at any distance. As a chemical-energy round it loses effectiveness against spaced armour, angled plates and modern protection rather than dropping off with range. Two further rounds are available: the OE 105 F1 Mle.60 HE (25 mm) and the OFPH 105 F1 smoke shell (3 mm). Reload runs from 9.7 s with a stock crew down to 7.5 s with an aced crew, so shot selection matters. Rate of fire and muzzle velocity are not published on the Tier-1 wiki page and are left as gaps.",
+    "notes": "French 105 mm rifled main gun of the CN-105-F1 family, fitted to the AMX-30 and (as a modified F1) to the Israeli M51 Sherman. The AMX-30 unit page prints the in-game name as '105 mm CN105 F1 cannon'. Its signature round is the OCC-105-F1 full-caliber HEAT shell. Per-shell muzzle velocities are not shown on the unit stat card, so muzzleVelocityMps is left null.",
     "sources": [
       {
-        "label": "M-51 | War Thunder Wiki",
-        "url": "https://wiki.warthunder.com/unit/il_m_51",
+        "label": "AMX-30 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/fr_amx_30",
         "tier": 1,
         "retrievedAt": "2026-06-30"
       }
@@ -842,6 +843,242 @@ export const weapons: Weapon[] = [
       }
     ],
     "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "n-37d-37mm",
+    "name": "37 mm N-37D",
+    "type": "cannon",
+    "caliberMm": 37,
+    "fireRateRpm": 400,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "mig-15bis"
+    ],
+    "notes": "A hard-hitting Soviet 37 mm autocannon used as the heavy half of the MiG-15bis battery; the -D suffix denotes the muzzle-brake-fitted variant. A single connecting shell will cripple or destroy most fighters, but the low fire rate and tiny 40-round magazine demand disciplined aim.",
+    "sources": [
+      {
+        "label": "MiG-15bis — War Thunder Wiki (offensive armament: N-37D, 400 shots/min)",
+        "url": "https://wiki.warthunder.com/unit/mig-15",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "nr-23-23mm",
+    "name": "23 mm NR-23",
+    "type": "cannon",
+    "caliberMm": 23,
+    "fireRateRpm": 900,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "mig-15bis"
+    ],
+    "notes": "A fast-firing Soviet 23 mm autocannon carried in a pair on the MiG-15bis, complementing the heavier 37 mm. Its higher rate of fire makes it the more forgiving gun for tap-firing and tracking, though its ballistic arc differs from the 37 mm so the two batteries do not converge identically.",
+    "sources": [
+      {
+        "label": "MiG-15bis — War Thunder Wiki (offensive armament: 2x NR-23, 900 shots/min)",
+        "url": "https://wiki.warthunder.com/unit/mig-15",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m3-browning-12mm",
+    "name": "12.7 mm M3 Browning",
+    "type": "machine-gun",
+    "caliberMm": 12.7,
+    "fireRateRpm": 1200,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "f-86f-25"
+    ],
+    "notes": "The aircraft M3 is a faster-firing development of the M2 Browning, raising the rate of fire to keep .50-cal armament relevant against jets. Six of them on the F-86F deliver a high volume of fire and a deep ammo pool, but each round is comparatively light, so kills come from sustained, well-aimed bursts rather than single passes.",
+    "sources": [
+      {
+        "label": "F-86F-25 — War Thunder Wiki (offensive armament: 6x M3 Browning, 1,200 shots/min)",
+        "url": "https://wiki.warthunder.com/unit/f-86f-25",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "mk108-30mm",
+    "name": "30 mm MK 108",
+    "type": "cannon",
+    "caliberMm": 30,
+    "fireRateRpm": 600,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "me-262-a-1a"
+    ],
+    "notes": "A compact German 30 mm autocannon designed to drop heavy bombers, firing large thin-walled mine shells that pack enormous explosive filler. The low muzzle velocity gives heavy shell drop, so it must be fired at close range, but four of them on the Me 262 make almost any hit lethal.",
+    "sources": [
+      {
+        "label": "Me 262 A-1a — War Thunder Wiki (offensive armament: 4x MK 108, 600 shots/min)",
+        "url": "https://wiki.warthunder.com/unit/me-262a-1a",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "d-10t-100mm",
+    "name": "100 mm D-10T",
+    "type": "cannon",
+    "caliberMm": 100,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "t-54-1951"
+    ],
+    "notes": "The 100 mm D-10T is the rifled main gun of the early T-54 series. It fires capped armour-piercing rounds with strong post-penetration effect and also has access to HEATFS for high flat penetration, giving the T-54 (1951) reliable hitting power against same-tier armour. Muzzle velocity is nulled because a specific shell value could not be cleanly read from the Tier-1 unit stat card in this session.",
+    "sources": [
+      {
+        "label": "T-54 (1951) | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/ussr_t_54_1951",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "l7-105mm",
+    "name": "105 mm L7A3",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "leopard-1"
+    ],
+    "notes": "The 105 mm L7A3 is the German-service variant of the widely exported British L7 rifled tank gun, mounted on the Leopard I. It is accurate and hard-hitting with access to high-velocity rounds, and is the gun that defines the Leopard I's first-shot flanking role. Muzzle velocity is nulled because a specific shell value could not be cleanly read from the Tier-1 unit stat card in this session. The Centurion Mk 10 carries the same L7 gun family but under the distinct in-game designation '105 mm Royal Ordnance L7A1', so it is recorded as a separate weapon (l7a1-105mm).",
+    "sources": [
+      {
+        "label": "Leopard I | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/germ_leopard_I",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "l7a1-105mm",
+    "name": "105 mm Royal Ordnance L7A1",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "centurion-mk-10"
+    ],
+    "notes": "The 105 mm Royal Ordnance L7A1 is the British original of the famous L7 rifled tank gun, mounted on the Centurion Mk 10. It is an accurate, flexible gun with strong armour-piercing options that suits the Centurion's patient hull-down play. Muzzle velocity is nulled because a specific shell value could not be cleanly read from the Tier-1 unit stat card in this session. This is the same L7 gun family carried by the Leopard I, but the wiki uses a different in-game designation ('105 mm L7A3') for the Leopard, so the two are kept as separate weapon records.",
+    "sources": [
+      {
+        "label": "Centurion Mk 10 | War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/uk_centurion_mk_10",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "type-59-100mm",
+    "name": "100 mm Type 59 cannon",
+    "type": "cannon",
+    "caliberMm": 100,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "ztz59"
+    ],
+    "notes": "Rifled 100 mm main gun of the Chinese Type 59, derived from the Soviet D-10 series used on the T-54 family. The wiki unit page lists its in-game name simply as '100 mm Type 59 cannon' without a '(rifled)' qualifier. Per-shell muzzle velocities are not shown on the unit stat card, so muzzleVelocityMps is left null.",
+    "sources": [
+      {
+        "label": "Type 59 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/cn_type_59",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
+      "muzzleVelocityMps"
+    ],
+    "lastVerified": "2026-06-30",
+    "gameVersion": "Heavy Cavalry (2.57)"
+  },
+  {
+    "id": "m68-105mm",
+    "name": "105 mm Sharir cannon",
+    "type": "cannon",
+    "caliberMm": 105,
+    "fireRateRpm": null,
+    "muzzleVelocityMps": null,
+    "ammoTypeIds": [],
+    "usedBy": [
+      "merkava-mk-1"
+    ],
+    "notes": "The Merkava Mk.1 unit page names its main gun '105 mm Sharir cannon'. The Sharir is the Israeli-produced member of the M68/L7 105 mm family; the requested label was '105 mm M68', but the in-game name used here follows the official page. The id 'm68-105mm' is retained as requested. Per-shell muzzle velocities are not shown on the unit stat card, so muzzleVelocityMps is left null.",
+    "sources": [
+      {
+        "label": "Merkava Mk.1 — War Thunder Wiki (official unit page)",
+        "url": "https://wiki.warthunder.com/unit/il_merkava_mk_1",
+        "tier": 1,
+        "retrievedAt": "2026-06-30"
+      }
+    ],
+    "unverified": [
+      "fireRateRpm",
       "muzzleVelocityMps"
     ],
     "lastVerified": "2026-06-30",
